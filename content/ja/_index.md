@@ -16,9 +16,9 @@ can even find out who's been eating **your** porridge.
 to create your own real websites with [Docsy](https://docsy.dev))
 {{% /blocks/lead %}} -->
 
-{{% blocks/section color="white" type="row" %}}
+{{% blocks/section color="black" type="row" %}}
 {{% blocks/feature icon="fa-lightbulb" title="New chair metrics!" %}} The
-Goldydocs UI now shows chair size metrics by default.
+DocBase UI now shows chair size metrics by default.
 
 Please follow this space for updates! {{% /blocks/feature %}}
 
