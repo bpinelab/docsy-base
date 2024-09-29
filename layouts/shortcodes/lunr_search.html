@@ -1,0 +1,57 @@
+<!-- layouts/shortcodes/lunr_search.html -->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Docsy Lunr.js Offline Search</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+    <script>
+      // Lunr.jsの初期化
+      var idx = lunr(function () {
+        this.field('title');
+        this.field('content');
+        this.ref('id');
+      });
+
+      // サンプルデータの追加
+      var documents = [
+        { id: 1, title: 'Docsy', content: 'DocsyはHugo用のテーマです。' },
+        {
+          id: 2,
+          title: 'Lunr.js',
+          content: 'Lunr.jsはクライアントサイドの検索エンジンです。',
+        },
+      ];
+
+      documents.forEach(function (doc) {
+        idx.add(doc);
+      });
+
+      // 検索関数
+      function search() {
+        var query = document.getElementById('search-box').value;
+        var results = idx.search(query);
+        var resultDiv = document.getElementById('results');
+        resultDiv.innerHTML = '';
+
+        if (results.length > 0) {
+          results.forEach(function (result) {
+            var item = documents.find((doc) => doc.id == result.ref);
+            var div = document.createElement('div');
+            div.innerHTML =
+              '<h3>' + item.title + '</h3><p>' + item.content + '</p>';
+            resultDiv.appendChild(div);
+          });
+        } else {
+          resultDiv.innerHTML = '<p>結果が見つかりませんでした。</p>';
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Docsy Lunr.js Offline Search</h1>
+    <input type="text" id="search-box" placeholder="検索キーワードを入力" />
+    <button onclick="search()">検索</button>
+    <div id="results"></div>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+- name: Group A
+  icon: fas fa-lightbulb
+  url: https://about.gitlab.com
+  links:
+    - name: Documentation
+      url: docs
+    - name: Blog
+      url: blog
+    - name: Community
+      url: community
+- name: Group B
+  icon: fas fa-robot
+  url: https://about.gitlab.com
+  links:
+    - name: Documentation
+      url: docs
+    - name: Blog
+      url: blog
+    - name: Community
+      url: community
+- name: Group C
+  icon: fas fa-brands fa-github
+  url: https://about.gitlab.com
+  links:
+    - name: Documentation
+      url: docs
+    - name: Blog
+      url: blog
+    - name: Community
+      url: community
+- name: Group D
+  icon: fas fa-book
+  url: https://about.gitlab.com
+  links:
+    - name: Documentation
+      url: docs
+    - name: Blog
+      url: blog
+    - name: Community
+      url: community
+- name: Group E
+  icon: fab fa-gitlab
+  url: https://about.gitlab.com
+  links:
+    - name: Documentation
+      url: docs
+    - name: Blog
+      url: blog
+    - name: Community
+      url: community
+- name: Group F
+  icon: fas fa-brands fa-github
+  url: https://about.gitlab.com
+  links:
+    - name: Documentation
+      url: docs
+    - name: Blog
+      url: blog
+    - name: Community
+      url: community
