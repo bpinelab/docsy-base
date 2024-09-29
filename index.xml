@@ -67,27 +67,7 @@ or elsewhere? Link to your examples here.&lt;/p></description></item><item><titl
 &lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
 &lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Contribution Guidelines</title><link>https://bpinelab.github.io/docsy-base/docs/contribution-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/contribution-guidelines/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>These basic sample guidelines assume that your Docsy site is deployed using Netlify and your files are stored in GitHub. You can use the guidelines &amp;ldquo;as is&amp;rdquo; or adapt them with your own instructions: for example, other deployment options, information about your doc project&amp;rsquo;s file structure, project-specific review guidelines, versioning guidelines, or any other information your users might find useful when updating your site. &lt;a href="https://github.com/kubeflow/website/blob/master/README.md">Kubeflow&lt;/a> has a great example.&lt;/p>
-&lt;p>Don&amp;rsquo;t forget to link to your own doc repo rather than our example site! Also make sure users can find these guidelines from your doc repo README: either add them there and link to them from this page, add them here and link to them from the README, or include them in both locations.&lt;/p></description></item><item><title>Easy documentation with Docsy</title><link>https://bpinelab.github.io/docsy-base/blog/2018/10/06/easy-documentation-with-docsy/</link><pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/blog/2018/10/06/easy-documentation-with-docsy/</guid><description>&lt;p>&lt;strong>This is a typical blog post that includes images.&lt;/strong>&lt;/p>
-&lt;p>The front matter specifies the date of the blog post, its title, a short description that will be displayed on the blog landing page, and its author.&lt;/p>
-&lt;h2 id="including-images">Including images&lt;a class="td-heading-self-link" href="#including-images" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>Here&amp;rsquo;s an image (&lt;code>featured-sunset-get.png&lt;/code>) that includes a byline and a caption.&lt;/p>
-&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
-&lt;img class="card-img-top" src="https://bpinelab.github.io/docsy-base/docsy-base/blog/2018/10/06/easy-documentation-with-docsy/featured-sunset-get_hu18177156491556528792.png" width="600" height="300">
-&lt;figcaption class="card-body px-0 pt-2 pb-0">
-&lt;p class="card-text">
-
-
-Fetch and scale an image in the upcoming Hugo 0.43.
-&lt;small class="text-body-secondary">&lt;br/>Photo: Riona MacNamara / CC-BY-CA&lt;/small>
-&lt;/p></description></item><item><title>Second blog post</title><link>https://bpinelab.github.io/docsy-base/blog/2018/10/06/second-blog-post/</link><pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/blog/2018/10/06/second-blog-post/</guid><description>&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://github.com">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
-&lt;p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p>
-&lt;p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p>
-&lt;blockquote>
-&lt;p>There should be no margin above this first sentence.&lt;/p></description></item><item><title>Another Great Release</title><link>https://bpinelab.github.io/docsy-base/blog/2018/01/04/another-great-release/</link><pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/blog/2018/01/04/another-great-release/</guid><description>&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://github.com">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
-&lt;p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p>
-&lt;p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p>
-&lt;blockquote>
-&lt;p>There should be no margin above this first sentence.&lt;/p></description></item><item><title>Example Page</title><link>https://bpinelab.github.io/docsy-base/docs/getting-started/example-page/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/getting-started/example-page/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Don&amp;rsquo;t forget to link to your own doc repo rather than our example site! Also make sure users can find these guidelines from your doc repo README: either add them there and link to them from this page, add them here and link to them from the README, or include them in both locations.&lt;/p></description></item><item><title>Example Page</title><link>https://bpinelab.github.io/docsy-base/docs/getting-started/example-page/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/getting-started/example-page/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 
 &lt;/div>
@@ -99,7 +79,7 @@ Fetch and scale an image in the upcoming Hugo 0.43.
 &lt;/div>
 
 &lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
-&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>About Goldydocs</title><link>https://bpinelab.github.io/docsy-base/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/about/</guid><description>&lt;link rel="preload" as="image" href="https://bpinelab.github.io/docsy-base/docsy-base/about/featured-background_hu4003775461251110261.jpg" media="(max-width: 1200px)">
+&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>About DocBase</title><link>https://bpinelab.github.io/docsy-base/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/about/</guid><description>&lt;link rel="preload" as="image" href="https://bpinelab.github.io/docsy-base/docsy-base/about/featured-background_hu4003775461251110261.jpg" media="(max-width: 1200px)">
 &lt;link rel="preload" as="image" href="https://bpinelab.github.io/docsy-base/docsy-base/about/featured-background_hu2312927490661001000.jpg" media="(min-width: 1200px)">
 &lt;style>
 #td-cover-block-0 {
@@ -119,8 +99,7 @@ Fetch and scale an image in the upcoming Hugo 0.43.
  
  &lt;div class="pt-3 lead">
  
- &lt;p class="mt-5">A sample site using the Docsy Hugo theme.&lt;/p>
-
+ A sample site using the Docsy Hugo theme. {.mt-5}
  
  &lt;/div>
  &lt;/div>
@@ -137,4 +116,1120 @@ Fetch and scale an image in the upcoming Hugo 0.43.
 &lt;p>Goldydocs is a sample site using the &lt;a href="https://github.com/google/docsy">Docsy&lt;/a>
 Hugo theme that shows what it can do and provides you with a template site
 structure. It’s designed for you to clone and edit as much as you like. See the
-different sections of the documentation and site for more ideas.&lt;/p></description></item><item><title>Search Results</title><link>https://bpinelab.github.io/docsy-base/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/search/</guid><description/></item></channel></rss>
+different sections of the documentation and site for more ideas.&lt;/p></description></item><item><title>ITオペレーションマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/it-operation/it-operations-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/it-operation/it-operations-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT オペレーションマネージャー (IT Operations Manager)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT 運用部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT オペレーションマネージャーは、IT インフラ、システム、アプリケーションの安定し
+た運用を保証し、業務の効率化とトラブルの最小化を図る責任を負います。運用チームを
+リードし、日々の運用業務を監督しながら、SLA の遵守、システムパフォーマンスの最適
+化、およびインシデント管理を担当します。さらに、IT サービスの継続的な改善を推進
+し、ビジネス目標をサポートします。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>IT インフラおよびシステムの安定した稼働を確保し、運用チームを管理する&lt;/li>
+&lt;li>インシデントおよび問題管理プロセスをリードし、迅速かつ効率的な対応を実施&lt;/li>
+&lt;li>日常の運用プロセスを監視し、パフォーマンス向上およびコスト効率を追求する&lt;/li>
+&lt;li>SLA に基づく運用パフォーマンスを監視し、報告書を作成&lt;/li>
+&lt;li>継続的なサービス改善（CSI）活動を推進し、運用効率を高めるための提案と実施&lt;/li>
+&lt;li>ベンダーおよびサプライヤーとの調整を行い、サービス品質を維持する&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>IT インフラ運用管理に関する深い知識&lt;/li>
+&lt;li>ITIL フレームワークに基づく運用管理経験&lt;/li>
+&lt;li>問題解決力および優れたリーダーシップスキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>IT オペレーション管理における実務経験 5 年以上&lt;/li>
+&lt;li>インシデント管理および問題管理の経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>SLA や KPI に基づいた運用パフォーマンスの管理経験&lt;/li>
+&lt;li>チームマネジメントおよびプロジェクト管理スキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ITIL Expert または PMP 資格&lt;/li>
+&lt;li>クラウドおよびハイブリッド環境での運用管理経験&lt;/li>
+&lt;li>自動化ツールを活用した運用効率化の経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>IT オペレーションおよびインフラ管理における実務経験 5 年以上&lt;/li>
+&lt;li>SLA に基づいたパフォーマンス監視および改善の経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>Search Results</title><link>https://bpinelab.github.io/docsy-base/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/search/</guid><description/></item><item><title>サービスデリバリーマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/service-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/service-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>サービスデリバリーマネージャー (Service Delivery Manager)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT サービス管理部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>サービスデリバリーマネージャーは、IT サービスの提供に関わる全体的なプロセスとパ
+フォーマンスを管理し、顧客との SLA（サービスレベル契約）の遵守を確保します。顧客
+満足度の向上を図り、サービス提供の品質、コスト、効率を最大化する責任を負います。
+また、ベンダーや内部チームと連携し、サービスの安定した提供をサポートします。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>SLA（サービスレベル契約）の遵守を管理し、顧客満足度を向上させる。&lt;/li>
+&lt;li>サービスの提供プロセス全体を監視し、改善の提案を行う。&lt;/li>
+&lt;li>インシデントや問題管理プロセスをサポートし、迅速な対応を実施。&lt;/li>
+&lt;li>ベンダーやサプライヤーとの関係を管理し、サービスの安定した提供を確保する。&lt;/li>
+&lt;li>リソースの最適化とコスト管理を行い、効率的なサービス運営を図る。&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>ITIL の知識および実務経験&lt;/li>
+&lt;li>SLA や IT サービス管理フレームワークに関する知識&lt;/li>
+&lt;li>顧客管理およびベンダー管理のスキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>IT サービスマネジメントでの 5 年以上の実務経験&lt;/li>
+&lt;li>チーム管理およびプロジェクト管理の実績&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>問題解決力および優れたコミュニケーション能力&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ITIL Expert や PMP などの認定資格&lt;/li>
+&lt;li>クラウドサービスの運用管理経験&lt;/li>
+&lt;li>多国籍企業での業務経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>IT サービスのデリバリーや運用管理における 5 年以上の実務経験&lt;/li>
+&lt;li>複数のチームやベンダーを調整したプロジェクトのリード経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>サービスレベルマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/service-level-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/service-level-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>サービスレベルマネージャー (Service Level Manager)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT サービス管理部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>サービスレベルマネージャーは、IT サービスのパフォーマンスを顧客とのサービスレベ
+ル契約（SLA）に基づいて管理し、サービスの品質を保証します。SLA の設定、モニタリ
+ング、および顧客とのコミュニケーションを通じて、サービスが顧客の期待に応えること
+を確保します。また、継続的にサービスを改善し、顧客満足度を向上させる役割を担いま
+す。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>SLA、OLA（Operational Level Agreement）、UC（Underpinning Contract）の作成と管
+理&lt;/li>
+&lt;li>サービスレベルに関する定期的なレポート作成および顧客との共有&lt;/li>
+&lt;li>サービスのパフォーマンスをモニタリングし、SLA 違反が発生しないようプロアクティ
+ブな対応を実施&lt;/li>
+&lt;li>顧客からのフィードバックを基に、サービス改善の提案と実施を推進&lt;/li>
+&lt;li>SLA の継続的な見直しおよび調整を行い、ビジネス要件の変化に対応&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>ITIL フレームワークのサービスレベル管理に関する知識&lt;/li>
+&lt;li>顧客との交渉およびコミュニケーションスキル&lt;/li>
+&lt;li>データ分析およびレポート作成能力&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>サービスレベル管理または IT サービス管理における実務経験 3 年以上&lt;/li>
+&lt;li>SLA 作成および顧客対応の経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>SLA および KPI に基づくパフォーマンス管理の経験&lt;/li>
+&lt;li>プロセス改善に積極的に取り組む姿勢&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ITIL Expert や PMP 資格&lt;/li>
+&lt;li>継続的サービス改善（CSI）の実務経験&lt;/li>
+&lt;li>複数の IT サービスのパフォーマンス管理経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>サービスレベル管理における実務経験 3 年以上&lt;/li>
+&lt;li>SLA に基づいたパフォーマンスのレポート作成および分析経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>サービス改善マネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/continual-improvement-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/continual-improvement-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>サービス改善マネージャー (Continual Improvement Manager)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT サービス管理部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>サービス改善マネージャーは、IT サービスの品質と効率を向上させるために、継続的な
+改善プロセスを管理および推進します。サービスパフォーマンスのデータを分析し、業務
+プロセスやシステムの最適化を提案、実施します。また、KPI の監視やベストプラクティ
+スを活用し、組織全体でのサービス価値向上を目指します。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>IT サービスにおける継続的な改善プロセス（CSI）の計画と管理を行う&lt;/li>
+&lt;li>サービスのパフォーマンスデータを分析し、改善点を特定、提案する&lt;/li>
+&lt;li>ベストプラクティスに基づいた改善策を実施し、サービス効率を向上させる&lt;/li>
+&lt;li>改善プロジェクトの進捗を監視し、KPI の達成度を報告する&lt;/li>
+&lt;li>顧客フィードバックや市場トレンドを分析し、サービスの競争力を強化する&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>ITIL フレームワークにおける継続的改善プロセスの知識&lt;/li>
+&lt;li>優れたデータ分析スキルおよびプロセス管理スキル&lt;/li>
+&lt;li>強力なコミュニケーションおよびプレゼンテーションスキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>サービス改善やプロセス最適化に関する実務経験 3 年以上&lt;/li>
+&lt;li>KPI およびパフォーマンスメトリクスを使用した業務改善の経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>問題解決能力とプロジェクト管理スキル&lt;/li>
+&lt;li>SLA や KPI に基づくサービス改善の実績&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ITIL Expert や PMP 資格&lt;/li>
+&lt;li>デジタルツールや自動化技術を活用したプロセス改善経験&lt;/li>
+&lt;li>顧客フィードバック分析や市場トレンド調査の経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>サービス改善およびプロセス最適化の実務経験 3 年以上&lt;/li>
+&lt;li>改善プロジェクトのリード経験と KPI 管理の実績&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>アプリケーションサポートエンジニア</title><link>https://bpinelab.github.io/docsy-base/job-family/it-maintenance/application-support-engineer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/it-maintenance/application-support-engineer/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>アプリケーションサポートエンジニア (Application Support Engineer)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT アプリケーションサポート部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>アプリケーションサポートエンジニアは、エンドユーザーや顧客が使用するビジネスアプ
+リケーションに関する技術サポートを提供します。アプリケーションの障害対応やトラブ
+ルシューティングを行い、システムの安定性とパフォーマンスを維持します。ユーザーか
+らの問い合わせ対応だけでなく、問題の原因分析や、アプリケーションの最適化、アップ
+デート管理なども担当します。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ビジネスアプリケーションの技術サポートを提供し、ユーザーからの問い合わせや問題
+を解決する&lt;/li>
+&lt;li>アプリケーションの障害対応およびトラブルシューティングを実施し、システムの安定
+性を確保する&lt;/li>
+&lt;li>アプリケーションのパフォーマンスを監視し、問題を早期に検出して対策を講じる&lt;/li>
+&lt;li>問題の根本原因分析を行い、再発防止策を提案および実施する&lt;/li>
+&lt;li>アプリケーションのアップデートやパッチ管理を行い、最新の状態を維持する&lt;/li>
+&lt;li>サポート業務に関するドキュメントを作成し、チーム間での情報共有を促進する&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>アプリケーションサポートに関する知識と経験&lt;/li>
+&lt;li>SQL やデータベース管理の基礎知識&lt;/li>
+&lt;li>問題解決力と優れたトラブルシューティング能力&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>アプリケーションサポートまたは関連分野での実務経験 2 年以上&lt;/li>
+&lt;li>ユーザーサポートやインシデント管理の経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>優れたコミュニケーションスキル&lt;/li>
+&lt;li>複数のタスクを同時に管理できる能力&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ITIL やアプリケーションサポート関連の資格&lt;/li>
+&lt;li>クラウドベースのアプリケーションサポート経験&lt;/li>
+&lt;li>スクリプトやプログラミングの基礎知識&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>アプリケーションサポート業務における実務経験 2 年以上&lt;/li>
+&lt;li>障害対応およびトラブルシューティングの経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>アベイラビリティマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/availability-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/availability-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>アベイラビリティマネージャー (Availability Manager)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT サービス管理部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>アベイラビリティマネージャーは、IT サービスやインフラストラクチャが高い可用性を
+維持できるよう、サービスの可用性に関する全体的な戦略を策定し、実行します。サービ
+スが SLA で定義された可用性目標を達成するために、リスク管理、問題分析、障害予防
+策を講じます。可用性に関する指標をモニタリングし、パフォーマンス向上のための改善
+策を推進します。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>IT サービスおよびインフラの可用性を確保し、SLA に基づいた可用性目標を達成する&lt;/li>
+&lt;li>サービスの可用性に影響を与えるリスクを評価し、リスク低減策を実施&lt;/li>
+&lt;li>障害発生時の根本原因を特定し、再発防止策を講じる&lt;/li>
+&lt;li>可用性に関するデータを分析し、改善提案を行い、サービスの信頼性を向上させる&lt;/li>
+&lt;li>可用性管理プロセスの継続的な改善を推進し、業務効率の向上に努める&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>ITIL フレームワークの可用性管理に関する知識&lt;/li>
+&lt;li>リスク管理および問題管理の知識&lt;/li>
+&lt;li>障害分析および根本原因分析スキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>IT サービスの可用性管理またはインフラ管理の実務経験 3 年以上&lt;/li>
+&lt;li>障害発生時の対応および改善策の実施経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>SLA や KPI に基づいた可用性評価および改善の経験&lt;/li>
+&lt;li>強力な分析能力および問題解決能力&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ITIL Expert や PMP 資格&lt;/li>
+&lt;li>クラウドサービスまたはハイブリッド環境での可用性管理経験&lt;/li>
+&lt;li>可用性およびパフォーマンス監視ツールの使用経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>IT サービスの可用性および信頼性に関する実務経験 3 年以上&lt;/li>
+&lt;li>サービス障害の再発防止策を策定し、実行した経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>インシデントマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/incident-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/incident-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>インシデントマネージャー (Incident Manager)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT サービス管理部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>インシデントマネージャーは、IT サービスにおけるインシデント発生時に迅速かつ効果
+的に対応する責任を負います。インシデント管理プロセスをリードし、影響を最小限に抑
+えることでサービスの継続性を確保します。また、インシデント解決後の根本原因分析を
+行い、再発防止策を講じます。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>インシデントの優先順位付けと、適切なエスカレーションを行う。&lt;/li>
+&lt;li>インシデント管理プロセス全体をリードし、タイムリーな解決を促進する。&lt;/li>
+&lt;li>インシデントの根本原因分析を行い、再発防止策を提案する。&lt;/li>
+&lt;li>SLA（サービスレベル契約）の遵守を監視し、改善が必要な領域を特定する。&lt;/li>
+&lt;li>関連部門やベンダーとの調整を行い、迅速な復旧をサポートする。&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>ITIL の知識とインシデント管理プロセスの理解&lt;/li>
+&lt;li>優れた問題解決能力と分析スキル&lt;/li>
+&lt;li>顧客およびチームとの効果的なコミュニケーションスキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>IT インシデント管理の実務経験 3 年以上&lt;/li>
+&lt;li>エスカレーションおよびリーダーシップ経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>SLA に基づくサービス運用の経験&lt;/li>
+&lt;li>ストレス耐性と緊急時対応能力&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ITIL Expert や PMP の認定資格&lt;/li>
+&lt;li>大規模なインシデントや危機管理の経験&lt;/li>
+&lt;li>自動化ツールや監視ツールの使用経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>IT サービスにおけるインシデント管理および対応の経験 3 年以上&lt;/li>
+&lt;li>迅速なインシデント対応と解決策の提供経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>データアナリスト</title><link>https://bpinelab.github.io/docsy-base/job-family/business/data-analyst/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/business/data-analyst/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>データアナリスト (Data Analyst)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>データ分析部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>データアナリストは、企業の意思決定を支援するために、さまざまなデータを収集、分析
+、可視化します。業務パフォーマンスの最適化、新しいビジネス機会の発見、顧客動向の
+分析などを目的とし、関連データを処理してインサイトを提供します。レポートの作成や
+、ビジネス戦略に関するデータ駆動の提案を行い、企業の成長をサポートします。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>企業内外のデータを収集し、分析することでビジネスインサイトを提供&lt;/li>
+&lt;li>データを可視化し、レポートやダッシュボードを作成して、経営層や部門に情報を提供&lt;/li>
+&lt;li>トレンドやパターンを特定し、業務改善やビジネスチャンスの発見をサポート&lt;/li>
+&lt;li>データの品質を確保し、正確で信頼性のある分析結果を提供&lt;/li>
+&lt;li>新しいデータ分析手法やツールを導入し、効率的なデータ処理を推進&lt;/li>
+&lt;li>部門横断的に協力し、ビジネスの課題に対するデータソリューションを提案&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>データ分析ツール（Excel、SQL、Python、R など）の使用経験&lt;/li>
+&lt;li>データ可視化ツール（Tableau、Power BI など）の知識&lt;/li>
+&lt;li>優れたデータ処理能力と分析スキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>データ分析やビジネスインテリジェンス分野での実務経験 2 年以上&lt;/li>
+&lt;li>レポート作成およびダッシュボード構築の経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>データに基づいた提案力と問題解決能力&lt;/li>
+&lt;li>チームとの連携と優れたコミュニケーションスキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>データサイエンスや関連分野での学位&lt;/li>
+&lt;li>データベースやビッグデータプラットフォームに関する知識&lt;/li>
+&lt;li>統計分析や機械学習の基礎知識&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>データ分析やデータマネジメントにおける実務経験 2 年以上&lt;/li>
+&lt;li>事業改善や意思決定支援のためのデータ提供経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>データベース管理者</title><link>https://bpinelab.github.io/docsy-base/job-family/it-operation/database-administrator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/it-operation/database-administrator/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>データベース管理者 (Database Administrator)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT インフラストラクチャ部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>データベース管理者は、企業のデータベースシステムの設計、管理、運用、保守を担当し
+ます。データベースのパフォーマンスと可用性を維持し、データの信頼性とセキュリティ
+を確保します。また、バックアップやリカバリ計画を実施し、データベースの最適化やト
+ラブルシューティングも担当します。データベースの成長と変化に合わせ、システムの改
+善や効率化を推進します。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>データベースの設計、インストール、構成、アップグレード、および管理を担当する&lt;/li>
+&lt;li>データベースパフォーマンスの監視と最適化を行い、効率的な動作を保証する&lt;/li>
+&lt;li>バックアップおよびリカバリプロセスを設計・実行し、データの安全性と可用性を維持
+する&lt;/li>
+&lt;li>セキュリティポリシーに基づき、データベースのアクセス制御を設定し、データの機密
+性を確保する&lt;/li>
+&lt;li>データベース関連の問題をトラブルシューティングし、迅速な対応を行う&lt;/li>
+&lt;li>データベースの運用に関するドキュメントを作成し、保守・更新を実施&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>RDBMS（Oracle、SQL Server、MySQL など）の深い理解と管理経験&lt;/li>
+&lt;li>データベースのパフォーマンスチューニングおよび最適化に関する知識&lt;/li>
+&lt;li>バックアップ、リストア、およびリカバリ手法に関する知識&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>データベース管理者としての実務経験 3 年以上&lt;/li>
+&lt;li>データベースのセキュリティ管理およびトラブルシューティング経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>優れた問題解決能力とデータ分析スキル&lt;/li>
+&lt;li>チームとの協力やコミュニケーション能力&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>Oracle Certified Professional（OCP）、Microsoft SQL Server 認定資格など&lt;/li>
+&lt;li>クラウドベースのデータベース（AWS RDS、Azure SQL Database）管理経験&lt;/li>
+&lt;li>スクリプト言語（SQL、PL/SQL、T-SQL など）の経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>データベース管理およびパフォーマンス最適化における実務経験 3 年以上&lt;/li>
+&lt;li>データベースのセキュリティ設定およびアクセス制御の管理経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>エンタープライズアーキテクト</title><link>https://bpinelab.github.io/docsy-base/job-family/business/enterprise-architect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/business/enterprise-architect/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>エンタープライズアーキテクト (Enterprise Architect)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT 戦略部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>エンタープライズアーキテクトは、企業全体の IT 戦略を統括し、ビジネス目標を達成す
+るために、最適な技術構造を設計・推進します。組織の長期的な IT ビジョンを策定し、
+技術的なインフラ、システム、アプリケーションの整合性を確保します。さらに、効率化
+や最適化のために、部門間の技術的連携を強化し、IT 投資の効果を最大化します。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>企業のビジネス目標に合わせた IT アーキテクチャの設計・実装を担当&lt;/li>
+&lt;li>ビジネスプロセスと技術インフラの整合性を確保し、最適な技術戦略を策定&lt;/li>
+&lt;li>長期的な IT ビジョンを策定し、新しい技術やトレンドを企業に導入&lt;/li>
+&lt;li>部門横断的にプロジェクトを調整し、技術的な要件を満たすためのソリューションを提
+供&lt;/li>
+&lt;li>既存の IT システムの最適化、統合、および将来の拡張性を確保&lt;/li>
+&lt;li>IT インフラのパフォーマンスとセキュリティを監視し、改善策を提案&lt;/li>
+&lt;li>経営陣と協力し、IT 戦略が企業全体のビジネスニーズと一致するように調整&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>エンタープライズアーキテクチャフレームワーク（TOGAF、Zachman など）の知識&lt;/li>
+&lt;li>IT インフラ、クラウドテクノロジー、アプリケーション開発に関する深い理解&lt;/li>
+&lt;li>優れた分析能力とプロジェクト管理スキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>IT 戦略策定およびアーキテクチャ設計の実務経験 5 年以上&lt;/li>
+&lt;li>企業規模のプロジェクトでのリーダーシップ経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>優れたコミュニケーション能力と利害関係者の調整力&lt;/li>
+&lt;li>チームとの協力と強力なプレゼンテーションスキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>TOGAF や CISSP などの関連資格&lt;/li>
+&lt;li>クラウド技術（AWS、Azure、Google Cloud）やデジタルトランスフォーメーションの経
+験&lt;/li>
+&lt;li>ビジネスプロセス管理（BPM）やデータアーキテクチャの知識&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>エンタープライズアーキテクチャの設計および実装における実務経験 5 年以上&lt;/li>
+&lt;li>大規模 IT プロジェクトでの管理および統括経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>キャパシティマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/capacity-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/capacity-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>キャパシティマネージャー (Capacity Manager)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT サービス管理部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>キャパシティマネージャーは、IT サービスやインフラストラクチャのリソースが常に最
+適な状態で提供されるよう管理します。将来的な需要を予測し、リソースの効率的な使用
+を確保することで、コスト削減とサービス品質向上を目指します。また、パフォーマンス
+やキャパシティに関するレポートを作成し、ビジネス要求に応じてインフラを調整します
+。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>現在および将来のキャパシティ要求を予測し、リソース計画を策定する&lt;/li>
+&lt;li>IT インフラのキャパシティ使用状況をモニタリングし、リソースの最適化を推進する&lt;/li>
+&lt;li>キャパシティおよびパフォーマンスに関するレポートを定期的に作成し、ビジネス要求
+に応じたリソース計画を提案&lt;/li>
+&lt;li>キャパシティに関連する問題を特定し、解決策を実施する&lt;/li>
+&lt;li>コスト効果を考慮したキャパシティ管理の最適化を行い、将来的な需要に対応するため
+の戦略を策定する&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>ITIL フレームワークのキャパシティ管理に関する知識&lt;/li>
+&lt;li>インフラストラクチャとリソース管理に関する技術的知識&lt;/li>
+&lt;li>優れたデータ分析および予測スキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>IT キャパシティ管理またはパフォーマンス管理における実務経験 3 年以上&lt;/li>
+&lt;li>リソース計画の策定および運用経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>SLA や KPI に基づいたパフォーマンス管理の経験&lt;/li>
+&lt;li>リソース最適化におけるコスト削減の知識&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ITIL Expert や PMP 資格&lt;/li>
+&lt;li>クラウド環境でのキャパシティ管理経験&lt;/li>
+&lt;li>パフォーマンス監視ツールの使用経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>キャパシティ管理における実務経験 3 年以上&lt;/li>
+&lt;li>インフラリソースの予測および最適化の経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>サプライヤーマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/supplier-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/supplier-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>サプライヤーマネージャー (Supplier Manager)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT サービス管理部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>サプライヤーマネージャーは、IT サービスにおいて、外部ベンダーやサプライヤーとの
+契約、関係管理を担当します。サービスの品質、コスト、納期を確保するために、サプラ
+イヤーとのパフォーマンスをモニタリングし、契約条件の遵守を保証します。継続的な改
+善を図り、ビジネス目標に合致する形でサービスを提供できるよう、ベンダー戦略を策定
+・実行します。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>サプライヤーとの契約管理およびパフォーマンスのモニタリングを行う&lt;/li>
+&lt;li>SLA や KPI に基づき、サプライヤーのサービスパフォーマンスを評価し、改善策を提
+案・実施する&lt;/li>
+&lt;li>サプライヤーとの関係を強化し、サービス品質の向上とコスト効率の改善を図る&lt;/li>
+&lt;li>サプライヤー契約の更新や新規契約の交渉を担当し、最適な条件を確保する&lt;/li>
+&lt;li>リスク管理を行い、サプライヤーに関連する問題の早期発見と解決を実施する&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>サプライヤー管理および契約管理に関する知識&lt;/li>
+&lt;li>優れた交渉スキルおよびコミュニケーション能力&lt;/li>
+&lt;li>データ分析およびパフォーマンス評価に関するスキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>サプライヤー管理またはベンダーマネジメントの実務経験 3 年以上&lt;/li>
+&lt;li>契約交渉およびパフォーマンスモニタリングの経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>SLA および KPI に基づくサプライヤーパフォーマンス管理の経験&lt;/li>
+&lt;li>問題解決およびリスク管理のスキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ITIL または PMP の資格&lt;/li>
+&lt;li>複数のサプライヤーを管理した経験&lt;/li>
+&lt;li>クラウドサービスや IT インフラストラクチャに関連するサプライヤー管理経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>サプライヤー管理またはベンダーマネジメントにおける実務経験 3 年以上&lt;/li>
+&lt;li>サプライヤーとの契約交渉およびパフォーマンス評価の経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>システムアーキテクト</title><link>https://bpinelab.github.io/docsy-base/job-family/development/system-architect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/development/system-architect/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>システムアーキテクト (System Architect)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT アーキテクチャ部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>システムアーキテクトは、組織の技術インフラとソフトウェアシステムの設計、開発、導
+入を担当します。業務要件に基づき、最適な技術構造とシステムアーキテクチャを設計し
+、効率的かつスケーラブルなシステムソリューションを提供します。また、セキュリティ
+、性能、信頼性を考慮したシステムの最適化も担当し、技術的な意思決定をサポートしま
+す。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ビジネス要件に基づいたシステムアーキテクチャの設計と実装を担当する&lt;/li>
+&lt;li>技術インフラとアプリケーションの統合を行い、最適なソリューションを提供する&lt;/li>
+&lt;li>セキュリティやパフォーマンス、可用性を考慮し、システムの最適化を推進する&lt;/li>
+&lt;li>開発チームや運用チームと協力し、技術的なガイドラインを提供し、プロジェクトを成
+功に導く&lt;/li>
+&lt;li>新しい技術の導入を評価し、既存システムに適用可能な最適な技術戦略を策定する&lt;/li>
+&lt;li>プロジェクトの技術リスクを評価し、リスク軽減策を提案・実施する&lt;/li>
+&lt;li>システムアーキテクチャに関するドキュメントを作成し、ステークホルダーとの情報共
+有を行う&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>ソフトウェア開発ライフサイクル（SDLC）およびシステムアーキテクチャの設計知識&lt;/li>
+&lt;li>クラウドサービス（AWS、Azure、GCP）やオンプレミスのシステムに関する深い理解&lt;/li>
+&lt;li>優れた問題解決能力および技術的なリーダーシップスキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>システム設計およびアーキテクチャの実務経験 5 年以上&lt;/li>
+&lt;li>大規模な IT プロジェクトでのリーダーシップ経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>優れたコミュニケーションスキルおよびチームマネジメントスキル&lt;/li>
+&lt;li>システムのスケーラビリティと可用性に関する知識&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>TOGAF、AWS Certified Solutions Architect などの資格&lt;/li>
+&lt;li>アジャイルや DevOps 環境でのプロジェクト経験&lt;/li>
+&lt;li>マイクロサービスアーキテクチャや API 設計に関する知識&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>システムアーキテクチャの設計および導入における実務経験 5 年以上&lt;/li>
+&lt;li>大規模システムの統合および最適化の経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>セキュリティーマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/security-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/security-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>セキュリティマネージャー (Security Manager)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT セキュリティ部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>セキュリティマネージャーは、IT システムおよびデータのセキュリティを確保するため
+、セキュリティ戦略を策定し、実行します。組織のセキュリティポリシー、リスク評価、
+コンプライアンスを管理し、セキュリティインシデントの予防と対応を指導します。また
+、セキュリティ監査やトレーニングを通じて、従業員のセキュリティ意識を向上させる役
+割を担います。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>組織全体のセキュリティポリシーの策定および更新を行う&lt;/li>
+&lt;li>セキュリティインシデントの監視、管理、対応を行い、適切なリスク管理を実施する&lt;/li>
+&lt;li>内部および外部監査を通じて、コンプライアンスの遵守を確保する&lt;/li>
+&lt;li>セキュリティリスクの評価と軽減策を実施し、定期的にリスクレポートを作成する&lt;/li>
+&lt;li>社内トレーニングやワークショップを通じて、従業員のセキュリティ意識向上を推進す
+る&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>セキュリティポリシー策定およびリスク管理に関する知識&lt;/li>
+&lt;li>情報セキュリティ規格（ISO 27001、NIST など）に関する知識&lt;/li>
+&lt;li>インシデント対応およびリスク評価スキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>セキュリティ管理における実務経験 3 年以上&lt;/li>
+&lt;li>IT セキュリティリスク管理およびコンプライアンス管理の経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>優れた問題解決力と分析スキル&lt;/li>
+&lt;li>監査対応および従業員教育の経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>CISM、CISSP、CEH などのセキュリティ関連資格&lt;/li>
+&lt;li>セキュリティ監査およびリスク評価の実務経験&lt;/li>
+&lt;li>クラウドセキュリティおよびハイブリッド環境でのセキュリティ管理経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>セキュリティリスク評価および対応における実務経験 3 年以上&lt;/li>
+&lt;li>セキュリティインシデントの管理および再発防止策の実施経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>テクニカルサポートエンジニア</title><link>https://bpinelab.github.io/docsy-base/job-family/it-operation/technical-support-engineer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/it-operation/technical-support-engineer/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>テクニカルサポートエンジニア (Technical Support Engineer)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT サポート部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>テクニカルサポートエンジニアは、エンドユーザーや顧客からの技術的な問い合わせやト
+ラブルシューティングに対応し、迅速かつ効果的に問題を解決します。システム、アプリ
+ケーション、ハードウェア、ネットワークの技術サポートを提供し、ユーザーの IT 関連
+の課題を解決します。また、根本原因の分析やユーザー教育を通じて、サービスの質の向
+上を目指します。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ユーザーからの技術的な問い合わせに対する対応および解決策の提供&lt;/li>
+&lt;li>インシデントおよび問題のトラブルシューティングを行い、適切なエスカレーションを
+実施&lt;/li>
+&lt;li>システムやアプリケーションの使用に関する技術的なサポートを提供&lt;/li>
+&lt;li>ユーザー教育やガイドラインの作成を通じて、技術リテラシー向上をサポート&lt;/li>
+&lt;li>技術的な問題の根本原因を特定し、再発防止策を提案および実施&lt;/li>
+&lt;li>サポートプロセスの改善に向けたフィードバックや提案を行う&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>IT サポートや技術サポートに関する知識&lt;/li>
+&lt;li>OS（Windows, macOS, Linux）やネットワークに関する基本的な知識&lt;/li>
+&lt;li>優れた問題解決能力およびトラブルシューティングスキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>テクニカルサポートや IT サポートにおける実務経験 2 年以上&lt;/li>
+&lt;li>ユーザー対応やインシデント管理の経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>優れたコミュニケーションスキル&lt;/li>
+&lt;li>チームプレイヤーとしての能力とユーザー指向の姿勢&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>CompTIA A+、Network+、または Microsoft の技術認定資格&lt;/li>
+&lt;li>クラウドサービス（AWS、Azure）や仮想化技術の知識&lt;/li>
+&lt;li>リモートデスクトップサポートツールや IT サービス管理ツールの使用経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>テクニカルサポートや IT サポート業務における実務経験 2 年以上&lt;/li>
+&lt;li>インシデント管理やユーザー対応の経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>ネットワーク管理者</title><link>https://bpinelab.github.io/docsy-base/job-family/it-operation/netrowk-administrator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/it-operation/netrowk-administrator/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>ネットワーク管理者 (Network Administrator)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT インフラストラクチャ部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>ネットワーク管理者は、企業のネットワークインフラの設計、構築、運用、保守を担当し
+ます。ネットワークのパフォーマンスと可用性を維持し、ネットワーク障害の迅速なトラ
+ブルシューティングと解決を行います。セキュリティ対策や最適化を通じて、企業内外の
+通信が円滑に行えるよう、ネットワークの信頼性とセキュリティを確保します。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>企業ネットワークの設計、構築、監視、保守を担当し、ネットワークの可用性を維持す
+る&lt;/li>
+&lt;li>ネットワークパフォーマンスのモニタリングとトラブルシューティングを行い、問題を
+迅速に解決&lt;/li>
+&lt;li>ネットワークセキュリティ対策の実施（ファイアウォール、VPN、アクセス制御など）&lt;/li>
+&lt;li>ネットワークインフラのアップグレードや最適化の計画と実施&lt;/li>
+&lt;li>社内 IT チームおよびサプライヤーとの連携を通じてネットワーク運用を最適化&lt;/li>
+&lt;li>ネットワークに関連するドキュメントの作成と管理&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>ネットワークプロトコル（TCP/IP、DNS、DHCP、BGP など）の深い理解&lt;/li>
+&lt;li>ルーター、スイッチ、ファイアウォール、VPN などのネットワークデバイスの設定お
+よび管理経験&lt;/li>
+&lt;li>ネットワーク監視およびトラブルシューティングツールの使用経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>ネットワーク管理または IT インフラ管理における実務経験 3 年以上&lt;/li>
+&lt;li>ネットワークセキュリティやパフォーマンス最適化の経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>強力な分析能力と問題解決スキル&lt;/li>
+&lt;li>チームとの連携力およびコミュニケーションスキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>Cisco CCNA/CCNP、CompTIA Network+などのネットワーク関連資格&lt;/li>
+&lt;li>クラウドベースのネットワーク環境（AWS、Azure）の運用経験&lt;/li>
+&lt;li>仮想ネットワークや SD-WAN の経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ネットワーク管理およびセキュリティ運用における実務経験 3 年以上&lt;/li>
+&lt;li>ネットワーク障害対応および最適化の経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>プロブレムマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/problem-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/problem-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>プロブレムマネージャー (Problem Manager)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT サービス管理部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>プロブレムマネージャーは、IT サービスにおける根本的な問題（プロブレム）を特定し
+、再発防止策を講じる責任を負います。問題管理プロセスを主導し、サービスの安定性向
+上を目指します。また、インシデントから派生する問題の分析を通じて、根本原因を解明
+し、予防措置を提案・実施します。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>問題管理プロセスをリードし、問題の特定と解決策の提供を行う。&lt;/li>
+&lt;li>インシデントの根本原因分析（RCA）を実施し、再発防止策を策定する。&lt;/li>
+&lt;li>SLA に基づいた問題解決のタイムラインを遵守し、改善を促進する。&lt;/li>
+&lt;li>問題の記録、分析、報告を定期的に行い、経営層および関係部門と情報を共有する。&lt;/li>
+&lt;li>継続的改善プロセス（CIP）を通じて、システムやプロセスの最適化を推進する。&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>ITIL フレームワークの理解および問題管理の知識&lt;/li>
+&lt;li>問題解決能力とデータ分析スキル&lt;/li>
+&lt;li>優れたコミュニケーションおよびリーダーシップスキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>問題管理やインシデント管理における実務経験 3 年以上&lt;/li>
+&lt;li>顧客対応やベンダーとの調整業務の経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>SLA 管理に基づく運用経験&lt;/li>
+&lt;li>プロセス改善に積極的に取り組む姿勢&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ITIL Expert や PMP の資格&lt;/li>
+&lt;li>大規模な問題管理プロセスのリーダーシップ経験&lt;/li>
+&lt;li>トラブルシューティング自動化ツールの経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>問題管理における実務経験 3 年以上&lt;/li>
+&lt;li>継続的改善やプロセス最適化の実務経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>ヘルプデスクマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/it-operation/helpdesk-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/it-operation/helpdesk-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>ヘルプデスクマネージャー (Helpdesk Manager)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT サポート部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>ヘルプデスクマネージャーは、IT サポートチームをリードし、エンドユーザーに対して
+迅速で効果的なサポートを提供する責任を負います。ユーザーからの問い合わせやインシ
+デントを管理し、適切な対応とエスカレーションを行い、サポートプロセスの効率化を推
+進します。また、チームメンバーのパフォーマンスを管理し、継続的な改善を目指してト
+レーニングや教育を行います。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ヘルプデスクチームをリードし、日々の運営を管理する&lt;/li>
+&lt;li>ユーザーからの問い合わせやインシデントの優先順位付け、エスカレーション、解決を
+管理&lt;/li>
+&lt;li>SLA および KPI に基づき、サポート業務のパフォーマンスをモニタリングし、レポー
+トを作成する&lt;/li>
+&lt;li>チームメンバーのトレーニングやパフォーマンス評価を実施し、サポート品質の向上を
+図る&lt;/li>
+&lt;li>サポートプロセスを継続的に改善し、より効率的で効果的なヘルプデスク運営を推進&lt;/li>
+&lt;li>ユーザーからのフィードバックを基に、サポートの質を向上させるための提案を行う&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>IT サポートまたはヘルプデスク運営に関する深い知識&lt;/li>
+&lt;li>優れたリーダーシップおよびチーム管理スキル&lt;/li>
+&lt;li>SLA および KPI に基づくパフォーマンス管理の知識&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>ヘルプデスクまたは IT サポート業務の実務経験 3 年以上&lt;/li>
+&lt;li>チームリーダーまたはマネジメントの経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>問題解決力と優れたコミュニケーション能力&lt;/li>
+&lt;li>トラブルシューティングおよび顧客対応のスキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ITIL 資格または CompTIA のサポート関連資格&lt;/li>
+&lt;li>サポート管理ツール（ServiceNow、Zendesk など）の使用経験&lt;/li>
+&lt;li>クラウドサービスやネットワークに関する知識&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>IT サポートまたはヘルプデスク業務における実務経験 3 年以上&lt;/li>
+&lt;li>チーム管理およびスタッフ育成の経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>リリースマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/release-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/release-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>リリースマネージャー (Release Manager)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT サービス管理部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>リリースマネージャーは、IT サービスや製品の新しいリリースを計画、調整、管理する
+役割を担います。変更がスムーズかつリスクを最小限に抑えた形で本番環境に導入される
+ことを確実にし、品質基準を満たすとともに、顧客や内部ステークホルダーのニーズに応
+えることを目指します。また、リリースプロセスの最適化を行い、継続的な改善を推進し
+ます。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>リリース計画の作成と管理、リリーススケジュールの調整&lt;/li>
+&lt;li>本番環境へのリリースが成功するよう、関連部門と協力し変更やリリースの調整を行う&lt;/li>
+&lt;li>リリース後のシステム安定性を監視し、問題が発生した際は迅速に対応&lt;/li>
+&lt;li>リリースプロセスの継続的な改善を推進し、リスク管理を行う&lt;/li>
+&lt;li>リリースの影響を受けるチームやユーザーへのコミュニケーションを円滑に行う&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>ITIL フレームワークのリリース管理に関する知識&lt;/li>
+&lt;li>リリースプロセスの調整スキルとプロジェクト管理能力&lt;/li>
+&lt;li>優れたコミュニケーションおよびチーム管理スキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>IT サービスまたは製品のリリース管理における実務経験 3 年以上&lt;/li>
+&lt;li>複数部門と協力してリリースを成功させた経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>SLA や KPI に基づく運用経験&lt;/li>
+&lt;li>高い分析力と問題解決能力&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ITIL Expert や PMP 資格&lt;/li>
+&lt;li>アジャイル開発環境でのリリース経験&lt;/li>
+&lt;li>クラウドサービスのリリース管理の経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>リリース管理プロセスにおける 3 年以上の実務経験&lt;/li>
+&lt;li>大規模リリースプロジェクトのリード経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>構成管理マネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/configuration-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/configuration-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>構成管理マネージャー (Configuration Manager)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT サービス管理部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>構成管理マネージャーは、IT システムやサービスのすべての構成項目（CI:
+Configuration Item）を管理し、システムの構成情報が常に正確で最新であることを確保
+します。構成管理データベース（CMDB）の維持と更新を行い、変更管理やインシデント管
+理をサポートするための正確な情報提供を担います。また、システムの可視性を高め、サ
+ービスのパフォーマンスと可用性の向上に寄与します。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>構成管理プロセスを管理し、すべての CI が正確かつ最新の状態にあることを確認する&lt;/li>
+&lt;li>構成管理データベース（CMDB）の維持、更新、および正確性を確保する&lt;/li>
+&lt;li>変更管理やインシデント管理と連携し、必要な構成情報を提供する&lt;/li>
+&lt;li>定期的な構成監査を実施し、構成情報の信頼性を確認する&lt;/li>
+&lt;li>構成管理プロセスの最適化および自動化を推進する&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>ITIL フレームワークの構成管理に関する深い知識&lt;/li>
+&lt;li>CMDB 管理とデータ品質管理に関するスキル&lt;/li>
+&lt;li>優れた分析力とプロセス管理スキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>構成管理または資産管理の実務経験 3 年以上&lt;/li>
+&lt;li>CMDB の運用および保守経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>SLA と KPI に基づいたデータ管理の経験&lt;/li>
+&lt;li>強力なコミュニケーションおよびドキュメント作成能力&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ITIL Expert や PMP 資格&lt;/li>
+&lt;li>構成管理ツールの使用経験（ServiceNow、BMC など）&lt;/li>
+&lt;li>自動化ツールを使用した構成管理の最適化経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>構成管理プロセスの実務経験 3 年以上&lt;/li>
+&lt;li>CMDB の運用管理経験および構成監査の実施経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>変更マネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/change-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/change-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>変更マネージャー (Change Manager)&lt;/p>
+&lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT サービス管理部&lt;/p>
+&lt;h2 id="職務概要job-summary">職務概要（Job Summary）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e6%a6%82%e8%a6%81job-summary" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>変更マネージャーは、IT 環境内の全ての変更管理プロセスを監督し、リスクを最小限に
+抑えながらシステムやサービスの変更が円滑に実施されるよう調整します。変更によるサ
+ービスへの影響を最小限に抑え、ビジネス目標に基づいた変更を確実に実行します。また
+、CAB（Change Advisory Board）の運営を通じて、すべての変更に対する適切な承認と評
+価を行います。&lt;/p>
+&lt;h2 id="主な業務内容key-responsibilities">主な業務内容（Key Responsibilities）&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9key-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>変更管理プロセスの全体を監督し、変更のリスクと影響を評価する。&lt;/li>
+&lt;li>変更要求（RFC）をレビューし、CAB の承認を得るためのプロセスを管理する。&lt;/li>
+&lt;li>変更によるサービスへの影響を最小化し、スムーズな導入を確保する。&lt;/li>
+&lt;li>変更後のサービスのパフォーマンスを監視し、必要な場合は修正対応を行う。&lt;/li>
+&lt;li>関連部門やベンダーとのコミュニケーションを通じて、変更の計画と実行を調整する。&lt;/li>
+&lt;/ul>
+&lt;h2 id="必要な資格スキルrequired-qualifications-and-skills">必要な資格・スキル（Required Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abrequired-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>必須スキル・知識:&lt;/strong>
+&lt;ul>
+&lt;li>ITIL フレームワークの変更管理に関する深い知識&lt;/li>
+&lt;li>変更プロセス管理におけるリスク評価のスキル&lt;/li>
+&lt;li>強力なリーダーシップと意思決定スキル&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>経験:&lt;/strong>
+&lt;ul>
+&lt;li>IT 変更管理プロセスの実務経験 3 年以上&lt;/li>
+&lt;li>CAB 運営の経験およびマルチステークホルダーとの調整経験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>その他:&lt;/strong>
+&lt;ul>
+&lt;li>SLA と KPI に基づく変更のパフォーマンス管理&lt;/li>
+&lt;li>細部に注意を払う正確な作業能力&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="望ましい資格スキルpreferred-qualifications-and-skills">望ましい資格・スキル（Preferred Qualifications and Skills）&lt;a class="td-heading-self-link" href="#%e6%9c%9b%e3%81%be%e3%81%97%e3%81%84%e8%b3%87%e6%a0%bc%e3%82%b9%e3%82%ad%e3%83%abpreferred-qualifications-and-skills" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ITIL Expert または PMP 資格&lt;/li>
+&lt;li>大規模システムの変更管理経験&lt;/li>
+&lt;li>クラウド環境での変更管理の知識&lt;/li>
+&lt;/ul>
+&lt;h2 id="実務経験experience">実務経験（Experience）&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e5%8b%99%e7%b5%8c%e9%a8%93experience" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>変更管理における 3 年以上の実務経験&lt;/li>
+&lt;li>大規模プロジェクトにおける変更の計画と実行の経験&lt;/li>
+&lt;/ul>
+&lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item></channel></rss>
