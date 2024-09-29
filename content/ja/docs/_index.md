@@ -1,7 +1,11 @@
 ---
 title: The Handbook
 linkTitle: Handbook
-menu: { main: { weight: 20 } }
+menu:
+  main:
+    weight: 20
+    name: Handbook
+    pre: '<i class="fa-solid fa-book"></i>'
 ---
 
 ## はじめに

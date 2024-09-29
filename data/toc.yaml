@@ -2,59 +2,59 @@
   icon: fas fa-lightbulb
   url: https://about.gitlab.com
   links:
-    - name: Documentation
+    - name: Handbook
       url: docs
-    - name: Blog
-      url: blog
-    - name: Community
-      url: community
+    - name: Job Family
+      url: job-family
+    - name: Changelog
+      url: changelog
 - name: Group B
   icon: fas fa-robot
   url: https://about.gitlab.com
   links:
-    - name: Documentation
+    - name: Handbook
       url: docs
-    - name: Blog
-      url: blog
-    - name: Community
-      url: community
+    - name: Job Family
+      url: job-family
+    - name: Changelog
+      url: changelog
 - name: Group C
   icon: fas fa-brands fa-github
   url: https://about.gitlab.com
   links:
-    - name: Documentation
+    - name: Handbook
       url: docs
-    - name: Blog
-      url: blog
-    - name: Community
-      url: community
+    - name: Job Family
+      url: job-family
+    - name: Changelog
+      url: changelog
 - name: Group D
   icon: fas fa-book
   url: https://about.gitlab.com
   links:
-    - name: Documentation
+    - name: Handbook
       url: docs
-    - name: Blog
-      url: blog
-    - name: Community
-      url: community
+    - name: Job Family
+      url: job-family
+    - name: Changelog
+      url: changelog
 - name: Group E
   icon: fab fa-gitlab
   url: https://about.gitlab.com
   links:
-    - name: Documentation
+    - name: Handbook
       url: docs
-    - name: Blog
-      url: blog
-    - name: Community
-      url: community
+    - name: Job Family
+      url: job-family
+    - name: Changelog
+      url: changelog
 - name: Group F
   icon: fas fa-brands fa-github
   url: https://about.gitlab.com
   links:
-    - name: Documentation
+    - name: Handbook
       url: docs
-    - name: Blog
-      url: blog
-    - name: Community
-      url: community
+    - name: Job Family
+      url: job-family
+    - name: Changelog
+      url: changelog

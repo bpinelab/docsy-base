@@ -1,13 +1,18 @@
 ---
-title: About Goldydocs
+title: About DocBase
 linkTitle: About
-menu: {main: {weight: 10}}
+cascade:
+  type: docs
+menu:
+  main:
+    weight: 10
+    name: About
+    pre: '<i class="fa-solid fa-circle-info"></i>'
 ---
 
 {{% blocks/cover title="About Goldydocs" image_anchor="bottom" height="auto" %}}
 
-A sample site using the Docsy Hugo theme.
-{.mt-5}
+A sample site using the Docsy Hugo theme. {.mt-5}
 
 {{% /blocks/cover %}}
 
@@ -23,6 +28,7 @@ different sections of the documentation and site for more ideas.
 {{% blocks/section %}}
 
 # This is another section
+
 {.text-center}
 
 {{% /blocks/section %}}
@@ -30,6 +36,7 @@ different sections of the documentation and site for more ideas.
 {{% blocks/section %}}
 
 # This is another section
+
 {.text-center}
 
 {{% /blocks/section %}}
