@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SAP on The DocBase Handbook</title><link>https://bpinelab.github.io/docsy-base/tags/sap/</link><description>Recent content in SAP on The DocBase Handbook</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 12 Oct 2024 19:43:01 +0900</lastBuildDate><atom:link href="https://bpinelab.github.io/docsy-base/tags/sap/index.xml" rel="self" type="application/rss+xml"/><item><title>SAPシステム向け自動化・自律化</title><link>https://bpinelab.github.io/docsy-base/docs/operations-platform/sap-optimization/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-platform/sap-optimization/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>本ドキュメントは、Azure IaaS 上に構築された SAP システムを対象
+にした自動化・自律化オペレーションプラットフォームアーキテクチャを説明します
+。&lt;/p>
+
+&lt;/div>
+
+&lt;h2 id="概要">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>本オペレーションプラットフォームは、Azure IaaS 上で稼働する SAP システムに特化し
+、効率的な自動化・自律化オペレーションを実現します。サービスデスク、インシデント
+管理、監視、自動化を連携させることで、運用コストを最小限に抑えつつ、SAP システム
+の高可用性と信頼性を維持します。&lt;/p>
+&lt;h2 id="オペレーションプラットフォームの主要コンポーネント">オペレーションプラットフォームの主要コンポーネント&lt;a class="td-heading-self-link" href="#%e3%82%aa%e3%83%9a%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%97%e3%83%a9%e3%83%83%e3%83%88%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0%e3%81%ae%e4%b8%bb%e8%a6%81%e3%82%b3%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%8d%e3%83%b3%e3%83%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="1-サービスデスクとインシデント管理">1. &lt;strong>サービスデスクとインシデント管理&lt;/strong>&lt;a class="td-heading-self-link" href="#1-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%87%e3%82%b9%e3%82%af%e3%81%a8%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>SAP システムの運用では、インシデント管理が重要です。これには、ServiceNow や
+Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現します。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>ServiceNow / Azure DevOps&lt;/strong>: インシデント、リクエスト、変更管理を一元化し
+、SAP システムに関連する問題を迅速に解決します。&lt;/li>
+&lt;li>&lt;strong>SAP 専用のインシデント管理フロー&lt;/strong>: SAP システム特有の問題を迅速にトリアージ
+し、関連するサポートチームへエスカレーションします。&lt;/li>
+&lt;li>&lt;strong>SLA モニタリング&lt;/strong>: SLA に基づいてインシデントを優先順位付けし、自動通知とエ
+スカレーション機能を利用します。&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-監視とアラート">2. &lt;strong>監視とアラート&lt;/strong>&lt;a class="td-heading-self-link" href="#2-%e7%9b%a3%e8%a6%96%e3%81%a8%e3%82%a2%e3%83%a9%e3%83%bc%e3%83%88" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>Azure IaaS 上の SAP システムの健全性を維持するため、Azure Monitor や専用の SAP
+監視ツールを組み合わせて運用します。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Azure Monitor&lt;/strong>: SAP システムを構成する IaaS リソース（VM、ディスク、ネット
+ワーク）のリアルタイム監視を行います。&lt;/li>
+&lt;li>&lt;strong>SAP Solution Manager&lt;/strong>: SAP 専用の監視ツールとして、SAP システム全体のパフォ
+ーマンス、トランザクション、データベースの監視を提供します。&lt;/li>
+&lt;li>&lt;strong>自動アラート&lt;/strong>: リソースのパフォーマンス低下やサービスの停止を検出した際、自
+動でアラートが発生し、事前設定された対応フローが実行されます。&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-自動化およびインフラ管理">3. &lt;strong>自動化およびインフラ管理&lt;/strong>&lt;a class="td-heading-self-link" href="#3-%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%8a%e3%82%88%e3%81%b3%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>Azure 上の SAP システムは、リソース管理と構成管理の自動化により効率的に運用され
+ます。&lt;/p></description></item></channel></rss>

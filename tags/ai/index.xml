@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on The DocBase Handbook</title><link>https://bpinelab.github.io/docsy-base/tags/ai/</link><description>Recent content in AI on The DocBase Handbook</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 12 Oct 2024 19:43:01 +0900</lastBuildDate><atom:link href="https://bpinelab.github.io/docsy-base/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>Autonomous IT Services</title><link>https://bpinelab.github.io/docsy-base/docs/operations-platform/autonomy/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-platform/autonomy/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>本ドキュメントは、IT サービスの自律運用に焦点を当てた戦略と技術
+的なアプローチを説明し、運用の手動介入を最小限に抑えた効率的なシステム管理を実現
+します。&lt;/p>
+
+&lt;/div>
+
+&lt;h2 id="概要">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>&lt;strong>Autonomous IT Services&lt;/strong>は、システムが自己修復し、リソース管理を自動化し、AI
+が意思決定をサポートする運用モデルです。この運用モデルでは、手動の介入を最小限に
+抑え、AI と自動化技術を活用して IT サービスのパフォーマンスと可用性を最大化しま
+す。&lt;/p>
+&lt;p>自律運用の実現には次の 3 つの主要な技術的領域が含まれます：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>セルフヒーリング (Self-Healing)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>AI 主導のリソース管理 (AI-Driven Resource Management)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>自動意思決定 (Automated Decision-Making)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;h2 id="1-セルフヒーリング-self-healing">1. セルフヒーリング (Self-Healing)&lt;a class="td-heading-self-link" href="#1-%e3%82%bb%e3%83%ab%e3%83%95%e3%83%92%e3%83%bc%e3%83%aa%e3%83%b3%e3%82%b0-self-healing" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="概要-1">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81-1" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>セルフヒーリングは、システム障害が発生した場合に、自動的に問題を検出し、修復を行
+う技術です。これにより、システムのダウンタイムを最小限に抑え、サービスの中断を防
+ぎます。&lt;/p>
+&lt;h3 id="技術的アプローチ">技術的アプローチ&lt;a class="td-heading-self-link" href="#%e6%8a%80%e8%a1%93%e7%9a%84%e3%82%a2%e3%83%97%e3%83%ad%e3%83%bc%e3%83%81" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>監視と障害検出&lt;/strong>: Azure Monitor や Application Insights を使用して、リアルタ
+イムでシステムの状態を監視し、異常が検出された場合に自動的に修復プロセスをトリ
+ガーします。&lt;/li>
+&lt;li>&lt;strong>修復スクリプトの自動実行&lt;/strong>: 自動化された修復スクリプト（例: 再起動、キャッシ
+ュクリア、構成変更）が事前に定義され、問題発生時に即座に実行されます。&lt;/li>
+&lt;li>&lt;strong>ロールバック機能&lt;/strong>: システム変更後に問題が発生した場合、Azure DevOps や他の
+CI/CD ツールを使用して、自動的に以前の安定バージョンにロールバックします。&lt;/li>
+&lt;/ul>
+&lt;h3 id="kpi">KPI&lt;a class="td-heading-self-link" href="#kpi" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>障害復旧時間の短縮&lt;/strong>: 平均障害復旧時間（MTTR）を X%短縮します。&lt;/li>
+&lt;li>&lt;strong>システム可用性の向上&lt;/strong>: セルフヒーリングによって、システム可用性を Y%向上さ
+せます。&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-ai-主導のリソース管理-ai-driven-resource-management">2. AI 主導のリソース管理 (AI-Driven Resource Management)&lt;a class="td-heading-self-link" href="#2-ai-%e4%b8%bb%e5%b0%8e%e3%81%ae%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9%e7%ae%a1%e7%90%86-ai-driven-resource-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="概要-2">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81-2" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>AI 主導のリソース管理は、AI と機械学習を活用してリソースの使用状況を最適化し、需
+要に応じて動的にリソースを調整する手法です。これにより、過剰なリソース配分を削減
+し、効率的なリソース使用を実現します。&lt;/p></description></item></channel></rss>

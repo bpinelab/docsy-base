@@ -1,21 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Test on The DocBase Handbook</title><link>https://bpinelab.github.io/docsy-base/tags/test/</link><description>Recent content in Test on The DocBase Handbook</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 30 Sep 2024 03:23:14 +0900</lastBuildDate><atom:link href="https://bpinelab.github.io/docsy-base/tags/test/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting Started</title><link>https://bpinelab.github.io/docsy-base/docs/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/getting-started/</guid><description>&lt;div class="pageinfo pageinfo-primary">
-&lt;p>This is a placeholder page that shows you how to use this template site.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Test on The DocBase Handbook</title><link>https://bpinelab.github.io/docsy-base/tags/test/</link><description>Recent content in Test on The DocBase Handbook</description><generator>Hugo</generator><language>ja</language><atom:link href="https://bpinelab.github.io/docsy-base/tags/test/index.xml" rel="self" type="application/rss+xml"/><item><title>System Architecture &amp; Design</title><link>https://bpinelab.github.io/docsy-base/docs/system-architecture/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/system-architecture/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page that shows you how to use this
+template site.&lt;/p>
+
+&lt;/div>
+
+&lt;h1 id="システムアーキテクチャダイアグラム">システムアーキテクチャダイアグラム&lt;a class="td-heading-self-link" href="#%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3%e3%83%80%e3%82%a4%e3%82%a2%e3%82%b0%e3%83%a9%e3%83%a0" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;h2 id="概要">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>本ドキュメントでは、Azure の Landing Zone アーキテクチャを採用したシステムアーキ
+テクチャについて説明します。Azure Landing Zone は、スケーラブルで安全なクラウド
+環境を構築するためのベストプラクティスに基づく設計ガイドラインです。本システムは
+、この Landing Zone アプローチを利用し、運用の効率化と自動化を目指します。&lt;/p>
+&lt;h2 id="アーキテクチャ概要">アーキテクチャ概要&lt;a class="td-heading-self-link" href="#%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>operations-platform-architectureAzure Landing Zone は、以下のコンポーネントで構
+成されます。&lt;/p>
+&lt;h3 id="1-管理グループとサブスクリプション">1. &lt;strong>管理グループとサブスクリプション&lt;/strong>&lt;a class="td-heading-self-link" href="#1-%e7%ae%a1%e7%90%86%e3%82%b0%e3%83%ab%e3%83%bc%e3%83%97%e3%81%a8%e3%82%b5%e3%83%96%e3%82%b9%e3%82%af%e3%83%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>Azure 管理グループとサブスクリプションを使用して、アカウントの構造を整理し、リソ
+ースとポリシーを管理します。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>管理グループ構造&lt;/strong>: リソースごとに異なるポリシーを適用するために、組織構造に
+基づいて管理グループを階層化。&lt;/li>
+&lt;li>&lt;strong>サブスクリプション&lt;/strong>: 各環境（開発、テスト、本番）ごとに分離されたサブスクリ
+プションを設定。&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-ネットワークアーキテクチャ">2. &lt;strong>ネットワークアーキテクチャ&lt;/strong>&lt;a class="td-heading-self-link" href="#2-%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>Azure Virtual Network（VNet）を使用し、安全なネットワークを構築します。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>ハブ＆スポークモデル&lt;/strong>: ハブネットワークで共有サービスを提供し、スポークネッ
+トワークで個々のアプリケーションやリソースを分離。&lt;/li>
+&lt;li>&lt;strong>ネットワークセキュリティ&lt;/strong>: Azure Firewall、Network Security Groups (NSGs)、
+および Azure DDoS Protection によってネットワークを保護。&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-アイデンティティとアクセス管理">3. &lt;strong>アイデンティティとアクセス管理&lt;/strong>&lt;a class="td-heading-self-link" href="#3-%e3%82%a2%e3%82%a4%e3%83%87%e3%83%b3%e3%83%86%e3%82%a3%e3%83%86%e3%82%a3%e3%81%a8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>Azure Active Directory (AAD) を用いたアイデンティティとアクセス管理を実施します
+。&lt;/p></description></item><item><title>Contribution Guidelines</title><link>https://bpinelab.github.io/docsy-base/docs/contribution-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/contribution-guidelines/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page that shows you how to use this
+template site.&lt;/p>
 
 &lt;/div>
 
 &lt;p>Information in this section helps your user try your project themselves.&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>What do your users need to do to start using your project? This could include downloading/installation instructions, including any prerequisites or system requirements.&lt;/p>
+&lt;p>What do your users need to do to start using your project? This could include
+downloading/installation instructions, including any prerequisites or system
+requirements.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Introductory “Hello World” example, if appropriate. More complex tutorials should live in the Tutorials section.&lt;/p>
+&lt;p>Introductory “Hello World” example, if appropriate. More complex tutorials
+should live in the Tutorials section.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;p>Consider using the headings below for your getting started page. You can delete any that are not applicable to your project.&lt;/p></description></item><item><title>Example Page</title><link>https://bpinelab.github.io/docsy-base/docs/getting-started/example-page/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/getting-started/example-page/</guid><description>&lt;div class="pageinfo pageinfo-primary">
-&lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
-
-&lt;/div>
-
-&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
-&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item></channel></rss>
+&lt;p>Consider using the headings below for your getting started page. You can delete
+any that are not applicable to your project.&lt;/p></description></item></channel></rss>

@@ -1,18 +1,79 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The DocBase Handbook</title><link>https://bpinelab.github.io/docsy-base/</link><description>Recent content on The DocBase Handbook</description><generator>Hugo</generator><language>ja</language><atom:link href="https://bpinelab.github.io/docsy-base/index.xml" rel="self" type="application/rss+xml"/><item><title>Overview</title><link>https://bpinelab.github.io/docsy-base/docs/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/overview/</guid><description>&lt;div class="pageinfo pageinfo-primary">
-&lt;p>This is a placeholder page that shows you how to use this template site.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The DocBase Handbook</title><link>https://bpinelab.github.io/docsy-base/</link><description>Recent content on The DocBase Handbook</description><generator>Hugo</generator><language>ja</language><atom:link href="https://bpinelab.github.io/docsy-base/index.xml" rel="self" type="application/rss+xml"/><item><title>Our Principles</title><link>https://bpinelab.github.io/docsy-base/docs/concept/principles/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/concept/principles/</guid><description>&lt;h2 id="1-顧客重視">1. 顧客重視&lt;a class="td-heading-self-link" href="#1-%e9%a1%a7%e5%ae%a2%e9%87%8d%e8%a6%96" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>顧客の声を聴く&lt;/strong>: 顧客のフィードバックを積極的に収集し、サービス改善に反映さ
+せます。&lt;/li>
+&lt;li>&lt;strong>迅速な対応&lt;/strong>: 顧客からの問い合わせや問題に迅速に対応し、信頼関係を築きます。&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-イノベーション">2. イノベーション&lt;a class="td-heading-self-link" href="#2-%e3%82%a4%e3%83%8e%e3%83%99%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>新技術の導入&lt;/strong>: 最新の技術を積極的に取り入れ、サービスの質を向上させます。&lt;/li>
+&lt;li>&lt;strong>創造的な問題解決&lt;/strong>: チーム全員が創造的なアイデアを出し合い、問題解決に取り組
+みます。&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-誠実さ">3. 誠実さ&lt;a class="td-heading-self-link" href="#3-%e8%aa%a0%e5%ae%9f%e3%81%95" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>透明なコミュニケーション&lt;/strong>: すべての関係者に対して透明で正直なコミュニケーシ
+ョンを行います。&lt;/li>
+&lt;li>&lt;strong>倫理的な行動&lt;/strong>: 高い倫理基準を守り、誠実な行動を徹底します。&lt;/li>
+&lt;/ul>
+&lt;h2 id="4-協力">4. 協力&lt;a class="td-heading-self-link" href="#4-%e5%8d%94%e5%8a%9b" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>オープンなコミュニケーション&lt;/strong>: チーム内でのオープンなコミュニケーションを促
+進します。&lt;/li>
+&lt;li>&lt;strong>共同作業&lt;/strong>: プロジェクトやタスクにおいて、チーム全員が協力して取り組みます。&lt;/li>
+&lt;/ul>
+&lt;h2 id="5-卓越性">5. 卓越性&lt;a class="td-heading-self-link" href="#5-%e5%8d%93%e8%b6%8a%e6%80%a7" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>継続的な改善&lt;/strong>: 常に業務プロセスを見直し、改善を行います。&lt;/li>
+&lt;li>&lt;strong>高品質の提供&lt;/strong>: すべてのプロジェクトで高品質な成果物を提供します。&lt;/li>
+&lt;/ul>
+&lt;h2 id="まとめ">まとめ&lt;a class="td-heading-self-link" href="#%e3%81%be%e3%81%a8%e3%82%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>これらの原則を基に、我々のチームは一体となって目標達成に向けて努力します。顧客重
+視、イノベーション、誠実さ、協力、卓越性を追求することで、持続可能な成長と成功を
+実現します。&lt;/p></description></item><item><title>サービスデスクとインシデント管理</title><link>https://bpinelab.github.io/docsy-base/docs/operations-platform/hld/servicedesk-incident/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-platform/hld/servicedesk-incident/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>このページでは、オペレーションプラットフォームの「サービスデス
+クとインシデント管理」機能のハイレベルデザイン (HLD) の詳細を説明します。インシ
+デントの効率的な管理、SLA の遵守、統合されたワークフローを実現するアーキテクチャ
+を紹介します。&lt;/p>
 
 &lt;/div>
 
-&lt;p>The Overview is where your users find out about your project. Depending on the
-size of your docset, you can have a separate overview page (like this one) or
-put your overview contents in the Documentation landing page (like in the Docsy
-User Guide).&lt;/p>
-&lt;p>Try answering these questions for your user in this page:&lt;/p>
-&lt;h2 id="what-is-it">What is it?&lt;a class="td-heading-self-link" href="#what-is-it" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>Introduce your project, including what it does or lets you do, why you would use
-it, and its primary goal (and how it achieves it). This should be similar to
-your README description, though you can go into a little more detail here if you
-want.&lt;/p></description></item><item><title>Bed and Chair Metrics</title><link>https://bpinelab.github.io/docsy-base/docs/tasks/beds/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/tasks/beds/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="概要">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>サービスデスクとインシデント管理は、システム運用の中心的な要素であり、インシデン
+トの迅速な解決とサービスレベルアグリーメント (SLA) の遵守を確保するために設計さ
+れています。ハイレベルデザイン（HLD）では、サービスデスクを中心とした統合的なイ
+ンシデント管理プロセスが、運用全体の効率を向上させ、インシデント解決時間を最小化
+します。&lt;/p>
+&lt;h2 id="主な設計要素">主な設計要素&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e8%a8%ad%e8%a8%88%e8%a6%81%e7%b4%a0" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="1-インシデント管理プロセスの統合">1. &lt;strong>インシデント管理プロセスの統合&lt;/strong>&lt;a class="td-heading-self-link" href="#1-%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%ae%a1%e7%90%86%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9%e3%81%ae%e7%b5%b1%e5%90%88" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>プラットフォーム上では、すべてのインシデントが一元管理され、標準化されたプロセス
+に基づいて処理されます。サービスデスクは、インシデントの初期対応から解決までのワ
+ークフローを管理し、適切なエスカレーションを実行します。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>インシデントログ&lt;/strong>: ユーザーや監視システムから報告されたインシデントは
+、ServiceNow や Azure DevOps などのツールを使用して記録されます。&lt;/li>
+&lt;li>&lt;strong>自動エスカレーション&lt;/strong>: 定められた時間内に解決されないインシデントは、定義さ
+れたエスカレーションルールに基づき自動的に上位のサポートレベルにエスカレーショ
+ンされます。&lt;/li>
+&lt;li>&lt;strong>インシデント優先順位付け&lt;/strong>: 各インシデントは、影響範囲や重要度に基づいて優先
+順位付けされ、対応がスムーズに進むように管理されます。&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-sla-管理とモニタリング">2. &lt;strong>SLA 管理とモニタリング&lt;/strong>&lt;a class="td-heading-self-link" href="#2-sla-%e7%ae%a1%e7%90%86%e3%81%a8%e3%83%a2%e3%83%8b%e3%82%bf%e3%83%aa%e3%83%b3%e3%82%b0" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>サービスデスクは、SLA（サービスレベルアグリーメント）の遵守を徹底し、インシデン
+ト管理のパフォーマンスを常に監視します。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>SLA の自動追跡&lt;/strong>: インシデントが記録されると、SLA に基づいた解決期限が自動的
+に設定されます。進捗はリアルタイムでモニタリングされ、期限が迫ったインシデント
+に対しては自動的に警告が発されます。&lt;/li>
+&lt;li>&lt;strong>SLA レポート&lt;/strong>: 定期的に SLA 遵守率をレポートとして自動生成し、管理者やチー
+ムに提供されます。&lt;/li>
+&lt;li>&lt;strong>SLA 違反のアラート&lt;/strong>: SLA 違反が発生した場合、システムは管理者に即座に通知し
+、原因究明および再発防止策が迅速に実行されます。&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-サービスデスクと他システムとの統合">3. &lt;strong>サービスデスクと他システムとの統合&lt;/strong>&lt;a class="td-heading-self-link" href="#3-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%87%e3%82%b9%e3%82%af%e3%81%a8%e4%bb%96%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%81%a8%e3%81%ae%e7%b5%b1%e5%90%88" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>サービスデスクは他の運用システムと連携して、インシデント対応を効率化します。これ
+により、インシデントが発生した際の自動対応やインシデントの解決を支援するための情
+報が、さまざまなシステムから集約されます。&lt;/p></description></item><item><title>Bed and Chair Metrics</title><link>https://bpinelab.github.io/docsy-base/docs/tasks/beds/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/tasks/beds/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 
 &lt;/div>
@@ -24,19 +85,148 @@ want.&lt;/p></description></item><item><title>Bed and Chair Metrics</title><link
 &lt;/div>
 
 &lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
-&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Examples</title><link>https://bpinelab.github.io/docsy-base/docs/examples/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/examples/</guid><description>&lt;div class="pageinfo pageinfo-primary">
-&lt;p>This is a placeholder page that shows you how to use this template site.&lt;/p>
+&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Strategy &amp; Policy</title><link>https://bpinelab.github.io/docsy-base/docs/concept/strategy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/concept/strategy-policy/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>&lt;strong>戦略&lt;/strong>は、IT サービス運用を完全に自動化し、自律的なシステムに変革するための長
+期的なビジョンと方向性を提供します。&lt;strong>方針&lt;/strong>は、この戦略の実施を管理するための具
+体的なルールと基準を定義します。&lt;/p>
 
 &lt;/div>
 
-&lt;p>Do you have any example &lt;strong>applications&lt;/strong> or &lt;strong>code&lt;/strong> for your users in your repo
-or elsewhere? Link to your examples here.&lt;/p></description></item><item><title>Launching Ponycopters</title><link>https://bpinelab.github.io/docsy-base/docs/tasks/ponycopters/launching-ponycopters/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/tasks/ponycopters/launching-ponycopters/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="戦略">戦略&lt;a class="td-heading-self-link" href="#%e6%88%a6%e7%95%a5" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT サービスの自動化、最適化、自律性のための&lt;strong>戦略&lt;/strong>は、以下の主要な目標に焦点を
+当てています：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>自動化&lt;/strong>: 繰り返しの手作業を自動化し、人間の介入を減らし、エラーを最小限に抑
+え、運用効率を向上させます。&lt;/li>
+&lt;li>&lt;strong>最適化&lt;/strong>: 高度なモニタリング、データ分析、最適化技術を活用して、IT サービス
+のパフォーマンスを継続的に改善します。&lt;/li>
+&lt;li>&lt;strong>自律性&lt;/strong>: 自己修復、自己最適化、自己管理するシステムを開発し、運用負担を軽減
+し、信頼性を向上させます。&lt;/li>
+&lt;/ul>
+&lt;p>戦略の主な目標は、最小限の手動監視で効率的に運用される IT サービス環境を作り出し
+、組織がより高次の戦略的イニシアチブに集中できるようにすることです。&lt;/p>
+&lt;h2 id="方針">方針&lt;a class="td-heading-self-link" href="#%e6%96%b9%e9%87%9d" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>&lt;strong>方針&lt;/strong>は、自動化戦略を実行し、組織の基準に準拠するための枠組みを設定します。こ
+れには以下が含まれます：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>標準化&lt;/strong>: すべての運用に一貫性を持たせるために、自動化の標準化プロセスを確立
+します。&lt;/li>
+&lt;li>&lt;strong>コンプライアンス&lt;/strong>: すべての自動化プロセスが規制およびセキュリティ要件に準拠
+していることを確認します。&lt;/li>
+&lt;li>&lt;strong>パフォーマンスモニタリング&lt;/strong>: 自動化および自律システムの効果を継続的に監視お
+よび報告するためのポリシーを実施します。&lt;/li>
+&lt;li>&lt;strong>変更管理&lt;/strong>: 自動化プロセスの変更を管理するためのルールを定義し、リスクを最小
+限に抑え、安定性を確保します。&lt;/li>
+&lt;/ul>
+&lt;p>方針は、戦略が制御され、安全で、準拠した方法で適用されることを保証します。&lt;/p>
+&lt;h2 id="なぜ必要なのか">なぜ必要なのか？&lt;a class="td-heading-self-link" href="#%e3%81%aa%e3%81%9c%e5%bf%85%e8%a6%81%e3%81%aa%e3%81%ae%e3%81%8b" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>この&lt;strong>戦略と方針&lt;/strong>は、IT 運用を効率化し、運用コストを削減し、サービスの信頼性を
+向上させることを目指す組織にとって不可欠です。&lt;/p>
+&lt;h3 id="何に役立つのか">何に役立つのか？&lt;a class="td-heading-self-link" href="#%e4%bd%95%e3%81%ab%e5%bd%b9%e7%ab%8b%e3%81%a4%e3%81%ae%e3%81%8b" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>効率の向上&lt;/strong>: 自動化により手作業が減り、リソースが解放され、人為的なエラーの
+リスクが最小限に抑えられます。&lt;/li>
+&lt;li>&lt;strong>コスト削減&lt;/strong>: ルーチンタスクを自動化することで、労働コストとシステムダウンタ
+イムを大幅に削減できます。&lt;/li>
+&lt;li>&lt;strong>サービス品質の向上&lt;/strong>: 自動化されたシステムは手動プロセスよりも迅速に問題に対
+応し、稼働時間を高め、サービスレベルを向上させます。&lt;/li>
+&lt;li>&lt;strong>スケーラビリティ&lt;/strong>: 自動化と自律性により、運用リソースを比例的に増やすことな
+くシームレスにスケーリングできます。&lt;/li>
+&lt;li>&lt;strong>市場投入までの時間短縮&lt;/strong>: 自動化されたプロビジョニングとデプロイメントにより
+、サービス提供が迅速化され、競争優位性が得られます。&lt;/li>
+&lt;/ul>
+&lt;h3 id="何に向いていないのか">何に向いていないのか？&lt;a class="td-heading-self-link" href="#%e4%bd%95%e3%81%ab%e5%90%91%e3%81%84%e3%81%a6%e3%81%84%e3%81%aa%e3%81%84%e3%81%ae%e3%81%8b" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>複雑な意思決定&lt;/strong>: 深い文脈や判断を必要とする戦略的意思決定には、依然として人
+間の監督が必要です。&lt;/li>
+&lt;li>&lt;strong>一度限りの特定タスク&lt;/strong>: 繰り返しのない、または非常に特定のタスクには自動化の
+恩恵が少ない場合があります。&lt;/li>
+&lt;/ul>
+&lt;h3 id="まだ向いていないことは">まだ向いていないことは？&lt;a class="td-heading-self-link" href="#%e3%81%be%e3%81%a0%e5%90%91%e3%81%84%e3%81%a6%e3%81%84%e3%81%aa%e3%81%84%e3%81%93%e3%81%a8%e3%81%af" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>完全な自律性&lt;/strong>: 長期的な目標は完全な自律性ですが、移行期間中は一部のシステム
+やプロセスに人間の介入が必要です。&lt;/li>
+&lt;li>&lt;strong>クロスプラットフォームのオーケストレーション&lt;/strong>: プラットフォーム間やレガシー
+システム間の複雑な統合には、完全な自動化にはさらなる開発が必要です。&lt;/li>
+&lt;/ul>
+&lt;h2 id="戦略的重点領域">戦略的重点領域&lt;a class="td-heading-self-link" href="#%e6%88%a6%e7%95%a5%e7%9a%84%e9%87%8d%e7%82%b9%e9%a0%98%e5%9f%9f" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="1-プロセス自動化">1. プロセス自動化&lt;a class="td-heading-self-link" href="#1-%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9%e8%87%aa%e5%8b%95%e5%8c%96" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>目標&lt;/strong>: パッチ適用、モニタリング、バックアップなどの繰り返しタスクを自動化し
+ます。&lt;/li>
+&lt;li>&lt;strong>ツール&lt;/strong>: Azure Automation、Terraform、その他のオーケストレーションツールを
+活用してプロセスを効率化します。&lt;/li>
+&lt;li>&lt;strong>方針&lt;/strong>: すべての自動化ワークフローが確立された標準操作手順（SOP）に従い、セ
+キュリティガイドラインに準拠することを確認します。&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-データ駆動型の最適化">2. データ駆動型の最適化&lt;a class="td-heading-self-link" href="#2-%e3%83%87%e3%83%bc%e3%82%bf%e9%a7%86%e5%8b%95%e5%9e%8b%e3%81%ae%e6%9c%80%e9%81%a9%e5%8c%96" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>目標&lt;/strong>: データ分析と AI を活用してサービスパフォーマンスを継続的に最適化しま
+す。&lt;/li>
+&lt;li>&lt;strong>アプローチ&lt;/strong>: 予測保守を実施し、問題がサービス品質に影響を与える前に対処しま
+す。&lt;/li>
+&lt;li>&lt;strong>方針&lt;/strong>: 使用される分析の整合性と正確性を維持するために、定期的なデータ監査を
+実施します。&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-自律運用">3. 自律運用&lt;a class="td-heading-self-link" href="#3-%e8%87%aa%e5%be%8b%e9%81%8b%e7%94%a8" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>目標&lt;/strong>: 人間の介入なしに問題を解決できる自己修復および AI 駆動の意思決定シス
+テムを開発します。&lt;/li>
+&lt;li>&lt;strong>ツール&lt;/strong>: AI を使用してリソーススケーリング、ワークロードバランシング、リア
+ルタイム最適化を管理します。&lt;/li>
+&lt;li>&lt;strong>方針&lt;/strong>: 手動監視が必要な閾値を定義し、重要なシステムが安全で安定していること
+を確認します。&lt;/li>
+&lt;/ul>
+&lt;h2 id="次に進むべき場所">次に進むべき場所&lt;a class="td-heading-self-link" href="#%e6%ac%a1%e3%81%ab%e9%80%b2%e3%82%80%e3%81%b9%e3%81%8d%e5%a0%b4%e6%89%80" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>この&lt;strong>戦略と方針&lt;/strong>をさらに探求し、実施するために、以下のリソースを参照してくださ
+い：&lt;/p></description></item><item><title>Roadmap</title><link>https://bpinelab.github.io/docsy-base/docs/concept/roadmap/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/concept/roadmap/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>本ドキュメントは、IT サービスの運用自動化戦略に焦点を当てたロー
+ドマップを示し、自動化、高度化、自律化を実現するためのステップを詳細に説明します
+。&lt;/p>
+
+&lt;/div>
+
+&lt;h2 id="概要">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT サービス運用の自動化に向けたロードマップは、組織の運用効率を最大化し、リスク
+と手動介入を最小化することを目的としています。このロードマップは、Azure Landing
+Zone と ITIL のベストプラクティスを基に、次の 3 つのフェーズで構成されています。&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>自動化の導入 (Automation Implementation)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>運用の高度化 (Operational Optimization)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>自律的運用 (Autonomous Operations)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;h2 id="フェーズ-1-自動化の導入">フェーズ 1: 自動化の導入&lt;a class="td-heading-self-link" href="#%e3%83%95%e3%82%a7%e3%83%bc%e3%82%ba-1-%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%ae%e5%b0%8e%e5%85%a5" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="概要-1">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81-1" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>最初のフェーズでは、運用の主要な繰り返しタスクを自動化し、手動操作の削減と運用の
+効率化を目指します。パッチ管理、インシデント対応、プロビジョニングなどの基本的な
+タスクが対象です。&lt;/p>
+&lt;h3 id="重点領域">重点領域&lt;a class="td-heading-self-link" href="#%e9%87%8d%e7%82%b9%e9%a0%98%e5%9f%9f" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>インシデント管理の自動化&lt;/strong>: インシデントの検知からエスカレーションまでを自動
+化し、対応速度を向上させます。&lt;/li>
+&lt;li>&lt;strong>パッチ管理の自動化&lt;/strong>: Azure Automation と Update Management を使用し、システ
+ムのパッチ適用を自動化します。&lt;/li>
+&lt;li>&lt;strong>プロビジョニングの自動化&lt;/strong>: ARM テンプレートや Terraform を使用して、クラウ
+ドリソースの自動プロビジョニングを実施します。&lt;/li>
+&lt;/ul>
+&lt;h3 id="kpi">KPI&lt;a class="td-heading-self-link" href="#kpi" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>インシデント対応時間の短縮&lt;/strong>: インシデント発生から対応開始までの時間を X%短
+縮します。&lt;/li>
+&lt;li>&lt;strong>パッチ適用の迅速化&lt;/strong>: 手動パッチ適用の頻度を X%削減し、自動化されたパッチ適
+用率を Y%まで引き上げます。&lt;/li>
+&lt;/ul>
+&lt;h2 id="フェーズ-2-運用の高度化">フェーズ 2: 運用の高度化&lt;a class="td-heading-self-link" href="#%e3%83%95%e3%82%a7%e3%83%bc%e3%82%ba-2-%e9%81%8b%e7%94%a8%e3%81%ae%e9%ab%98%e5%ba%a6%e5%8c%96" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="概要-2">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81-2" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>このフェーズでは、運用データを活用してサービスのパフォーマンスを最適化し、予防的
+なメンテナンスや問題解決を自動化します。AI と機械学習を使用して、パフォーマンス
+をリアルタイムでモニタリングし、潜在的な問題を早期に解決します。&lt;/p></description></item><item><title>Launching Ponycopters</title><link>https://bpinelab.github.io/docsy-base/docs/tasks/ponycopters/launching-ponycopters/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/tasks/ponycopters/launching-ponycopters/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 
 &lt;/div>
 
 &lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
-&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Multi-Bear Domicile Setup</title><link>https://bpinelab.github.io/docsy-base/docs/tutorials/multi-bear/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/tutorials/multi-bear/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Multi-Bear Domicile Setup</title><link>https://bpinelab.github.io/docsy-base/docs/operations-management/multi-bear/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-management/multi-bear/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 
 &lt;/div>
@@ -53,70 +243,243 @@ or elsewhere? Link to your examples here.&lt;/p></description></item><item><titl
 
 &lt;/div>
 
-&lt;p>For many projects, users may not need much information beyond the information in the &lt;a href="https://bpinelab.github.io/docsy-base/docsy-base/docs/overview/">Overview&lt;/a>, so this section is &lt;strong>optional&lt;/strong>. However if there are areas where your users will need a more detailed understanding of a given term or feature in order to do anything useful with your project (or to not make mistakes when using it) put that information in this section. For example, you may want to add some conceptual pages if you have a large project with many components and a complex architecture.&lt;/p></description></item><item><title>Another Task</title><link>https://bpinelab.github.io/docsy-base/docs/tasks/task/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/tasks/task/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>For many projects, users may not need much information beyond the information in the &lt;a href="https://bpinelab.github.io/docsy-base/docs/overview/">Overview&lt;/a>, so this section is &lt;strong>optional&lt;/strong>. However if there are areas where your users will need a more detailed understanding of a given term or feature in order to do anything useful with your project (or to not make mistakes when using it) put that information in this section. For example, you may want to add some conceptual pages if you have a large project with many components and a complex architecture.&lt;/p></description></item><item><title>Another Task</title><link>https://bpinelab.github.io/docsy-base/docs/tasks/task/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/tasks/task/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 
 &lt;/div>
 
 &lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
-&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Another Tutorial</title><link>https://bpinelab.github.io/docsy-base/docs/tutorials/tutorial2/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/tutorials/tutorial2/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Another Tutorial</title><link>https://bpinelab.github.io/docsy-base/docs/operations-management/tutorial2/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-management/tutorial2/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 
 &lt;/div>
 
 &lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
-&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Contribution Guidelines</title><link>https://bpinelab.github.io/docsy-base/docs/contribution-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/contribution-guidelines/</guid><description>&lt;div class="pageinfo pageinfo-primary">
-&lt;p>These basic sample guidelines assume that your Docsy site is deployed using Netlify and your files are stored in GitHub. You can use the guidelines &amp;ldquo;as is&amp;rdquo; or adapt them with your own instructions: for example, other deployment options, information about your doc project&amp;rsquo;s file structure, project-specific review guidelines, versioning guidelines, or any other information your users might find useful when updating your site. &lt;a href="https://github.com/kubeflow/website/blob/master/README.md">Kubeflow&lt;/a> has a great example.&lt;/p>
-&lt;p>Don&amp;rsquo;t forget to link to your own doc repo rather than our example site! Also make sure users can find these guidelines from your doc repo README: either add them there and link to them from this page, add them here and link to them from the README, or include them in both locations.&lt;/p></description></item><item><title>Example Page</title><link>https://bpinelab.github.io/docsy-base/docs/getting-started/example-page/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/getting-started/example-page/</guid><description>&lt;div class="pageinfo pageinfo-primary">
-&lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
+&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>ドキュメント作成用Promptマニュアル</title><link>https://bpinelab.github.io/docsy-base/docs/contribution-guidelines/prompt_manual/</link><pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/contribution-guidelines/prompt_manual/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>このマニュアルでは、Markdown ドキュメントを統一したフォーマット
+で効率的に作成するための Prompt の書き方について説明します。チームメンバーが統一
+されたスタイルでドキュメントを作成できるように、基本的なルールやテンプレートを紹
+介します。&lt;/p>
 
 &lt;/div>
 
-&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
-&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Parameter Reference</title><link>https://bpinelab.github.io/docsy-base/docs/reference/parameter-reference/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/reference/parameter-reference/</guid><description>&lt;div class="pageinfo pageinfo-primary">
-&lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
+&lt;h2 id="1-はじめに">1. はじめに&lt;a class="td-heading-self-link" href="#1-%e3%81%af%e3%81%98%e3%82%81%e3%81%ab" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>このマニュアルは、Markdown 形式のドキュメントを一貫性を持って作成するための
+Prompt の書き方を説明します。これにより、チーム全体でドキュメントのスタイルが統
+一され、読みやすく管理しやすいドキュメントを作成することができます。&lt;/p>
+&lt;h2 id="2-prompt-作成の基本">2. Prompt 作成の基本&lt;a class="td-heading-self-link" href="#2-prompt-%e4%bd%9c%e6%88%90%e3%81%ae%e5%9f%ba%e6%9c%ac" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>Markdown ドキュメントを作成するための Prompt を書く際には、以下のポイントを押さ
+えてください：&lt;/p>
+&lt;h3 id="21-ドキュメントの目的と構成を明確にする">2.1 ドキュメントの目的と構成を明確にする&lt;a class="td-heading-self-link" href="#21-%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88%e3%81%ae%e7%9b%ae%e7%9a%84%e3%81%a8%e6%a7%8b%e6%88%90%e3%82%92%e6%98%8e%e7%a2%ba%e3%81%ab%e3%81%99%e3%82%8b" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>目的を明確に&lt;/strong>: Prompt を書く前に、ドキュメントの目的を明確にしてください。
+伝えるべき内容をしっかり定義することで、ブレないドキュメントを作成できます。&lt;/li>
+&lt;li>&lt;strong>構成を定義する&lt;/strong>: ドキュメントのセクションや見出しを Prompt に明示的に指示し
+ます。&lt;/li>
+&lt;/ul>
+&lt;h4 id="サンプル-prompt">サンプル Prompt:&lt;a class="td-heading-self-link" href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-prompt" aria-label="Heading self-link">&lt;/a>&lt;/h4>
+&lt;pre tabindex="0">&lt;code>「オペレーションプラットフォームの概要を説明するMarkdownドキュメントを作成してください。以下のセクションに従って内容を詳しく記述してください：
+
+1. 概要
+2. 主な機能
+ - サービスデスク
+ - 自動化
+ - 監視とアラート
+3. まとめ
+」
+&lt;/code>&lt;/pre>&lt;h3 id="22-出力フォーマットを指定する">2.2 出力フォーマットを指定する&lt;a class="td-heading-self-link" href="#22-%e5%87%ba%e5%8a%9b%e3%83%95%e3%82%a9%e3%83%bc%e3%83%9e%e3%83%83%e3%83%88%e3%82%92%e6%8c%87%e5%ae%9a%e3%81%99%e3%82%8b" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Markdown 形式の指定&lt;/strong>: Markdown 形式での出力を指示し、正確な見出しやリストの
+フォーマットを要求します。&lt;/li>
+&lt;/ul>
+&lt;h4 id="サンプル-prompt-1">サンプル Prompt:&lt;a class="td-heading-self-link" href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-prompt-1" aria-label="Heading self-link">&lt;/a>&lt;/h4>
+&lt;pre tabindex="0">&lt;code>「次の構成でMarkdown形式のドキュメントを作成してください。適切なMarkdown記法を使用し、見出しはH2またはH3で出力してください。
+
+1. 概要（H2）
+2. 機能の説明（H2）
+ - サービスデスク（H3）
+ - 自動化（H3）
+3. まとめ（H2）
+」
+&lt;/code>&lt;/pre>&lt;h3 id="23-テンプレートを活用する">2.3 テンプレートを活用する&lt;a class="td-heading-self-link" href="#23-%e3%83%86%e3%83%b3%e3%83%97%e3%83%ac%e3%83%bc%e3%83%88%e3%82%92%e6%b4%bb%e7%94%a8%e3%81%99%e3%82%8b" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>統一感を持たせるために、テンプレートを使用すると効果的です。&lt;/p></description></item><item><title>Autonomous IT Services</title><link>https://bpinelab.github.io/docsy-base/docs/operations-platform/autonomy/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-platform/autonomy/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>本ドキュメントは、IT サービスの自律運用に焦点を当てた戦略と技術
+的なアプローチを説明し、運用の手動介入を最小限に抑えた効率的なシステム管理を実現
+します。&lt;/p>
 
 &lt;/div>
 
-&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
-&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>About DocBase</title><link>https://bpinelab.github.io/docsy-base/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/about/</guid><description>&lt;link rel="preload" as="image" href="https://bpinelab.github.io/docsy-base/docsy-base/about/featured-background_hu4003775461251110261.jpg" media="(max-width: 1200px)">
-&lt;link rel="preload" as="image" href="https://bpinelab.github.io/docsy-base/docsy-base/about/featured-background_hu2312927490661001000.jpg" media="(min-width: 1200px)">
-&lt;style>
-#td-cover-block-0 {
- background-image: url(/docsy-base/about/featured-background_hu4003775461251110261.jpg);
-}
-@media only screen and (min-width: 1200px) {
- #td-cover-block-0 {
- background-image: url(/docsy-base/about/featured-background_hu2312927490661001000.jpg);
- }
-}
-&lt;/style>
-&lt;section id="td-cover-block-0" class="row td-cover-block td-cover-block--height-auto js-td-cover td-overlay td-overlay--dark -bg-dark">
- &lt;div class="col-12">
- &lt;div class="container td-overlay__inner">
- &lt;div class="text-center">
- &lt;h1 class="display-1 mt-0 mt-md-5 pb-4">About Goldydocs&lt;/h1>
- 
- &lt;div class="pt-3 lead">
- 
- A sample site using the Docsy Hugo theme. {.mt-5}
- 
- &lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;/div>
- 
-&lt;/section>
+&lt;h2 id="概要">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>&lt;strong>Autonomous IT Services&lt;/strong>は、システムが自己修復し、リソース管理を自動化し、AI
+が意思決定をサポートする運用モデルです。この運用モデルでは、手動の介入を最小限に
+抑え、AI と自動化技術を活用して IT サービスのパフォーマンスと可用性を最大化しま
+す。&lt;/p>
+&lt;p>自律運用の実現には次の 3 つの主要な技術的領域が含まれます：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>セルフヒーリング (Self-Healing)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>AI 主導のリソース管理 (AI-Driven Resource Management)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>自動意思決定 (Automated Decision-Making)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;h2 id="1-セルフヒーリング-self-healing">1. セルフヒーリング (Self-Healing)&lt;a class="td-heading-self-link" href="#1-%e3%82%bb%e3%83%ab%e3%83%95%e3%83%92%e3%83%bc%e3%83%aa%e3%83%b3%e3%82%b0-self-healing" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="概要-1">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81-1" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>セルフヒーリングは、システム障害が発生した場合に、自動的に問題を検出し、修復を行
+う技術です。これにより、システムのダウンタイムを最小限に抑え、サービスの中断を防
+ぎます。&lt;/p>
+&lt;h3 id="技術的アプローチ">技術的アプローチ&lt;a class="td-heading-self-link" href="#%e6%8a%80%e8%a1%93%e7%9a%84%e3%82%a2%e3%83%97%e3%83%ad%e3%83%bc%e3%83%81" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>監視と障害検出&lt;/strong>: Azure Monitor や Application Insights を使用して、リアルタ
+イムでシステムの状態を監視し、異常が検出された場合に自動的に修復プロセスをトリ
+ガーします。&lt;/li>
+&lt;li>&lt;strong>修復スクリプトの自動実行&lt;/strong>: 自動化された修復スクリプト（例: 再起動、キャッシ
+ュクリア、構成変更）が事前に定義され、問題発生時に即座に実行されます。&lt;/li>
+&lt;li>&lt;strong>ロールバック機能&lt;/strong>: システム変更後に問題が発生した場合、Azure DevOps や他の
+CI/CD ツールを使用して、自動的に以前の安定バージョンにロールバックします。&lt;/li>
+&lt;/ul>
+&lt;h3 id="kpi">KPI&lt;a class="td-heading-self-link" href="#kpi" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>障害復旧時間の短縮&lt;/strong>: 平均障害復旧時間（MTTR）を X%短縮します。&lt;/li>
+&lt;li>&lt;strong>システム可用性の向上&lt;/strong>: セルフヒーリングによって、システム可用性を Y%向上さ
+せます。&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-ai-主導のリソース管理-ai-driven-resource-management">2. AI 主導のリソース管理 (AI-Driven Resource Management)&lt;a class="td-heading-self-link" href="#2-ai-%e4%b8%bb%e5%b0%8e%e3%81%ae%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9%e7%ae%a1%e7%90%86-ai-driven-resource-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="概要-2">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81-2" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>AI 主導のリソース管理は、AI と機械学習を活用してリソースの使用状況を最適化し、需
+要に応じて動的にリソースを調整する手法です。これにより、過剰なリソース配分を削減
+し、効率的なリソース使用を実現します。&lt;/p></description></item><item><title>Azure Landing Zone Architecture</title><link>https://bpinelab.github.io/docsy-base/docs/system-architecture/architecture/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/system-architecture/architecture/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This document describes the architecture of an IT system using
+the Azure Landing Zone framework, aiming for full automation and operational
+efficiency.&lt;/p>
 
-&lt;div>&lt;a id="td-block-1" class="td-offset-anchor">&lt;/a>&lt;/div>
-&lt;section class="row td-box td-box--1 position-relative td-box--height-auto">
-&lt;div class="col-12">
-&lt;div class="container text-center td-arrow-down">
-&lt;div class="h4 mb-0">
-&lt;p>Goldydocs is a sample site using the &lt;a href="https://github.com/google/docsy">Docsy&lt;/a>
-Hugo theme that shows what it can do and provides you with a template site
-structure. It’s designed for you to clone and edit as much as you like. See the
-different sections of the documentation and site for more ideas.&lt;/p></description></item><item><title>ITオペレーションマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/it-operation/it-operations-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/it-operation/it-operations-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;/div>
+
+&lt;h2 id="overview">Overview&lt;a class="td-heading-self-link" href="#overview" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>Azure Landing Zone provides the foundation for deploying and managing scalable,
+secure, and automated environments in the cloud. By following best practices, it
+ensures that your infrastructure is well-architected for automation and future
+growth.&lt;/p>
+&lt;h2 id="subscription-breakdown-in-azure-landing-zone">Subscription Breakdown in Azure Landing Zone&lt;a class="td-heading-self-link" href="#subscription-breakdown-in-azure-landing-zone" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>In an Azure Landing Zone architecture, subscriptions are separated by key
+functions such as identity, management, connectivity, and more. Each
+subscription is designated to handle specific responsibilities, ensuring clear
+boundaries for governance, security, and operational management.&lt;/p></description></item><item><title>Operations Platform Architecture</title><link>https://bpinelab.github.io/docsy-base/docs/operations-platform/architecture/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-platform/architecture/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>本ドキュメントは、Azure Landing Zone におけるオペレーションプラ
+ットフォームのアーキテクチャを説明し、サービスデスク、問題管理、変更管理、レポー
+トなどの ITIL 準拠機能に焦点を当てています。&lt;/p>
+
+&lt;/div>
+
+&lt;h2 id="概要">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>Azure Landing Zone モデル内のオペレーションプラットフォームアーキテクチャは、サ
+ービスデスク、問題管理、継続的改善、変更管理などの ITIL プラクティスを統合してい
+ます。これらの機能は、サービス管理のベストプラクティスに従い、運用効率とガバナン
+スを向上させます。&lt;/p>
+&lt;h2 id="オペレーションプラットフォームの主なコンポーネント">オペレーションプラットフォームの主なコンポーネント&lt;a class="td-heading-self-link" href="#%e3%82%aa%e3%83%9a%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%97%e3%83%a9%e3%83%83%e3%83%88%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0%e3%81%ae%e4%b8%bb%e3%81%aa%e3%82%b3%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%8d%e3%83%b3%e3%83%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="1-監視とアラート">1. &lt;strong>監視とアラート&lt;/strong>&lt;a class="td-heading-self-link" href="#1-%e7%9b%a3%e8%a6%96%e3%81%a8%e3%82%a2%e3%83%a9%e3%83%bc%e3%83%88" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>監視はオペレーションプラットフォームの重要な側面です。Azure Monitor および Log
+Analytics を使用してパフォーマンスデータを収集・分析し、システムの健全性に関する
+リアルタイムの洞察を提供します。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Azure Monitor&lt;/strong>: すべての Azure リソースのリアルタイムのメトリクスとログを提
+供します。&lt;/li>
+&lt;li>&lt;strong>Log Analytics&lt;/strong>: 様々なソースからデータを収集・分析し、トレンドや潜在的な問
+題を特定します。&lt;/li>
+&lt;li>&lt;strong>自動アラート&lt;/strong>: 特定の閾値に達した際にアラートが自動的にトリガーされ、重要な
+問題への迅速な対応を可能にします。&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-自動化">2. &lt;strong>自動化&lt;/strong>&lt;a class="td-heading-self-link" href="#2-%e8%87%aa%e5%8b%95%e5%8c%96" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>自動化レイヤーは、リソース管理、パッチ適用、構成管理を効率化し、手動による介入の
+必要性を減少させます。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Azure Automation&lt;/strong>: パッチ管理、構成更新、プロセスワークフローなどのタスクを
+自動化します。&lt;/li>
+&lt;li>&lt;strong>アップデート管理&lt;/strong>: システム全体が最新の状態に保たれ、手動の努力を必要としま
+せん。&lt;/li>
+&lt;li>&lt;strong>リソースプロビジョニングの自動化&lt;/strong>: ARM テンプレートや Terraform スクリプト
+を使用して Azure リソースのプロビジョニングを自動化します。&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-ログおよび監査">3. &lt;strong>ログおよび監査&lt;/strong>&lt;a class="td-heading-self-link" href="#3-%e3%83%ad%e3%82%b0%e3%81%8a%e3%82%88%e3%81%b3%e7%9b%a3%e6%9f%bb" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>ログおよび監査は、運用の透明性を維持し、組織や規制の基準に準拠するために不可欠で
+す。&lt;/p></description></item><item><title>Optimization Techniques</title><link>https://bpinelab.github.io/docsy-base/docs/operations-platform/optimize/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-platform/optimize/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>本ドキュメントは、Azure Landing Zone を基にした運用の最適化技術
+に焦点を当て、パフォーマンス向上とコスト削減を目指します。&lt;/p>
+
+&lt;/div>
+
+&lt;h2 id="概要">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT サービス運用の最適化技術は、リソースの無駄を削減し、サービスのパフォーマンス
+を向上させるための重要な取り組みです。本ロードマップでは、リソース管理、パフォー
+マンスモニタリング、データ駆動型の意思決定を活用し、IT インフラの効率を最大化し
+ます。&lt;/p>
+&lt;p>最適化の焦点は次の 3 つの領域に分けられます：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>リソース最適化 (Resource Optimization)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>パフォーマンス最適化 (Performance Optimization)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>データ駆動型の最適化 (Data-Driven Optimization)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;h2 id="1-リソース最適化">1. リソース最適化&lt;a class="td-heading-self-link" href="#1-%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9%e6%9c%80%e9%81%a9%e5%8c%96" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="概要-1">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81-1" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>リソースの最適化は、クラウドインフラの効率的な使用を確保し、リソースの無駄を最小
+限に抑えるために行われます。これには、リソースのオーバープロビジョニングや未使用
+リソースを自動的に特定し、削減する手法が含まれます。&lt;/p>
+&lt;h3 id="最適化手法">最適化手法&lt;a class="td-heading-self-link" href="#%e6%9c%80%e9%81%a9%e5%8c%96%e6%89%8b%e6%b3%95" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>リソーススケーリングの自動化&lt;/strong>: Azure の Auto-Scaling 機能を活用し、需要に応
+じてリソースを自動でスケーリングします。これにより、リソースが必要なときにのみ
+プロビジョニングされ、無駄なコストを削減できます。&lt;/li>
+&lt;li>&lt;strong>未使用リソースの削減&lt;/strong>: 定期的に使用状況を監視し、使用されていないリソース
+（VM、ストレージ、ネットワーク）を削除または停止します。&lt;/li>
+&lt;li>&lt;strong>コスト管理ツールの活用&lt;/strong>: Azure Cost Management + Billing を使用して、コスト
+を追跡し、無駄遣いを防ぎます。&lt;/li>
+&lt;/ul>
+&lt;h3 id="kpi">KPI&lt;a class="td-heading-self-link" href="#kpi" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>リソース使用率の向上&lt;/strong>: 使用率の低いリソースを最適化し、平均使用率を X%向上
+させます。&lt;/li>
+&lt;li>&lt;strong>コスト削減&lt;/strong>: 不要なリソースを削減することで、月次運用コストを Y%削減します
+。&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-パフォーマンス最適化">2. パフォーマンス最適化&lt;a class="td-heading-self-link" href="#2-%e3%83%91%e3%83%95%e3%82%a9%e3%83%bc%e3%83%9e%e3%83%b3%e3%82%b9%e6%9c%80%e9%81%a9%e5%8c%96" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="概要-2">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81-2" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>パフォーマンス最適化は、システムのレスポンスと効率を最大化するためのプロセスです
+。最適化されたパフォーマンスにより、ユーザーエクスペリエンスの向上と、ダウンタイ
+ムの減少が期待できます。&lt;/p></description></item><item><title>SAPシステム向け自動化・自律化</title><link>https://bpinelab.github.io/docsy-base/docs/operations-platform/sap-optimization/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-platform/sap-optimization/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>本ドキュメントは、Azure IaaS 上に構築された SAP システムを対象
+にした自動化・自律化オペレーションプラットフォームアーキテクチャを説明します
+。&lt;/p>
+
+&lt;/div>
+
+&lt;h2 id="概要">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>本オペレーションプラットフォームは、Azure IaaS 上で稼働する SAP システムに特化し
+、効率的な自動化・自律化オペレーションを実現します。サービスデスク、インシデント
+管理、監視、自動化を連携させることで、運用コストを最小限に抑えつつ、SAP システム
+の高可用性と信頼性を維持します。&lt;/p>
+&lt;h2 id="オペレーションプラットフォームの主要コンポーネント">オペレーションプラットフォームの主要コンポーネント&lt;a class="td-heading-self-link" href="#%e3%82%aa%e3%83%9a%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%97%e3%83%a9%e3%83%83%e3%83%88%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0%e3%81%ae%e4%b8%bb%e8%a6%81%e3%82%b3%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%8d%e3%83%b3%e3%83%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="1-サービスデスクとインシデント管理">1. &lt;strong>サービスデスクとインシデント管理&lt;/strong>&lt;a class="td-heading-self-link" href="#1-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%87%e3%82%b9%e3%82%af%e3%81%a8%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>SAP システムの運用では、インシデント管理が重要です。これには、ServiceNow や
+Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現します。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>ServiceNow / Azure DevOps&lt;/strong>: インシデント、リクエスト、変更管理を一元化し
+、SAP システムに関連する問題を迅速に解決します。&lt;/li>
+&lt;li>&lt;strong>SAP 専用のインシデント管理フロー&lt;/strong>: SAP システム特有の問題を迅速にトリアージ
+し、関連するサポートチームへエスカレーションします。&lt;/li>
+&lt;li>&lt;strong>SLA モニタリング&lt;/strong>: SLA に基づいてインシデントを優先順位付けし、自動通知とエ
+スカレーション機能を利用します。&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-監視とアラート">2. &lt;strong>監視とアラート&lt;/strong>&lt;a class="td-heading-self-link" href="#2-%e7%9b%a3%e8%a6%96%e3%81%a8%e3%82%a2%e3%83%a9%e3%83%bc%e3%83%88" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>Azure IaaS 上の SAP システムの健全性を維持するため、Azure Monitor や専用の SAP
+監視ツールを組み合わせて運用します。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Azure Monitor&lt;/strong>: SAP システムを構成する IaaS リソース（VM、ディスク、ネット
+ワーク）のリアルタイム監視を行います。&lt;/li>
+&lt;li>&lt;strong>SAP Solution Manager&lt;/strong>: SAP 専用の監視ツールとして、SAP システム全体のパフォ
+ーマンス、トランザクション、データベースの監視を提供します。&lt;/li>
+&lt;li>&lt;strong>自動アラート&lt;/strong>: リソースのパフォーマンス低下やサービスの停止を検出した際、自
+動でアラートが発生し、事前設定された対応フローが実行されます。&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-自動化およびインフラ管理">3. &lt;strong>自動化およびインフラ管理&lt;/strong>&lt;a class="td-heading-self-link" href="#3-%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%8a%e3%82%88%e3%81%b3%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>Azure 上の SAP システムは、リソース管理と構成管理の自動化により効率的に運用され
+ます。&lt;/p></description></item><item><title>ITオペレーションマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/it-operation/it-operations-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/it-operation/it-operations-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT オペレーションマネージャー (IT Operations Manager)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT 運用部&lt;/p>

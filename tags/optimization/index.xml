@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Optimization on The DocBase Handbook</title><link>https://bpinelab.github.io/docsy-base/tags/optimization/</link><description>Recent content in Optimization on The DocBase Handbook</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 12 Oct 2024 19:43:01 +0900</lastBuildDate><atom:link href="https://bpinelab.github.io/docsy-base/tags/optimization/index.xml" rel="self" type="application/rss+xml"/><item><title>Optimization Techniques</title><link>https://bpinelab.github.io/docsy-base/docs/operations-platform/optimize/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-platform/optimize/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>本ドキュメントは、Azure Landing Zone を基にした運用の最適化技術
+に焦点を当て、パフォーマンス向上とコスト削減を目指します。&lt;/p>
+
+&lt;/div>
+
+&lt;h2 id="概要">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>IT サービス運用の最適化技術は、リソースの無駄を削減し、サービスのパフォーマンス
+を向上させるための重要な取り組みです。本ロードマップでは、リソース管理、パフォー
+マンスモニタリング、データ駆動型の意思決定を活用し、IT インフラの効率を最大化し
+ます。&lt;/p>
+&lt;p>最適化の焦点は次の 3 つの領域に分けられます：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>リソース最適化 (Resource Optimization)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>パフォーマンス最適化 (Performance Optimization)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>データ駆動型の最適化 (Data-Driven Optimization)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;h2 id="1-リソース最適化">1. リソース最適化&lt;a class="td-heading-self-link" href="#1-%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9%e6%9c%80%e9%81%a9%e5%8c%96" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="概要-1">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81-1" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>リソースの最適化は、クラウドインフラの効率的な使用を確保し、リソースの無駄を最小
+限に抑えるために行われます。これには、リソースのオーバープロビジョニングや未使用
+リソースを自動的に特定し、削減する手法が含まれます。&lt;/p>
+&lt;h3 id="最適化手法">最適化手法&lt;a class="td-heading-self-link" href="#%e6%9c%80%e9%81%a9%e5%8c%96%e6%89%8b%e6%b3%95" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>リソーススケーリングの自動化&lt;/strong>: Azure の Auto-Scaling 機能を活用し、需要に応
+じてリソースを自動でスケーリングします。これにより、リソースが必要なときにのみ
+プロビジョニングされ、無駄なコストを削減できます。&lt;/li>
+&lt;li>&lt;strong>未使用リソースの削減&lt;/strong>: 定期的に使用状況を監視し、使用されていないリソース
+（VM、ストレージ、ネットワーク）を削除または停止します。&lt;/li>
+&lt;li>&lt;strong>コスト管理ツールの活用&lt;/strong>: Azure Cost Management + Billing を使用して、コスト
+を追跡し、無駄遣いを防ぎます。&lt;/li>
+&lt;/ul>
+&lt;h3 id="kpi">KPI&lt;a class="td-heading-self-link" href="#kpi" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>リソース使用率の向上&lt;/strong>: 使用率の低いリソースを最適化し、平均使用率を X%向上
+させます。&lt;/li>
+&lt;li>&lt;strong>コスト削減&lt;/strong>: 不要なリソースを削減することで、月次運用コストを Y%削減します
+。&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-パフォーマンス最適化">2. パフォーマンス最適化&lt;a class="td-heading-self-link" href="#2-%e3%83%91%e3%83%95%e3%82%a9%e3%83%bc%e3%83%9e%e3%83%b3%e3%82%b9%e6%9c%80%e9%81%a9%e5%8c%96" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="概要-2">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81-2" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>パフォーマンス最適化は、システムのレスポンスと効率を最大化するためのプロセスです
+。最適化されたパフォーマンスにより、ユーザーエクスペリエンスの向上と、ダウンタイ
+ムの減少が期待できます。&lt;/p></description></item></channel></rss>

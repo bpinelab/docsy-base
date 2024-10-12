@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Contribution Guidelines on The DocBase Handbook</title><link>https://bpinelab.github.io/docsy-base/docs/contribution-guidelines/</link><description>Recent content in Contribution Guidelines on The DocBase Handbook</description><generator>Hugo</generator><language>ja</language><atom:link href="https://bpinelab.github.io/docsy-base/docs/contribution-guidelines/index.xml" rel="self" type="application/rss+xml"/><item><title>ドキュメント作成用Promptマニュアル</title><link>https://bpinelab.github.io/docsy-base/docs/contribution-guidelines/prompt_manual/</link><pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/contribution-guidelines/prompt_manual/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>このマニュアルでは、Markdown ドキュメントを統一したフォーマット
+で効率的に作成するための Prompt の書き方について説明します。チームメンバーが統一
+されたスタイルでドキュメントを作成できるように、基本的なルールやテンプレートを紹
+介します。&lt;/p>
+
+&lt;/div>
+
+&lt;h2 id="1-はじめに">1. はじめに&lt;a class="td-heading-self-link" href="#1-%e3%81%af%e3%81%98%e3%82%81%e3%81%ab" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>このマニュアルは、Markdown 形式のドキュメントを一貫性を持って作成するための
+Prompt の書き方を説明します。これにより、チーム全体でドキュメントのスタイルが統
+一され、読みやすく管理しやすいドキュメントを作成することができます。&lt;/p>
+&lt;h2 id="2-prompt-作成の基本">2. Prompt 作成の基本&lt;a class="td-heading-self-link" href="#2-prompt-%e4%bd%9c%e6%88%90%e3%81%ae%e5%9f%ba%e6%9c%ac" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>Markdown ドキュメントを作成するための Prompt を書く際には、以下のポイントを押さ
+えてください：&lt;/p>
+&lt;h3 id="21-ドキュメントの目的と構成を明確にする">2.1 ドキュメントの目的と構成を明確にする&lt;a class="td-heading-self-link" href="#21-%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88%e3%81%ae%e7%9b%ae%e7%9a%84%e3%81%a8%e6%a7%8b%e6%88%90%e3%82%92%e6%98%8e%e7%a2%ba%e3%81%ab%e3%81%99%e3%82%8b" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>目的を明確に&lt;/strong>: Prompt を書く前に、ドキュメントの目的を明確にしてください。
+伝えるべき内容をしっかり定義することで、ブレないドキュメントを作成できます。&lt;/li>
+&lt;li>&lt;strong>構成を定義する&lt;/strong>: ドキュメントのセクションや見出しを Prompt に明示的に指示し
+ます。&lt;/li>
+&lt;/ul>
+&lt;h4 id="サンプル-prompt">サンプル Prompt:&lt;a class="td-heading-self-link" href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-prompt" aria-label="Heading self-link">&lt;/a>&lt;/h4>
+&lt;pre tabindex="0">&lt;code>「オペレーションプラットフォームの概要を説明するMarkdownドキュメントを作成してください。以下のセクションに従って内容を詳しく記述してください：
+
+1. 概要
+2. 主な機能
+ - サービスデスク
+ - 自動化
+ - 監視とアラート
+3. まとめ
+」
+&lt;/code>&lt;/pre>&lt;h3 id="22-出力フォーマットを指定する">2.2 出力フォーマットを指定する&lt;a class="td-heading-self-link" href="#22-%e5%87%ba%e5%8a%9b%e3%83%95%e3%82%a9%e3%83%bc%e3%83%9e%e3%83%83%e3%83%88%e3%82%92%e6%8c%87%e5%ae%9a%e3%81%99%e3%82%8b" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Markdown 形式の指定&lt;/strong>: Markdown 形式での出力を指示し、正確な見出しやリストの
+フォーマットを要求します。&lt;/li>
+&lt;/ul>
+&lt;h4 id="サンプル-prompt-1">サンプル Prompt:&lt;a class="td-heading-self-link" href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-prompt-1" aria-label="Heading self-link">&lt;/a>&lt;/h4>
+&lt;pre tabindex="0">&lt;code>「次の構成でMarkdown形式のドキュメントを作成してください。適切なMarkdown記法を使用し、見出しはH2またはH3で出力してください。
+
+1. 概要（H2）
+2. 機能の説明（H2）
+ - サービスデスク（H3）
+ - 自動化（H3）
+3. まとめ（H2）
+」
+&lt;/code>&lt;/pre>&lt;h3 id="23-テンプレートを活用する">2.3 テンプレートを活用する&lt;a class="td-heading-self-link" href="#23-%e3%83%86%e3%83%b3%e3%83%97%e3%83%ac%e3%83%bc%e3%83%88%e3%82%92%e6%b4%bb%e7%94%a8%e3%81%99%e3%82%8b" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>統一感を持たせるために、テンプレートを使用すると効果的です。&lt;/p></description></item></channel></rss>

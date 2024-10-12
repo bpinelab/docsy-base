@@ -1,0 +1,316 @@
+<!doctype html><html itemscope itemtype=http://schema.org/WebPage lang=ja class=no-js><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=canonical type=text/html href=https://bpinelab.github.io/docsy-base/docs/operations-platform/><link rel=alternate type=application/rss+xml href=https://bpinelab.github.io/docsy-base/docs/operations-platform/index.xml><meta name=robots content="noindex, nofollow"><link rel="shortcut icon" href=/docsy-base/favicons/favicon.ico><link rel=apple-touch-icon href=/docsy-base/favicons/apple-touch-icon-180x180.png sizes=180x180><link rel=icon type=image/png href=/docsy-base/favicons/favicon-16x16.png sizes=16x16><link rel=icon type=image/png href=/docsy-base/favicons/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=/docsy-base/favicons/android-36x36.png sizes=36x36><link rel=icon type=image/png href=/docsy-base/favicons/android-48x48.png sizes=48x48><link rel=icon type=image/png href=/docsy-base/favicons/android-72x72.png sizes=72x72><link rel=icon type=image/png href=/docsy-base/favicons/android-96x96.png sizes=96x96><link rel=icon type=image/png href=/docsy-base/favicons/android-144x144.png sizes=144x144><link rel=icon type=image/png href=/docsy-base/favicons/android-192x192.png sizes=192x192><title>運用基盤アーキテクチャ | The DocBase Handbook</title>
+<meta name=description content="システム管理におけるオペレーションプラットフォームの概要。"><meta property="og:url" content="https://bpinelab.github.io/docsy-base/docs/operations-platform/"><meta property="og:site_name" content="The DocBase Handbook"><meta property="og:title" content="運用基盤アーキテクチャ"><meta property="og:description" content="システム管理におけるオペレーションプラットフォームの概要。"><meta property="og:locale" content="ja"><meta property="og:type" content="website"><meta itemprop=name content="運用基盤アーキテクチャ"><meta itemprop=description content="システム管理におけるオペレーションプラットフォームの概要。"><meta itemprop=datePublished content="2024-10-03T00:00:00+00:00"><meta itemprop=dateModified content="2024-10-12T19:43:01+09:00"><meta itemprop=wordCount content="70"><meta name=twitter:card content="summary"><meta name=twitter:title content="運用基盤アーキテクチャ"><meta name=twitter:description content="システム管理におけるオペレーションプラットフォームの概要。"><link rel=preload href=/docsy-base/scss/main.min.e27e9dbace77e637983a3900590da42ddfc471da09131ef565f7ea5853a1205a.css as=style><link href=/docsy-base/scss/main.min.e27e9dbace77e637983a3900590da42ddfc471da09131ef565f7ea5853a1205a.css rel=stylesheet><script src=https://code.jquery.com/jquery-3.7.1.min.js integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin=anonymous></script><script defer src=https://unpkg.com/lunr@2.3.9/lunr.min.js integrity=sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli crossorigin=anonymous></script></head><body class=td-section><header><nav class="td-navbar js-navbar-scroll" data-bs-theme=dark><div class="container-fluid flex-column flex-md-row"><a class=navbar-brand href=/docsy-base/><span class="navbar-brand__logo navbar-logo"><svg width="24" height="24" viewBox="0 0 16 16"><circle cx="4" cy="4" r="3" fill="green"/><circle cx="12" cy="4" r="3" fill="green"/><circle cx="4" cy="12" r="3" fill="green"/><circle cx="12" cy="12" r="3" fill="green"/><rect x="7" y="7" width="2" height="2" fill="green"/></svg></span><span class=navbar-brand__name>The DocBase Handbook</span></a><div class="td-navbar-nav-scroll ms-md-auto" id=main_navbar><ul class=navbar-nav><li class=nav-item><a class="nav-link active" href=/docsy-base/docs/><i class="fa-solid fa-book"></i><span>Handbook</span></a></li><li class=nav-item><a class=nav-link href=/docsy-base/job-family/><i class="fa-solid fa-users"></i><span>Job Family</span></a></li><li class=nav-item><a class=nav-link href=/docsy-base/changelog/><i class="fa-solid fa-file-lines"></i><span>Changelog</span></a></li></ul></div><div class="d-none d-lg-block"><div class="td-search td-search--offline"><div class=td-search__icon></div><input type=search class="td-search__input form-control" placeholder=サイトを検索... aria-label=サイトを検索... autocomplete=off data-offline-search-index-json-src=/docsy-base/offline-search-index.2e2f70fca25bcc9891b2e5e7027a5b24.json data-offline-search-base-href=/ data-offline-search-max-results=10></div></div></div></nav></header><div class="container-fluid td-outer"><div class=td-main><div class="row flex-xl-nowrap"><main class="col-12 col-md-9 col-xl-8 ps-md-5" role=main><div class=td-content><div class="pageinfo pageinfo-primary d-print-none"><p>これは、このセクションの複数ページの印刷可能なビューです。
+<a href=# onclick="return print(),!1">印刷するには、ここをクリックしてください</a>.</p><p><a href=/docsy-base/docs/operations-platform/>このページの通常のビューに戻る</a>.</p></div><h1 class=title>運用基盤アーキテクチャ</h1><div class=lead>システム管理におけるオペレーションプラットフォームの概要。</div><ul><li>1: <a href=#pg-ffa6df6aed8654d8ba56a3ba9a76277e>HLD</a></li><ul><li>1.1: <a href=#pg-49e254c982f483460db8b298621b18f9>サービスデスクとインシデント管理</a></li></ul><li>2: <a href=#pg-4d6f8a51b7c7a1d84b4b92aca6802c26>Autonomous IT Services</a></li><li>3: <a href=#pg-20ba1cb46b253d59b0d395560111719e>Operations Platform Architecture</a></li><li>4: <a href=#pg-c6cac890359b638dc5ef21df8a9ad5da>Optimization Techniques</a></li><li>5: <a href=#pg-226688d006e8944a354de73592f9baa8>SAPシステム向け自動化・自律化</a></li></ul><div class=content><div class="pageinfo pageinfo-primary"><p>このページでは、システムを管理するためのオペレーションプラット
+フォームの概要を説明します。自動化、インシデント管理、監視、継続的改善などの主要
+な機能を紹介します。</p></div><p>システム運用におけるオペレーションプラットフォームは、複数のサービスやツールを統
+合し、ITIL 準拠の運用を自動化し、効率的な運用を実現します。このプラットフォーム
+は、日常的なタスクの自動化、インシデントの管理、システムの健全性監視、セキュリテ
+ィとコンプライアンスの確保を通じて、運用コストを削減しつつ高いサービス品質を維持
+します。</p><h2 id=オペレーションプラットフォームの主な機能>オペレーションプラットフォームの主な機能<a class=td-heading-self-link href=#%e3%82%aa%e3%83%9a%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%97%e3%83%a9%e3%83%83%e3%83%88%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0%e3%81%ae%e4%b8%bb%e3%81%aa%e6%a9%9f%e8%83%bd aria-label="Heading self-link"></a></h2><p>プラットフォームの各機能は、システム管理を最適化するために設計されており、それぞ
+れに対応する詳細な手順やタスクページがあります。以下は、主要な機能の概要です。</p><h3 id=1-サービスデスクとインシデント管理>1. <strong>サービスデスクとインシデント管理</strong><a class=td-heading-self-link href=#1-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%87%e3%82%b9%e3%82%af%e3%81%a8%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h3><p>このプラットフォームは、ServiceNow や Azure DevOps などを活用し、インシデント管
+理を集中化しています。この機能には以下が含まれます。</p><ul><li>インシデントの追跡と解決フロー。</li><li>SLA の監視および自動エスカレーション機能。</li><li>モニタリングシステムとの統合によるリアルタイムのアラートと対応。</li></ul><h3 id=2-インフラと運用の自動化>2. <strong>インフラと運用の自動化</strong><a class=td-heading-self-link href=#2-%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%81%a8%e9%81%8b%e7%94%a8%e3%81%ae%e8%87%aa%e5%8b%95%e5%8c%96 aria-label="Heading self-link"></a></h3><p>日常的な運用タスクやリソース管理は自動化され、手動作業を削減し、効率を向上させま
+す。この機能には以下が含まれます。</p><ul><li>パッチ管理の自動化。</li><li>Terraform や ARM テンプレートによるインフラストラクチャの自動プロビジョニング
+。</li><li>システムのスタート/ストップやバックアップなどの運用タスクの自動化。</li></ul><h3 id=3-監視とアラート>3. <strong>監視とアラート</strong><a class=td-heading-self-link href=#3-%e7%9b%a3%e8%a6%96%e3%81%a8%e3%82%a2%e3%83%a9%e3%83%bc%e3%83%88 aria-label="Heading self-link"></a></h3><p>システムの健全性をリアルタイムで監視し、問題が発生した場合は自動的にアラートを発
+生させます。この機能には以下が含まれます。</p><ul><li>リソースの健全性を監視するリアルタイム監視。</li><li>パフォーマンスの低下やエラーを検知した際の自動アラート。</li><li>監視システムからのインシデント管理システムへの連携。</li></ul><h3 id=4-セキュリティとコンプライアンス>4. <strong>セキュリティとコンプライアンス</strong><a class=td-heading-self-link href=#4-%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e3%81%a8%e3%82%b3%e3%83%b3%e3%83%97%e3%83%a9%e3%82%a4%e3%82%a2%e3%83%b3%e3%82%b9 aria-label="Heading self-link"></a></h3><p>プラットフォームは、セキュリティとコンプライアンスの要件を満たすために各種ツール
+を使用して管理します。この機能には以下が含まれます。</p><ul><li>役割ベースのアクセス制御（RBAC）によるアクセス管理。</li><li>ログと監査の自動化を通じて、運用履歴と変更履歴を監視し、コンプライアンスを確保
+します。</li><li>セキュリティ情報およびイベント管理（SIEM）ツールによるリアルタイムな脅威検知と
+対応。</li></ul><h3 id=5-継続的改善>5. <strong>継続的改善</strong><a class=td-heading-self-link href=#5-%e7%b6%99%e7%b6%9a%e7%9a%84%e6%94%b9%e5%96%84 aria-label="Heading self-link"></a></h3><p>プラットフォームは、運用パフォーマンスの監視と継続的改善をサポートします。この機
+能には以下が含まれます。</p><ul><li>KPI（主要業績評価指標）の監視および改善レポートの自動生成。</li><li>改善提案のバックログ管理および優先順位付け。</li><li>パフォーマンス向上や自動化プロセスの継続的改善。</li></ul><h2 id=オペレーションプラットフォームの利用開始>オペレーションプラットフォームの利用開始<a class=td-heading-self-link href=#%e3%82%aa%e3%83%9a%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%97%e3%83%a9%e3%83%83%e3%83%88%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0%e3%81%ae%e5%88%a9%e7%94%a8%e9%96%8b%e5%a7%8b aria-label="Heading self-link"></a></h2><p>オペレーションプラットフォームの使用を開始するには、以下の条件を満たしている必要
+があります。</p><ul><li>インフラストラクチャ管理や運用管理に関する基本的な知識。</li><li>インシデント管理システム（ServiceNow、Azure DevOps など）へのアクセス。</li><li>監視および自動化ツール（Azure Automation、Terraform など）へのアクセス。</li></ul><p>それぞれの機能に関連するタスクページを参照し、詳細な手順に従って設定や運用を進め
+てください。</p></div></div><div class=td-content style=page-break-before:always><h1 id=pg-ffa6df6aed8654d8ba56a3ba9a76277e>1 - HLD</h1><div class=lead>オペレーションプラットフォームのハイレベルデザインに関する概要説明。</div><div class="pageinfo pageinfo-primary"><p>このページでは、オペレーションプラットフォームのハイレベルデザ
+イン (HLD: High-Level Design) について説明します。プラットフォームの全体構成と、
+各機能がどのように統合され、システム運用を支援するかを概説します。</p></div><h2 id=概要>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81 aria-label="Heading self-link"></a></h2><p>オペレーションプラットフォームのハイレベルデザイン (HLD) は、システム運用に必要
+な主要な機能と、それらがどのように連携して自動化および効率化された運用を提供する
+かを示しています。運用効率を高め、コストを削減し、安定したシステム管理を実現する
+ための基本的なアーキテクチャを定義します。</p><h2 id=ハイレベルデザインの主要要素>ハイレベルデザインの主要要素<a class=td-heading-self-link href=#%e3%83%8f%e3%82%a4%e3%83%ac%e3%83%99%e3%83%ab%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e3%81%ae%e4%b8%bb%e8%a6%81%e8%a6%81%e7%b4%a0 aria-label="Heading self-link"></a></h2><h3 id=1-サービスデスクとインシデント管理>1. <strong>サービスデスクとインシデント管理</strong><a class=td-heading-self-link href=#1-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%87%e3%82%b9%e3%82%af%e3%81%a8%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h3><p>ハイレベルデザインでは、サービスデスクがプラットフォームの中心として機能し、イン
+シデント管理プロセスを一元化します。</p><ul><li><strong>インシデント管理</strong>: インシデントのログ、追跡、エスカレーションが統合され、効
+率的な対応が可能になります。</li><li><strong>SLA 管理</strong>: サービスレベルアグリーメント（SLA）の監視と遵守を自動化し、問題
+発生時にはアラートをトリガーします。</li><li><strong>ツールの統合</strong>: ServiceNow や Azure DevOps など、主要なインシデント管理ツー
+ルと統合されます。</li></ul><h3 id=2-自動化フレームワーク>2. <strong>自動化フレームワーク</strong><a class=td-heading-self-link href=#2-%e8%87%aa%e5%8b%95%e5%8c%96%e3%83%95%e3%83%ac%e3%83%bc%e3%83%a0%e3%83%af%e3%83%bc%e3%82%af aria-label="Heading self-link"></a></h3><p>プラットフォームは、各種の運用タスクを自動化し、運用コストを削減するためのフレー
+ムワークを提供します。</p><ul><li><strong>リソースのプロビジョニング</strong>: Infrastructure as Code（IaC）を用いて
+、Terraform や ARM テンプレートを通じてリソースの自動プロビジョニングを実施。</li><li><strong>パッチ管理と更新</strong>: 定期的なパッチ適用とシステムのアップデートは、Azure
+Automation などの自動化ツールを用いて実施。</li><li><strong>システム運用の自動化</strong>: スケジューリングされたタスク（バックアップ、システム
+再起動など）が自動化されます。</li></ul><h3 id=3-監視とアラートシステム>3. <strong>監視とアラートシステム</strong><a class=td-heading-self-link href=#3-%e7%9b%a3%e8%a6%96%e3%81%a8%e3%82%a2%e3%83%a9%e3%83%bc%e3%83%88%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0 aria-label="Heading self-link"></a></h3><p>ハイレベルデザインでは、リアルタイムの監視とアラートシステムが運用の中心的な役割
+を果たします。</p><ul><li><strong>監視ツール</strong>: リソースの健全性を監視するためのツール（Azure
+Monitor、Prometheus など）が導入され、リアルタイムの可視化を提供。</li><li><strong>アラートシステム</strong>: パフォーマンスやセキュリティの問題を事前に検知し、インシ
+デント管理システムと連携して迅速に対応します。</li><li><strong>監視ダッシュボード</strong>: システム全体の状態やパフォーマンス指標をリアルタイムで
+可視化するダッシュボードを構築します。</li></ul><h3 id=4-セキュリティとコンプライアンス>4. <strong>セキュリティとコンプライアンス</strong><a class=td-heading-self-link href=#4-%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e3%81%a8%e3%82%b3%e3%83%b3%e3%83%97%e3%83%a9%e3%82%a4%e3%82%a2%e3%83%b3%e3%82%b9 aria-label="Heading self-link"></a></h3><p>セキュリティとコンプライアンスは、プラットフォーム全体での基盤的な要素です。</p><ul><li><strong>アクセス管理</strong>: 役割ベースのアクセス制御 (RBAC) を使用して、システムへのアク
+セス権限を管理。</li><li><strong>セキュリティ監視</strong>: セキュリティ情報およびイベント管理（SIEM）を通じて、潜在
+的な脅威を監視し、迅速に対応します。</li><li><strong>コンプライアンス管理</strong>: ログと監査の自動化により、規制要件への準拠を確保しま
+す。</li></ul><h3 id=5-継続的改善とレポート>5. <strong>継続的改善とレポート</strong><a class=td-heading-self-link href=#5-%e7%b6%99%e7%b6%9a%e7%9a%84%e6%94%b9%e5%96%84%e3%81%a8%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88 aria-label="Heading self-link"></a></h3><p>運用の継続的改善を支援するために、KPI（主要業績評価指標）の監視とレポート機能が
+組み込まれています。</p><ul><li><strong>改善フレームワーク</strong>: パフォーマンスデータに基づき、継続的な運用改善を推進し
+ます。</li><li><strong>KPI モニタリング</strong>: ダッシュボードで KPI を監視し、パフォーマンス向上の機会
+を特定します。</li><li><strong>自動レポート</strong>: 月次・四半期ごとのレポートが自動生成され、運用チームや経営層
+に提供されます。</li></ul><h2 id=ハイレベルアーキテクチャの概要>ハイレベルアーキテクチャの概要<a class=td-heading-self-link href=#%e3%83%8f%e3%82%a4%e3%83%ac%e3%83%99%e3%83%ab%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3%e3%81%ae%e6%a6%82%e8%a6%81 aria-label="Heading self-link"></a></h2><p>オペレーションプラットフォームのハイレベルデザインでは、以下のような主要なコンポ
+ーネントが含まれます：</p><ul><li><strong>中央管理</strong>: インシデント管理とサービスデスクを中心に、監視、アラート、セキュ
+リティを一元化。</li><li><strong>自動化された運用</strong>: パッチ適用、システムの更新、リソース管理などのタスクは自
+動化され、手動介入を最小化。</li><li><strong>リアルタイム監視</strong>: システム全体の健全性を継続的に監視し、必要な対応を迅速に
+実行。</li><li><strong>セキュリティとコンプライアンスの強化</strong>: 強固なアクセス管理と監査機能により、
+セキュリティリスクを軽減し、コンプライアンスを確保。</li></ul><h2 id=hld-のまとめ>HLD のまとめ<a class=td-heading-self-link href=#hld-%e3%81%ae%e3%81%be%e3%81%a8%e3%82%81 aria-label="Heading self-link"></a></h2><p>このハイレベルデザインは、効率的で信頼性の高いシステム運用を実現するために、ITIL
+のベストプラクティスに基づき、サービスデスク、監視、自動化、セキュリティの各機能
+を統合しています。この設計により、システム運用の効率化とコスト削減を実現しつつ、
+高い運用品質を維持します。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-49e254c982f483460db8b298621b18f9>1.1 - サービスデスクとインシデント管理</h1><div class=lead>オペレーションプラットフォームにおけるサービスデスクとインシデント管理のハイレベルデザインの詳細。</div><div class="pageinfo pageinfo-primary"><p>このページでは、オペレーションプラットフォームの「サービスデス
+クとインシデント管理」機能のハイレベルデザイン (HLD) の詳細を説明します。インシ
+デントの効率的な管理、SLA の遵守、統合されたワークフローを実現するアーキテクチャ
+を紹介します。</p></div><h2 id=概要>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81 aria-label="Heading self-link"></a></h2><p>サービスデスクとインシデント管理は、システム運用の中心的な要素であり、インシデン
+トの迅速な解決とサービスレベルアグリーメント (SLA) の遵守を確保するために設計さ
+れています。ハイレベルデザイン（HLD）では、サービスデスクを中心とした統合的なイ
+ンシデント管理プロセスが、運用全体の効率を向上させ、インシデント解決時間を最小化
+します。</p><h2 id=主な設計要素>主な設計要素<a class=td-heading-self-link href=#%e4%b8%bb%e3%81%aa%e8%a8%ad%e8%a8%88%e8%a6%81%e7%b4%a0 aria-label="Heading self-link"></a></h2><h3 id=1-インシデント管理プロセスの統合>1. <strong>インシデント管理プロセスの統合</strong><a class=td-heading-self-link href=#1-%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%ae%a1%e7%90%86%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9%e3%81%ae%e7%b5%b1%e5%90%88 aria-label="Heading self-link"></a></h3><p>プラットフォーム上では、すべてのインシデントが一元管理され、標準化されたプロセス
+に基づいて処理されます。サービスデスクは、インシデントの初期対応から解決までのワ
+ークフローを管理し、適切なエスカレーションを実行します。</p><ul><li><strong>インシデントログ</strong>: ユーザーや監視システムから報告されたインシデントは
+、ServiceNow や Azure DevOps などのツールを使用して記録されます。</li><li><strong>自動エスカレーション</strong>: 定められた時間内に解決されないインシデントは、定義さ
+れたエスカレーションルールに基づき自動的に上位のサポートレベルにエスカレーショ
+ンされます。</li><li><strong>インシデント優先順位付け</strong>: 各インシデントは、影響範囲や重要度に基づいて優先
+順位付けされ、対応がスムーズに進むように管理されます。</li></ul><h3 id=2-sla-管理とモニタリング>2. <strong>SLA 管理とモニタリング</strong><a class=td-heading-self-link href=#2-sla-%e7%ae%a1%e7%90%86%e3%81%a8%e3%83%a2%e3%83%8b%e3%82%bf%e3%83%aa%e3%83%b3%e3%82%b0 aria-label="Heading self-link"></a></h3><p>サービスデスクは、SLA（サービスレベルアグリーメント）の遵守を徹底し、インシデン
+ト管理のパフォーマンスを常に監視します。</p><ul><li><strong>SLA の自動追跡</strong>: インシデントが記録されると、SLA に基づいた解決期限が自動的
+に設定されます。進捗はリアルタイムでモニタリングされ、期限が迫ったインシデント
+に対しては自動的に警告が発されます。</li><li><strong>SLA レポート</strong>: 定期的に SLA 遵守率をレポートとして自動生成し、管理者やチー
+ムに提供されます。</li><li><strong>SLA 違反のアラート</strong>: SLA 違反が発生した場合、システムは管理者に即座に通知し
+、原因究明および再発防止策が迅速に実行されます。</li></ul><h3 id=3-サービスデスクと他システムとの統合>3. <strong>サービスデスクと他システムとの統合</strong><a class=td-heading-self-link href=#3-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%87%e3%82%b9%e3%82%af%e3%81%a8%e4%bb%96%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%81%a8%e3%81%ae%e7%b5%b1%e5%90%88 aria-label="Heading self-link"></a></h3><p>サービスデスクは他の運用システムと連携して、インシデント対応を効率化します。これ
+により、インシデントが発生した際の自動対応やインシデントの解決を支援するための情
+報が、さまざまなシステムから集約されます。</p><ul><li><strong>監視ツールとの統合</strong>: Azure Monitor や Prometheus などの監視ツールと統合され
+、インシデントが発生すると同時に自動的にサービスデスクに報告されます。</li><li><strong>自動修復スクリプトのトリガー</strong>: 特定のインシデントタイプでは、自動修復スクリ
+プトがトリガーされ、システムが即座に対応を実行します。手動介入が必要な場合は、
+次のステップがサービスデスクにエスカレーションされます。</li><li><strong>CI/CD パイプラインとの統合</strong>: 変更管理やデプロイメントプロセスと統合すること
+で、リリース後に発生したインシデントの原因追跡が容易になります。</li></ul><h3 id=4-インシデント解決の効率化>4. <strong>インシデント解決の効率化</strong><a class=td-heading-self-link href=#4-%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e8%a7%a3%e6%b1%ba%e3%81%ae%e5%8a%b9%e7%8e%87%e5%8c%96 aria-label="Heading self-link"></a></h3><p>HLD では、インシデント解決を効率化するためのツールやプロセスが導入されています。
+これにより、ユーザーのダウンタイムを最小限に抑え、迅速な解決を実現します。</p><ul><li><strong>ナレッジベースの利用</strong>: インシデントの種類に応じて、ナレッジベースから関連す
+る情報が自動的に提示され、エンジニアが迅速に解決策を見つけることができます。</li><li><strong>既知の問題とワークアラウンド</strong>: 繰り返し発生する問題については、既知のエラー
+として記録され、ワークアラウンドが自動的に適用されるか、サポートチームに通知さ
+れます。</li><li><strong>自動レポート生成</strong>: インシデント解決後、RCA（根本原因分析）レポートが自動生
+成され、将来の防止策が文書化されます。</li></ul><h3 id=5-ダッシュボードとレポート>5. <strong>ダッシュボードとレポート</strong><a class=td-heading-self-link href=#5-%e3%83%80%e3%83%83%e3%82%b7%e3%83%a5%e3%83%9c%e3%83%bc%e3%83%89%e3%81%a8%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88 aria-label="Heading self-link"></a></h3><p>リアルタイムのインシデント状況とパフォーマンス指標は、ダッシュボードを通じて可視
+化され、サービス運用の透明性が確保されます。</p><ul><li><strong>リアルタイムダッシュボード</strong>: インシデントの発生状況や SLA のステータスを一
+目で確認できるダッシュボードが提供され、即座に対応が必要な領域を把握できます。</li><li><strong>カスタムレポート</strong>: 定期的なレポートに加え、特定のインシデントやサービスのパ
+フォーマンスを評価するために、カスタムレポートを作成する機能も備えています。</li><li><strong>KPI モニタリング</strong>: 各インシデントの対応時間や解決時間を追跡し、運用チームの
+KPI に基づいて改善を促進します。</li></ul><h2 id=サービスデスクとインシデント管理の-hld-まとめ>サービスデスクとインシデント管理の HLD まとめ<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%87%e3%82%b9%e3%82%af%e3%81%a8%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%ae%a1%e7%90%86%e3%81%ae-hld-%e3%81%be%e3%81%a8%e3%82%81 aria-label="Heading self-link"></a></h2><p>サービスデスクとインシデント管理のハイレベルデザインは、効率的な運用を実現するた
+めに、インシデント管理のプロセスを一元化し、SLA の遵守を徹底し、システム全体との
+統合を強化しています。この設計により、インシデント解決時間が短縮され、運用品質が
+向上し、最終的にはビジネスの生産性が最大化されます。</p><p><img alt="サービスデスクとインシデント管理の UML 図" src=/static/images/uml.svg></p></div><div class=td-content style=page-break-before:always><h1 id=pg-4d6f8a51b7c7a1d84b4b92aca6802c26>2 - Autonomous IT Services</h1><div class=lead>本ドキュメントは、ITサービスの自律運用を実現するための戦略と技術を説明します。セルフヒーリング、AI主導のリソース管理、自動意思決定を活用して、運用効率を最大化します。</div><div class="pageinfo pageinfo-primary"><p>本ドキュメントは、IT サービスの自律運用に焦点を当てた戦略と技術
+的なアプローチを説明し、運用の手動介入を最小限に抑えた効率的なシステム管理を実現
+します。</p></div><h2 id=概要>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81 aria-label="Heading self-link"></a></h2><p><strong>Autonomous IT Services</strong>は、システムが自己修復し、リソース管理を自動化し、AI
+が意思決定をサポートする運用モデルです。この運用モデルでは、手動の介入を最小限に
+抑え、AI と自動化技術を活用して IT サービスのパフォーマンスと可用性を最大化しま
+す。</p><p>自律運用の実現には次の 3 つの主要な技術的領域が含まれます：</p><ol><li><strong>セルフヒーリング (Self-Healing)</strong></li><li><strong>AI 主導のリソース管理 (AI-Driven Resource Management)</strong></li><li><strong>自動意思決定 (Automated Decision-Making)</strong></li></ol><h2 id=1-セルフヒーリング-self-healing>1. セルフヒーリング (Self-Healing)<a class=td-heading-self-link href=#1-%e3%82%bb%e3%83%ab%e3%83%95%e3%83%92%e3%83%bc%e3%83%aa%e3%83%b3%e3%82%b0-self-healing aria-label="Heading self-link"></a></h2><h3 id=概要-1>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81-1 aria-label="Heading self-link"></a></h3><p>セルフヒーリングは、システム障害が発生した場合に、自動的に問題を検出し、修復を行
+う技術です。これにより、システムのダウンタイムを最小限に抑え、サービスの中断を防
+ぎます。</p><h3 id=技術的アプローチ>技術的アプローチ<a class=td-heading-self-link href=#%e6%8a%80%e8%a1%93%e7%9a%84%e3%82%a2%e3%83%97%e3%83%ad%e3%83%bc%e3%83%81 aria-label="Heading self-link"></a></h3><ul><li><strong>監視と障害検出</strong>: Azure Monitor や Application Insights を使用して、リアルタ
+イムでシステムの状態を監視し、異常が検出された場合に自動的に修復プロセスをトリ
+ガーします。</li><li><strong>修復スクリプトの自動実行</strong>: 自動化された修復スクリプト（例: 再起動、キャッシ
+ュクリア、構成変更）が事前に定義され、問題発生時に即座に実行されます。</li><li><strong>ロールバック機能</strong>: システム変更後に問題が発生した場合、Azure DevOps や他の
+CI/CD ツールを使用して、自動的に以前の安定バージョンにロールバックします。</li></ul><h3 id=kpi>KPI<a class=td-heading-self-link href=#kpi aria-label="Heading self-link"></a></h3><ul><li><strong>障害復旧時間の短縮</strong>: 平均障害復旧時間（MTTR）を X%短縮します。</li><li><strong>システム可用性の向上</strong>: セルフヒーリングによって、システム可用性を Y%向上さ
+せます。</li></ul><h2 id=2-ai-主導のリソース管理-ai-driven-resource-management>2. AI 主導のリソース管理 (AI-Driven Resource Management)<a class=td-heading-self-link href=#2-ai-%e4%b8%bb%e5%b0%8e%e3%81%ae%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9%e7%ae%a1%e7%90%86-ai-driven-resource-management aria-label="Heading self-link"></a></h2><h3 id=概要-2>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81-2 aria-label="Heading self-link"></a></h3><p>AI 主導のリソース管理は、AI と機械学習を活用してリソースの使用状況を最適化し、需
+要に応じて動的にリソースを調整する手法です。これにより、過剰なリソース配分を削減
+し、効率的なリソース使用を実現します。</p><h3 id=技術的アプローチ-1>技術的アプローチ<a class=td-heading-self-link href=#%e6%8a%80%e8%a1%93%e7%9a%84%e3%82%a2%e3%83%97%e3%83%ad%e3%83%bc%e3%83%81-1 aria-label="Heading self-link"></a></h3><ul><li><strong>機械学習によるパフォーマンス予測</strong>: Azure Machine Learning を使用して、過去
+の使用パターンを分析し、将来のリソース需要を予測します。</li><li><strong>動的スケーリング</strong>: Azure Auto-Scaling を使用し、予測された需要に基づき、自
+動的にリソースを拡大または縮小します。</li><li><strong>AI による異常検知</strong>: リソース使用の異常を検知し、過剰な使用や不足の兆候を事
+前に通知します。</li></ul><h3 id=kpi-1>KPI<a class=td-heading-self-link href=#kpi-1 aria-label="Heading self-link"></a></h3><ul><li><strong>リソース使用効率の向上</strong>: 過剰なリソース配分を削減し、リソース使用効率を X%
+向上させます。</li><li><strong>コスト削減</strong>: 動的リソース管理により、クラウドコストを Y%削減します。</li></ul><h2 id=3-自動意思決定-automated-decision-making>3. 自動意思決定 (Automated Decision-Making)<a class=td-heading-self-link href=#3-%e8%87%aa%e5%8b%95%e6%84%8f%e6%80%9d%e6%b1%ba%e5%ae%9a-automated-decision-making aria-label="Heading self-link"></a></h2><h3 id=概要-3>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81-3 aria-label="Heading self-link"></a></h3><p>自動意思決定は、AI が運用上の意思決定をサポートし、リアルタイムのデータに基づい
+て最適な対応を自動で実行するプロセスです。これにより、インシデント対応や変更管理
+のスピードと精度が向上します。</p><h3 id=技術的アプローチ-2>技術的アプローチ<a class=td-heading-self-link href=#%e6%8a%80%e8%a1%93%e7%9a%84%e3%82%a2%e3%83%97%e3%83%ad%e3%83%bc%e3%83%81-2 aria-label="Heading self-link"></a></h3><ul><li><strong>AI によるインシデント対応</strong>: AI がインシデントデータを分析し、最適な対応策を
+提案、もしくは自動で実行します。例えば、一般的な問題に対する既知のエラーや回避
+策を AI が提示します。</li><li><strong>自動変更管理</strong>: Azure Policy や Azure DevOps を活用し、提案された変更を自動
+的に評価し、リスクの低い変更は自動的に適用します。</li><li><strong>リスク評価の自動化</strong>: 変更や新しいリソース導入時に、AI がリスクを評価し、影
+響を予測します。</li></ul><h3 id=kpi-2>KPI<a class=td-heading-self-link href=#kpi-2 aria-label="Heading self-link"></a></h3><ul><li><strong>意思決定速度の向上</strong>: 自動意思決定により、インシデント対応や変更管理の意思決
+定速度を X%向上させます。</li><li><strong>リスク低減</strong>: AI によるリスク評価により、運用リスクを Y%削減します。</li></ul><h2 id=まとめ>まとめ<a class=td-heading-self-link href=#%e3%81%be%e3%81%a8%e3%82%81 aria-label="Heading self-link"></a></h2><p><strong>Autonomous IT Services</strong>は、セルフヒーリング、AI 主導のリソース管理、自動意思
+決定を通じて、運用の手動介入を最小化し、システムの可用性と効率を最大化することを
+目指しています。これにより、運用コストの削減とサービス品質の向上が実現します。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-20ba1cb46b253d59b0d395560111719e>3 - Operations Platform Architecture</h1><div class=lead>本ドキュメントは、Azure Landing Zoneモデルに基づいたオペレーションプラットフォームのアーキテクチャを説明します。サービスデスク、問題管理、継続的改善などのITILに準拠した機能が含まれています。</div><div class="pageinfo pageinfo-primary"><p>本ドキュメントは、Azure Landing Zone におけるオペレーションプラ
+ットフォームのアーキテクチャを説明し、サービスデスク、問題管理、変更管理、レポー
+トなどの ITIL 準拠機能に焦点を当てています。</p></div><h2 id=概要>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81 aria-label="Heading self-link"></a></h2><p>Azure Landing Zone モデル内のオペレーションプラットフォームアーキテクチャは、サ
+ービスデスク、問題管理、継続的改善、変更管理などの ITIL プラクティスを統合してい
+ます。これらの機能は、サービス管理のベストプラクティスに従い、運用効率とガバナン
+スを向上させます。</p><h2 id=オペレーションプラットフォームの主なコンポーネント>オペレーションプラットフォームの主なコンポーネント<a class=td-heading-self-link href=#%e3%82%aa%e3%83%9a%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%97%e3%83%a9%e3%83%83%e3%83%88%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0%e3%81%ae%e4%b8%bb%e3%81%aa%e3%82%b3%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%8d%e3%83%b3%e3%83%88 aria-label="Heading self-link"></a></h2><h3 id=1-監視とアラート>1. <strong>監視とアラート</strong><a class=td-heading-self-link href=#1-%e7%9b%a3%e8%a6%96%e3%81%a8%e3%82%a2%e3%83%a9%e3%83%bc%e3%83%88 aria-label="Heading self-link"></a></h3><p>監視はオペレーションプラットフォームの重要な側面です。Azure Monitor および Log
+Analytics を使用してパフォーマンスデータを収集・分析し、システムの健全性に関する
+リアルタイムの洞察を提供します。</p><ul><li><strong>Azure Monitor</strong>: すべての Azure リソースのリアルタイムのメトリクスとログを提
+供します。</li><li><strong>Log Analytics</strong>: 様々なソースからデータを収集・分析し、トレンドや潜在的な問
+題を特定します。</li><li><strong>自動アラート</strong>: 特定の閾値に達した際にアラートが自動的にトリガーされ、重要な
+問題への迅速な対応を可能にします。</li></ul><h3 id=2-自動化>2. <strong>自動化</strong><a class=td-heading-self-link href=#2-%e8%87%aa%e5%8b%95%e5%8c%96 aria-label="Heading self-link"></a></h3><p>自動化レイヤーは、リソース管理、パッチ適用、構成管理を効率化し、手動による介入の
+必要性を減少させます。</p><ul><li><strong>Azure Automation</strong>: パッチ管理、構成更新、プロセスワークフローなどのタスクを
+自動化します。</li><li><strong>アップデート管理</strong>: システム全体が最新の状態に保たれ、手動の努力を必要としま
+せん。</li><li><strong>リソースプロビジョニングの自動化</strong>: ARM テンプレートや Terraform スクリプト
+を使用して Azure リソースのプロビジョニングを自動化します。</li></ul><h3 id=3-ログおよび監査>3. <strong>ログおよび監査</strong><a class=td-heading-self-link href=#3-%e3%83%ad%e3%82%b0%e3%81%8a%e3%82%88%e3%81%b3%e7%9b%a3%e6%9f%bb aria-label="Heading self-link"></a></h3><p>ログおよび監査は、運用の透明性を維持し、組織や規制の基準に準拠するために不可欠で
+す。</p><ul><li><strong>Azure Log Analytics</strong>: すべてのリソースからログを集約し、高度なクエリやレポ
+ート作成が可能です。</li><li><strong>Azure Policy</strong>: すべてのリソースが事前定義されたガバナンスルールに従うことを
+保証し、ポリシーを自動的に適用・強制します。</li><li><strong>監査ログ</strong>: Azure 環境内で実行されたすべてのアクションを記録し、コンプライア
+ンス目的で明確な監査証跡を提供します。</li></ul><h3 id=4-セキュリティおよびコンプライアンス>4. <strong>セキュリティおよびコンプライアンス</strong><a class=td-heading-self-link href=#4-%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e3%81%8a%e3%82%88%e3%81%b3%e3%82%b3%e3%83%b3%e3%83%97%e3%83%a9%e3%82%a4%e3%82%a2%e3%83%b3%e3%82%b9 aria-label="Heading self-link"></a></h3><p>プラットフォームには、セキュリティの監視と、組織のポリシーへの準拠を確保するため
+の機能が含まれています。</p><ul><li><strong>Azure Security Center</strong>: セキュリティ推奨事項を提供し、潜在的な脆弱性を特定
+し、修復プロセスを自動化します。</li><li><strong>Azure Sentinel</strong>: 高度な脅威検知および対応機能を提供し、外部攻撃から環境を保
+護します。</li><li><strong>役割ベースのアクセス制御 (RBAC)</strong>: 事前定義された役割に基づいてリソースへの
+アクセスを制限し、最小権限の原則を維持します。</li></ul><h2 id=オペレーションプラットフォームにおける-itil-準拠の機能>オペレーションプラットフォームにおける ITIL 準拠の機能<a class=td-heading-self-link href=#%e3%82%aa%e3%83%9a%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%97%e3%83%a9%e3%83%83%e3%83%88%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b-itil-%e6%ba%96%e6%8b%a0%e3%81%ae%e6%a9%9f%e8%83%bd aria-label="Heading self-link"></a></h2><h3 id=5-サービスデスク>5. <strong>サービスデスク</strong><a class=td-heading-self-link href=#5-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%87%e3%82%b9%e3%82%af aria-label="Heading self-link"></a></h3><p>集中型のサービスデスク機能により、インシデントおよびサービス要求が効率的に管理さ
+れます。</p><ul><li><strong>ServiceNow / Azure DevOps との統合</strong>: インシデント、リクエスト、およびタスク
+を管理します。</li><li><strong>インシデントのログ記録および追跡</strong>: すべてのインシデントはログに記録され、分
+類され、解決されるまで追跡されます。</li><li><strong>SLA 監視</strong>: サービスレベルアグリーメント (SLA) が遵守されることを確認し、SLA
+が危険にさらされている場合に自動通知を提供します。</li></ul><h3 id=6-問題管理>6. <strong>問題管理</strong><a class=td-heading-self-link href=#6-%e5%95%8f%e9%a1%8c%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h3><p>問題管理は、繰り返されるインシデントの根本原因を特定し、ビジネスへの影響を最小限
+に抑えることに焦点を当てています。</p><ul><li><strong>問題の特定と根本原因分析 (RCA)</strong>: 問題レコードをログに記録・監視し、重大な問
+題について RCA を実施します。</li><li><strong>既知のエラーデータベース (KEDB)</strong>: 繰り返される問題に対する既知のエラーおよ
+び回避策を文書化し、今後のインシデント解決を迅速化します。</li><li><strong>自動化された RCA レポート</strong>: 自動的に RCA レポートを生成し、繰り返されるイン
+シデントを追跡します。</li></ul><h3 id=7-変更管理>7. <strong>変更管理</strong><a class=td-heading-self-link href=#7-%e5%a4%89%e6%9b%b4%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h3><p>変更管理は、環境への変更が制御されたリスク最小化の方法で実施されることを保証しま
+す。</p><ul><li><strong>変更要求の自動化</strong>: サービスデスクと統合し、変更要求の提出および承認を自動化
+します。</li><li><strong>変更影響分析</strong>: Azure Policy およびリソース依存関係を使用して、提案された変
+更の潜在的な影響を自動的に評価します。</li><li><strong>変更スケジューリング</strong>: 変更をスケジューリングおよび追跡し、監視ツールとの統
+合を通じて、運用への影響を最小限に抑えます。</li></ul><h3 id=8-継続的改善>8. <strong>継続的改善</strong><a class=td-heading-self-link href=#8-%e7%b6%99%e7%b6%9a%e7%9a%84%e6%94%b9%e5%96%84 aria-label="Heading self-link"></a></h3><p>継続的改善は、プラットフォームのパフォーマンスおよび効率を向上させるための継続的
+な取り組みを追跡します。</p><ul><li><strong>KPI 監視およびレポート</strong>: Azure Monitor および Power BI を使用して主要なパフ
+ォーマンス指標 (KPI) を追跡し、改善レポートを生成します。</li><li><strong>改善バックログ</strong>: ビジネスへの影響と実装の容易さに基づいて優先順位付けされた
+改善イニシアティブのバックログを維持します。</li><li><strong>定期的な改善の自動化</strong>: Azure Automation を使用して、パフォーマンスチューニ
+ングやパッチ管理などの標準的な改善手順を実施します。</li></ul><h3 id=9-レポート>9. <strong>レポート</strong><a class=td-heading-self-link href=#9-%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88 aria-label="Heading self-link"></a></h3><p>プラットフォームは、パフォーマンス、コンプライアンス、運用の健全性に関する洞察を
+提供するために、レポートツールを統合しています。</p><ul><li><strong>Power BI / Azure Monitor ダッシュボード</strong>: システムの健全性、インシデントの
+トレンド、サービスパフォーマンスのリアルタイム可視化を提供します。</li><li><strong>自動化されたレポート作成</strong>: 月次および四半期レポートが自動的に生成され、稼働
+時間、インシデント解決時間、コンプライアンスなどの主要なメトリクスがカバーされ
+ます。</li><li><strong>カスタムレポート</strong>: セキュリティコンプライアンスや変更成功率など、特定の運用
+ニーズに合わせたカスタムレポートの作成を可能にします。</li></ul><h3 id=10-システム保守>10. <strong>システム保守</strong><a class=td-heading-self-link href=#10-%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e4%bf%9d%e5%ae%88 aria-label="Heading self-link"></a></h3><p>保守作業は自動化され、集中管理されているため、ダウンタイムを減らし、システムの可
+用性を確保します。</p><ul><li><strong>自動化されたパッチ管理</strong>: Azure Automation がすべてのリソースにパッチを展開
+します。</li><li><strong>スケジュールされたメンテナンスウィンドウ</strong>: メンテナンス活動はスケジュールさ
+れ、運用システムへの影響を最小限に抑えるために監視されます。</li><li><strong>バックアップおよびリカバリの自動化</strong>: Azure Backup を使用して定期的なバック
+アップと効率的なリカバリプロセスを保証します。</li></ul><h2 id=アーキテクチャ図>アーキテクチャ図<a class=td-heading-self-link href=#%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3%e5%9b%b3 aria-label="Heading self-link"></a></h2><p>以下の図は、Azure Landing Zone における ITIL 準拠機能を備えたオペレーションプラ
+ットフォームアーキテクチャのハイレベル概要を示しています。詳細については
+、<a href=https://learn.microsoft.com/en-us/azure/architecture/example/diagram>オペレーションプラットフォームアーキテクチャ図</a>を
+参照してください。</p><p><img alt=オペレーションプラットフォームアーキテクチャ図 src=https://learn.microsoft.com/en-us/azure/architecture/example/diagram></p><p>この図は、オペレーションプラットフォームのコアコンポーネント（自動化、監視、サー
+ビスデスク、ITIL プロセスなど）を強調しています。</p><h3 id=itil-準拠のオペレーションプラットフォームの利点>ITIL 準拠のオペレーションプラットフォームの利点<a class=td-heading-self-link href=#itil-%e6%ba%96%e6%8b%a0%e3%81%ae%e3%82%aa%e3%83%9a%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%97%e3%83%a9%e3%83%83%e3%83%88%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0%e3%81%ae%e5%88%a9%e7%82%b9 aria-label="Heading self-link"></a></h3><ul><li><strong>インシデント解決の改善</strong>: 集中型サービスデスクと問題管理を通じて、インシデン
+トは迅速かつ効率的に解決されます。</li><li><strong>制御された変更管理</strong>: システムへの変更はリスクを最小限に抑えて実施され、高可
+用性が維持されます。</li><li><strong>プロアクティブな改善</strong>: 継続的改善プラクティスにより、プラットフォームは成長
+するビジネスニーズに対応して進化します。</li></ul><h2 id=自動化および管理のベストプラクティス>自動化および管理のベストプラクティス<a class=td-heading-self-link href=#%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%8a%e3%82%88%e3%81%b3%e7%ae%a1%e7%90%86%e3%81%ae%e3%83%99%e3%82%b9%e3%83%88%e3%83%97%e3%83%a9%e3%82%af%e3%83%86%e3%82%a3%e3%82%b9 aria-label="Heading self-link"></a></h2><p>オペレーションプラットフォームは、運用効率を維持するための自動化および管理のベス
+トプラクティスに基づいています。</p><h3 id=1-定期的なタスクの自動化>1. <strong>定期的なタスクの自動化</strong><a class=td-heading-self-link href=#1-%e5%ae%9a%e6%9c%9f%e7%9a%84%e3%81%aa%e3%82%bf%e3%82%b9%e3%82%af%e3%81%ae%e8%87%aa%e5%8b%95%e5%8c%96 aria-label="Heading self-link"></a></h3><p>パッチ適用、バックアップ、リソースのスケーリングなどの定期的なタスクは、自動化さ
+れており、オペレーションチームへの負担を軽減します。</p><ul><li><strong>KPI</strong>: 定期的な運用の自動化により、手動タスク時間が X%削減されます。</li><li><strong>KGI</strong>: [年]までに、パッチ適用とリソーススケーリングの完全な自動化を達成しま
+す。</li></ul><h3 id=2-監視およびアラート閾値>2. <strong>監視およびアラート閾値</strong><a class=td-heading-self-link href=#2-%e7%9b%a3%e8%a6%96%e3%81%8a%e3%82%88%e3%81%b3%e3%82%a2%e3%83%a9%e3%83%bc%e3%83%88%e9%96%be%e5%80%a4 aria-label="Heading self-link"></a></h3><p>監視システムは、ユーザーに影響を与える前にパフォーマンス低下や潜在的な障害を検出
+するように構成されています。</p><ul><li><strong>KPI</strong>: プロアクティブなアラートおよび監視により、インシデント解決時間が X%短
+縮されます。</li><li><strong>KGI</strong>: [年]までに、すべての重要なシステムに対するリアルタイム監視カバレッジ
+を達成します。</li></ul><h2 id=結論>結論<a class=td-heading-self-link href=#%e7%b5%90%e8%ab%96 aria-label="Heading self-link"></a></h2><p>Azure Landing Zone 内のオペレーションプラットフォームアーキテクチャは、サービス
+デスク、問題管理、変更管理などの ITIL 準拠の機能を統合し、クラウド運用を管理する
+ための包括的なフレームワークを提供します。このアーキテクチャにより、運用は自動化
+され、効率的であり、サービス管理のベストプラクティスに準拠しています。</p><div class="pageinfo pageinfo-primary"><p>This document describes the architecture of an operations
+platform in Azure Landing Zone, with a focus on ITIL-aligned functions including
+Service Desk, Problem Management, Change Management, and Reporting.</p></div><h2 id=overview>Overview<a class=td-heading-self-link href=#overview aria-label="Heading self-link"></a></h2><p>The Operations Platform Architecture within the Azure Landing Zone model
+integrates ITIL practices such as Service Desk, Problem Management, Continual
+Improvement, and Change Management. These functions ensure that the platform
+adheres to best practices for service management, enhancing operational
+efficiency and governance.</p><h2 id=key-components-of-the-operations-platform>Key Components of the Operations Platform<a class=td-heading-self-link href=#key-components-of-the-operations-platform aria-label="Heading self-link"></a></h2><h3 id=1-monitoring-and-alerts>1. <strong>Monitoring and Alerts</strong><a class=td-heading-self-link href=#1-monitoring-and-alerts aria-label="Heading self-link"></a></h3><p>Monitoring is a critical aspect of the operations platform. Azure Monitor and
+Log Analytics are used to collect and analyze performance data, providing
+real-time insights into system health.</p><ul><li><strong>Azure Monitor</strong>: Provides real-time metrics and logs for all Azure
+resources.</li><li><strong>Log Analytics</strong>: Gathers and analyzes data from various sources to identify
+trends and potential issues.</li><li><strong>Automated Alerts</strong>: Alerts are configured to trigger when specific
+thresholds are met, ensuring prompt response to any critical issues.</li></ul><h3 id=2-automation>2. <strong>Automation</strong><a class=td-heading-self-link href=#2-automation aria-label="Heading self-link"></a></h3><p>The automation layer allows for efficient resource management, patching, and
+configuration management, reducing the need for manual intervention.</p><ul><li><strong>Azure Automation</strong>: Automates tasks such as patch management, configuration
+updates, and process workflows.</li><li><strong>Update Management</strong>: Ensures that all systems are patched and up-to-date
+without manual effort.</li><li><strong>Resource Provisioning Automation</strong>: ARM templates and Terraform scripts
+automate the provisioning of Azure resources.</li></ul><h3 id=3-logging-and-auditing>3. <strong>Logging and Auditing</strong><a class=td-heading-self-link href=#3-logging-and-auditing aria-label="Heading self-link"></a></h3><p>Logging and auditing are essential to maintaining operational transparency and
+ensuring compliance with organizational and regulatory standards.</p><ul><li><strong>Azure Log Analytics</strong>: Centralizes logs from all resources, enabling
+advanced queries and reporting.</li><li><strong>Azure Policy</strong>: Ensures that all resources comply with predefined governance
+rules, automatically applying and enforcing policies.</li><li><strong>Audit Logs</strong>: Records every action taken within the Azure environment,
+providing a clear audit trail for compliance purposes.</li></ul><h3 id=4-security-and-compliance>4. <strong>Security and Compliance</strong><a class=td-heading-self-link href=#4-security-and-compliance aria-label="Heading self-link"></a></h3><p>The platform includes features for monitoring security and ensuring compliance
+with organizational policies.</p><ul><li><strong>Azure Security Center</strong>: Provides security recommendations, identifies
+potential vulnerabilities, and automates remediation processes.</li><li><strong>Azure Sentinel</strong>: Offers advanced threat detection and response
+capabilities, helping protect the environment from external attacks.</li><li><strong>Role-Based Access Control (RBAC)</strong>: Ensures that access to resources is
+restricted based on predefined roles, maintaining a principle of least
+privilege.</li></ul><h2 id=itil-aligned-functions-in-the-operations-platform>ITIL-Aligned Functions in the Operations Platform<a class=td-heading-self-link href=#itil-aligned-functions-in-the-operations-platform aria-label="Heading self-link"></a></h2><h3 id=5-service-desk>5. <strong>Service Desk</strong><a class=td-heading-self-link href=#5-service-desk aria-label="Heading self-link"></a></h3><p>A centralized Service Desk function ensures that incidents and service requests
+are managed efficiently.</p><ul><li><strong>ServiceNow / Azure DevOps Integration</strong>: For managing incidents, requests,
+and tasks.</li><li><strong>Incident Logging and Tracking</strong>: All incidents are logged, categorized, and
+tracked until resolution.</li><li><strong>SLA Monitoring</strong>: Ensures that Service Level Agreements (SLAs) are adhered
+to, providing automated notifications when SLAs are at risk.</li></ul><h3 id=6-problem-management>6. <strong>Problem Management</strong><a class=td-heading-self-link href=#6-problem-management aria-label="Heading self-link"></a></h3><p>Problem Management focuses on identifying the root cause of recurring incidents
+and minimizing the impact on the business.</p><ul><li><strong>Problem Identification and Root Cause Analysis (RCA)</strong>: Logs and monitors
+problem records, performing RCA for significant issues.</li><li><strong>Known Error Database (KEDB)</strong>: Documents known errors and workarounds for
+recurring problems to speed up future incident resolution.</li><li><strong>Automated RCA Reporting</strong>: Automatically generates RCA reports and tracks
+recurring incidents.</li></ul><h3 id=7-change-management>7. <strong>Change Management</strong><a class=td-heading-self-link href=#7-change-management aria-label="Heading self-link"></a></h3><p>Change Management ensures that changes to the environment are implemented in a
+controlled and risk-minimized manner.</p><ul><li><strong>Change Request Automation</strong>: Integrates with Service Desk to automate the
+submission and approval of change requests.</li><li><strong>Change Impact Analysis</strong>: Uses Azure Policy and resource dependencies to
+automatically assess the potential impact of proposed changes.</li><li><strong>Change Scheduling</strong>: Schedules and tracks changes with integration to
+monitoring tools to ensure minimal disruption.</li></ul><h3 id=8-continual-improvement>8. <strong>Continual Improvement</strong><a class=td-heading-self-link href=#8-continual-improvement aria-label="Heading self-link"></a></h3><p>Continual Improvement tracks ongoing efforts to enhance the platform&rsquo;s
+performance and efficiency.</p><ul><li><strong>KPI Monitoring and Reporting</strong>: Uses Azure Monitor and Power BI to track key
+performance indicators (KPIs) and generate improvement reports.</li><li><strong>Improvement Backlog</strong>: Maintains a backlog of improvement initiatives,
+prioritized by business impact and ease of implementation.</li><li><strong>Automation of Routine Improvements</strong>: Uses Azure Automation to implement
+standard improvement procedures, such as performance tuning and patch
+management.</li></ul><h3 id=9-reporting>9. <strong>Reporting</strong><a class=td-heading-self-link href=#9-reporting aria-label="Heading self-link"></a></h3><p>The platform integrates reporting tools to provide insights into performance,
+compliance, and operational health.</p><ul><li><strong>Power BI / Azure Monitor Dashboards</strong>: Provides real-time visualizations of
+system health, incident trends, and service performance.</li><li><strong>Automated Reporting</strong>: Monthly and quarterly reports are generated
+automatically, covering key metrics such as uptime, incident resolution times,
+and compliance.</li><li><strong>Custom Reports</strong>: Allows the creation of custom reports for specific
+operational needs, such as security compliance or change success rates.</li></ul><h3 id=10-system-maintenance>10. <strong>System Maintenance</strong><a class=td-heading-self-link href=#10-system-maintenance aria-label="Heading self-link"></a></h3><p>Maintenance operations are automated and centrally managed to reduce downtime
+and ensure system availability.</p><ul><li><strong>Automated Patch Management</strong>: Azure Automation manages patch deployment
+across all resources.</li><li><strong>Scheduled Maintenance Windows</strong>: Maintenance activities are scheduled and
+monitored to ensure minimal impact on production systems.</li><li><strong>Backup and Recovery Automation</strong>: Ensures regular backups and streamlined
+recovery processes using Azure Backup.</li></ul><h2 id=architecture-diagram>Architecture Diagram<a class=td-heading-self-link href=#architecture-diagram aria-label="Heading self-link"></a></h2><p>The following diagram provides a high-level overview of the operations platform
+architecture with ITIL-aligned functions in Azure Landing Zone. For a detailed
+view, refer to the
+<a href=https://learn.microsoft.com/en-us/azure/architecture/example/diagram>Operations Platform Architecture Diagram</a>.</p><p><img alt="Operations Platform Architecture Diagram" src=https://learn.microsoft.com/en-us/azure/architecture/example/diagram></p><p>This diagram highlights the core components of the operations platform,
+including automation, monitoring, Service Desk, and ITIL processes.</p><h3 id=benefits-of-the-itil-aligned-operations-platform>Benefits of the ITIL-Aligned Operations Platform<a class=td-heading-self-link href=#benefits-of-the-itil-aligned-operations-platform aria-label="Heading self-link"></a></h3><ul><li><strong>Improved Incident Resolution</strong>: Through centralized Service Desk and Problem
+Management, incidents are resolved faster and more efficiently.</li><li><strong>Controlled Change Management</strong>: Changes to the system are implemented with
+minimal risk, ensuring high availability.</li><li><strong>Proactive Improvement</strong>: Continual Improvement practices ensure that the
+platform evolves to meet growing business needs.</li></ul><h2 id=automation-and-management-best-practices>Automation and Management Best Practices<a class=td-heading-self-link href=#automation-and-management-best-practices aria-label="Heading self-link"></a></h2><p>The operations platform relies on best practices for automation and management
+to maintain a high level of operational efficiency.</p><h3 id=1-automation-of-routine-tasks>1. <strong>Automation of Routine Tasks</strong><a class=td-heading-self-link href=#1-automation-of-routine-tasks aria-label="Heading self-link"></a></h3><p>Routine tasks such as patching, backup, and resource scaling are automated to
+reduce the load on the operations team.</p><ul><li><strong>KPI</strong>: Reduction in manual task time by X% through automation of routine
+operations.</li><li><strong>KGI</strong>: Full automation of patching and resource scaling by [Year].</li></ul><h3 id=2-monitoring-and-alerting-thresholds>2. <strong>Monitoring and Alerting Thresholds</strong><a class=td-heading-self-link href=#2-monitoring-and-alerting-thresholds aria-label="Heading self-link"></a></h3><p>Monitoring systems are configured to detect performance degradation and
+potential failures before they impact users.</p><ul><li><strong>KPI</strong>: Time to resolve incidents reduced by X% through proactive alerting
+and monitoring.</li><li><strong>KGI</strong>: Achieve full real-time monitoring coverage across all critical
+systems by [Year].</li></ul><h2 id=conclusion>Conclusion<a class=td-heading-self-link href=#conclusion aria-label="Heading self-link"></a></h2><p>The Operations Platform Architecture within the Azure Landing Zone, integrated
+with ITIL-aligned functions such as Service Desk, Problem Management, and Change
+Management, provides a comprehensive framework for managing cloud operations.
+This architecture ensures that operations are automated, efficient, and aligned
+with best practices for service management.</p></div><div class=td-content style=page-break-before:always><h1 id=pg-c6cac890359b638dc5ef21df8a9ad5da>4 - Optimization Techniques</h1><div class=lead>本ドキュメントは、ITサービス運用の効率を最大化するための最適化技術を説明します。リソース管理、パフォーマンス最適化、データ分析を活用して運用効率を向上させます。</div><div class="pageinfo pageinfo-primary"><p>本ドキュメントは、Azure Landing Zone を基にした運用の最適化技術
+に焦点を当て、パフォーマンス向上とコスト削減を目指します。</p></div><h2 id=概要>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81 aria-label="Heading self-link"></a></h2><p>IT サービス運用の最適化技術は、リソースの無駄を削減し、サービスのパフォーマンス
+を向上させるための重要な取り組みです。本ロードマップでは、リソース管理、パフォー
+マンスモニタリング、データ駆動型の意思決定を活用し、IT インフラの効率を最大化し
+ます。</p><p>最適化の焦点は次の 3 つの領域に分けられます：</p><ol><li><strong>リソース最適化 (Resource Optimization)</strong></li><li><strong>パフォーマンス最適化 (Performance Optimization)</strong></li><li><strong>データ駆動型の最適化 (Data-Driven Optimization)</strong></li></ol><h2 id=1-リソース最適化>1. リソース最適化<a class=td-heading-self-link href=#1-%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9%e6%9c%80%e9%81%a9%e5%8c%96 aria-label="Heading self-link"></a></h2><h3 id=概要-1>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81-1 aria-label="Heading self-link"></a></h3><p>リソースの最適化は、クラウドインフラの効率的な使用を確保し、リソースの無駄を最小
+限に抑えるために行われます。これには、リソースのオーバープロビジョニングや未使用
+リソースを自動的に特定し、削減する手法が含まれます。</p><h3 id=最適化手法>最適化手法<a class=td-heading-self-link href=#%e6%9c%80%e9%81%a9%e5%8c%96%e6%89%8b%e6%b3%95 aria-label="Heading self-link"></a></h3><ul><li><strong>リソーススケーリングの自動化</strong>: Azure の Auto-Scaling 機能を活用し、需要に応
+じてリソースを自動でスケーリングします。これにより、リソースが必要なときにのみ
+プロビジョニングされ、無駄なコストを削減できます。</li><li><strong>未使用リソースの削減</strong>: 定期的に使用状況を監視し、使用されていないリソース
+（VM、ストレージ、ネットワーク）を削除または停止します。</li><li><strong>コスト管理ツールの活用</strong>: Azure Cost Management + Billing を使用して、コスト
+を追跡し、無駄遣いを防ぎます。</li></ul><h3 id=kpi>KPI<a class=td-heading-self-link href=#kpi aria-label="Heading self-link"></a></h3><ul><li><strong>リソース使用率の向上</strong>: 使用率の低いリソースを最適化し、平均使用率を X%向上
+させます。</li><li><strong>コスト削減</strong>: 不要なリソースを削減することで、月次運用コストを Y%削減します
+。</li></ul><h2 id=2-パフォーマンス最適化>2. パフォーマンス最適化<a class=td-heading-self-link href=#2-%e3%83%91%e3%83%95%e3%82%a9%e3%83%bc%e3%83%9e%e3%83%b3%e3%82%b9%e6%9c%80%e9%81%a9%e5%8c%96 aria-label="Heading self-link"></a></h2><h3 id=概要-2>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81-2 aria-label="Heading self-link"></a></h3><p>パフォーマンス最適化は、システムのレスポンスと効率を最大化するためのプロセスです
+。最適化されたパフォーマンスにより、ユーザーエクスペリエンスの向上と、ダウンタイ
+ムの減少が期待できます。</p><h3 id=最適化手法-1>最適化手法<a class=td-heading-self-link href=#%e6%9c%80%e9%81%a9%e5%8c%96%e6%89%8b%e6%b3%95-1 aria-label="Heading self-link"></a></h3><ul><li><strong>パフォーマンスモニタリング</strong>: Azure Monitor や Application Insights を使用し
+て、システムパフォーマンスをリアルタイムで監視し、ボトルネックやリソース不足を
+迅速に特定します。</li><li><strong>負荷分散の最適化</strong>: Azure Load Balancer を利用して、トラフィックを最適に分散
+し、特定のリソースに過剰な負荷がかからないようにします。</li><li><strong>キャッシュの活用</strong>: Azure Redis Cache を用いてデータのキャッシュを行い、アプ
+リケーションのパフォーマンスを向上させます。</li></ul><h3 id=kpi-1>KPI<a class=td-heading-self-link href=#kpi-1 aria-label="Heading self-link"></a></h3><ul><li><strong>レスポンスタイムの短縮</strong>: システムの平均レスポンスタイムを X%短縮します。</li><li><strong>ダウンタイムの削減</strong>: サービスの月次ダウンタイムを Y%削減します。</li></ul><h2 id=3-データ駆動型の最適化>3. データ駆動型の最適化<a class=td-heading-self-link href=#3-%e3%83%87%e3%83%bc%e3%82%bf%e9%a7%86%e5%8b%95%e5%9e%8b%e3%81%ae%e6%9c%80%e9%81%a9%e5%8c%96 aria-label="Heading self-link"></a></h2><h3 id=概要-3>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81-3 aria-label="Heading self-link"></a></h3><p>データ駆動型の最適化では、システムやアプリケーションから収集されたデータを分析し
+、意思決定を行います。これにより、問題の早期発見や予測メンテナンスが可能になり、
+サービスの継続的な改善が実現します。</p><h3 id=最適化手法-2>最適化手法<a class=td-heading-self-link href=#%e6%9c%80%e9%81%a9%e5%8c%96%e6%89%8b%e6%b3%95-2 aria-label="Heading self-link"></a></h3><ul><li><strong>予測メンテナンス</strong>: Azure Machine Learning を使用して、システムのパフォーマ
+ンスデータを分析し、故障やパフォーマンス低下の兆候を予測します。</li><li><strong>AI によるリソース最適化</strong>: 機械学習を活用して、リソース使用パターンを分析し
+、最適なリソース配分を実現します。</li><li><strong>データ分析による意思決定</strong>: Azure Log Analytics や Power BI を使用して、リア
+ルタイムデータを分析し、リソース配分やプロセス改善に役立つ意思決定をサポートし
+ます。</li></ul><h3 id=kpi-2>KPI<a class=td-heading-self-link href=#kpi-2 aria-label="Heading self-link"></a></h3><ul><li><strong>予測精度の向上</strong>: 予測メンテナンスによるシステム障害の検知率を X%向上させま
+す。</li><li><strong>効率的なリソース使用</strong>: データ駆動型の意思決定により、リソース使用効率を Y%
+向上させます。</li></ul><h2 id=まとめ>まとめ<a class=td-heading-self-link href=#%e3%81%be%e3%81%a8%e3%82%81 aria-label="Heading self-link"></a></h2><p>最適化技術を活用することで、IT サービスのパフォーマンスを向上させ、コスト削減と
+運用効率の最大化を実現します。リソースの最適化、パフォーマンスの向上、そしてデー
+タ駆動型の意思決定により、IT インフラの運用はより効率的で柔軟なものとなります。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-226688d006e8944a354de73592f9baa8>5 - SAPシステム向け自動化・自律化</h1><div class=lead>このドキュメントは、Azure IaaS上に構築されたSAPシステムを対象に、自動化・自律化オペレーションを実現し、運用コストを最小限に抑えるアーキテクチャを説明します。ITILに準拠したサービスデスク、インシデント管理、サービス監視、ダッシュボードなどを活用します。</div><div class="pageinfo pageinfo-primary"><p>本ドキュメントは、Azure IaaS 上に構築された SAP システムを対象
+にした自動化・自律化オペレーションプラットフォームアーキテクチャを説明します
+。</p></div><h2 id=概要>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81 aria-label="Heading self-link"></a></h2><p>本オペレーションプラットフォームは、Azure IaaS 上で稼働する SAP システムに特化し
+、効率的な自動化・自律化オペレーションを実現します。サービスデスク、インシデント
+管理、監視、自動化を連携させることで、運用コストを最小限に抑えつつ、SAP システム
+の高可用性と信頼性を維持します。</p><h2 id=オペレーションプラットフォームの主要コンポーネント>オペレーションプラットフォームの主要コンポーネント<a class=td-heading-self-link href=#%e3%82%aa%e3%83%9a%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%97%e3%83%a9%e3%83%83%e3%83%88%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0%e3%81%ae%e4%b8%bb%e8%a6%81%e3%82%b3%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%8d%e3%83%b3%e3%83%88 aria-label="Heading self-link"></a></h2><h3 id=1-サービスデスクとインシデント管理>1. <strong>サービスデスクとインシデント管理</strong><a class=td-heading-self-link href=#1-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%87%e3%82%b9%e3%82%af%e3%81%a8%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h3><p>SAP システムの運用では、インシデント管理が重要です。これには、ServiceNow や
+Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現します。</p><ul><li><strong>ServiceNow / Azure DevOps</strong>: インシデント、リクエスト、変更管理を一元化し
+、SAP システムに関連する問題を迅速に解決します。</li><li><strong>SAP 専用のインシデント管理フロー</strong>: SAP システム特有の問題を迅速にトリアージ
+し、関連するサポートチームへエスカレーションします。</li><li><strong>SLA モニタリング</strong>: SLA に基づいてインシデントを優先順位付けし、自動通知とエ
+スカレーション機能を利用します。</li></ul><h3 id=2-監視とアラート>2. <strong>監視とアラート</strong><a class=td-heading-self-link href=#2-%e7%9b%a3%e8%a6%96%e3%81%a8%e3%82%a2%e3%83%a9%e3%83%bc%e3%83%88 aria-label="Heading self-link"></a></h3><p>Azure IaaS 上の SAP システムの健全性を維持するため、Azure Monitor や専用の SAP
+監視ツールを組み合わせて運用します。</p><ul><li><strong>Azure Monitor</strong>: SAP システムを構成する IaaS リソース（VM、ディスク、ネット
+ワーク）のリアルタイム監視を行います。</li><li><strong>SAP Solution Manager</strong>: SAP 専用の監視ツールとして、SAP システム全体のパフォ
+ーマンス、トランザクション、データベースの監視を提供します。</li><li><strong>自動アラート</strong>: リソースのパフォーマンス低下やサービスの停止を検出した際、自
+動でアラートが発生し、事前設定された対応フローが実行されます。</li></ul><h3 id=3-自動化およびインフラ管理>3. <strong>自動化およびインフラ管理</strong><a class=td-heading-self-link href=#3-%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%8a%e3%82%88%e3%81%b3%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h3><p>Azure 上の SAP システムは、リソース管理と構成管理の自動化により効率的に運用され
+ます。</p><ul><li><strong>Azure Automation / SAP Landscape Management (LaMa)</strong>: SAP システムのインフラ
+ストラクチャとアプリケーションの運用タスク（パッチ管理、システムコピー、スター
+ト/ストップ）を自動化します。</li><li><strong>Terraform / ARM Templates</strong>: SAP システム用の IaaS リソース（VM、ストレージ
+、ネットワーク）のプロビジョニングを自動化し、環境構築の時間を短縮します。</li><li><strong>自動パッチ管理</strong>: Azure Automation を使用して、SAP システム上の OS および
+IaaS リソースに定期的なパッチ適用を行い、セキュリティリスクを低減します。</li></ul><h3 id=4-ログ管理および監査>4. <strong>ログ管理および監査</strong><a class=td-heading-self-link href=#4-%e3%83%ad%e3%82%b0%e7%ae%a1%e7%90%86%e3%81%8a%e3%82%88%e3%81%b3%e7%9b%a3%e6%9f%bb aria-label="Heading self-link"></a></h3><p>SAP システムの運用透明性とコンプライアンスを確保するため、ログ管理と監査を実施し
+ます。</p><ul><li><strong>Azure Log Analytics / SAP Solution Manager</strong>: すべてのログ（アプリケーション
+、データベース、システム）の集約と分析を行い、リアルタイムの監視とトラブルシュ
+ーティングをサポートします。</li><li><strong>監査ログ管理</strong>: Azure Monitor と Azure Policy を活用して、すべての操作履歴や
+変更履歴を追跡し、コンプライアンス遵守を実現します。</li><li><strong>Azure Sentinel</strong>: セキュリティインシデントの自動検出および対応を行い、SAP シ
+ステムのセキュリティ強化に寄与します。</li></ul><h3 id=5-セキュリティおよびコンプライアンス>5. <strong>セキュリティおよびコンプライアンス</strong><a class=td-heading-self-link href=#5-%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e3%81%8a%e3%82%88%e3%81%b3%e3%82%b3%e3%83%b3%e3%83%97%e3%83%a9%e3%82%a4%e3%82%a2%e3%83%b3%e3%82%b9 aria-label="Heading self-link"></a></h3><p>Azure 上の SAP システムのセキュリティとコンプライアンスは、複数のツールとサービ
+スを活用して確保されます。</p><ul><li><strong>Azure Security Center</strong>: セキュリティリスクを検出し、推奨される対策を提供す
+ることで、システム全体のセキュリティを強化します。</li><li><strong>Azure Active Directory (Azure AD)</strong>: シングルサインオンや多要素認証を利用し
+、ユーザーアクセスを厳格に管理します。</li><li><strong>RBAC (役割ベースのアクセス制御)</strong>: 最小権限の原則に基づき、SAP システムおよ
+び IaaS リソースへのアクセスを管理します。</li></ul><h2 id=itil-準拠の機能>ITIL 準拠の機能<a class=td-heading-self-link href=#itil-%e6%ba%96%e6%8b%a0%e3%81%ae%e6%a9%9f%e8%83%bd aria-label="Heading self-link"></a></h2><h3 id=6-問題管理>6. <strong>問題管理</strong><a class=td-heading-self-link href=#6-%e5%95%8f%e9%a1%8c%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h3><p>問題管理は、SAP システムの繰り返されるインシデントを分析し、根本原因を特定して影
+響を最小化します。</p><ul><li><strong>Root Cause Analysis (RCA)</strong>: 重要な SAP インシデントに対して、自動的に根本原
+因分析を実施し、再発防止策を策定します。</li><li><strong>Known Error Database (KEDB)</strong>: 繰り返される問題の回避策と解決策を記録し、イ
+ンシデント解決のスピードを向上させます。</li><li><strong>RCA 報告の自動生成</strong>: 重大な問題発生時、RCA レポートを自動生成し、関係者に通
+知します。</li></ul><h3 id=7-変更管理>7. <strong>変更管理</strong><a class=td-heading-self-link href=#7-%e5%a4%89%e6%9b%b4%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h3><p>SAP システムに対する変更は、リスクを最小化しながら管理されます。</p><ul><li><strong>Change Request Automation</strong>: ServiceNow または Azure DevOps を通じて、変更要
+求の提出、承認、および実施を自動化します。</li><li><strong>Impact Analysis</strong>: Azure Monitor および SAP LaMa を活用し、変更がシステム全
+体に与える影響を事前に分析します。</li><li><strong>変更スケジューリング</strong>: SAP システムへの変更は、監視システムと連携し、業務影
+響を最小限に抑えるタイミングでスケジュールします。</li></ul><h3 id=8-継続的改善>8. <strong>継続的改善</strong><a class=td-heading-self-link href=#8-%e7%b6%99%e7%b6%9a%e7%9a%84%e6%94%b9%e5%96%84 aria-label="Heading self-link"></a></h3><p>SAP システムのパフォーマンスおよび運用効率を向上させるため、継続的改善が重要です
+。</p><ul><li><strong>KPI モニタリング</strong>: Azure Monitor および Power BI を活用して、SAP システムの
+主要パフォーマンス指標をモニタリングし、改善計画を策定します。</li><li><strong>改善イニシアティブの優先順位付け</strong>: 問題管理データおよびパフォーマンスモニタ
+リング結果に基づいて、改善の優先順位を決定します。</li></ul><h3 id=9-レポーティング>9. <strong>レポーティング</strong><a class=td-heading-self-link href=#9-%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%86%e3%82%a3%e3%83%b3%e3%82%b0 aria-label="Heading self-link"></a></h3><p>運用データの可視化とレポーティングは、SAP システムの健全性を維持するための重要な
+要素です。</p><ul><li><strong>Power BI / Azure Monitor Dashboards</strong>: SAP システムのパフォーマンス、インシ
+デント、変更履歴をリアルタイムで可視化します。</li><li><strong>自動化されたレポート生成</strong>: 月次レポートや四半期レポートを自動で生成し、SLA
+遵守状況や改善状況を把握します。</li><li><strong>カスタムレポート</strong>: 企業固有の KPI やコンプライアンス要件に基づいたレポート
+を作</li></ul></div></main></div></div><footer class="td-footer row d-print-none"><div class=container-fluid><div class="row mx-md-2"><div class="td-footer__left col-6 col-sm-4 order-sm-1"><ul class=td-footer__links-list><li class=td-footer__links-item data-bs-toggle=tooltip title=X aria-label=X><a target=_blank rel=noopener href=https://example.org/twitter aria-label=X><i class="fab fa-x-twitter"></i></a></li></ul></div><div class="td-footer__right col-6 col-sm-4 order-sm-3"><ul class=td-footer__links-list><li class=td-footer__links-item data-bs-toggle=tooltip title="Developer mailing list" aria-label="Developer mailing list"><a target=_blank rel=noopener href=https://example.org/mail aria-label="Developer mailing list"><i class="fa fa-envelope"></i></a></li></ul></div><div class="td-footer__center col-12 col-sm-4 py-2 order-sm-2"><span class=td-footer__copyright>&copy;
+2024
+<span class=td-footer__authors>BpineLab All Right Reserved</span></span><span class=td-footer__all_rights_reserved>All Rights Reserved</span></div></div></div></footer></div><script src=/docsy-base/js/main.min.69e2c1ae9320465ab10236d9ef752c6a4442c54b48b883b17c497b7c7d96a796.js integrity="sha256-aeLBrpMgRlqxAjbZ73UsakRCxUtIuIOxfEl7fH2Wp5Y=" crossorigin=anonymous></script><script defer src=/docsy-base/js/click-to-copy.min.73478a7d4807698aed7e355eb23f9890ca18fea3158604c8471746d046702bad.js integrity="sha256-c0eKfUgHaYrtfjVesj+YkMoY/qMVhgTIRxdG0EZwK60=" crossorigin=anonymous></script><script src=/docsy-base/js/tabpane-persist.js></script></body></html>

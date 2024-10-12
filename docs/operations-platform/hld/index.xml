@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HLD on The DocBase Handbook</title><link>https://bpinelab.github.io/docsy-base/docs/operations-platform/hld/</link><description>Recent content in HLD on The DocBase Handbook</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 12 Oct 2024 19:43:01 +0900</lastBuildDate><atom:link href="https://bpinelab.github.io/docsy-base/docs/operations-platform/hld/index.xml" rel="self" type="application/rss+xml"/><item><title>サービスデスクとインシデント管理</title><link>https://bpinelab.github.io/docsy-base/docs/operations-platform/hld/servicedesk-incident/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-platform/hld/servicedesk-incident/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>このページでは、オペレーションプラットフォームの「サービスデス
+クとインシデント管理」機能のハイレベルデザイン (HLD) の詳細を説明します。インシ
+デントの効率的な管理、SLA の遵守、統合されたワークフローを実現するアーキテクチャ
+を紹介します。&lt;/p>
+
+&lt;/div>
+
+&lt;h2 id="概要">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>サービスデスクとインシデント管理は、システム運用の中心的な要素であり、インシデン
+トの迅速な解決とサービスレベルアグリーメント (SLA) の遵守を確保するために設計さ
+れています。ハイレベルデザイン（HLD）では、サービスデスクを中心とした統合的なイ
+ンシデント管理プロセスが、運用全体の効率を向上させ、インシデント解決時間を最小化
+します。&lt;/p>
+&lt;h2 id="主な設計要素">主な設計要素&lt;a class="td-heading-self-link" href="#%e4%b8%bb%e3%81%aa%e8%a8%ad%e8%a8%88%e8%a6%81%e7%b4%a0" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="1-インシデント管理プロセスの統合">1. &lt;strong>インシデント管理プロセスの統合&lt;/strong>&lt;a class="td-heading-self-link" href="#1-%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%ae%a1%e7%90%86%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9%e3%81%ae%e7%b5%b1%e5%90%88" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>プラットフォーム上では、すべてのインシデントが一元管理され、標準化されたプロセス
+に基づいて処理されます。サービスデスクは、インシデントの初期対応から解決までのワ
+ークフローを管理し、適切なエスカレーションを実行します。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>インシデントログ&lt;/strong>: ユーザーや監視システムから報告されたインシデントは
+、ServiceNow や Azure DevOps などのツールを使用して記録されます。&lt;/li>
+&lt;li>&lt;strong>自動エスカレーション&lt;/strong>: 定められた時間内に解決されないインシデントは、定義さ
+れたエスカレーションルールに基づき自動的に上位のサポートレベルにエスカレーショ
+ンされます。&lt;/li>
+&lt;li>&lt;strong>インシデント優先順位付け&lt;/strong>: 各インシデントは、影響範囲や重要度に基づいて優先
+順位付けされ、対応がスムーズに進むように管理されます。&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-sla-管理とモニタリング">2. &lt;strong>SLA 管理とモニタリング&lt;/strong>&lt;a class="td-heading-self-link" href="#2-sla-%e7%ae%a1%e7%90%86%e3%81%a8%e3%83%a2%e3%83%8b%e3%82%bf%e3%83%aa%e3%83%b3%e3%82%b0" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>サービスデスクは、SLA（サービスレベルアグリーメント）の遵守を徹底し、インシデン
+ト管理のパフォーマンスを常に監視します。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>SLA の自動追跡&lt;/strong>: インシデントが記録されると、SLA に基づいた解決期限が自動的
+に設定されます。進捗はリアルタイムでモニタリングされ、期限が迫ったインシデント
+に対しては自動的に警告が発されます。&lt;/li>
+&lt;li>&lt;strong>SLA レポート&lt;/strong>: 定期的に SLA 遵守率をレポートとして自動生成し、管理者やチー
+ムに提供されます。&lt;/li>
+&lt;li>&lt;strong>SLA 違反のアラート&lt;/strong>: SLA 違反が発生した場合、システムは管理者に即座に通知し
+、原因究明および再発防止策が迅速に実行されます。&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-サービスデスクと他システムとの統合">3. &lt;strong>サービスデスクと他システムとの統合&lt;/strong>&lt;a class="td-heading-self-link" href="#3-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%87%e3%82%b9%e3%82%af%e3%81%a8%e4%bb%96%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%81%a8%e3%81%ae%e7%b5%b1%e5%90%88" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>サービスデスクは他の運用システムと連携して、インシデント対応を効率化します。これ
+により、インシデントが発生した際の自動対応やインシデントの解決を支援するための情
+報が、さまざまなシステムから集約されます。&lt;/p></description></item></channel></rss>
