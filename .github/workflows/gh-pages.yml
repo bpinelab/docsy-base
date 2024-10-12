@@ -22,6 +22,12 @@ jobs:
       - name: Install Node.js dependencies
         run: npm install
 
+      - name: Install GitHub CLI
+        run: sudo apt-get install gh
+
+      - name: Authenticate with GitHub CLI
+        run: gh auth login --with-token ${{ secrets.GITHUB_TOKEN }}
+
       - name: Update Changelog
         run: |
           mkdir -p content/ja/changelog
@@ -29,7 +35,13 @@ jobs:
           echo "title: Changelog" >> content/ja/changelog/changelog.md
           echo "date: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> content/ja/changelog/changelog.md
           echo "---" >> content/ja/changelog/changelog.md
-          git log --pretty=format:'- %h - %s (%an, %ar)' >> content/ja/changelog/changelog.md
+          git log --pretty=format:'%h - %s (%an)' | while read line; do
+            commit=$(echo $line | awk '{print $1}')
+            message=$(echo $line | cut -d' ' -f3-)
+            author=$(echo $line | awk -F'[()]' '{print $2}')
+            nickname=$(gh api users/$author --jq '.login')
+            echo "- $commit - $message ($nickname)" >> content/ja/changelog/changelog.md
+          done
 
       - name: Build
         run: hugo --minify
