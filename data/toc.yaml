@@ -1,58 +1,58 @@
-- name: Group A
-  icon: fas fa-lightbulb
+- name: Strategy & Policy
+  icon: fas fa-chart-line
+  url: docs
+  links:
+    - name: Principles
+      url: docs/concept/principles
+    - name: Strategy & Policy
+      url: docs/concept/strategy-policy
+    - name: Roadmap
+      url: docs/concept/roadmap
+- name: System Architecture
+  icon: fas fa-diagram-project
   url: https://about.gitlab.com
   links:
-    - name: Handbook
+    - name: System Architecture Diagram
       url: docs
-    - name: Job Family
+    - name: High-Level Design Document
+      url: job-family
+    - name: KPI
+      url: changelog
+- name: Operations Platform
+  icon: fas fa-server
+  url: https://about.gitlab.com
+  links:
+    - name: Operations Platform Architecture
+      url: docs/operations-platform
+    - name: Operations Platform High-Level Design
+      url: job-family
+    - name: Key Success Indicators
+      url: changelog
+- name: Operations Management
+  icon: fas fa-cogs
+  url: https://about.gitlab.com
+  links:
+    - name: Incident Response Guidelines
+      url: docs
+    - name: Continuous Improvement Report
       url: job-family
     - name: Changelog
       url: changelog
-- name: Group B
+- name: Automation & Autonomy
   icon: fas fa-robot
   url: https://about.gitlab.com
   links:
-    - name: Handbook
+    - name: Automation Strategy
       url: docs
-    - name: Job Family
+    - name: Autonomy Roadmap
       url: job-family
     - name: Changelog
       url: changelog
-- name: Group C
-  icon: fas fa-brands fa-github
-  url: https://about.gitlab.com
-  links:
-    - name: Handbook
-      url: docs
-    - name: Job Family
-      url: job-family
-    - name: Changelog
-      url: changelog
-- name: Group D
+- name: Knowledge Management
   icon: fas fa-book
   url: https://about.gitlab.com
   links:
-    - name: Handbook
-      url: docs
-    - name: Job Family
-      url: job-family
-    - name: Changelog
-      url: changelog
-- name: Group E
-  icon: fab fa-gitlab
-  url: https://about.gitlab.com
-  links:
-    - name: Handbook
-      url: docs
-    - name: Job Family
-      url: job-family
-    - name: Changelog
-      url: changelog
-- name: Group F
-  icon: fas fa-brands fa-github
-  url: https://about.gitlab.com
-  links:
-    - name: Handbook
+    - name: Knowledge Base Operations Policy
       url: docs
     - name: Job Family
       url: job-family

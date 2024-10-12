@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ .Title }}</title>
+  </head>
+  <body>
+    <h1>{{ .Title }}</h1>
+    <div>{{ .Content }}</div>
+    <h2>Changelog</h2>
+    <pre>{{ readFile "public/changelog.txt" }}</pre>
+  </body>
+</html>

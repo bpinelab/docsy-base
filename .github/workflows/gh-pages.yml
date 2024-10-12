@@ -25,6 +25,10 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: Update Changelog
+        run: |
+          git log --pretty=format:"%h - %s (%an, %ar)" > public/changelog.txt
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
