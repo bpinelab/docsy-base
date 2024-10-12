@@ -25,13 +25,11 @@ jobs:
       - name: Install GitHub CLI
         run: sudo apt-get install -y gh
 
-      - name: Authenticate with GitHub CLI
+      - name: Update Changelog
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh auth login --with-token
-
-      - name: Update Changelog
         run: |
+          gh auth status
           mkdir -p content/ja/changelog
           echo "---" > content/ja/changelog/changelog.md
           echo "title: Changelog" >> content/ja/changelog/changelog.md
