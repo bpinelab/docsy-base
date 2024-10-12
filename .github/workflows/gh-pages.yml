@@ -22,12 +22,17 @@ jobs:
       - name: Install Node.js dependencies
         run: npm install
 
-      - name: Build
-        run: hugo --minify
-
       - name: Update Changelog
         run: |
-          git log --pretty=format:"%h - %s (%an, %ar)" > public/changelog.txt
+          mkdir -p content/ja/changelog
+          echo "---" > content/ja/changelog/changelog.md
+          echo "title: Changelog" >> content/ja/changelog/changelog.md
+          echo "date: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> content/ja/changelog/changelog.md
+          echo "---" >> content/ja/changelog/changelog.md
+          git log --pretty=format:'- %h - %s (%an, %ar)' >> content/ja/changelog/changelog.md
+
+      - name: Build
+        run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
