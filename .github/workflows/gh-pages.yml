@@ -23,10 +23,12 @@ jobs:
         run: npm install
 
       - name: Install GitHub CLI
-        run: sudo apt-get install gh
+        run: sudo apt-get install -y gh
 
       - name: Authenticate with GitHub CLI
-        run: gh auth login --with-token ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh auth login --with-token
 
       - name: Update Changelog
         run: |
