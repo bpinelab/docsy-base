@@ -32,23 +32,4 @@ template site.&lt;/p>
 &lt;/ul>
 &lt;h3 id="3-アイデンティティとアクセス管理">3. &lt;strong>アイデンティティとアクセス管理&lt;/strong>&lt;a class="td-heading-self-link" href="#3-%e3%82%a2%e3%82%a4%e3%83%87%e3%83%b3%e3%83%86%e3%82%a3%e3%83%86%e3%82%a3%e3%81%a8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>Azure Active Directory (AAD) を用いたアイデンティティとアクセス管理を実施します
-。&lt;/p></description></item><item><title>Contribution Guidelines</title><link>https://bpinelab.github.io/docsy-base/docs/contribution-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/contribution-guidelines/</guid><description>&lt;div class="pageinfo pageinfo-primary">
-&lt;p>This is a placeholder page that shows you how to use this
-template site.&lt;/p>
-
-&lt;/div>
-
-&lt;p>Information in this section helps your user try your project themselves.&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>What do your users need to do to start using your project? This could include
-downloading/installation instructions, including any prerequisites or system
-requirements.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Introductory “Hello World” example, if appropriate. More complex tutorials
-should live in the Tutorials section.&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>Consider using the headings below for your getting started page. You can delete
-any that are not applicable to your project.&lt;/p></description></item></channel></rss>
+。&lt;/p></description></item></channel></rss>

@@ -1,0 +1,21 @@
+
+@startuml
+actor Customer as C
+participant "L1 Support" as L1
+participant "L2 Support" as L2
+participant "L3 Support" as L3
+
+C -> L1: リクエスト送信
+L1 -> C: 1時間以内に初回応答
+
+alt L1で解決できない場合
+    L1 -> L2: L2へエスカレーション (4時間以内)
+    L2 -> C: 4時間以内に初回応答
+end
+
+alt L2で解決できない場合
+    L2 -> L3: L3へエスカレーション (8時間以内)
+    L3 -> C: 8時間以内に対応開始
+end
+
+@enduml
