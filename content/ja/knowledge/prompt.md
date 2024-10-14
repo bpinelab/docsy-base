@@ -3,6 +3,7 @@ title: プロンプト
 description: >
   チームメンバー向けに、統一されたMarkdownドキュメントを作成するためのPromptの書き方に関するガイドライン。**ポイント**や_例_も含め、具体的な手順を提供します。
 date: 2024-10-05
+weight: 4
 categories: [Guides]
 tags: [Prompt, Markdown, Docs]
 ---

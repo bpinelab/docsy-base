@@ -3,7 +3,7 @@ title: PlantUML
 description: >
   PlantUMLを使って、シーケンス図やクラス図などのダイアグラムを簡単に作成する方法を紹介します。また、VSCodeでのプレビュー方法も含めて説明します。
 date: 2024-10-12
-weight: 4
+weight: 2
 ---
 
 ## 1. PlantUML とは

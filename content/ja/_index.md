@@ -1,33 +1,24 @@
 ---
-title: The DocBase Handbook
+title: The Docsy-base Handbook
 ---
 
-{{< blocks/cover title="DocBase Handbook" image_anchor="top" height="min" >}}
+{{< blocks/cover title="Docsy-base Handbook" image_anchor="top"
+height="auto" >}}
 
 {{< /blocks/cover >}}
 
-{{< homepage-data-toc >}}
+{{% blocks/section color="white" height="auto" %}} {{< getparam "PJ" >}} ハンド
+ブックは、私たちがどのようにサービスを運営していくかを示す中心的なリポジトリです
+。サービス運営を均質化し継続的に改善をしていくという私たちの価値観の一環として、
+ハンドブックはグローバルのチームメンバーに公開されており、フィードバックを歓迎し
+ます。改善を提案したり、説明を加えたりする場合は、マージリクエストをしてください
+。質問は issue をご利用ください。
 
-<!-- {{% blocks/lead color="white" %}} Goldydocs provides a single web UI providing
-visibility into porridge temperature, chair size, and bed softness metrics! You
-can even find out who's been eating **your** porridge.
-
-(Sadly, Goldydocs isn't a real project, but you can use this site as an example
-to create your own real websites with [Docsy](https://docsy.dev))
-{{% /blocks/lead %}} -->
-
-{{% blocks/section color="black" type="row" %}}
-{{% blocks/feature icon="fa-lightbulb" title="New chair metrics!" %}} The
-DocBase UI now shows chair size metrics by default.
-
-Please follow this space for updates! {{% /blocks/feature %}}
-
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/bpinelab/docsy-base" %}}
-We do a [Pull Request](https://github.com/bpinelab/docsy-base/pulls)
-contributions workflow on **GitHub**. New users are always welcome!
-{{% /blocks/feature %}}
-
-{{% blocks/feature icon="fab fa-x-twitter" title="Follow us on X!" url="https://twitter.com/docsydocs" %}}
-For announcement of latest features etc. {{% /blocks/feature %}}
+一点、注意すべき内容として、**ハンドブックには個人情報や機密情報を含まない**こと
+を遵守しましょう。これらを含む内容については、ロール毎の厳密なアクセス制御される
+内部サイトを作成しています。私たちのハンドブックには、全ての私たちのノウハウを掲
+載しましょう。
 
 {{% /blocks/section %}}
+
+{{< homepage-data-toc >}}

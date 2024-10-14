@@ -1,6 +1,6 @@
 baseURL: https://bpinelab.github.io/docsy-base/
 # baseURL: https://localhost:1313/docsy-base/
-title: DocBase
+title: Docsy-base
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
 
@@ -48,16 +48,16 @@ languages:
   # en:
   #   languageName: English
   #   contentDir: content/en
-  #   title: The DocBase Handbook
+  #   title: The Docsy-base Handbook
   #   params:
   #     description: The DocBase Handbook site
   # # cSpell:disable
   ja:
     languageName: 日本語
     contentDir: content/ja
-    title: The DocBase Handbook
+    title: Docsy-base
     params:
-      description: The DocBase Handbook site
+      description: The Docsy-base Handbook site
       time_format_default: 2006.01.02
       time_format_blog: 2006.01.02
   # cSpell:enable
@@ -135,7 +135,7 @@ params:
   offlineSearch: true
 
   # Enable syntax highlighting and copy buttons on code blocks with Prism
-  prism_syntax_highlighting: false
+  prism_syntax_highlighting: true
 
   copyright:
     authors: BpineLab All Right Reserved
@@ -191,7 +191,7 @@ params:
       #   icon: fa fa-envelope
       #   desc: Discussion and help from your fellow users
       - name: X
-        url: https://example.org/twitter
+        url: https://x.com/bpinelab
         icon: fab fa-x-twitter
         desc: Follow us on Twitter to get the latest news!
       # - name: Stack Overflow
@@ -208,10 +208,19 @@ params:
       #   url: https://example.org/slack
       #   icon: fab fa-slack
       #   desc: Chat with other project developers
-      - name: Developer mailing list
-        url: https://example.org/mail
-        icon: fa fa-envelope
-        desc: Discuss development issues around the project
+      # - name: Developer mailing list
+      #   url: https://example.org/mail
+      #   icon: fa fa-envelope
+      #   desc: Discuss development issues around the project
+  terms:
+    PJ: 'Docsy-base'
+menu:
+  main:
+    - identifier: 'change-history'
+      name: '変更履歴'
+      url: 'https://github.com/bpinelab/docsy-base/commits/main'
+      weight: 100
+      pre: "<i class='fas fa-history'></i>"
 
 module:
   # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:

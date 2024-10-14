@@ -1,13 +1,10 @@
 ---
-title: Service Specification
+title: サービス仕様
 linkTitle: サービス仕様
-cascade:
-  type: docs
-menu:
-  main:
-    weight: 10
-    name: サービス仕様
-    pre: '<i class="fa-solid fa-bag-shopping"></i>'
+date: 2024-10-13
+description: >
+  本サービスの仕様を説明します。
+weight: 1
 ---
 
 ## 1. 概要
