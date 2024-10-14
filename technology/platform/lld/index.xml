@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Low-Level Design on Docsy-base</title><link>https://bpinelab.github.io/docsy-base/technology/platform/lld/</link><description>Recent content in Low-Level Design on Docsy-base</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 14 Oct 2024 23:00:06 +0900</lastBuildDate><atom:link href="https://bpinelab.github.io/docsy-base/technology/platform/lld/index.xml" rel="self" type="application/rss+xml"/><item><title>サービスデスク</title><link>https://bpinelab.github.io/docsy-base/technology/platform/lld/servicedesk/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/technology/platform/lld/servicedesk/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Low-Level Design on Docsy-base</title><link>https://bpinelab.github.io/docsy-base/technology/platform/lld/</link><description>Recent content in Low-Level Design on Docsy-base</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Tue, 15 Oct 2024 00:55:07 +0900</lastBuildDate><atom:link href="https://bpinelab.github.io/docsy-base/technology/platform/lld/index.xml" rel="self" type="application/rss+xml"/><item><title>サービスデスク</title><link>https://bpinelab.github.io/docsy-base/technology/platform/lld/servicedesk/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/technology/platform/lld/servicedesk/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>このドキュメントでは、サービスデスクに Jira Service Management
 を使用する Low-Level Design (LLD) について説明します。&lt;/p>
 
@@ -49,7 +49,26 @@
 度を評価します。その後、適切な対応策が実行され、問題が解決されるまで状況をモニタ
 リングします。ユーザーや関係者への定期的な報告も含め、インシデントの進捗状況が透
 明に管理されます。&lt;/p>
+&lt;p>&lt;img alt="対応フロー" src="https://bpinelab.github.io/docsy-base/docsy-base/technology/platform/lld/incident/incident_management_flow.svg">&lt;/p>
 &lt;h2 id="インシデント分類と優先度設定">インシデント分類と優先度設定&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e5%88%86%e9%a1%9e%e3%81%a8%e5%84%aa%e5%85%88%e5%ba%a6%e8%a8%ad%e5%ae%9a" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>インシデントは、その深刻度と影響範囲に基づいて分類され、優先度が設定されます。分
+類の基準としては、以下の要素が含まれます：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>影響範囲&lt;/strong>: システム全体への影響か、一部のユーザーへの限定的な影響か。&lt;/li>
+&lt;li>&lt;strong>ビジネスへの影響&lt;/strong>: インシデントがビジネス運用にどの程度の影響を及ぼすか。&lt;/li>
+&lt;li>&lt;strong>システム依存度&lt;/strong>: インシデントが発生したシステムの重要度に基づき、優先度が決
+定されます。&lt;/li>
+&lt;/ul>
+&lt;p>高優先度のインシデントは即時対応が必要であり、緊急チームが対応にあたります。低優
+先度のインシデントは、通常の対応プロセスで処理されます。&lt;/p>
+&lt;h3 id="優先度に基づく振り分けルール">優先度に基づく振り分けルール&lt;a class="td-heading-self-link" href="#%e5%84%aa%e5%85%88%e5%ba%a6%e3%81%ab%e5%9f%ba%e3%81%a5%e3%81%8f%e6%8c%af%e3%82%8a%e5%88%86%e3%81%91%e3%83%ab%e3%83%bc%e3%83%ab" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>P1（重大障害）&lt;/strong>: インシデント管理チームが即座に対応し、関連チームへエスカレ
+ーション。&lt;/li>
+&lt;li>&lt;strong>P2（高優先度）&lt;/strong>: 該当チームへ自動振り分け、必要に応じて管理者に通知。&lt;/li>
+&lt;li>&lt;strong>P3（中優先度）&lt;/strong>: 担当チームに振り分け、通常の対応時間内で対応。&lt;/li>
+&lt;li>&lt;strong>P4（低優先度）&lt;/strong>: 担当チームに振り分け、低優先度の案件として処理。&lt;/li>
+&lt;/ul>
 &lt;p>インシデントは、その深刻度と影響範囲に基づいて分類され、優先度が設定されます。分
 類の基準としては、以下の要素が含まれます：&lt;/p>
 &lt;ul>
@@ -65,28 +84,10 @@
 す。自動インシデント作成機能により、システムダウンやパフォーマンス低下などが早期
 に発見され、対応チームに迅速に通知されます。これにより、手動でのインシデント報告
 を待つことなく、即時対応が可能となり、サービスダウンタイムを最小限に抑えます。&lt;/p>
-&lt;h2 id="エスカレーションと対応チームの役割">エスカレーションと対応チームの役割&lt;a class="td-heading-self-link" href="#%e3%82%a8%e3%82%b9%e3%82%ab%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a8%e5%af%be%e5%bf%9c%e3%83%81%e3%83%bc%e3%83%a0%e3%81%ae%e5%bd%b9%e5%89%b2" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>インシデントが特定の時間内に解決されない場合、エスカレーションポリシーに従って次
-のレベルの対応チームに問題が引き継がれます。たとえば、初期対応チームが問題を解決
-できない場合、専門技術チームや管理層にエスカレーションされます。このプロセスによ
-り、複雑な問題や重大なインシデントが迅速に処理され、問題の長期化が防止されます。&lt;/p>
-&lt;h2 id="サービスレベル目標sla-対応">サービスレベル目標（SLA 対応）&lt;a class="td-heading-self-link" href="#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e7%9b%ae%e6%a8%99sla-%e5%af%be%e5%bf%9c" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>インシデント対応においては、サービスレベル契約（SLA）が重要な役割を果たします
-。SLA では、以下の目標が定義されています：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>初期対応時間&lt;/strong>: インシデントが報告されてから、対応チームが初期対応を開始する
-までの時間。&lt;/li>
-&lt;li>&lt;strong>解決時間&lt;/strong>: インシデントの影響範囲や優先度に応じた解決までの時間。&lt;/li>
-&lt;/ul>
-&lt;p>これにより、ユーザーはインシデント対応がどの程度の時間内で行われるかを予測でき、
-サービス品質の維持が保証されます。SLA 違反が発生した場合は、管理チームにエスカレ
-ーションされ、対策が講じられます。&lt;/p>
-&lt;h2 id="レポートおよび分析">レポートおよび分析&lt;a class="td-heading-self-link" href="#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%8a%e3%82%88%e3%81%b3%e5%88%86%e6%9e%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>すべてのインシデントは詳細に記録され、定期的にレポートが作成されます。インシデン
-トの種類、発生頻度、解決時間などのデータを基に分析を行い、システムの脆弱性や改善
-点を特定します。これにより、将来的なインシデントの発生を防ぎ、IT サービスの品質
-を向上させることができます。レポートは、月次や四半期ごとに定期的に提出され、経営
-層へのフィードバックも含めた改善活動が実施されます。&lt;/p></description></item><item><title>問題管理</title><link>https://bpinelab.github.io/docsy-base/technology/platform/lld/problem/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/technology/platform/lld/problem/</guid><description>&lt;h2 id="問題の特定と登録フロー">問題の特定と登録フロー&lt;a class="td-heading-self-link" href="#%e5%95%8f%e9%a1%8c%e3%81%ae%e7%89%b9%e5%ae%9a%e3%81%a8%e7%99%bb%e9%8c%b2%e3%83%95%e3%83%ad%e3%83%bc" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="インシデント担当チームの振り分けルール">インシデント担当チームの振り分けルール&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e6%8b%85%e5%bd%93%e3%83%81%e3%83%bc%e3%83%a0%e3%81%ae%e6%8c%af%e3%82%8a%e5%88%86%e3%81%91%e3%83%ab%e3%83%bc%e3%83%ab" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;hr>
+&lt;p>title: インシデント担当チーム決定ルール date: 2024-10-12 description: &amp;gt; サービス
+デスクや監視ツールがインシデント発生時に担当チームを決定するためのルール設計。&lt;/p></description></item><item><title>問題管理</title><link>https://bpinelab.github.io/docsy-base/technology/platform/lld/problem/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/technology/platform/lld/problem/</guid><description>&lt;h2 id="問題の特定と登録フロー">問題の特定と登録フロー&lt;a class="td-heading-self-link" href="#%e5%95%8f%e9%a1%8c%e3%81%ae%e7%89%b9%e5%ae%9a%e3%81%a8%e7%99%bb%e9%8c%b2%e3%83%95%e3%83%ad%e3%83%bc" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>問題管理の最初のステップは、発生した問題を特定し、正確に登録することです。問題は
 、以下のようなルートから特定されます：&lt;/p>
 &lt;ul>
