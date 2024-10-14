@@ -1,10 +1,10 @@
 ---
-title: The Handbook
-linkTitle: Handbook
+title: Technical Specificaiton
+linkTitle: 技術仕様
 menu:
   main:
     weight: 20
-    name: Handbook
+    name: 技術仕様
     pre: '<i class="fa-solid fa-book"></i>'
 ---
 

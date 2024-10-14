@@ -1,8 +1,9 @@
 ---
 title: Operations Management
+linkTitle: 運用管理
 description: Show your user how to work through some end to end examples.
 date: 2017-01-04
-weight: 8
+weight: 4
 ---
 
 {{% pageinfo %}} This is a placeholder page that shows you how to use this

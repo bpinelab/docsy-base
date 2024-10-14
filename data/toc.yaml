@@ -15,7 +15,7 @@
     - name: System Architecture Diagram
       url: docs
     - name: High-Level Design Document
-      url: job-family
+      url: resources
     - name: KPI
       url: changelog
 - name: Operations Platform
@@ -25,7 +25,7 @@
     - name: Operations Platform Architecture
       url: docs/operations-platform
     - name: Operations Platform High-Level Design
-      url: job-family
+      url: resources
     - name: Key Success Indicators
       url: changelog
 - name: Operations Management
@@ -35,7 +35,7 @@
     - name: Incident Response Guidelines
       url: docs
     - name: Continuous Improvement Report
-      url: job-family
+      url: resources
     - name: Changelog
       url: changelog
 - name: Automation & Autonomy
@@ -45,7 +45,7 @@
     - name: Automation Strategy
       url: docs
     - name: Autonomy Roadmap
-      url: job-family
+      url: resources
     - name: Changelog
       url: changelog
 - name: Knowledge Management
@@ -55,6 +55,6 @@
     - name: Knowledge Base Operations Policy
       url: docs
     - name: Job Family
-      url: job-family
+      url: resources
     - name: Changelog
       url: changelog

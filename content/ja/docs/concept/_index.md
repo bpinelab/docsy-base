@@ -1,5 +1,6 @@
 ---
 title: Strategy & Policy
+linkTitle: 戦略と方針
 description: >
   This document outlines the distinct strategy and policy for achieving IT
   service automation, optimization, and autonomy.
