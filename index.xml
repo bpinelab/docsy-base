@@ -36,7 +36,92 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
 &lt;li>&lt;strong>番号付きリスト&lt;/strong>: 数字とピリオドを使って順序付きリストを作成します。&lt;/li>
 &lt;/ul>
-&lt;p>例:&lt;/p></description></item><item><title>サービスデスク</title><link>https://bpinelab.github.io/docsy-base/docs/operations-platform/hld/servicedesk/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-platform/hld/servicedesk/</guid><description>&lt;h2 id="目的と役割">目的と役割&lt;a class="td-heading-self-link" href="#%e7%9b%ae%e7%9a%84%e3%81%a8%e5%bd%b9%e5%89%b2" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>例:&lt;/p></description></item><item><title>サービスカタログ</title><link>https://bpinelab.github.io/docsy-base/specs/catalog/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/specs/catalog/</guid><description>&lt;h2 id="1-サービス概要">1. サービス概要&lt;a class="td-heading-self-link" href="#1-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>当社のマネージドサービスは、以下の主要分野にわたって包括的なサポートを提供します
+。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>インシデント管理&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>問題管理&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>変更管理&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>リリース管理&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>パフォーマンスモニタリング&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>セキュリティ管理&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>バックアップおよびリカバリ&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>ユーザーサポート&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="2-提供サービス">2. 提供サービス&lt;a class="td-heading-self-link" href="#2-%e6%8f%90%e4%be%9b%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="21-インシデント管理">2.1 インシデント管理&lt;a class="td-heading-self-link" href="#21-%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>説明&lt;/strong>: システム障害やユーザーからの問い合わせに対して迅速に対応し、影響を最
+小限に抑えるサービスです。&lt;/li>
+&lt;li>&lt;strong>対応時間&lt;/strong>: 24 時間 365 日&lt;/li>
+&lt;li>&lt;strong>応答時間&lt;/strong>:
+&lt;ul>
+&lt;li>Critical: 1 時間以内に応答、4 時間以内に復旧&lt;/li>
+&lt;li>High: 2 時間以内に応答、1 営業日以内に復旧&lt;/li>
+&lt;li>Medium: 4 時間以内に応答、2 営業日以内に解決&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>提供方法&lt;/strong>: 電話、メール、サポートポータル経由での依頼&lt;/li>
+&lt;/ul>
+&lt;h3 id="22-問題管理">2.2 問題管理&lt;a class="td-heading-self-link" href="#22-%e5%95%8f%e9%a1%8c%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>説明&lt;/strong>: インシデントの根本原因を分析し、再発防止策を実施するサービスです。重
+大なインシデントの履歴を分析し、長期的な改善を図ります。&lt;/li>
+&lt;li>&lt;strong>対応時間&lt;/strong>: 月次レビューと定期的な問題分析会議&lt;/li>
+&lt;li>&lt;strong>提供方法&lt;/strong>: 問題管理レポートの作成およびクライアントとの定期ミーティング&lt;/li>
+&lt;/ul>
+&lt;h3 id="23-変更管理">2.3 変更管理&lt;a class="td-heading-self-link" href="#23-%e5%a4%89%e6%9b%b4%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>説明&lt;/strong>: システムやアプリケーションへの変更を計画的に実施し、リスクを最小限に
+抑えるプロセスを提供します。変更によるシステム停止や障害の発生を未然に防ぐため
+、変更の影響分析や事前承認プロセスを適用します。&lt;/li>
+&lt;li>&lt;strong>提供方法&lt;/strong>: 変更管理申請書の作成、承認プロセスの管理、変更後の確認およびテス
+トの実施&lt;/li>
+&lt;/ul>
+&lt;h3 id="24-リリース管理">2.4 リリース管理&lt;a class="td-heading-self-link" href="#24-%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>説明&lt;/strong>: アプリケーションやシステムアップデートのリリースを管理します。リリー
+ススケジュールの策定、環境の準備、リリース後の確認を含みます。&lt;/li>
+&lt;li>&lt;strong>提供方法&lt;/strong>: リリース計画の作成、リリース後のパフォーマンスモニタリング、必要
+な場合のリリースロールバック対応&lt;/li>
+&lt;/ul>
+&lt;h3 id="25-パフォーマンスモニタリング">2.5 パフォーマンスモニタリング&lt;a class="td-heading-self-link" href="#25-%e3%83%91%e3%83%95%e3%82%a9%e3%83%bc%e3%83%9e%e3%83%b3%e3%82%b9%e3%83%a2%e3%83%8b%e3%82%bf%e3%83%aa%e3%83%b3%e3%82%b0" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>説明&lt;/strong>: サーバー、ネットワーク、アプリケーションのパフォーマンスを常時監視し
+、パフォーマンス低下や障害の兆候を早期に検知します。&lt;/li>
+&lt;li>&lt;strong>対応時間&lt;/strong>: 24 時間 365 日&lt;/li>
+&lt;li>&lt;strong>提供方法&lt;/strong>: リアルタイム監視と月次パフォーマンスレポートの提供&lt;/li>
+&lt;/ul>
+&lt;h3 id="26-セキュリティ管理">2.6 セキュリティ管理&lt;a class="td-heading-self-link" href="#26-%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>説明&lt;/strong>: システムやデータのセキュリティを確保するためのサービスを提供します。
+パッチ管理、セキュリティインシデント対応、定期的な脆弱性診断が含まれます。&lt;/li>
+&lt;li>&lt;strong>対応時間&lt;/strong>: 24 時間 365 日&lt;/li>
+&lt;li>&lt;strong>提供方法&lt;/strong>: セキュリティインシデント対応、月次セキュリティレポート、定期的な
+脆弱性スキャンの実施&lt;/li>
+&lt;/ul>
+&lt;h3 id="27-バックアップおよびリカバリ">2.7 バックアップおよびリカバリ&lt;a class="td-heading-self-link" href="#27-%e3%83%90%e3%83%83%e3%82%af%e3%82%a2%e3%83%83%e3%83%97%e3%81%8a%e3%82%88%e3%81%b3%e3%83%aa%e3%82%ab%e3%83%90%e3%83%aa" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>説明&lt;/strong>: データの定期的なバックアップと、障害発生時の迅速なリカバリを提供しま
+す。バックアップポリシーの策定から、リカバリ手順の実施までを包括的にサポートし
+ます。&lt;/li>
+&lt;li>&lt;strong>対応時間&lt;/strong>: 24 時間 365 日&lt;/li>
+&lt;li>&lt;strong>提供方法&lt;/strong>: 定期バックアップのスケジュール設定、バックアップ状態のモニタリン
+グ、データリカバリ&lt;/li>
+&lt;/ul>
+&lt;h3 id="28-ユーザーサポート">2.8 ユーザーサポート&lt;a class="td-heading-self-link" href="#28-%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>説明&lt;/strong>: システム利用者への問い合わせ対応やトラブルシューティングを行います。
+ユーザーが円滑にシステムを利用できるようサポートします。&lt;/li>
+&lt;li>&lt;strong>対応時間&lt;/strong>: 24 時間 365 日&lt;/li>
+&lt;li>&lt;strong>提供方法&lt;/strong>: 電話、メール、サポートポータル経由での対応、ユーザー向け FAQ の
+提供&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="3-サービスリクエスト手順">3. サービスリクエスト手順&lt;a class="td-heading-self-link" href="#3-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%aa%e3%82%af%e3%82%a8%e3%82%b9%e3%83%88%e6%89%8b%e9%a0%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>クライアントは以下の方法でサービスをリクエストすることができます。&lt;/p></description></item><item><title>サービスデスク</title><link>https://bpinelab.github.io/docsy-base/docs/operations-platform/hld/servicedesk/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-platform/hld/servicedesk/</guid><description>&lt;h2 id="目的と役割">目的と役割&lt;a class="td-heading-self-link" href="#%e7%9b%ae%e7%9a%84%e3%81%a8%e5%bd%b9%e5%89%b2" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>サービスデスクは、ユーザーからの問い合わせや問題を一元的に受け付け、迅速に対応す
 る役割を果たします。これにより、IT サービスの安定した運用を支え、ユーザーエクス
 ペリエンスの向上を図ります。サービスデスクは、問題解決の窓口として、問題の分類、
@@ -166,7 +251,115 @@
 &lt;h3 id="3-サービスデスクと他システムとの統合">3. &lt;strong>サービスデスクと他システムとの統合&lt;/strong>&lt;a class="td-heading-self-link" href="#3-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%87%e3%82%b9%e3%82%af%e3%81%a8%e4%bb%96%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%81%a8%e3%81%ae%e7%b5%b1%e5%90%88" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>サービスデスクは他の運用システムと連携して、インシデント対応を効率化します。これ
 により、インシデントが発生した際の自動対応やインシデントの解決を支援するための情
-報が、さまざまなシステムから集約されます。&lt;/p></description></item><item><title>サービスデスク</title><link>https://bpinelab.github.io/docsy-base/docs/operations-platform/lld/servicedesk/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-platform/lld/servicedesk/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+報が、さまざまなシステムから集約されます。&lt;/p></description></item><item><title>オンボーディング</title><link>https://bpinelab.github.io/docsy-base/specs/onboarding/</link><pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/specs/onboarding/</guid><description>&lt;h2 id="1-オンボーディング概要">1. オンボーディング概要&lt;a class="td-heading-self-link" href="#1-%e3%82%aa%e3%83%b3%e3%83%9c%e3%83%bc%e3%83%87%e3%82%a3%e3%83%b3%e3%82%b0%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>当社のマネージドサービスを利用開始するにあたり、以下のオンボーディングプロセスを
+経て、シームレスなサービス導入をサポートします。各ステップでは、クライアントに準
+備していただくインプットと、当社が提供するアウトプットを明確に示します。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>ステークホルダー確認&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>要件定義&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>環境準備&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>テスト実施&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>運用開始&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="2-オンボーディングステップ">2. オンボーディングステップ&lt;a class="td-heading-self-link" href="#2-%e3%82%aa%e3%83%b3%e3%83%9c%e3%83%bc%e3%83%87%e3%82%a3%e3%83%b3%e3%82%b0%e3%82%b9%e3%83%86%e3%83%83%e3%83%97" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="21-ステークホルダー確認">2.1 ステークホルダー確認&lt;a class="td-heading-self-link" href="#21-%e3%82%b9%e3%83%86%e3%83%bc%e3%82%af%e3%83%9b%e3%83%ab%e3%83%80%e3%83%bc%e7%a2%ba%e8%aa%8d" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>インプット&lt;/strong>:
+&lt;ul>
+&lt;li>クライアントの主要担当者リスト（役職、連絡先を含む）&lt;/li>
+&lt;li>クライアントの内部プロジェクトチームのスケジュール&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>アウトプット&lt;/strong>:
+&lt;ul>
+&lt;li>当社のサービスマネージャーおよびエンジニア担当者のリスト&lt;/li>
+&lt;li>定例ミーティングのスケジュール&lt;/li>
+&lt;li>コミュニケーションチャネル（メール、電話、ポータル）の設定完了通知&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="22-要件定義">2.2 要件定義&lt;a class="td-heading-self-link" href="#22-%e8%a6%81%e4%bb%b6%e5%ae%9a%e7%be%a9" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>インプット&lt;/strong>:
+&lt;ul>
+&lt;li>現行システムのドキュメント（ネットワーク図、サーバー構成、アプリケーションリ
+ストなど）&lt;/li>
+&lt;li>セキュリティポリシーおよびコンプライアンス要件&lt;/li>
+&lt;li>SLA に関する要求事項&lt;/li>
+&lt;li>&lt;strong>クライアント特有の定型運用作業一覧&lt;/strong>（定期メンテナンス、バックアップ、監視
+など）&lt;/li>
+&lt;li>各作業に対応する&lt;strong>作業手順書&lt;/strong>（作業内容、手順、責任者など）&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>アウトプット&lt;/strong>:
+&lt;ul>
+&lt;li>要件定義書（サービス範囲、運用タスク、対応時間など）&lt;/li>
+&lt;li>SLA ドキュメント（可用性、応答時間、パフォーマンス指標などの定義）&lt;/li>
+&lt;li>&lt;strong>クライアント特有の定型運用作業手順の確認および最適化&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>運用フロー図&lt;/strong>（定型作業の手順を視覚化したもの）&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="23-環境準備">2.3 環境準備&lt;a class="td-heading-self-link" href="#23-%e7%92%b0%e5%a2%83%e6%ba%96%e5%82%99" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>インプット&lt;/strong>:
+&lt;ul>
+&lt;li>クライアントのネットワークアクセス情報&lt;/li>
+&lt;li>サーバー、アプリケーションのインストールガイドおよびアクセス権限&lt;/li>
+&lt;li>モニタリングやバックアップに関する特別な要求&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>アウトプット&lt;/strong>:
+&lt;ul>
+&lt;li>環境設定完了レポート（サーバー、ネットワーク、アプリケーションのセットアップ
+内容）&lt;/li>
+&lt;li>アクセス管理リスト（ユーザー、権限、ロール）&lt;/li>
+&lt;li>モニタリングおよびバックアップ設定確認レポート&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="24-テスト実施">2.4 テスト実施&lt;a class="td-heading-self-link" href="#24-%e3%83%86%e3%82%b9%e3%83%88%e5%ae%9f%e6%96%bd" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>インプット&lt;/strong>:
+&lt;ul>
+&lt;li>クライアントが希望するテストシナリオやテストケース&lt;/li>
+&lt;li>システムの重要性に基づいたテスト優先度リスト&lt;/li>
+&lt;li>&lt;strong>クライアント特有の定型運用作業に関するテストケース&lt;/strong>（バックアップ、モニタ
+リング、定期メンテナンスのシナリオ）&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>アウトプット&lt;/strong>:
+&lt;ul>
+&lt;li>システム稼働テスト結果（可用性、パフォーマンスの検証）&lt;/li>
+&lt;li>障害対応テスト結果（インシデント対応シミュレーションの結果）&lt;/li>
+&lt;li>バックアップおよびリカバリテスト結果&lt;/li>
+&lt;li>&lt;strong>定型運用作業テスト結果&lt;/strong>（定型作業の手順が正常に実行されるかの確認）&lt;/li>
+&lt;li>テスト結果報告書&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="25-運用開始">2.5 運用開始&lt;a class="td-heading-self-link" href="#25-%e9%81%8b%e7%94%a8%e9%96%8b%e5%a7%8b" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>インプット&lt;/strong>:
+&lt;ul>
+&lt;li>クライアント担当者のトレーニングスケジュールおよび参加者リスト&lt;/li>
+&lt;li>サポート窓口の連絡先リスト&lt;/li>
+&lt;li>初回月次報告に含める特定のパフォーマンス指標やカスタマイズ要件&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>アウトプット&lt;/strong>:
+&lt;ul>
+&lt;li>運用開始報告書（サービス開始日時、初期セットアップの内容）&lt;/li>
+&lt;li>初回月次報告書（サービスパフォーマンス、初期トラブル報告）&lt;/li>
+&lt;li>トレーニング完了証明書&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>このオンボーディングプロセスにより、クライアントはスムーズにサービスを導入でき、
+効率的かつ効果的に IT 運用をサポートいたします。&lt;/p></description></item><item><title>サービスデスク</title><link>https://bpinelab.github.io/docsy-base/docs/operations-platform/lld/servicedesk/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-platform/lld/servicedesk/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>このドキュメントでは、サービスデスクに Jira Service Management
 を使用する Low-Level Design (LLD) について説明します。&lt;/p>
 
@@ -304,13 +497,13 @@
 トの種類、発生頻度、解決時間などのデータを基に分析を行い、システムの脆弱性や改善
 点を特定します。これにより、将来的なインシデントの発生を防ぎ、IT サービスの品質
 を向上させることができます。レポートは、月次や四半期ごとに定期的に提出され、経営
-層へのフィードバックも含めた改善活動が実施されます。&lt;/p></description></item><item><title>Bed and Chair Metrics</title><link>https://bpinelab.github.io/docsy-base/docs/tasks/beds/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/tasks/beds/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+層へのフィードバックも含めた改善活動が実施されます。&lt;/p></description></item><item><title>Bed and Chair Metrics</title><link>https://bpinelab.github.io/docsy-base/docs/team/beds/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/team/beds/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 
 &lt;/div>
 
 &lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
-&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Configuring Ponycopters</title><link>https://bpinelab.github.io/docsy-base/docs/tasks/ponycopters/configuring-ponycopters/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/tasks/ponycopters/configuring-ponycopters/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Configuring Ponycopters</title><link>https://bpinelab.github.io/docsy-base/docs/team/ponycopters/configuring-ponycopters/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/team/ponycopters/configuring-ponycopters/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 
 &lt;/div>
@@ -537,7 +730,7 @@ Zone と ITIL のベストプラクティスを基に、次の 3 つのフェー
 &lt;h3 id="概要-2">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81-2" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>このフェーズでは、運用データを活用してサービスのパフォーマンスを最適化し、予防的
 なメンテナンスや問題解決を自動化します。AI と機械学習を使用して、パフォーマンス
-をリアルタイムでモニタリングし、潜在的な問題を早期に解決します。&lt;/p></description></item><item><title>Launching Ponycopters</title><link>https://bpinelab.github.io/docsy-base/docs/tasks/ponycopters/launching-ponycopters/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/tasks/ponycopters/launching-ponycopters/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+をリアルタイムでモニタリングし、潜在的な問題を早期に解決します。&lt;/p></description></item><item><title>Launching Ponycopters</title><link>https://bpinelab.github.io/docsy-base/docs/team/ponycopters/launching-ponycopters/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/team/ponycopters/launching-ponycopters/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 
 &lt;/div>
@@ -678,18 +871,13 @@ User --&amp;gt; Order: places
 &lt;/div>
 
 &lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
-&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Porridge Assessment</title><link>https://bpinelab.github.io/docsy-base/docs/tasks/porridge/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/tasks/porridge/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Porridge Assessment</title><link>https://bpinelab.github.io/docsy-base/docs/team/porridge/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/team/porridge/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 
 &lt;/div>
 
 &lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
-&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Concepts</title><link>https://bpinelab.github.io/docsy-base/docs/concepts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/concepts/</guid><description>&lt;div class="pageinfo pageinfo-primary">
-&lt;p>This is a placeholder page that shows you how to use this template site.&lt;/p>
-
-&lt;/div>
-
-&lt;p>For many projects, users may not need much information beyond the information in the &lt;a href="https://bpinelab.github.io/docsy-base/docs/overview/">Overview&lt;/a>, so this section is &lt;strong>optional&lt;/strong>. However if there are areas where your users will need a more detailed understanding of a given term or feature in order to do anything useful with your project (or to not make mistakes when using it) put that information in this section. For example, you may want to add some conceptual pages if you have a large project with many components and a complex architecture.&lt;/p></description></item><item><title>リリース管理</title><link>https://bpinelab.github.io/docsy-base/docs/operations-platform/hld/release/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-platform/hld/release/</guid><description>&lt;h2 id="リリースのスケジュールと計画">リリースのスケジュールと計画&lt;a class="td-heading-self-link" href="#%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%81%ae%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab%e3%81%a8%e8%a8%88%e7%94%bb" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>リリース管理</title><link>https://bpinelab.github.io/docsy-base/docs/operations-platform/hld/release/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-platform/hld/release/</guid><description>&lt;h2 id="リリースのスケジュールと計画">リリースのスケジュールと計画&lt;a class="td-heading-self-link" href="#%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%81%ae%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab%e3%81%a8%e8%a8%88%e7%94%bb" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>リリース管理は、IT サービスやシステムの新機能や修正を安全かつ効率的に展開するた
 めのプロセスです。リリースを実施する際には、事前に詳細な計画が策定されます。この
 計画には、以下の要素が含まれます：&lt;/p>
@@ -801,7 +989,7 @@ User --&amp;gt; Order: places
 &lt;/ul>
 &lt;p>すべてのテストは、リリース前に完了し、問題がないことを確認したうえで展開が行われ
 ます。リリース後も、適切なテスト結果が確認され次第、リリースが最終的に承認されま
-す。&lt;/p></description></item><item><title>Another Task</title><link>https://bpinelab.github.io/docsy-base/docs/tasks/task/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/tasks/task/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+す。&lt;/p></description></item><item><title>Another Task</title><link>https://bpinelab.github.io/docsy-base/docs/team/task/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/team/task/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 
 &lt;/div>
@@ -1473,7 +1661,85 @@ User --&amp;gt; Order: places
 ンし、問題解決と再発防止策を講じます。&lt;/li>
 &lt;/ul>
 &lt;p>これにより、サプライヤーから提供されるサービスが常に高水準を維持することが保証さ
-れます。&lt;/p></description></item><item><title>Changelog</title><link>https://bpinelab.github.io/docsy-base/changelog/changelog/</link><pubDate>Sun, 13 Oct 2024 11:50:10 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/changelog/changelog/</guid><description>&lt;p>&lt;a href="https://github.com/%3Cyour-username%3E/%3Cyour-repo%3E/commits/main">View Changelog on GitHub&lt;/a>&lt;/p></description></item><item><title>プロンプト</title><link>https://bpinelab.github.io/docsy-base/docs/knowledge/prompt/</link><pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/knowledge/prompt/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+れます。&lt;/p></description></item><item><title>Changelog</title><link>https://bpinelab.github.io/docsy-base/changelog/changelog/</link><pubDate>Mon, 14 Oct 2024 07:00:46 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/changelog/changelog/</guid><description>&lt;p>&lt;a href="https://github.com/%3Cyour-username%3E/%3Cyour-repo%3E/commits/main">View Changelog on GitHub&lt;/a>&lt;/p></description></item><item><title>運用手順書</title><link>https://bpinelab.github.io/docsy-base/sops/catalog/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/sops/catalog/</guid><description>&lt;h2 id="1-目的">1. 目的&lt;a class="td-heading-self-link" href="#1-%e7%9b%ae%e7%9a%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>本 SOP は、日常の運用業務における標準的な手順を定め、サービスの品質を一貫して維
+持することを目的としています。システムの安定稼働、インシデント対応、定期的なメン
+テナンスなどの業務が適切に実行されるようにサポートします。&lt;/p>
+&lt;hr>
+&lt;h2 id="2-運用タスクのスケジュール">2. 運用タスクのスケジュール&lt;a class="td-heading-self-link" href="#2-%e9%81%8b%e7%94%a8%e3%82%bf%e3%82%b9%e3%82%af%e3%81%ae%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="21-日次運用タスク">2.1 日次運用タスク&lt;a class="td-heading-self-link" href="#21-%e6%97%a5%e6%ac%a1%e9%81%8b%e7%94%a8%e3%82%bf%e3%82%b9%e3%82%af" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>サーバー状態確認&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>タスク: サーバーの稼働状況とシステムログを確認し、異常がないかチェック&lt;/li>
+&lt;li>手順:
+&lt;ol>
+&lt;li>サーバーモニタリングツールを使用して、CPU、メモリ、ディスク使用率を確認&lt;/li>
+&lt;li>システムイベントログを確認し、エラーや警告が発生していないかチェック&lt;/li>
+&lt;li>異常が見つかった場合は、インシデントとして報告&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>時間: 毎日午前 9 時&lt;/li>
+&lt;li>担当者: 運用エンジニア&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>バックアップ確認&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>タスク: 前日のデータバックアップの状態を確認&lt;/li>
+&lt;li>手順:
+&lt;ol>
+&lt;li>バックアップツールのログを確認し、バックアップが正常に完了しているか確認&lt;/li>
+&lt;li>エラーが発生している場合、再実行と原因分析を実施&lt;/li>
+&lt;li>報告書に記載し、必要に応じてエスカレーション&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>時間: 毎日午前 10 時&lt;/li>
+&lt;li>担当者: バックアップ担当エンジニア&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="22-週次運用タスク">2.2 週次運用タスク&lt;a class="td-heading-self-link" href="#22-%e9%80%b1%e6%ac%a1%e9%81%8b%e7%94%a8%e3%82%bf%e3%82%b9%e3%82%af" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>パフォーマンスモニタリング&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>タスク: サーバーおよびアプリケーションのパフォーマンス指標を確認し、ボトルネ
+ックを分析&lt;/li>
+&lt;li>手順:
+&lt;ol>
+&lt;li>監視ツールのレポートを週次で確認&lt;/li>
+&lt;li>高負荷状態が継続しているリソースがある場合、原因を特定し改善策を提案&lt;/li>
+&lt;li>週次レポートを作成し、チームに共有&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>時間: 毎週月曜日午前 10 時&lt;/li>
+&lt;li>担当者: パフォーマンスエンジニア&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>セキュリティパッチ適用&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>タスク: サーバーおよびネットワークデバイスに最新のセキュリティパッチを適用&lt;/li>
+&lt;li>手順:
+&lt;ol>
+&lt;li>セキュリティチームから提供されたパッチ適用リストを確認&lt;/li>
+&lt;li>非業務時間にパッチ適用を計画し、適用後のシステム状態を確認&lt;/li>
+&lt;li>適用結果を記録し、問題があればエスカレーション&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>時間: 毎週金曜日午後 8 時（非業務時間）&lt;/li>
+&lt;li>担当者: セキュリティエンジニア&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="3-インシデント対応手順">3. インシデント対応手順&lt;a class="td-heading-self-link" href="#3-%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e5%af%be%e5%bf%9c%e6%89%8b%e9%a0%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="31-インシデント発生時の初期対応">3.1 インシデント発生時の初期対応&lt;a class="td-heading-self-link" href="#31-%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%99%ba%e7%94%9f%e6%99%82%e3%81%ae%e5%88%9d%e6%9c%9f%e5%af%be%e5%bf%9c" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Critical インシデント&lt;/strong>&lt;/p></description></item><item><title>プロンプト</title><link>https://bpinelab.github.io/docsy-base/docs/knowledge/prompt/</link><pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/knowledge/prompt/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>このマニュアルでは、Markdown ドキュメントを統一したフォーマット
 で効率的に作成するための Prompt の書き方について説明します。チームメンバーが統一
 されたスタイルでドキュメントを作成できるように、基本的なルールやテンプレートを紹
@@ -1697,7 +1963,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;/ul>
 &lt;h3 id="3-自動化およびインフラ管理">3. &lt;strong>自動化およびインフラ管理&lt;/strong>&lt;a class="td-heading-self-link" href="#3-%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%8a%e3%82%88%e3%81%b3%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>Azure 上の SAP システムは、リソース管理と構成管理の自動化により効率的に運用され
-ます。&lt;/p></description></item><item><title>ITオペレーションマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/it-operation/it-operations-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/it-operation/it-operations-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+ます。&lt;/p></description></item><item><title>ITオペレーションマネージャー</title><link>https://bpinelab.github.io/docsy-base/resources/it-operation/it-operations-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/it-operation/it-operations-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT オペレーションマネージャー (IT Operations Manager)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT 運用部&lt;/p>
@@ -1750,7 +2016,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;li>SLA に基づいたパフォーマンス監視および改善の経験&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>Search Results</title><link>https://bpinelab.github.io/docsy-base/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/search/</guid><description/></item><item><title>サービスデリバリーマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/service-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/service-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>Search Results</title><link>https://bpinelab.github.io/docsy-base/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/search/</guid><description/></item><item><title>サービスデリバリーマネージャー</title><link>https://bpinelab.github.io/docsy-base/resources/service-management/service-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/service-management/service-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>サービスデリバリーマネージャー (Service Delivery Manager)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT サービス管理部&lt;/p>
@@ -1800,7 +2066,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;li>複数のチームやベンダーを調整したプロジェクトのリード経験&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>サービスレベルマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/service-level-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/service-level-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>サービスレベルマネージャー</title><link>https://bpinelab.github.io/docsy-base/resources/service-management/service-level-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/service-management/service-level-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>サービスレベルマネージャー (Service Level Manager)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT サービス管理部&lt;/p>
@@ -1854,7 +2120,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;li>SLA に基づいたパフォーマンスのレポート作成および分析経験&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>サービス改善マネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/continual-improvement-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/continual-improvement-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>サービス改善マネージャー</title><link>https://bpinelab.github.io/docsy-base/resources/service-management/continual-improvement-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/service-management/continual-improvement-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>サービス改善マネージャー (Continual Improvement Manager)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT サービス管理部&lt;/p>
@@ -1905,7 +2171,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;li>改善プロジェクトのリード経験と KPI 管理の実績&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>アプリケーションサポートエンジニア</title><link>https://bpinelab.github.io/docsy-base/job-family/it-maintenance/application-support-engineer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/it-maintenance/application-support-engineer/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>アプリケーションサポートエンジニア</title><link>https://bpinelab.github.io/docsy-base/resources/it-maintenance/application-support-engineer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/it-maintenance/application-support-engineer/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>アプリケーションサポートエンジニア (Application Support Engineer)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT アプリケーションサポート部&lt;/p>
@@ -1960,7 +2226,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;li>障害対応およびトラブルシューティングの経験&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>アベイラビリティマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/availability-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/availability-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>アベイラビリティマネージャー</title><link>https://bpinelab.github.io/docsy-base/resources/service-management/availability-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/service-management/availability-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>アベイラビリティマネージャー (Availability Manager)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT サービス管理部&lt;/p>
@@ -2012,7 +2278,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;li>サービス障害の再発防止策を策定し、実行した経験&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>インシデントマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/incident-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/incident-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>インシデントマネージャー</title><link>https://bpinelab.github.io/docsy-base/resources/service-management/incident-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/service-management/incident-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>インシデントマネージャー (Incident Manager)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT サービス管理部&lt;/p>
@@ -2063,7 +2329,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;li>迅速なインシデント対応と解決策の提供経験&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>データアナリスト</title><link>https://bpinelab.github.io/docsy-base/job-family/business/data-analyst/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/business/data-analyst/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>データアナリスト</title><link>https://bpinelab.github.io/docsy-base/resources/business/data-analyst/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/business/data-analyst/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>データアナリスト (Data Analyst)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>データ分析部&lt;/p>
@@ -2115,7 +2381,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;li>事業改善や意思決定支援のためのデータ提供経験&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>データベース管理者</title><link>https://bpinelab.github.io/docsy-base/job-family/it-operation/database-administrator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/it-operation/database-administrator/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>データベース管理者</title><link>https://bpinelab.github.io/docsy-base/resources/it-operation/database-administrator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/it-operation/database-administrator/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>データベース管理者 (Database Administrator)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT インフラストラクチャ部&lt;/p>
@@ -2170,7 +2436,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;li>データベースのセキュリティ設定およびアクセス制御の管理経験&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>エンタープライズアーキテクト</title><link>https://bpinelab.github.io/docsy-base/job-family/business/enterprise-architect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/business/enterprise-architect/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>エンタープライズアーキテクト</title><link>https://bpinelab.github.io/docsy-base/resources/business/enterprise-architect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/business/enterprise-architect/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>エンタープライズアーキテクト (Enterprise Architect)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT 戦略部&lt;/p>
@@ -2225,7 +2491,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;li>大規模 IT プロジェクトでの管理および統括経験&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>キャパシティマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/capacity-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/capacity-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>キャパシティマネージャー</title><link>https://bpinelab.github.io/docsy-base/resources/service-management/capacity-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/service-management/capacity-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>キャパシティマネージャー (Capacity Manager)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT サービス管理部&lt;/p>
@@ -2279,7 +2545,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;li>インフラリソースの予測および最適化の経験&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>サプライヤーマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/supplier-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/supplier-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>サプライヤーマネージャー</title><link>https://bpinelab.github.io/docsy-base/resources/service-management/supplier-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/service-management/supplier-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>サプライヤーマネージャー (Supplier Manager)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT サービス管理部&lt;/p>
@@ -2332,7 +2598,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;li>サプライヤーとの契約交渉およびパフォーマンス評価の経験&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>システムアーキテクト</title><link>https://bpinelab.github.io/docsy-base/job-family/development/system-architect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/development/system-architect/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>システムアーキテクト</title><link>https://bpinelab.github.io/docsy-base/resources/development/system-architect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/development/system-architect/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>システムアーキテクト (System Architect)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT アーキテクチャ部&lt;/p>
@@ -2388,7 +2654,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;li>大規模システムの統合および最適化の経験&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>セキュリティーマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/security-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/security-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>セキュリティーマネージャー</title><link>https://bpinelab.github.io/docsy-base/resources/service-management/security-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/service-management/security-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>セキュリティマネージャー (Security Manager)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT セキュリティ部&lt;/p>
@@ -2441,7 +2707,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;li>セキュリティインシデントの管理および再発防止策の実施経験&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>テクニカルサポートエンジニア</title><link>https://bpinelab.github.io/docsy-base/job-family/it-operation/technical-support-engineer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/it-operation/technical-support-engineer/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>テクニカルサポートエンジニア</title><link>https://bpinelab.github.io/docsy-base/resources/it-operation/technical-support-engineer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/it-operation/technical-support-engineer/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>テクニカルサポートエンジニア (Technical Support Engineer)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT サポート部&lt;/p>
@@ -2495,7 +2761,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;li>インシデント管理やユーザー対応の経験&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>ネットワーク管理者</title><link>https://bpinelab.github.io/docsy-base/job-family/it-operation/netrowk-administrator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/it-operation/netrowk-administrator/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>ネットワーク管理者</title><link>https://bpinelab.github.io/docsy-base/resources/it-operation/netrowk-administrator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/it-operation/netrowk-administrator/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>ネットワーク管理者 (Network Administrator)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT インフラストラクチャ部&lt;/p>
@@ -2550,7 +2816,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;li>ネットワーク障害対応および最適化の経験&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>プロブレムマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/problem-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/problem-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>プロブレムマネージャー</title><link>https://bpinelab.github.io/docsy-base/resources/service-management/problem-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/service-management/problem-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>プロブレムマネージャー (Problem Manager)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT サービス管理部&lt;/p>
@@ -2601,7 +2867,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;li>継続的改善やプロセス最適化の実務経験&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>ヘルプデスクマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/it-operation/helpdesk-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/it-operation/helpdesk-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>ヘルプデスクマネージャー</title><link>https://bpinelab.github.io/docsy-base/resources/it-operation/helpdesk-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/it-operation/helpdesk-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>ヘルプデスクマネージャー (Helpdesk Manager)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT サポート部&lt;/p>
@@ -2657,7 +2923,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;li>チーム管理およびスタッフ育成の経験&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>リリースマネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/release-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/release-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>リリースマネージャー</title><link>https://bpinelab.github.io/docsy-base/resources/service-management/release-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/service-management/release-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>リリースマネージャー (Release Manager)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT サービス管理部&lt;/p>
@@ -2709,7 +2975,7 @@ Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現
 &lt;li>大規模リリースプロジェクトのリード経験&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>構成管理マネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/configuration-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/configuration-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>構成管理マネージャー</title><link>https://bpinelab.github.io/docsy-base/resources/service-management/configuration-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/service-management/configuration-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>構成管理マネージャー (Configuration Manager)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT サービス管理部&lt;/p>
@@ -2761,7 +3027,7 @@ Configuration Item）を管理し、システムの構成情報が常に正確�
 &lt;li>CMDB の運用管理経験および構成監査の実施経験&lt;/li>
 &lt;/ul>
 &lt;h2 id="勤務地location">勤務地（Location）&lt;a class="td-heading-self-link" href="#%e5%8b%a4%e5%8b%99%e5%9c%b0location" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>変更マネージャー</title><link>https://bpinelab.github.io/docsy-base/job-family/service-management/change-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/job-family/service-management/change-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>東京本社（リモートワーク応相談）&lt;/p></description></item><item><title>変更マネージャー</title><link>https://bpinelab.github.io/docsy-base/resources/service-management/change-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/resources/service-management/change-manager/</guid><description>&lt;h2 id="職務名job-title">職務名（Job Title）&lt;a class="td-heading-self-link" href="#%e8%81%b7%e5%8b%99%e5%90%8djob-title" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>変更マネージャー (Change Manager)&lt;/p>
 &lt;h2 id="部署department">部署（Department）&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2department" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>IT サービス管理部&lt;/p>
