@@ -1,0 +1,34 @@
+
+@startuml
+title インシデント対応フロー
+
+actor ユーザー as User
+actor サービスデスク as ServiceDesk
+participant 監視ツール as Monitoring
+participant 担当チーム as Team
+participant エスカレーションチーム as EscalationTeam
+
+User -> ServiceDesk: インシデント申告
+Monitoring -> Team: 自動インシデント作成
+ServiceDesk -> Team: インシデント登録
+Team -> Team: 影響範囲と優先度を評価
+Team -> Team: 初期対応実施
+Team -> User: 状況報告
+
+alt 高優先度の場合
+    Team -> EscalationTeam: エスカレーション
+    EscalationTeam -> Team: 専門対応
+end
+
+Team -> Monitoring: 状況モニタリング
+Team -> User: 定期報告
+
+alt SLA違反発生時
+    Team -> EscalationTeam: エスカレーション
+    EscalationTeam -> Team: 対策実施
+end
+
+Team -> User: インシデント解決報告
+User -> Team: 確認およびフィードバック
+
+@enduml
