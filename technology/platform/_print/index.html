@@ -1,0 +1,836 @@
+<!doctype html><html itemscope itemtype=http://schema.org/WebPage lang=ja class=no-js><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=canonical type=text/html href=https://bpinelab.github.io/docsy-base/technology/platform/><link rel=alternate type=application/rss+xml href=https://bpinelab.github.io/docsy-base/technology/platform/index.xml><meta name=robots content="noindex, nofollow"><link rel="shortcut icon" href=/docsy-base/favicons/favicon.ico><link rel=apple-touch-icon href=/docsy-base/favicons/apple-touch-icon-180x180.png sizes=180x180><link rel=icon type=image/png href=/docsy-base/favicons/favicon-16x16.png sizes=16x16><link rel=icon type=image/png href=/docsy-base/favicons/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=/docsy-base/favicons/android-36x36.png sizes=36x36><link rel=icon type=image/png href=/docsy-base/favicons/android-48x48.png sizes=48x48><link rel=icon type=image/png href=/docsy-base/favicons/android-72x72.png sizes=72x72><link rel=icon type=image/png href=/docsy-base/favicons/android-96x96.png sizes=96x96><link rel=icon type=image/png href=/docsy-base/favicons/android-144x144.png sizes=144x144><link rel=icon type=image/png href=/docsy-base/favicons/android-192x192.png sizes=192x192><title>運用プラットフォーム | Docsy-base</title>
+<meta name=description content="ITサービスを運用するためのプラットフォームの概要。"><meta property="og:url" content="https://bpinelab.github.io/docsy-base/technology/platform/"><meta property="og:site_name" content="Docsy-base"><meta property="og:title" content="運用プラットフォーム"><meta property="og:description" content="ITサービスを運用するためのプラットフォームの概要。"><meta property="og:locale" content="ja"><meta property="og:type" content="website"><meta itemprop=name content="運用プラットフォーム"><meta itemprop=description content="ITサービスを運用するためのプラットフォームの概要。"><meta itemprop=datePublished content="2024-10-03T00:00:00+00:00"><meta itemprop=dateModified content="2024-10-14T23:00:06+09:00"><meta itemprop=wordCount content="70"><meta name=twitter:card content="summary"><meta name=twitter:title content="運用プラットフォーム"><meta name=twitter:description content="ITサービスを運用するためのプラットフォームの概要。"><link rel=preload href=/docsy-base/scss/main.min.e27e9dbace77e637983a3900590da42ddfc471da09131ef565f7ea5853a1205a.css as=style><link href=/docsy-base/scss/main.min.e27e9dbace77e637983a3900590da42ddfc471da09131ef565f7ea5853a1205a.css rel=stylesheet><script src=https://code.jquery.com/jquery-3.7.1.min.js integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin=anonymous></script><script defer src=https://unpkg.com/lunr@2.3.9/lunr.min.js integrity=sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli crossorigin=anonymous></script><link rel=stylesheet href=/docsy-base/css/prism.css></head><body class=td-section><header><nav class="td-navbar js-navbar-scroll" data-bs-theme=dark><div class="container-fluid flex-column flex-md-row"><a class=navbar-brand href=/docsy-base/><span class="navbar-brand__logo navbar-logo"><svg width="24" height="24" viewBox="0 0 16 16"><circle cx="4" cy="4" r="3" fill="green"/><circle cx="12" cy="4" r="3" fill="green"/><circle cx="4" cy="12" r="3" fill="green"/><circle cx="12" cy="12" r="3" fill="green"/><rect x="7" y="7" width="2" height="2" fill="green"/></svg></span><span class=navbar-brand__name>Docsy-base</span></a><div class="td-navbar-nav-scroll ms-md-auto" id=main_navbar><ul class=navbar-nav><li class=nav-item><a class=nav-link href=/docsy-base/service/><i class="fa-solid fa-bag-shopping"></i><span>提供サービス</span></a></li><li class=nav-item><a class="nav-link active" href=/docsy-base/technology/><i class="fa-solid fa-book"></i><span>技術仕様</span></a></li><li class=nav-item><a class=nav-link href=/docsy-base/sop/><i class="fa-solid fa-gear"></i><span>運用手順</span></a></li><li class=nav-item><a class=nav-link href=/docsy-base/knowledge/><i class="fa-solid fa-question"></i><span>ナレッジ</span></a></li><li class=nav-item><a class=nav-link href=https://github.com/bpinelab/docsy-base/commits/main target=_blank rel=noopener><i class='fas fa-history'></i><span>変更履歴</span></a></li></ul></div><div class="d-none d-lg-block"><div class="td-search td-search--offline"><div class=td-search__icon></div><input type=search class="td-search__input form-control" placeholder=サイトを検索... aria-label=サイトを検索... autocomplete=off data-offline-search-index-json-src=/docsy-base/offline-search-index.bfdc04ebba16051c44a80a61c20b6299.json data-offline-search-base-href=/ data-offline-search-max-results=10></div></div></div></nav></header><div class="container-fluid td-outer"><div class=td-main><div class="row flex-xl-nowrap"><main class="col-12 col-md-9 col-xl-8 ps-md-5" role=main><div class=td-content><div class="pageinfo pageinfo-primary d-print-none"><p>これは、このセクションの複数ページの印刷可能なビューです。
+<a href=# onclick="return print(),!1">印刷するには、ここをクリックしてください</a>.</p><p><a href=/docsy-base/technology/platform/>このページの通常のビューに戻る</a>.</p></div><h1 class=title>運用プラットフォーム</h1><div class=lead>ITサービスを運用するためのプラットフォームの概要。</div><ul><li>1: <a href=#pg-4aad695314c7259c931f4bf0d02f94b1>High-Level Design</a></li><ul><li>1.1: <a href=#pg-0694cfa59c399f652375e81ea2bd92f6>サービスデスク</a></li><li>1.2: <a href=#pg-334e52338e1c7a4fbbf97f8612e5d5fc>インシデント管理</a></li><li>1.3: <a href=#pg-00328ba6992143602a75b015981a5441>問題管理</a></li><li>1.4: <a href=#pg-c789f524e17ce6c4d49eb852c5b8d254>変更管理</a></li><li>1.5: <a href=#pg-8cf31cb501010ff5fa9da8bb37151673>リリース管理</a></li><li>1.6: <a href=#pg-2d840be08bfc3a19fd1afc490848f601>構成管理</a></li><li>1.7: <a href=#pg-c49f6191470582cc7a5e052dc7dd8f95>サービスレベル管理</a></li><li>1.8: <a href=#pg-84d3fb501876bc7b0aba0a38bc721c30>継続的改善プロセス</a></li><li>1.9: <a href=#pg-4435f905a6b208fe24a2473400c73088>キャパシティ管理</a></li><li>1.10: <a href=#pg-6dfe40a137a58001e3b69ead5968a451>アベイラビリティ管理</a></li><li>1.11: <a href=#pg-9346a2def552b898e5aea4b97bb155c9>維持管理および運用監視</a></li><li>1.12: <a href=#pg-21feb88b1893141e741de537f13d290e>サプライヤー管理</a></li></ul><li>2: <a href=#pg-ebb7e194965a8a5d8257ff2bfdfc7566>Low-Level Design</a></li><ul><li>2.1: <a href=#pg-b2266619de2b603009341d5c97eb6450>サービスデスク</a></li><li>2.2: <a href=#pg-9e298305287449c59519417db19256d2>インシデント管理</a></li><li>2.3: <a href=#pg-babf91d20fa2c3a38889f39f19c382d0>問題管理</a></li><li>2.4: <a href=#pg-96c8ecd380500e6b059313620f0fc656>変更管理</a></li><li>2.5: <a href=#pg-245ea13230087ec8f872aa4c655f728e>リリース管理</a></li><li>2.6: <a href=#pg-de2a58bc9a0fdc4ce7c928fef911159d>構成管理</a></li><li>2.7: <a href=#pg-6cc13813a959229c60fe97d4d682044f>サービスレベル管理</a></li><li>2.8: <a href=#pg-73a8388405967c10d98f07cd8d0b9c01>継続的改善プロセス</a></li><li>2.9: <a href=#pg-6576239c96cd3860719ae5d00de93de3>キャパシティ管理</a></li><li>2.10: <a href=#pg-fa1bdd0c7b5e538e828dca0ddc3dd277>アベイラビリティ管理</a></li><li>2.11: <a href=#pg-914d520a09b42d981da301e4b8fb116a>維持管理および運用監視</a></li><li>2.12: <a href=#pg-cb26b7371af88fa7b8aadd41c48f80d8>サプライヤー管理</a></li></ul><li>3: <a href=#pg-6216921614ed69874ff01c0932297520>Autonomous IT Services</a></li><li>4: <a href=#pg-c78538371b911e5a252c44660f55e9e2>Operations Platform Architecture</a></li><li>5: <a href=#pg-bea1feb4fa343d9772c39efdf03c57f1>Optimization Techniques</a></li><li>6: <a href=#pg-cf456202f12ac946b453c94118e844b5>SAPシステム向け自動化・自律化</a></li></ul><div class=content><div class="pageinfo pageinfo-primary"><p>このページでは、システムを管理するためのオペレーションプラット
+フォームの概要を説明します。自動化、インシデント管理、監視、継続的改善などの主要
+な機能を紹介します。</p></div><p>システム運用におけるオペレーションプラットフォームは、複数のサービスやツールを統
+合し、ITIL 準拠の運用を自動化し、効率的な運用を実現します。このプラットフォーム
+は、日常的なタスクの自動化、インシデントの管理、システムの健全性監視、セキュリテ
+ィとコンプライアンスの確保を通じて、運用コストを削減しつつ高いサービス品質を維持
+します。</p><h2 id=オペレーションプラットフォームの主な機能>オペレーションプラットフォームの主な機能<a class=td-heading-self-link href=#%e3%82%aa%e3%83%9a%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%97%e3%83%a9%e3%83%83%e3%83%88%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0%e3%81%ae%e4%b8%bb%e3%81%aa%e6%a9%9f%e8%83%bd aria-label="Heading self-link"></a></h2><p>プラットフォームの各機能は、システム管理を最適化するために設計されており、それぞ
+れに対応する詳細な手順やタスクページがあります。以下は、主要な機能の概要です。</p><h3 id=1-サービスデスクとインシデント管理>1. <strong>サービスデスクとインシデント管理</strong><a class=td-heading-self-link href=#1-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%87%e3%82%b9%e3%82%af%e3%81%a8%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h3><p>このプラットフォームは、ServiceNow や Azure DevOps などを活用し、インシデント管
+理を集中化しています。この機能には以下が含まれます。</p><ul><li>インシデントの追跡と解決フロー。</li><li>SLA の監視および自動エスカレーション機能。</li><li>モニタリングシステムとの統合によるリアルタイムのアラートと対応。</li></ul><h3 id=2-インフラと運用の自動化>2. <strong>インフラと運用の自動化</strong><a class=td-heading-self-link href=#2-%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%81%a8%e9%81%8b%e7%94%a8%e3%81%ae%e8%87%aa%e5%8b%95%e5%8c%96 aria-label="Heading self-link"></a></h3><p>日常的な運用タスクやリソース管理は自動化され、手動作業を削減し、効率を向上させま
+す。この機能には以下が含まれます。</p><ul><li>パッチ管理の自動化。</li><li>Terraform や ARM テンプレートによるインフラストラクチャの自動プロビジョニング
+。</li><li>システムのスタート/ストップやバックアップなどの運用タスクの自動化。</li></ul><h3 id=3-監視とアラート>3. <strong>監視とアラート</strong><a class=td-heading-self-link href=#3-%e7%9b%a3%e8%a6%96%e3%81%a8%e3%82%a2%e3%83%a9%e3%83%bc%e3%83%88 aria-label="Heading self-link"></a></h3><p>システムの健全性をリアルタイムで監視し、問題が発生した場合は自動的にアラートを発
+生させます。この機能には以下が含まれます。</p><ul><li>リソースの健全性を監視するリアルタイム監視。</li><li>パフォーマンスの低下やエラーを検知した際の自動アラート。</li><li>監視システムからのインシデント管理システムへの連携。</li></ul><h3 id=4-セキュリティとコンプライアンス>4. <strong>セキュリティとコンプライアンス</strong><a class=td-heading-self-link href=#4-%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e3%81%a8%e3%82%b3%e3%83%b3%e3%83%97%e3%83%a9%e3%82%a4%e3%82%a2%e3%83%b3%e3%82%b9 aria-label="Heading self-link"></a></h3><p>プラットフォームは、セキュリティとコンプライアンスの要件を満たすために各種ツール
+を使用して管理します。この機能には以下が含まれます。</p><ul><li>役割ベースのアクセス制御（RBAC）によるアクセス管理。</li><li>ログと監査の自動化を通じて、運用履歴と変更履歴を監視し、コンプライアンスを確保
+します。</li><li>セキュリティ情報およびイベント管理（SIEM）ツールによるリアルタイムな脅威検知と
+対応。</li></ul><h3 id=5-継続的改善>5. <strong>継続的改善</strong><a class=td-heading-self-link href=#5-%e7%b6%99%e7%b6%9a%e7%9a%84%e6%94%b9%e5%96%84 aria-label="Heading self-link"></a></h3><p>プラットフォームは、運用パフォーマンスの監視と継続的改善をサポートします。この機
+能には以下が含まれます。</p><ul><li>KPI（主要業績評価指標）の監視および改善レポートの自動生成。</li><li>改善提案のバックログ管理および優先順位付け。</li><li>パフォーマンス向上や自動化プロセスの継続的改善。</li></ul><h2 id=オペレーションプラットフォームの利用開始>オペレーションプラットフォームの利用開始<a class=td-heading-self-link href=#%e3%82%aa%e3%83%9a%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%97%e3%83%a9%e3%83%83%e3%83%88%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0%e3%81%ae%e5%88%a9%e7%94%a8%e9%96%8b%e5%a7%8b aria-label="Heading self-link"></a></h2><p>オペレーションプラットフォームの使用を開始するには、以下の条件を満たしている必要
+があります。</p><ul><li>インフラストラクチャ管理や運用管理に関する基本的な知識。</li><li>インシデント管理システム（ServiceNow、Azure DevOps など）へのアクセス。</li><li>監視および自動化ツール（Azure Automation、Terraform など）へのアクセス。</li></ul><p>それぞれの機能に関連するタスクページを参照し、詳細な手順に従って設定や運用を進め
+てください。</p></div></div><div class=td-content style=page-break-before:always><h1 id=pg-4aad695314c7259c931f4bf0d02f94b1>1 - High-Level Design</h1><div class=lead>High-Level Design(HLD)は、システムの高レベル設計と運用に関する情報を説明するためのドキュメントです。</div><div class="pageinfo pageinfo-primary"><p>このページでは、HLD で記載すべき内容について説明します。</p></div><h2 id=1-システム概要>1. システム概要<a class=td-heading-self-link href=#1-%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e6%a6%82%e8%a6%81 aria-label="Heading self-link"></a></h2><p>システムの全体的な概要を説明します。</p><ul><li><strong>目的</strong>: システムが解決する問題や目標を説明します。</li><li><strong>スコープ</strong>: システムがどの範囲までカバーしているかを記載します。</li></ul><h2 id=2-アーキテクチャ概要>2. アーキテクチャ概要<a class=td-heading-self-link href=#2-%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3%e6%a6%82%e8%a6%81 aria-label="Heading self-link"></a></h2><p>システムのアーキテクチャの全体像を図や説明で示します。</p><ul><li><strong>主要コンポーネント</strong>: システム内の主要なモジュールやコンポーネントを説明しま
+す。</li><li><strong>デプロイメント図</strong>: システムのデプロイメント構成図を示し、各コンポーネントの
+配置を説明します。</li></ul><h2 id=3-データフロー>3. データフロー<a class=td-heading-self-link href=#3-%e3%83%87%e3%83%bc%e3%82%bf%e3%83%95%e3%83%ad%e3%83%bc aria-label="Heading self-link"></a></h2><p>データの流れを説明します。</p><ul><li><strong>データ入力</strong>: システムに入力されるデータの種類やソースを記載します。</li><li><strong>データ処理</strong>: データがシステム内でどのように処理されるかを説明します。</li><li><strong>データ出力</strong>: システムから出力されるデータの形式や送信先を記載します。</li></ul><h2 id=4-インターフェース設計>4. インターフェース設計<a class=td-heading-self-link href=#4-%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%95%e3%82%a7%e3%83%bc%e3%82%b9%e8%a8%ad%e8%a8%88 aria-label="Heading self-link"></a></h2><p>他のシステムやコンポーネントとのインターフェースを説明します。</p><ul><li><strong>API</strong>: 使用する API の概要やプロトコルを記載します。</li><li><strong>ユーザーインターフェース</strong>: システムにアクセスするユーザーの UI についての概
+要を示します。</li></ul><h2 id=5-セキュリティ>5. セキュリティ<a class=td-heading-self-link href=#5-%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3 aria-label="Heading self-link"></a></h2><p>セキュリティ対策について記載します。</p><ul><li><strong>認証と認可</strong>: システムがどのように認証と認可を行うかを説明します。</li><li><strong>データ保護</strong>: データの暗号化や保護方法を記載します。</li></ul><h2 id=6-技術的要件>6. 技術的要件<a class=td-heading-self-link href=#6-%e6%8a%80%e8%a1%93%e7%9a%84%e8%a6%81%e4%bb%b6 aria-label="Heading self-link"></a></h2><p>システムの技術的な要件を説明します。</p><ul><li><strong>ハードウェア要件</strong>: 必要なハードウェアの仕様を記載します。</li><li><strong>ソフトウェア要件</strong>: 使用する OS やミドルウェア、ライブラリを記載します。</li><li><strong>ネットワーク要件</strong>: ネットワーク帯域やプロトコルの要件を記載します。</li></ul><h2 id=7-運用設計>7. 運用設計<a class=td-heading-self-link href=#7-%e9%81%8b%e7%94%a8%e8%a8%ad%e8%a8%88 aria-label="Heading self-link"></a></h2><p>システムの運用に関する内容を記載します。</p><ul><li><strong>監視とアラート</strong>: システムの稼働状況を監視するためのツールや方法を説明し、ア
+ラート設定を記載します。</li><li><strong>バックアップとリカバリ</strong>: バックアップの方法、頻度、リカバリ手順を説明します
+。</li><li><strong>保守スケジュール</strong>: 定期的なメンテナンスの計画や、システム停止時間の取り決め
+を記載します。</li><li><strong>運用手順書</strong>: 日常的な運用に必要な手順書の概要を記載します。例: システム再起
+動、障害時対応手順。</li></ul><h2 id=8-制約事項>8. 制約事項<a class=td-heading-self-link href=#8-%e5%88%b6%e7%b4%84%e4%ba%8b%e9%a0%85 aria-label="Heading self-link"></a></h2><p>システムに対する技術的およびビジネス的な制約を説明します。</p><ul><li><strong>性能制約</strong>: システムのパフォーマンスに関連する制約を記載します。</li><li><strong>ビジネス制約</strong>: ビジネス要件による制約を説明します。</li></ul><h2 id=9-リスクと緩和策>9. リスクと緩和策<a class=td-heading-self-link href=#9-%e3%83%aa%e3%82%b9%e3%82%af%e3%81%a8%e7%b7%a9%e5%92%8c%e7%ad%96 aria-label="Heading self-link"></a></h2><p>プロジェクトのリスクとそれに対する緩和策を説明します。</p><ul><li><strong>技術的リスク</strong>: 使用する技術やシステム設計に関するリスクを記載します。</li><li><strong>ビジネスリスク</strong>: ビジネス運用に関連するリスクを記載します。</li></ul><hr><p>このドキュメントは、システムの全体像を関係者に共有し、プロジェクトの成功に向けた
+ガイドラインとして機能します。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-0694cfa59c399f652375e81ea2bd92f6>1.1 - サービスデスク</h1><div class=lead>ITシステム運用基盤におけるサービスデスクの高レベル設計</div><h2 id=目的と役割>目的と役割<a class=td-heading-self-link href=#%e7%9b%ae%e7%9a%84%e3%81%a8%e5%bd%b9%e5%89%b2 aria-label="Heading self-link"></a></h2><p>サービスデスクは、ユーザーからの問い合わせや問題を一元的に受け付け、迅速に対応す
+る役割を果たします。これにより、IT サービスの安定した運用を支え、ユーザーエクス
+ペリエンスの向上を図ります。サービスデスクは、問題解決の窓口として、問題の分類、
+エスカレーション、解決を行い、全体の IT 環境を最適化する役割を持ちます。</p><h2 id=サポートチャネル>サポートチャネル<a class=td-heading-self-link href=#%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88%e3%83%81%e3%83%a3%e3%83%8d%e3%83%ab aria-label="Heading self-link"></a></h2><p>サービスデスクでは、以下の複数のサポートチャネルを提供します：</p><ul><li><strong>電話</strong>: 直接的なコミュニケーションによる迅速な対応。</li><li><strong>メール</strong>: 問い合わせや問題を記録し、追跡可能な形で対応。</li><li><strong>チャット</strong>: リアルタイムでの問題解決をサポートし、迅速な対応を可能にします。
+これらのチャネルを通じて、ユーザーは最適な方法で問題解決の支援を受けられます。</li></ul><h2 id=エスカレーションポリシー>エスカレーションポリシー<a class=td-heading-self-link href=#%e3%82%a8%e3%82%b9%e3%82%ab%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%9d%e3%83%aa%e3%82%b7%e3%83%bc aria-label="Heading self-link"></a></h2><p>エスカレーションポリシーは、問題が迅速かつ適切に解決されるよう、複数のサポートレ
+ベルに問題をエスカレーションするプロセスを定義します。問題が一定時間内に解決され
+ない場合、技術チームや管理層にエスカレーションし、さらに複雑な問題に対処するため
+のプロセスが準備されています。このポリシーにより、サービスの中断や影響を最小限に
+抑え、問題の迅速な解決を目指します。</p><h2 id=サービスレベル目標sla-対応>サービスレベル目標（SLA 対応）<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e7%9b%ae%e6%a8%99sla-%e5%af%be%e5%bf%9c aria-label="Heading self-link"></a></h2><p>サービスデスクは、サービスレベル目標（SLA）に従って運用されます。SLA では、問い
+合わせやインシデントに対する対応時間や解決時間が明確に定められており、これにより
+ユーザーが受けるサービスの品質を保証します。サービスデスクは、これらの SLA を遵
+守し、問題が発生した際にも迅速かつ効果的に対応し、ユーザー満足度を維持します。ま
+た、定期的な SLA の見直しにより、継続的にサービスレベルを改善していきます。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-334e52338e1c7a4fbbf97f8612e5d5fc>1.2 - インシデント管理</h1><div class=lead>ITシステム運用基盤におけるインシデント管理の高レベル設計</div><h2 id=インシデント発生時の対応フロー>インシデント発生時の対応フロー<a class=td-heading-self-link href=#%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%99%ba%e7%94%9f%e6%99%82%e3%81%ae%e5%af%be%e5%bf%9c%e3%83%95%e3%83%ad%e3%83%bc aria-label="Heading self-link"></a></h2><p>インシデントが発生すると、まずその発生ルートが特定されます。インシデントは大きく
+分けて以下の 2 つのルートで発生します：</p><ol><li><strong>システムイベント契機</strong>: 監視ツールやシステムが異常を検出した場合に自動的に
+インシデントが作成されます。</li><li><strong>ユーザーからの申告契機</strong>: ユーザーが問題を発見し、サービスデスクに申告する
+ことによりインシデントが発生します。</li></ol><p>どちらのルートでも、インシデントが発生次第、担当者が問題を特定し、影響範囲や優先
+度を評価します。その後、適切な対応策が実行され、問題が解決されるまで状況をモニタ
+リングします。ユーザーや関係者への定期的な報告も含め、インシデントの進捗状況が透
+明に管理されます。</p><h2 id=インシデント分類と優先度設定>インシデント分類と優先度設定<a class=td-heading-self-link href=#%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e5%88%86%e9%a1%9e%e3%81%a8%e5%84%aa%e5%85%88%e5%ba%a6%e8%a8%ad%e5%ae%9a aria-label="Heading self-link"></a></h2><p>インシデントは、その深刻度と影響範囲に基づいて分類され、優先度が設定されます。分
+類の基準としては、以下の要素が含まれます：</p><ul><li><strong>影響範囲</strong>: システム全体への影響か、一部のユーザーへの限定的な影響か。</li><li><strong>ビジネスへの影響</strong>: インシデントがビジネス運用にどの程度の影響を及ぼすか。</li><li><strong>システム依存度</strong>: インシデントが発生したシステムの重要度に基づき、優先度が決
+定されます。</li></ul><p>高優先度のインシデントは即時対応が必要であり、緊急チームが対応にあたります。低優
+先度のインシデントは、通常の対応プロセスで処理されます。</p><h2 id=自動インシデント作成>自動インシデント作成<a class=td-heading-self-link href=#%e8%87%aa%e5%8b%95%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e4%bd%9c%e6%88%90 aria-label="Heading self-link"></a></h2><p>インシデントの多くは、監視ツールがシステムの異常を検知した際に自動的に作成されま
+す。自動インシデント作成機能により、システムダウンやパフォーマンス低下などが早期
+に発見され、対応チームに迅速に通知されます。これにより、手動でのインシデント報告
+を待つことなく、即時対応が可能となり、サービスダウンタイムを最小限に抑えます。</p><h2 id=エスカレーションと対応チームの役割>エスカレーションと対応チームの役割<a class=td-heading-self-link href=#%e3%82%a8%e3%82%b9%e3%82%ab%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a8%e5%af%be%e5%bf%9c%e3%83%81%e3%83%bc%e3%83%a0%e3%81%ae%e5%bd%b9%e5%89%b2 aria-label="Heading self-link"></a></h2><p>インシデントが特定の時間内に解決されない場合、エスカレーションポリシーに従って次
+のレベルの対応チームに問題が引き継がれます。たとえば、初期対応チームが問題を解決
+できない場合、専門技術チームや管理層にエスカレーションされます。このプロセスによ
+り、複雑な問題や重大なインシデントが迅速に処理され、問題の長期化が防止されます。</p><h2 id=サービスレベル目標sla-対応>サービスレベル目標（SLA 対応）<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e7%9b%ae%e6%a8%99sla-%e5%af%be%e5%bf%9c aria-label="Heading self-link"></a></h2><p>インシデント対応においては、サービスレベル契約（SLA）が重要な役割を果たします
+。SLA では、以下の目標が定義されています：</p><ul><li><strong>初期対応時間</strong>: インシデントが報告されてから、対応チームが初期対応を開始する
+までの時間。</li><li><strong>解決時間</strong>: インシデントの影響範囲や優先度に応じた解決までの時間。</li></ul><p>これにより、ユーザーはインシデント対応がどの程度の時間内で行われるかを予測でき、
+サービス品質の維持が保証されます。SLA 違反が発生した場合は、管理チームにエスカレ
+ーションされ、対策が講じられます。</p><h2 id=レポートおよび分析>レポートおよび分析<a class=td-heading-self-link href=#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%8a%e3%82%88%e3%81%b3%e5%88%86%e6%9e%90 aria-label="Heading self-link"></a></h2><p>すべてのインシデントは詳細に記録され、定期的にレポートが作成されます。インシデン
+トの種類、発生頻度、解決時間などのデータを基に分析を行い、システムの脆弱性や改善
+点を特定します。これにより、将来的なインシデントの発生を防ぎ、IT サービスの品質
+を向上させることができます。レポートは、月次や四半期ごとに定期的に提出され、経営
+層へのフィードバックも含めた改善活動が実施されます。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-00328ba6992143602a75b015981a5441>1.3 - 問題管理</h1><div class=lead>ITシステム運用基盤における問題管理の高レベル設計</div><h2 id=問題の特定と登録フロー>問題の特定と登録フロー<a class=td-heading-self-link href=#%e5%95%8f%e9%a1%8c%e3%81%ae%e7%89%b9%e5%ae%9a%e3%81%a8%e7%99%bb%e9%8c%b2%e3%83%95%e3%83%ad%e3%83%bc aria-label="Heading self-link"></a></h2><p>問題管理の最初のステップは、発生した問題を特定し、正確に登録することです。問題は
+、以下のようなルートから特定されます：</p><ul><li><strong>インシデントの再発</strong>: 同じインシデントが繰り返し発生する場合、それが問題とし
+て登録されます。</li><li><strong>インシデントの根本原因分析</strong>: 単一のインシデントでも、重大な影響がある場合は
+問題として登録されます。</li></ul><p>問題が特定されたら、問題管理システムに記録され、対応チームに割り当てられます。</p><h2 id=根本原因分析rcaプロセス>根本原因分析（RCA）プロセス<a class=td-heading-self-link href=#%e6%a0%b9%e6%9c%ac%e5%8e%9f%e5%9b%a0%e5%88%86%e6%9e%90rca%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9 aria-label="Heading self-link"></a></h2><p>問題が発生した際、根本原因分析（RCA: Root Cause Analysis）が行われます。このプロ
+セスでは、問題の発生要因や背景を調査し、再発を防ぐための恒久的な解決策を見つけ出
+します。RCA には、以下のステップが含まれます：</p><ol><li><strong>問題の原因調査</strong>: 問題がどのようにして発生したかを分析します。</li><li><strong>影響範囲の特定</strong>: 問題がどのシステムやユーザーに影響を与えたかを確認します
+。</li><li><strong>再発防止策の提案</strong>: 問題が再発しないような修正や改善を提案します。</li></ol><h2 id=永続的な解決策の管理>永続的な解決策の管理<a class=td-heading-self-link href=#%e6%b0%b8%e7%b6%9a%e7%9a%84%e3%81%aa%e8%a7%a3%e6%b1%ba%e7%ad%96%e3%81%ae%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h2><p>RCA の結果として提案された解決策は、恒久的な解決策として記録され、管理されます。
+この解決策が適用されることで、問題の再発が防止されます。解決策の実施後、システム
+やプロセスのモニタリングが行われ、効果が確認されます。また、他のシステムや関連プ
+ロセスに対する影響も評価され、必要に応じて改善が行われます。</p><h2 id=サービスレベル目標sla-対応>サービスレベル目標（SLA 対応）<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e7%9b%ae%e6%a8%99sla-%e5%af%be%e5%bf%9c aria-label="Heading self-link"></a></h2><p>問題管理プロセスにおいても、SLA が適用されます。以下の SLA が定義されています：</p><ul><li><strong>問題の特定時間</strong>: 問題が発生してから、特定されるまでの時間。</li><li><strong>根本原因分析完了時間</strong>: 問題が特定された後、RCA が完了するまでの時間。</li><li><strong>解決策の実施時間</strong>: 永続的な解決策が実施されるまでの時間。</li></ul><p>これらの目標を遵守することで、問題が迅速に解決され、システムの信頼性が向上します
+。</p><h2 id=レポートおよび分析>レポートおよび分析<a class=td-heading-self-link href=#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%8a%e3%82%88%e3%81%b3%e5%88%86%e6%9e%90 aria-label="Heading self-link"></a></h2><p>すべての問題は記録され、定期的にレポートが作成されます。このレポートでは、問題の
+発生原因、影響範囲、解決に要した時間などが分析されます。これにより、システムの脆
+弱性や改善点が特定され、プロセスの最適化が行われます。問題管理レポートは、定期的
+に関係者に共有され、サービス全体の品質向上に役立てられます。</p><h2 id=継続的な改善プロセスとの連携>継続的な改善プロセスとの連携<a class=td-heading-self-link href=#%e7%b6%99%e7%b6%9a%e7%9a%84%e3%81%aa%e6%94%b9%e5%96%84%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9%e3%81%a8%e3%81%ae%e9%80%a3%e6%90%ba aria-label="Heading self-link"></a></h2><p>問題管理は、継続的な改善プロセス（CIP: Continual Improvement Process）とも密接に
+関連しています。問題の発生からその解決までの過程で得られた知見や教訓は、CIP に反
+映され、さらなる改善活動が行われます。これにより、問題が根本的に解決され、IT シ
+ステム全体の品質が継続的に向上します。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-c789f524e17ce6c4d49eb852c5b8d254>1.4 - 変更管理</h1><div class=lead>ITシステム運用基盤における変更管理の高レベル設計</div><h2 id=変更要求rfcのプロセス>変更要求（RFC）のプロセス<a class=td-heading-self-link href=#%e5%a4%89%e6%9b%b4%e8%a6%81%e6%b1%82rfc%e3%81%ae%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9 aria-label="Heading self-link"></a></h2><p>変更管理は、システムに対する変更を安全かつ効率的に実施するためのプロセスです。変
+更が必要になった際には、まず変更要求（RFC: Request for Change）が提出されます
+。RFC は、次の情報を含む必要があります：</p><ul><li><strong>変更内容の概要</strong>: 何が変更されるのか。</li><li><strong>変更の理由</strong>: なぜ変更が必要か。</li><li><strong>変更による影響</strong>: システム全体やビジネスへの影響。</li><li><strong>リスク評価</strong>: 変更によるリスクとその対策。このプロセスを通じて、変更の必要性
+やリスクが適切に評価され、無駄な変更やリスクの高い変更が防止されます。</li></ul><h2 id=変更承認フロー>変更承認フロー<a class=td-heading-self-link href=#%e5%a4%89%e6%9b%b4%e6%89%bf%e8%aa%8d%e3%83%95%e3%83%ad%e3%83%bc aria-label="Heading self-link"></a></h2><p>変更が提出されると、CAB（Change Advisory Board）による承認フローが開始されます
+。CAB は、変更に関連する技術チームやビジネスリーダーで構成されており、変更のリス
+ク、影響、コストなどを評価します。承認フローでは、次のステップが行われます：</p><ol><li><strong>変更内容のレビュー</strong>: 提出された RFC を詳細にレビュー。</li><li><strong>リスク評価</strong>: 変更がシステムやビジネスに与えるリスクを評価。</li><li><strong>承認または却下</strong>: 変更を承認するか、追加情報が必要か、または却下するかを決
+定。この承認フローを通じて、システムの安定性とサービスの継続性を維持しながら
+、必要な変更が適切に管理されます。</li></ol><h2 id=変更の実装手順>変更の実装手順<a class=td-heading-self-link href=#%e5%a4%89%e6%9b%b4%e3%81%ae%e5%ae%9f%e8%a3%85%e6%89%8b%e9%a0%86 aria-label="Heading self-link"></a></h2><p>変更が承認された場合、次に具体的な実装手順が策定されます。これには、変更を実施す
+るためのステップバイステップの指示が含まれ、リスクを最小限に抑えながら変更が行わ
+れます。実装手順は次の内容を含みます：</p><ul><li><strong>変更の準備</strong>: 必要なリソース、ツール、担当者の手配。</li><li><strong>変更の実施</strong>: スケジュールに従って変更を実行。</li><li><strong>変更の検証</strong>: 変更後のシステムの正常性を確認。</li><li><strong>ロールバック計画</strong>: 変更に問題が発生した場合のロールバック手順を定義。</li></ul><h2 id=変更後のレビューと報告>変更後のレビューと報告<a class=td-heading-self-link href=#%e5%a4%89%e6%9b%b4%e5%be%8c%e3%81%ae%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bc%e3%81%a8%e5%a0%b1%e5%91%8a aria-label="Heading self-link"></a></h2><p>変更が実施された後、変更の影響や成功を評価するためにレビューが行われます。レビュ
+ーでは、次の事項が確認されます：</p><ul><li><strong>変更が計画通りに実行されたか</strong>: すべてのステップが予定通りに実施されたか。</li><li><strong>予期せぬ影響が発生したか</strong>: 変更による予期しないシステムやビジネスへの影響が
+なかったか。</li><li><strong>ロールバックが必要だったか</strong>: 変更中に問題が発生し、ロールバックが必要だった
+か。これらの結果をもとに、変更に関するレポートが作成され、関係者に報告されます
+。また、必要に応じて将来的な改善点も提案されます。</li></ul><h2 id=サービスレベル目標sla-対応>サービスレベル目標（SLA 対応）<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e7%9b%ae%e6%a8%99sla-%e5%af%be%e5%bf%9c aria-label="Heading self-link"></a></h2><p>変更管理プロセスにおいても、SLA が適用されます。SLA では、変更がどのくらいの期間
+で承認され、実施されるべきかが定義されています。また、変更によるシステムダウンタ
+イムも SLA に従って管理され、サービスレベルが維持されます。SLA 違反が発生した場
+合は、CAB や管理チームにエスカレーションされ、適切な対策が講じられます。</p><h2 id=リスク評価と緩和策>リスク評価と緩和策<a class=td-heading-self-link href=#%e3%83%aa%e3%82%b9%e3%82%af%e8%a9%95%e4%be%a1%e3%81%a8%e7%b7%a9%e5%92%8c%e7%ad%96 aria-label="Heading self-link"></a></h2><p>変更管理では、すべての変更に対してリスク評価が行われます。リスク評価では、システ
+ムやビジネスに対する影響を分析し、リスクを最小限に抑えるための緩和策が策定されま
+す。具体的な緩和策には、冗長性の確保、バックアップの実施、ロールバック手順の準備
+などが含まれます。これにより、変更が失敗しても迅速に復旧できる体制が整えられます
+。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-8cf31cb501010ff5fa9da8bb37151673>1.5 - リリース管理</h1><div class=lead>ITシステム運用基盤におけるリリース管理の高レベル設計</div><h2 id=リリースのスケジュールと計画>リリースのスケジュールと計画<a class=td-heading-self-link href=#%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%81%ae%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab%e3%81%a8%e8%a8%88%e7%94%bb aria-label="Heading self-link"></a></h2><p>リリース管理は、IT サービスやシステムの新機能や修正を安全かつ効率的に展開するた
+めのプロセスです。リリースを実施する際には、事前に詳細な計画が策定されます。この
+計画には、以下の要素が含まれます：</p><ul><li><strong>リリース日程</strong>: リリースの実施日時を決定し、影響範囲を考慮したスケジュールを
+組みます。</li><li><strong>リソース割り当て</strong>: リリースに必要なリソース（人員、ツール、設備）を確保し、
+リソースが準備されていることを確認します。</li><li><strong>影響範囲の評価</strong>: リリースがシステムやビジネスに与える影響を評価し、適切なリ
+スク軽減策を講じます。</li></ul><p>計画フェーズでは、関係者への通知や、必要な承認を得るためのプロセスも含まれます。</p><h2 id=リリースの展開方法>リリースの展開方法<a class=td-heading-self-link href=#%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%81%ae%e5%b1%95%e9%96%8b%e6%96%b9%e6%b3%95 aria-label="Heading self-link"></a></h2><p>リリースの展開方法には複数の選択肢があり、システムの規模やリスクに応じて最適な方
+法が選ばれます。一般的な展開方法としては以下があります：</p><ul><li><strong>手動リリース</strong>: 小規模なリリースや低リスクな変更に対して、手動でリリースを実
+施。</li><li><strong>自動リリース</strong>: 継続的インテグレーション（CI）/継続的デリバリー（CD）のパイ
+プラインを利用し、自動的にリリースを展開。</li><li><strong>段階的リリース</strong>: リスクを最小限に抑えるため、特定のユーザーグループやシステ
+ムでリリースを段階的に展開。</li><li><strong>カナリアリリース</strong>: 小規模なグループに対して新しいリリースを適用し、問題がな
+いことを確認してから全体に展開。</li></ul><p>それぞれの展開方法は、リリースの規模や影響度に基づいて選定されます。</p><h2 id=リリース後の確認とロールバック手順>リリース後の確認とロールバック手順<a class=td-heading-self-link href=#%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e5%be%8c%e3%81%ae%e7%a2%ba%e8%aa%8d%e3%81%a8%e3%83%ad%e3%83%bc%e3%83%ab%e3%83%90%e3%83%83%e3%82%af%e6%89%8b%e9%a0%86 aria-label="Heading self-link"></a></h2><p>リリースが完了した後、システムが正常に稼働しているかを確認するための検証プロセス
+が実施されます。この検証には以下のステップが含まれます：</p><ul><li><strong>システムテスト</strong>: リリース後にシステム全体が正常に動作していることを確認。</li><li><strong>パフォーマンステスト</strong>: リリースによってシステムのパフォーマンスが低下してい
+ないことを確認。</li></ul><p>万が一、問題が発生した場合には、事前に計画されたロールバック手順を使用して、変更
+を元に戻します。ロールバック手順には、以下のような要素が含まれます：</p><ul><li><strong>ロールバック条件</strong>: どのような場合にリリースをロールバックするかを定義。</li><li><strong>ロールバック手順</strong>: ロールバックの実施方法を詳細に記載。</li><li><strong>影響範囲の確認</strong>: ロールバックによるシステムやユーザーへの影響を最小限に抑え
+るための手順。</li></ul><h2 id=リリースの品質保証とテスト>リリースの品質保証とテスト<a class=td-heading-self-link href=#%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%81%ae%e5%93%81%e8%b3%aa%e4%bf%9d%e8%a8%bc%e3%81%a8%e3%83%86%e3%82%b9%e3%83%88 aria-label="Heading self-link"></a></h2><p>リリースの成功を保証するためには、事前に十分なテストが行われることが不可欠です。
+リリースの品質保証プロセスには、以下のテストが含まれます：</p><ul><li><strong>ユニットテスト</strong>: 個々の機能やモジュールのテストを行い、正確に動作するかを確
+認します。</li><li><strong>統合テスト</strong>: 異なるシステムやモジュール間の連携が正しく動作するかを確認しま
+す。</li><li><strong>UAT（ユーザー受け入れテスト）</strong>: エンドユーザーによるテストを実施し、リリー
+スが期待通りの結果をもたらすかを確認します。</li></ul><p>すべてのテストは、リリース前に完了し、問題がないことを確認したうえで展開が行われ
+ます。リリース後も、適切なテスト結果が確認され次第、リリースが最終的に承認されま
+す。</p><h2 id=サービスレベル目標sla-対応>サービスレベル目標（SLA 対応）<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e7%9b%ae%e6%a8%99sla-%e5%af%be%e5%bf%9c aria-label="Heading self-link"></a></h2><p>リリース管理プロセスにおいても、SLA（サービスレベル契約）に基づいた目標が設定さ
+れています。これには以下の目標が含まれます：</p><ul><li><strong>リリース期間</strong>: リリースが計画されたスケジュール内に完了すること。</li><li><strong>ダウンタイムの最小化</strong>: リリースの影響で発生するシステムの停止時間を最小限に
+抑えること。</li><li><strong>ユーザー影響の最小化</strong>: リリースがユーザーに与える影響を最小限に抑え、迅速に
+正常なサービスを再開すること。</li></ul><p>SLA 違反が発生した場合には、関係者に報告され、必要な対策が講じられます。</p><h2 id=リリース後のレポートと分析>リリース後のレポートと分析<a class=td-heading-self-link href=#%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e5%be%8c%e3%81%ae%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%a8%e5%88%86%e6%9e%90 aria-label="Heading self-link"></a></h2><p>リリースが完了した後は、すべてのリリース活動について詳細なレポートが作成されます
+。レポートには、以下の項目が含まれます：</p><ul><li><strong>リリースの成功度</strong>: リリースが成功したかどうか、またはロールバックが必要だっ
+たか。</li><li><strong>リリースによる影響</strong>: システムやユーザーに対する影響の範囲。</li><li><strong>リリースの改善点</strong>: 今後のリリースで改善すべき点や、リリースプロセスの効率化
+案。</li></ul><p>これにより、リリースの全体的な品質を評価し、将来のリリースに向けた改善が行われま
+す。定期的なレビューを通じて、リリースプロセスの最適化が図られます。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-2d840be08bfc3a19fd1afc490848f601>1.6 - 構成管理</h1><div class=lead>ITシステム運用基盤における構成管理の高レベル設計</div><h2 id=構成アイテムciの定義と分類>構成アイテム（CI）の定義と分類<a class=td-heading-self-link href=#%e6%a7%8b%e6%88%90%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0ci%e3%81%ae%e5%ae%9a%e7%be%a9%e3%81%a8%e5%88%86%e9%a1%9e aria-label="Heading self-link"></a></h2><p>構成管理では、システム内のすべての構成アイテム（CI: Configuration Item）が特定さ
+れ、分類されます。構成アイテムには以下のような要素が含まれます：</p><ul><li><strong>ハードウェア</strong>: サーバー、ネットワークデバイス、ストレージ。</li><li><strong>ソフトウェア</strong>: オペレーティングシステム、アプリケーション、ライセンス。</li><li><strong>ネットワーク構成</strong>: ルーター、スイッチ、ファイアウォールなどの設定情報。</li><li><strong>ドキュメント</strong>: システム構成に関連する技術文書や操作マニュアル。</li></ul><p>これらの CI は、IT サービスの運用や管理において重要な要素であり、構成管理データ
+ベース（CMDB）に記録されます。CI は分類され、依存関係や影響範囲を理解するために
+整理されます。</p><h2 id=ci-のライフサイクル管理>CI のライフサイクル管理<a class=td-heading-self-link href=#ci-%e3%81%ae%e3%83%a9%e3%82%a4%e3%83%95%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h2><p>構成アイテムは、そのライフサイクル全体にわたって管理されます。CI のライフサイク
+ルは以下のフェーズに分けられます：</p><ol><li><strong>導入</strong>: 新しい CI がシステムに導入され、CMDB に登録されます。</li><li><strong>運用</strong>: CI が日常的な運用で使用され、定期的なメンテナンスや更新が行われます
+。</li><li><strong>廃棄</strong>: 使用されなくなった CI がシステムから削除され、CMDB からも廃棄記録が
+管理されます。</li></ol><p>各フェーズにおいて、CI の状態や変更履歴が追跡され、システム全体の透明性が確保さ
+れます。</p><h2 id=構成管理ツールの概要>構成管理ツールの概要<a class=td-heading-self-link href=#%e6%a7%8b%e6%88%90%e7%ae%a1%e7%90%86%e3%83%84%e3%83%bc%e3%83%ab%e3%81%ae%e6%a6%82%e8%a6%81 aria-label="Heading self-link"></a></h2><p>構成管理には、構成管理データベース（CMDB）を中心としたツールが利用されます。CMDB
+は、すべての構成アイテムとその属性、状態、依存関係を一元管理します。主な機能とし
+ては以下が含まれます：</p><ul><li><strong>CI の登録と更新</strong>: 新しい CI の登録や、既存 CI の属性更新を行います。</li><li><strong>変更履歴の管理</strong>: CI に対して行われた変更の履歴を記録し、追跡可能な状態にし
+ます。</li><li><strong>依存関係の可視化</strong>: CI 同士の依存関係をグラフィカルに表示し、変更の影響範囲
+を確認します。</li><li><strong>インシデントや変更管理との統合</strong>: インシデント管理や変更管理と連携し、CI に
+関連する問題や変更を一元管理します。</li></ul><h2 id=ci-間の依存関係と影響分析>CI 間の依存関係と影響分析<a class=td-heading-self-link href=#ci-%e9%96%93%e3%81%ae%e4%be%9d%e5%ad%98%e9%96%a2%e4%bf%82%e3%81%a8%e5%bd%b1%e9%9f%bf%e5%88%86%e6%9e%90 aria-label="Heading self-link"></a></h2><p>構成管理では、各 CI の間に存在する依存関係を正確に把握することが重要です。CI 間
+の依存関係を理解することで、以下のような利点が得られます：</p><ul><li><strong>影響範囲の特定</strong>: 変更やインシデントが発生した際に、その影響を受ける他の CI
+やシステムを特定できます。</li><li><strong>リスク管理</strong>: システム全体の依存関係を把握することで、変更や障害の際のリスク
+を予測し、適切な緩和策を講じることが可能です。</li></ul><p>依存関係の分析には、CMDB のデータを基に自動化されたツールが活用され、変更や障害
+がシステムに与える影響を迅速に判断します。</p><h2 id=構成管理の-sla-対応>構成管理の SLA 対応<a class=td-heading-self-link href=#%e6%a7%8b%e6%88%90%e7%ae%a1%e7%90%86%e3%81%ae-sla-%e5%af%be%e5%bf%9c aria-label="Heading self-link"></a></h2><p>構成管理においても、SLA が適用されます。SLA では、構成管理データが常に最新で正確
+であることが求められます。具体的には以下の目標が含まれます：</p><ul><li><strong>CI の更新時間</strong>: CI に変更があった場合、一定時間内に CMDB が更新されること。</li><li><strong>CI の正確性</strong>: CMDB 内の CI 情報が常に正確で、誤りがないことを保証。</li><li><strong>定期的な監査</strong>: 定期的に CMDB を監査し、CI 情報が最新であることを確認します
+。</li></ul><p>これらの SLA を遵守することで、システムの安定性と運用の効率化が維持されます。</p><h2 id=レポートおよび分析>レポートおよび分析<a class=td-heading-self-link href=#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%8a%e3%82%88%e3%81%b3%e5%88%86%e6%9e%90 aria-label="Heading self-link"></a></h2><p>構成管理の重要な要素として、定期的なレポート作成と分析が含まれます。CMDB 内のデ
+ータを基に、以下のようなレポートが作成されます：</p><ul><li><strong>CI の変更履歴レポート</strong>: CI に対する変更の履歴をまとめ、システムの変更状況を
+把握。</li><li><strong>依存関係レポート</strong>: CI 間の依存関係を可視化し、影響範囲を確認。</li><li><strong>監査レポート</strong>: 定期的に CI 情報の監査を行い、SLA に基づいた管理が行われてい
+るか確認します。</li></ul><p>これにより、構成管理の品質を維持し、必要な改善が実施されます。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-c49f6191470582cc7a5e052dc7dd8f95>1.7 - サービスレベル管理</h1><div class=lead>ITシステム運用基盤におけるサービスレベル管理の高レベル設計</div><h2 id=サービスレベル契約slaと目標設定>サービスレベル契約（SLA）と目標設定<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e5%a5%91%e7%b4%84sla%e3%81%a8%e7%9b%ae%e6%a8%99%e8%a8%ad%e5%ae%9a aria-label="Heading self-link"></a></h2><p>サービスレベル管理（SLM）は、サービスの品質を確保し、顧客との期待値を明確にする
+ために行われるプロセスです。まず、サービスレベル契約（SLA）を定義し、サービスの
+具体的な目標を設定します。SLA には以下の項目が含まれます：</p><ul><li><strong>可用性</strong>: システムやサービスが利用可能な時間。</li><li><strong>パフォーマンス</strong>: サービスの応答時間や処理速度。</li><li><strong>復旧時間</strong>: システム障害が発生した場合、復旧までに要する時間。</li><li><strong>サポート時間</strong>: サポートが提供される時間帯（例：24 時間 365 日）。</li></ul><p>これらの目標値を設定することで、サービスの質を測定し、顧客の要求に応じたサービス
+が提供されます。</p><h2 id=sla-モニタリングと報告>SLA モニタリングと報告<a class=td-heading-self-link href=#sla-%e3%83%a2%e3%83%8b%e3%82%bf%e3%83%aa%e3%83%b3%e3%82%b0%e3%81%a8%e5%a0%b1%e5%91%8a aria-label="Heading self-link"></a></h2><p>SLA の達成状況をモニタリングするための仕組みが整備されます。定期的にサービスのパ
+フォーマンスを測定し、SLA の目標に達しているかを確認します。モニタリングには、以
+下の手法が含まれます：</p><ul><li><strong>自動モニタリングツール</strong>: サービスの可用性や応答時間をリアルタイムで監視し
+、SLA 違反がないか確認します。</li><li><strong>定期的なレビュー</strong>: SLA に基づき、サービスのパフォーマンスを定期的に評価し、
+報告書を作成します。</li></ul><p>モニタリング結果は、月次、四半期ごとに報告され、経営層や顧客に対してサービスのパ
+フォーマンスが説明されます。</p><h2 id=sla-違反時のエスカレーション>SLA 違反時のエスカレーション<a class=td-heading-self-link href=#sla-%e9%81%95%e5%8f%8d%e6%99%82%e3%81%ae%e3%82%a8%e3%82%b9%e3%82%ab%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3 aria-label="Heading self-link"></a></h2><p>SLA が遵守されない場合、適切なエスカレーションプロセスが実行されます。エスカレー
+ションの手順は以下の通りです：</p><ol><li><strong>初期対応</strong>: SLA 違反が検出された時点で、技術チームにアラートが送信され、迅
+速に対応が開始されます。</li><li><strong>マネジメントへの通知</strong>: 一定時間内に問題が解決されない場合、管理層にエスカ
+レーションされ、対応が強化されます。</li><li><strong>顧客への報告</strong>: 顧客に対しても、SLA 違反が発生した旨を速やかに報告し、修正
+計画を提示します。</li></ol><p>このエスカレーションプロセスにより、SLA 違反が速やかに是正され、サービスの信頼性
+が確保されます。</p><h2 id=sla-レビューと改善>SLA レビューと改善<a class=td-heading-self-link href=#sla-%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bc%e3%81%a8%e6%94%b9%e5%96%84 aria-label="Heading self-link"></a></h2><p>サービスレベル管理プロセスの一環として、定期的な SLA レビューが実施されます。こ
+のレビューでは、過去のパフォーマンスデータや顧客からのフィードバックをもとに
+、SLA の見直しが行われます。主なレビュー項目は以下の通りです：</p><ul><li><strong>パフォーマンス目標の達成状況</strong>: 達成できた目標と、達成できなかった目標の評価
+。</li><li><strong>顧客フィードバック</strong>: 顧客からの意見や要求に基づき、SLA の調整を検討。</li><li><strong>技術的な改善</strong>: システムやプロセスの改善により、より高いサービスレベルを提供
+できるかの検討。</li></ul><p>SLA レビューを通じて、サービスレベルの継続的な改善が行われ、顧客満足度の向上が図
+られます。</p><h2 id=サービスレベルレポート>サービスレベルレポート<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88 aria-label="Heading self-link"></a></h2><p>サービスレベルレポートは、SLA の達成状況を明確に示す重要なドキュメントです。レポ
+ートには以下の内容が含まれます：</p><ul><li><strong>パフォーマンス測定</strong>: サービスの可用性や応答時間など、SLA で定義された項目に
+対する実績値。</li><li><strong>SLA 違反の記録</strong>: 過去の SLA 違反とその原因、対応策。</li><li><strong>改善提案</strong>: サービスのパフォーマンスを向上させるための具体的な改善提案。</li></ul><p>レポートは定期的に顧客や関係者に提出され、今後のサービス改善に向けた基礎資料とな
+ります。</p><h2 id=顧客とのコミュニケーション>顧客とのコミュニケーション<a class=td-heading-self-link href=#%e9%a1%a7%e5%ae%a2%e3%81%a8%e3%81%ae%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3 aria-label="Heading self-link"></a></h2><p>サービスレベル管理においては、顧客との定期的なコミュニケーションが非常に重要です
+。SLA の内容や目標、報告書の内容について、顧客との合意を得るために定期的なミーテ
+ィングが行われます。これにより、顧客がサービスのパフォーマンスを理解し、期待に応
+じたサービスが提供されることが保証されます。顧客からのフィードバックを反映し、サ
+ービスレベルを継続的に見直す体制が確立されています。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-84d3fb501876bc7b0aba0a38bc721c30>1.8 - 継続的改善プロセス</h1><div class=lead>ITシステム運用基盤における継続的改善プロセスの高レベル設計</div><h2 id=継続的改善プロセスの目的>継続的改善プロセスの目的<a class=td-heading-self-link href=#%e7%b6%99%e7%b6%9a%e7%9a%84%e6%94%b9%e5%96%84%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9%e3%81%ae%e7%9b%ae%e7%9a%84 aria-label="Heading self-link"></a></h2><p>継続的改善プロセス（CIP: Continual Improvement Process）は、IT サービスや運用プ
+ロセスを絶え間なく向上させ、ビジネス価値を最大化することを目的としています。これ
+により、サービスの質を向上させ、顧客満足度を維持し、運用コストを削減することが可
+能になります。継続的改善プロセスは、問題発生後の対応だけでなく、事前の予防的改善
+も対象としています。</p><h2 id=改善提案のプロセス>改善提案のプロセス<a class=td-heading-self-link href=#%e6%94%b9%e5%96%84%e6%8f%90%e6%a1%88%e3%81%ae%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9 aria-label="Heading self-link"></a></h2><p>改善提案は、IT サービスや運用プロセスに関する課題や機会を識別し、それを解決また
+は最適化するためのアクションプランを策定するステップです。改善提案は以下のルート
+から発生します：</p><ul><li><strong>インシデントや問題管理からのフィードバック</strong>: 過去のインシデントや問題を分析
+し、その根本原因を特定して改善策を提案。</li><li><strong>パフォーマンスデータの分析</strong>: サービスレベル指標や KPI を分析し、現状のパフ
+ォーマンスを向上させるための提案。</li><li><strong>顧客フィードバック</strong>: 顧客からの意見や苦情を収集し、それを基に改善策を検討。</li></ul><p>これらの提案は、評価され、実行計画に組み込まれます。</p><h2 id=kpi-のモニタリング>KPI のモニタリング<a class=td-heading-self-link href=#kpi-%e3%81%ae%e3%83%a2%e3%83%8b%e3%82%bf%e3%83%aa%e3%83%b3%e3%82%b0 aria-label="Heading self-link"></a></h2><p>継続的改善プロセスでは、重要業績評価指標（KPI: Key Performance Indicators）が定
+期的にモニタリングされます。KPI のモニタリングにより、IT サービスの現状を把握し
+、どの部分が改善の対象となるべきかを判断します。代表的な KPI には以下があります
+：</p><ul><li><strong>システムの可用性</strong>: サービスやシステムが稼働している時間。</li><li><strong>インシデント対応時間</strong>: インシデントが報告されてから解決されるまでの時間。</li><li><strong>ユーザー満足度</strong>: 顧客やエンドユーザーからのフィードバックを基にした満足度の
+測定。</li></ul><p>これらの指標は定期的に評価され、サービス改善の指標として使用されます。</p><h2 id=改善計画の立案と実行>改善計画の立案と実行<a class=td-heading-self-link href=#%e6%94%b9%e5%96%84%e8%a8%88%e7%94%bb%e3%81%ae%e7%ab%8b%e6%a1%88%e3%81%a8%e5%ae%9f%e8%a1%8c aria-label="Heading self-link"></a></h2><p>KPI や顧客フィードバックを基に、具体的な改善計画が立案されます。改善計画には以下
+の要素が含まれます：</p><ol><li><strong>目標設定</strong>: 改善の対象となるサービスやプロセスの目標値を明確にします。</li><li><strong>リソースの割り当て</strong>: 改善を実施するために必要なリソース（人材、ツール、予
+算）を割り当てます。</li><li><strong>タイムラインの設定</strong>: 改善活動を完了するための具体的なスケジュールを策定し
+ます。</li></ol><p>改善計画が立案された後、実行段階に移ります。実行中には進捗がモニタリングされ、計
+画通りに進行しているかが確認されます。</p><h2 id=改善の成果測定>改善の成果測定<a class=td-heading-self-link href=#%e6%94%b9%e5%96%84%e3%81%ae%e6%88%90%e6%9e%9c%e6%b8%ac%e5%ae%9a aria-label="Heading self-link"></a></h2><p>改善活動が完了した後、その成果を測定します。成果の測定は、事前に設定した KPI や
+目標値に基づいて行われ、改善活動が期待通りの結果をもたらしたかを評価します。具体
+的には以下の点を確認します：</p><ul><li><strong>パフォーマンス向上</strong>: 改善後のパフォーマンスが、以前の状態と比較してどの程度
+向上したか。</li><li><strong>顧客満足度の向上</strong>: 改善が顧客満足度にどのように影響したかを測定します。</li><li><strong>運用コストの削減</strong>: 改善活動により、コストがどれだけ削減できたかを評価します
+。</li></ul><p>成果が期待通りであれば、プロセ</p></div><div class=td-content style=page-break-before:always><h1 id=pg-4435f905a6b208fe24a2473400c73088>1.9 - キャパシティ管理</h1><div class=lead>ITシステム運用基盤におけるキャパシティ管理の高レベル設計</div><h2 id=キャパシティ管理の目的>キャパシティ管理の目的<a class=td-heading-self-link href=#%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e7%ae%a1%e7%90%86%e3%81%ae%e7%9b%ae%e7%9a%84 aria-label="Heading self-link"></a></h2><p>キャパシティ管理は、システムのパフォーマンスとリソースの最適化を目的とし、現在お
+よび将来のビジネスニーズに対応できるようにします。システムが必要とするリソース
+（CPU、メモリ、ストレージ、ネットワーク帯域など）を適切に予測し、サービスの提供
+に支障をきたさないように調整します。これにより、コスト削減とパフォーマンス向上の
+両方を実現します。</p><h2 id=キャパシティのモニタリング>キャパシティのモニタリング<a class=td-heading-self-link href=#%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e3%81%ae%e3%83%a2%e3%83%8b%e3%82%bf%e3%83%aa%e3%83%b3%e3%82%b0 aria-label="Heading self-link"></a></h2><p>キャパシティ管理の最初のステップは、システムのリソース使用状況をリアルタイムでモ
+ニタリングすることです。これにより、現在のリソース使用率を把握し、どの部分が不足
+または過剰かを判断します。モニタリングでは、以下の要素が追跡されます：</p><ul><li><strong>CPU 使用率</strong>: プロセッサの負荷を追跡し、リソース不足が発生していないかを確認
+。</li><li><strong>メモリ使用率</strong>: メモリの使用状況を監視し、スワップやメモリ不足を防ぎます。</li><li><strong>ストレージ使用率</strong>: ディスクスペースの利用状況を確認し、容量不足を予防。</li><li><strong>ネットワーク帯域</strong>: ネットワークの使用量を監視し、ボトルネックが発生していな
+いか確認。</li></ul><p>これらのデータは定期的に収集され、分析されます。</p><h2 id=キャパシティ計画>キャパシティ計画<a class=td-heading-self-link href=#%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e8%a8%88%e7%94%bb aria-label="Heading self-link"></a></h2><p>キャパシティ計画は、将来的なビジネスニーズを予測し、リソースが不足しないように調
+整を行うプロセスです。以下のステップでキャパシティ計画が実行されます：</p><ol><li><strong>現在のリソース使用状況の評価</strong>: モニタリングデータを基に、現状のリソース使
+用量を把握。</li><li><strong>将来の需要予測</strong>: ビジネスの成長や新しいプロジェクトによる負荷を予測し、将
+来必要となるリソースを計算。</li><li><strong>リソース追加の計画</strong>: 必要に応じてリソースを追加するためのタイムラインを策
+定し、予算に基づいた計画を立てます。</li></ol><p>キャパシティ計画では、リソースの過剰供給や不足を防ぎ、最適なリソース配分が確保さ
+れます。</p><h2 id=キャパシティ不足時のリスク対策>キャパシティ不足時のリスク対策<a class=td-heading-self-link href=#%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e4%b8%8d%e8%b6%b3%e6%99%82%e3%81%ae%e3%83%aa%e3%82%b9%e3%82%af%e5%af%be%e7%ad%96 aria-label="Heading self-link"></a></h2><p>リソースが不足した場合に備え、事前にリスク対策が策定されます。キャパシティ不足は
+システムのパフォーマンス低下やダウンタイムを引き起こす可能性があるため、以下の対
+策が講じられます：</p><ul><li><strong>リソースの動的割り当て</strong>: クラウドベースのインフラストラクチャでは、需要に応
+じて自動的にリソースをスケールアップまたはスケールダウンします。</li><li><strong>優先度の設定</strong>: 重要な業務アプリケーションに優先してリソースを割り当て、リソ
+ース不足が発生した際の影響を最小限に抑えます。</li><li><strong>フェールオーバー対策</strong>: リソースが限界に達した場合、別のシステムに自動的に切
+り替わるフェールオーバー体制を確立します。</li></ul><p>これにより、キャパシティ不足時にもサービスの継続性が確保されます。</p><h2 id=サービスレベル目標sla-対応>サービスレベル目標（SLA 対応）<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e7%9b%ae%e6%a8%99sla-%e5%af%be%e5%bf%9c aria-label="Heading self-link"></a></h2><p>キャパシティ管理では、SLA（サービスレベル契約）に基づいた目標を設定します。キャ
+パシティが不足することによって SLA 違反が発生しないように、次のような目標が設定
+されます：</p><ul><li><strong>パフォーマンスの維持</strong>: システムのパフォーマンスが常に SLA で定められた基準
+を満たしていること。</li><li><strong>リソース追加のタイムライン</strong>: 需要の増加に対応して、SLA を満たすためにリソー
+スの追加がどのタイミングで行われるか。</li></ul><p>SLA 違反が発生した場合、エスカレーションプロセスにより管理者に報告され、迅速に対
+応が行われます。</p><h2 id=レポートおよび分析>レポートおよび分析<a class=td-heading-self-link href=#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%8a%e3%82%88%e3%81%b3%e5%88%86%e6%9e%90 aria-label="Heading self-link"></a></h2><p>キャパシティ管理では、定期的なレポートが作成され、システムのリソース使用状況や将
+来的な予測が関係者に共有されます。レポートには以下の内容が含まれます：</p><ul><li><strong>リソース使用率の履歴</strong>: 過去のリソース使用状況を示すデータ。</li><li><strong>将来の需要予測</strong>: 予測に基づいた将来のリソース需要。</li><li><strong>パフォーマンスに関する指標</strong>: リソースの使用状況が SLA に準拠しているかどう
+かの確認。</li></ul><p>これにより、関係者はキャパシティの現状を理解し、必要な改善や調整を行うための情報
+を得ることができます。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-6dfe40a137a58001e3b69ead5968a451>1.10 - アベイラビリティ管理</h1><div class=lead>ITシステム運用基盤におけるアベイラビリティ管理の高レベル設計</div><h2 id=アベイラビリティ管理の目的>アベイラビリティ管理の目的<a class=td-heading-self-link href=#%e3%82%a2%e3%83%99%e3%82%a4%e3%83%a9%e3%83%93%e3%83%aa%e3%83%86%e3%82%a3%e7%ae%a1%e7%90%86%e3%81%ae%e7%9b%ae%e7%9a%84 aria-label="Heading self-link"></a></h2><p>アベイラビリティ管理は、IT サービスやシステムの可用性を最大限に高めることを目的
+としています。可用性は、システムやサービスが必要なときに利用可能であることを指し
+、ビジネスの継続性を確保するために非常に重要です。アベイラビリティ管理では、予期
+せぬダウンタイムを最小限に抑え、ユーザーに対して安定したサービスを提供します。</p><h2 id=可用性目標と計画>可用性目標と計画<a class=td-heading-self-link href=#%e5%8f%af%e7%94%a8%e6%80%a7%e7%9b%ae%e6%a8%99%e3%81%a8%e8%a8%88%e7%94%bb aria-label="Heading self-link"></a></h2><p>アベイラビリティ管理では、各サービスやシステムに対して可用性目標が設定されます。
+この目標は、サービスレベル契約（SLA）に基づいて策定され、通常は以下の項目を含み
+ます：</p><ul><li><strong>稼働時間</strong>: サービスが利用可能であるべき時間の割合（例：99.9%の稼働率）。</li><li><strong>計画的なメンテナンス</strong>: 定期的なメンテナンス期間中のダウンタイムを除外し、事
+前に計画されたスケジュールに従って実施されます。</li><li><strong>復旧時間目標（RTO）</strong>: システム障害が発生した場合に、復旧が完了するまでの時
+間目標。</li></ul><p>これらの目標を達成するために、具体的なアクションプランが策定され、定期的に見直さ
+れます。</p><h2 id=冗長性とフェールオーバー設計>冗長性とフェールオーバー設計<a class=td-heading-self-link href=#%e5%86%97%e9%95%b7%e6%80%a7%e3%81%a8%e3%83%95%e3%82%a7%e3%83%bc%e3%83%ab%e3%82%aa%e3%83%bc%e3%83%90%e3%83%bc%e8%a8%ad%e8%a8%88 aria-label="Heading self-link"></a></h2><p>アベイラビリティを確保するためには、システムの冗長性が重要な役割を果たします。冗
+長性は、障害が発生してもサービスが継続されるように、予備のリソースやバックアップ
+を配置することを指します。主な設計要素としては以下があります：</p><ul><li><strong>デュアルデータセンター</strong>: 複数のデータセンターに分散してシステムを配置し、1
+つのデータセンターに障害が発生してもサービスが継続できるようにします。</li><li><strong>自動フェールオーバー</strong>: システムに障害が発生した場合、別のサーバーやネットワ
+ークに自動的に切り替わる仕組みを導入します。</li><li><strong>クラウド冗長性</strong>: クラウドベースのインフラストラクチャを利用し、動的にスケー
+ルアップ/スケールダウンすることで、高可用性を確保します。</li></ul><p>冗長性とフェールオーバーを設計することで、システム障害の影響を最小限に抑え、サー
+ビスの継続性を保証します。</p><h2 id=サービス停止時のインパクト分析>サービス停止時のインパクト分析<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e5%81%9c%e6%ad%a2%e6%99%82%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%91%e3%82%af%e3%83%88%e5%88%86%e6%9e%90 aria-label="Heading self-link"></a></h2><p>システムやサービスが停止した場合、その影響を評価し、ビジネスに与えるリスクを最小
+限に抑えるための対策を講じます。インパクト分析では以下の要素が考慮されます：</p><ul><li><strong>ビジネスへの影響</strong>: システム停止がビジネスプロセスにどの程度の影響を与えるか
+を分析します。これには、収益、顧客満足度、法的な影響が含まれます。</li><li><strong>サービス依存性</strong>: 停止したシステムが他のサービスやシステムに与える影響を特定
+します。</li><li><strong>ダウンタイムのコスト</strong>: サービス停止による直接的および間接的なコスト（収益の
+損失、復旧にかかる費用など）を評価します。</li></ul><p>インパクト分析に基づき、リスク軽減策や復旧計画が策定されます。</p><h2 id=可用性モニタリングとレポート>可用性モニタリングとレポート<a class=td-heading-self-link href=#%e5%8f%af%e7%94%a8%e6%80%a7%e3%83%a2%e3%83%8b%e3%82%bf%e3%83%aa%e3%83%b3%e3%82%b0%e3%81%a8%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88 aria-label="Heading self-link"></a></h2><p>アベイラビリティ管理の一環として、システムやサービスの可用性が常時モニタリングさ
+れます。モニタリングツールは、リアルタイムでサービスの状態を監視し、問題が発生し
+た場合に即座にアラートを発信します。可用性のモニタリングでは以下が行われます：</p><ul><li><strong>システムの稼働状況の追跡</strong>: システムの稼働率や応答時間を監視。</li><li><strong>SLA との照合</strong>: 可用性が SLA の目標値に達しているかを確認。</li><li><strong>アラート管理</strong>: 障害やパフォーマンスの低下が検出された場合、自動で対応チーム
+に通知。</li></ul><p>モニタリング結果は定期的にレポートとしてまとめられ、関係者に提供されます。これに
+より、サービスの可用性状況を把握し、将来的な改善策が検討されます。</p><h2 id=可用性の-sla-対応>可用性の SLA 対応<a class=td-heading-self-link href=#%e5%8f%af%e7%94%a8%e6%80%a7%e3%81%ae-sla-%e5%af%be%e5%bf%9c aria-label="Heading self-link"></a></h2><p>アベイラビリティ管理では、SLA に基づいた可用性目標を達成するための対策が取られま
+す。主な SLA 対応項目としては以下が含まれます：</p><ul><li><strong>稼働率目標</strong>: システムやサービスの年間稼働率が S</li></ul></div><div class=td-content style=page-break-before:always><h1 id=pg-9346a2def552b898e5aea4b97bb155c9>1.11 - 維持管理および運用監視</h1><div class=lead>ITシステム運用基盤における維持管理および運用監視の高レベル設計</div><h2 id=維持管理の目的>維持管理の目的<a class=td-heading-self-link href=#%e7%b6%ad%e6%8c%81%e7%ae%a1%e7%90%86%e3%81%ae%e7%9b%ae%e7%9a%84 aria-label="Heading self-link"></a></h2><p>維持管理は、システムのパフォーマンス、安定性、およびセキュリティを継続的に確保し
+、ビジネスニーズを満たし続けることを目的としています。これには、システムの定期的
+なメンテナンス、更新、および修正が含まれます。維持管理プロセスを効果的に運用する
+ことで、システムの障害やセキュリティリスクを最小限に抑え、安定した運用を保証しま
+す。</p><h2 id=定期的なメンテナンスと更新>定期的なメンテナンスと更新<a class=td-heading-self-link href=#%e5%ae%9a%e6%9c%9f%e7%9a%84%e3%81%aa%e3%83%a1%e3%83%b3%e3%83%86%e3%83%8a%e3%83%b3%e3%82%b9%e3%81%a8%e6%9b%b4%e6%96%b0 aria-label="Heading self-link"></a></h2><p>維持管理では、システムが常に最適な状態で動作するよう、定期的なメンテナンスと更新
+が行われます。以下がその主な活動です：</p><ul><li><strong>セキュリティパッチの適用</strong>: 新しい脆弱性が発見された際、システムに最新のセキ
+ュリティパッチを適用します。</li><li><strong>ソフトウェアのアップデート</strong>: ソフトウェアや OS が最新のバージョンであること
+を確認し、機能やセキュリティ向上を図ります。</li><li><strong>ハードウェアの点検</strong>: サーバーやネットワーク機器の状態を定期的にチェックし、
+故障リスクを回避します。</li><li><strong>バックアップの管理</strong>: 定期的なデータバックアップが行われ、データ復旧の準備が
+常に整っていることを確認します。</li></ul><p>これらの活動をスケジュールに基づいて実行することで、システムの稼働を継続的に維持
+します。</p><h2 id=運用監視の目的>運用監視の目的<a class=td-heading-self-link href=#%e9%81%8b%e7%94%a8%e7%9b%a3%e8%a6%96%e3%81%ae%e7%9b%ae%e7%9a%84 aria-label="Heading self-link"></a></h2><p>運用監視は、システムの状態をリアルタイムで把握し、異常や障害が発生した場合に迅速
+に対応することを目的としています。システムの監視により、サービスの安定性を保ち、
+重大な問題が発生する前に予防的な対応を行うことが可能です。</p><h2 id=運用監視の仕組み>運用監視の仕組み<a class=td-heading-self-link href=#%e9%81%8b%e7%94%a8%e7%9b%a3%e8%a6%96%e3%81%ae%e4%bb%95%e7%b5%84%e3%81%bf aria-label="Heading self-link"></a></h2><p>運用監視は、システム全体の稼働状況やパフォーマンスを監視し、リアルタイムで異常を
+検知する仕組みを提供します。以下の監視項目が含まれます：</p><ul><li><strong>システム稼働率の監視</strong>: サーバーやネットワーク機器の稼働状況を常時監視し、停
+止や異常が発生した場合にアラートを発信します。</li><li><strong>パフォーマンス監視</strong>: CPU、メモリ、ディスク、ネットワークなどのリソース使用
+状況を監視し、ボトルネックが発生しないように調整します。</li><li><strong>セキュリティ監視</strong>: 不審なアクセスや攻撃の兆候を監視し、即時に対処します。</li><li><strong>アプリケーション監視</strong>: 各種アプリケーションの状態や応答時間を監視し、サービ
+スレベルに影響を与える問題を早期に検出します。</li></ul><p>運用監視は、監視ツールを用いて自動化されており、リアルタイムでデータを取得・分析
+します。</p><h2 id=アラートおよびエスカレーションプロセス>アラートおよびエスカレーションプロセス<a class=td-heading-self-link href=#%e3%82%a2%e3%83%a9%e3%83%bc%e3%83%88%e3%81%8a%e3%82%88%e3%81%b3%e3%82%a8%e3%82%b9%e3%82%ab%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9 aria-label="Heading self-link"></a></h2><p>運用監視により異常が検知された場合、アラートが即座に発信され、対応チームが迅速に
+対処を開始します。アラートとエスカレーションプロセスの流れは以下の通りです：</p><ol><li><strong>アラート発信</strong>: 監視システムが異常を検知すると、対応チームに自動的にアラー
+トが送信されます。</li><li><strong>初期対応</strong>: 初期対応チームがアラートに基づいて問題を診断し、必要に応じて問
+題を解決します。</li><li><strong>エスカレーション</strong>: 初期対応で解決できない場合、次のレベルの技術チームや管
+理層にエスカレーションされます。</li><li><strong>解決と報告</strong>: 問題が解決された後、原因と対応策が報告され、将来の改善に向け
+たフィードバックが行われます。</li></ol><p>これにより、障害や異常が最小限の影響で迅速に解決されます。</p><h2 id=sla-と運用監視>SLA と運用監視<a class=td-heading-self-link href=#sla-%e3%81%a8%e9%81%8b%e7%94%a8%e7%9b%a3%e8%a6%96 aria-label="Heading self-link"></a></h2><p>運用監視は、サービスレベル契約（SLA）を遵守するために重要な役割を果たします。SLA
+に基づいた以下の目標を達成するために、監視プロセスが導入されています：</p><ul><li><strong>稼働時間目標</strong>: システムが SLA で定められた稼働率（例：99.9%）を維持できるよ
+うに監視が行われます。</li><li><strong>応答時間の目標</strong>: 監視ツールが異常を検知してから、対応チームが問題に対処する
+までの応答時間を管理します。</li><li><strong>ダウンタイムの最小化</strong>: 障害が発生した場合のダウンタイムを最小限に抑えるため
+、即座に対応が行われます。</li></ul><p>これにより、SLA に準拠したサービスの提供が可能になります。</p><h2 id=レポートおよび改善>レポートおよび改善<a class=td-heading-self-link href=#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%8a%e3%82%88%e3%81%b3%e6%94%b9%e5%96%84 aria-label="Heading self-link"></a></h2><p>運用監視により収集されたデータは、定期的にレポートとしてまとめられます。レポート
+には以下の内容が含まれます：</p><ul><li><strong>システムパフォーマンスの概要</strong>: 各リソースの使用率やパフォーマンスの変動。</li><li><strong>アラート履歴</strong>: 過去のアラートや異常検出の履歴、およびその対応状況。</li><li><strong>監視項目の改善提案</strong>: 監視結果に基づき、システムの改善点や運用プロセスの最適
+化提案。</li></ul><p>これにより、システムの安定性を向上させるための改善が継続的に実施されます。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-21feb88b1893141e741de537f13d290e>1.12 - サプライヤー管理</h1><div class=lead>ITシステム運用基盤におけるサプライヤー管理の高レベル設計</div><h2 id=サプライヤー管理の目的>サプライヤー管理の目的<a class=td-heading-self-link href=#%e3%82%b5%e3%83%97%e3%83%a9%e3%82%a4%e3%83%a4%e3%83%bc%e7%ae%a1%e7%90%86%e3%81%ae%e7%9b%ae%e7%9a%84 aria-label="Heading self-link"></a></h2><p>サプライヤー管理の目的は、IT サービス提供に必要な外部ベンダーやサプライヤーとの
+関係を管理し、コスト、品質、納期、サービスレベルの最適化を図ることです。適切なサ
+プライヤー管理により、リスクを低減し、ビジネス価値を高めることが可能となります。</p><h2 id=サプライヤー選定と契約管理>サプライヤー選定と契約管理<a class=td-heading-self-link href=#%e3%82%b5%e3%83%97%e3%83%a9%e3%82%a4%e3%83%a4%e3%83%bc%e9%81%b8%e5%ae%9a%e3%81%a8%e5%a5%91%e7%b4%84%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h2><p>サプライヤー管理の第一歩は、適切なサプライヤーを選定し、契約を管理することです。
+このプロセスには以下が含まれます：</p><ul><li><strong>サプライヤー評価</strong>: サプライヤーの能力、信頼性、実績を評価し、IT サービスの
+要件を満たすサプライヤーを選定します。</li><li><strong>契約の策定と締結</strong>: サプライヤーと明確な契約を結び、サービス提供範囲、コスト
+、納期、品質保証などの項目を契約書に明記します。</li><li><strong>契約の見直し</strong>: 定期的に契約内容を見直し、ビジネスニーズや技術的要件に応じて
+調整します。</li></ul><p>適切な契約管理により、サプライヤーのパフォーマンスが維持され、コスト管理が容易に
+なります。</p><h2 id=サプライヤーとの関係管理>サプライヤーとの関係管理<a class=td-heading-self-link href=#%e3%82%b5%e3%83%97%e3%83%a9%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%a8%e3%81%ae%e9%96%a2%e4%bf%82%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h2><p>サプライヤー管理では、サプライヤーとの関係を強化し、長期的なパートナーシップを構
+築することが重要です。関係管理には以下の要素が含まれます：</p><ul><li><strong>定期的なコミュニケーション</strong>: 定期的なミーティングやレビューを通じて、サプラ
+イヤーとのコミュニケーションを強化し、現状の課題や改善点を共有します。</li><li><strong>問題解決プロセス</strong>: サプライヤーとの間で発生した問題や課題に対して、迅速に解
+決策を見つけるためのプロセスを定義します。</li><li><strong>パフォーマンス評価</strong>: サプライヤーのパフォーマンスを定期的に評価し、必要に応
+じて改善を求めるアクションを実行します。</li></ul><p>これにより、サプライヤーとの健全な関係を保ち、サービス品質が向上します。</p><h2 id=サービスレベル管理slmとの連携>サービスレベル管理（SLM）との連携<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e7%ae%a1%e7%90%86slm%e3%81%a8%e3%81%ae%e9%80%a3%e6%90%ba aria-label="Heading self-link"></a></h2><p>サプライヤー管理は、サービスレベル管理（SLM）と連携して行われます。サプライヤー
+が提供するサービスが SLA に準拠しているかを定期的に評価し、SLA 違反が発生した場
+合は、適切な対応を実施します。サプライヤーに対する SLA 管理の流れは以下の通りで
+す：</p><ul><li><strong>SLA の設定</strong>: サプライヤーと合意した SLA を策定し、サービスの稼働率、応答時
+間、解決時間などの具体的な目標を設定します。</li><li><strong>SLA モニタリング</strong>: サプライヤーが提供するサービスが SLA の目標に達している
+か、定期的にモニタリングします。</li><li><strong>SLA 違反時の対応</strong>: サプライヤーが SLA に違反した場合、迅速にエスカレーショ
+ンし、問題解決と再発防止策を講じます。</li></ul><p>これにより、サプライヤーから提供されるサービスが常に高水準を維持することが保証さ
+れます。</p><h2 id=サプライヤーリスク管理>サプライヤーリスク管理<a class=td-heading-self-link href=#%e3%82%b5%e3%83%97%e3%83%a9%e3%82%a4%e3%83%a4%e3%83%bc%e3%83%aa%e3%82%b9%e3%82%af%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h2><p>サプライヤーとの関係には、リスク管理も含まれます。サプライヤーがサービスを提供で
+きなくなるリスクや、品質が低下するリスクに備え、事前に対策を講じておくことが重要
+です。リスク管理には以下の活動が含まれます：</p><ul><li><strong>リスク評価</strong>: 各サプライヤーのリスクを評価し、影響度や発生確率に基づいて分類
+します。</li><li><strong>代替サプライヤーの確保</strong>: 主要なサプライヤーに問題が発生した場合に備え、代替
+サプライヤーを事前に確保します。</li><li><strong>事業継続計画（BCP）との連携</strong>: サプライヤーのサービス停止が発生した際、事業
+継続計画に基づいて迅速に対応し、ビジネスへの影響を最小限に抑えます。</li></ul><p>これにより、サプライヤーのリスクを最小限に抑え、ビジネスの安定性を維持します。</p><h2 id=コスト管理と最適化>コスト管理と最適化<a class=td-heading-self-link href=#%e3%82%b3%e3%82%b9%e3%83%88%e7%ae%a1%e7%90%86%e3%81%a8%e6%9c%80%e9%81%a9%e5%8c%96 aria-label="Heading self-link"></a></h2><p>サプライヤー管理には、コストの最適化も重要な要素です。サプライヤーとの契約に基づ
+くコストを定期的に見直し、効率的なコスト削減を図ります。主な活動としては以下があ
+ります：</p><ul><li><strong>コスト評価</strong>: サプライヤーから提供されるサービスのコストを定期的に評価し、コ
+ストに見合ったサービスが提供されているかを確認します。</li><li><strong>コスト削減の提案</strong>: サプライヤーと協力してコスト削減の方法を検討し、運用コス
+トの最適化を実現します。</li><li><strong>ベンチマーク</strong>: 同業他社や市場全体と比較して、サプライヤーのコストとサービス
+レベルをベンチマークし、競争力を維持します。</li></ul><p>これにより、コストの効率性を高め、予算管理を容易にします。</p><h2 id=レポートと改善活動>レポートと改善活動<a class=td-heading-self-link href=#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%a8%e6%94%b9%e5%96%84%e6%b4%bb%e5%8b%95 aria-label="Heading self-link"></a></h2><p>サプライヤー管理において、定期的なレポート作成が不可欠です。サプライヤーのパフォ
+ーマンス、SLA 遵守状況、コスト評価などを定期的にまとめ、関係者に報告します。レポ
+ートには以下の内容が含まれます：</p><ul><li><strong>サプライヤーパフォーマンスの評価</strong>: 契約に基づくサービスレベルの達成状況を評
+価。</li><li><strong>改善提案</strong>: サプライヤーのパフォーマンス向上に向けた改善策の提案。</li><li><strong>リスクとコストの分析</strong>: サプライヤーのリスクやコストの状況を分析し、将来的な
+対策を検討。</li></ul><p>これにより、継続的にサプライヤーの管理が改善され、サービス品質とコスト効率が向上
+します。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-ebb7e194965a8a5d8257ff2bfdfc7566>2 - Low-Level Design</h1><div class=lead>Low-Level Design (LLD)は、システムの詳細な設計と運用に関する情報を説明するためのドキュメントです。</div><div class="pageinfo pageinfo-primary"><p>このページでは、LLD で記載すべき内容について説明します。</p></div><h2 id=1-システムの詳細設計>1. システムの詳細設計<a class=td-heading-self-link href=#1-%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%81%ae%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88 aria-label="Heading self-link"></a></h2><p>システムの詳細な構成や動作を記述します。</p><ul><li><strong>目的</strong>: システムの具体的な機能や操作の説明を行います。</li><li><strong>技術スタック</strong>: 使用される技術スタック（プログラミング言語、フレームワーク、
+データベースなど）を具体的に記載します。</li></ul><h2 id=2-コンポーネント設計>2. コンポーネント設計<a class=td-heading-self-link href=#2-%e3%82%b3%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%8d%e3%83%b3%e3%83%88%e8%a8%ad%e8%a8%88 aria-label="Heading self-link"></a></h2><p>システム内の各コンポーネントやモジュールの詳細を説明します。</p><ul><li><strong>モジュール設計</strong>: 各モジュールが果たす役割や、モジュール間のデータフローを記
+載します。</li><li><strong>依存関係</strong>: モジュールやコンポーネント間の依存関係を詳細に記載します。</li></ul><h2 id=3-データベース設計>3. データベース設計<a class=td-heading-self-link href=#3-%e3%83%87%e3%83%bc%e3%82%bf%e3%83%99%e3%83%bc%e3%82%b9%e8%a8%ad%e8%a8%88 aria-label="Heading self-link"></a></h2><p>データベース構造やスキーマ設計を詳述します。</p><ul><li><strong>ER 図</strong>: データベースのエンティティとそれらの関係を示す ER 図を記載します。</li><li><strong>テーブル定義</strong>: 各テーブルの構造、カラム、データ型、制約を詳しく説明します。</li><li><strong>インデックスと最適化</strong>: インデックス設計とデータベースクエリの最適化について
+記載します。</li></ul><h2 id=4-インターフェース仕様>4. インターフェース仕様<a class=td-heading-self-link href=#4-%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%95%e3%82%a7%e3%83%bc%e3%82%b9%e4%bb%95%e6%a7%98 aria-label="Heading self-link"></a></h2><p>システム間やコンポーネント間で使用されるインターフェースの仕様を詳細に記載します
+。</p><ul><li><strong>API 設計</strong>: 各 API のエンドポイント、リクエスト/レスポンス形式、認証方式を記
+載します。</li><li><strong>データフォーマット</strong>: API やシステム間でやり取りされるデータフォーマット
+（JSON, XML など）を定義します。</li></ul><h2 id=5-シーケンス図>5. シーケンス図<a class=td-heading-self-link href=#5-%e3%82%b7%e3%83%bc%e3%82%b1%e3%83%b3%e3%82%b9%e5%9b%b3 aria-label="Heading self-link"></a></h2><p>システム内の主要なユースケースや操作のフローをシーケンス図として示します。</p><ul><li><strong>主要シーケンス</strong>: 各ユースケースに対するシーケンス図を記載し、各コンポーネン
+トの相互作用を示します。</li><li><strong>エラーハンドリング</strong>: システムがどのようにエラーを処理するか、詳細なフローを
+示します。</li></ul><h2 id=6-セキュリティ設計>6. セキュリティ設計<a class=td-heading-self-link href=#6-%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e8%a8%ad%e8%a8%88 aria-label="Heading self-link"></a></h2><p>システムのセキュリティに関する詳細な設計を記載します。</p><ul><li><strong>認証と認可</strong>: 認証プロセス、ロールベースのアクセス制御（RBAC）などの仕組みを
+詳しく説明します。</li><li><strong>データ暗号化</strong>: データ保護のための暗号化手法と、それをどの部分で使用するかを
+記載します。</li><li><strong>脆弱性対策</strong>: システムの脆弱性を防ぐための設計や使用ツールを記載します。</li></ul><h2 id=7-テスト設計>7. テスト設計<a class=td-heading-self-link href=#7-%e3%83%86%e3%82%b9%e3%83%88%e8%a8%ad%e8%a8%88 aria-label="Heading self-link"></a></h2><p>システムのテスト方法やテストケースの設計を記載します。</p><ul><li><strong>ユニットテスト</strong>: 各モジュールのテスト範囲とテストケースを具体的に説明します
+。</li><li><strong>統合テスト</strong>: モジュール間の統合テストの設計と、テストデータの準備方法を記載
+します。</li><li><strong>パフォーマンステスト</strong>: システムのパフォーマンスを評価するための基準とテスト
+手法を記載します。</li></ul><h2 id=8-運用と監視>8. 運用と監視<a class=td-heading-self-link href=#8-%e9%81%8b%e7%94%a8%e3%81%a8%e7%9b%a3%e8%a6%96 aria-label="Heading self-link"></a></h2><p>システム運用と監視のための設計を詳細に記載します。</p><ul><li><strong>監視設定</strong>: システムの稼働状況を監視するためのツールとその設定を説明します。</li><li><strong>アラートの詳細</strong>: システムで設定されたアラートの閾値や通知方法を記載します。</li><li><strong>ログ管理</strong>: ログの収集方法や、ログの保管ポリシーを説明します。</li></ul><h2 id=9-パフォーマンス最適化>9. パフォーマンス最適化<a class=td-heading-self-link href=#9-%e3%83%91%e3%83%95%e3%82%a9%e3%83%bc%e3%83%9e%e3%83%b3%e3%82%b9%e6%9c%80%e9%81%a9%e5%8c%96 aria-label="Heading self-link"></a></h2><p>システムのパフォーマンスを向上させるための最適化手法を記載します。</p><ul><li><strong>キャッシュ戦略</strong>: キャッシュの利用方法とその適用範囲を記載します。</li><li><strong>負荷分散</strong>: システムのスケーラビリティを確保するための負荷分散手法を説明しま
+す。</li></ul><h2 id=10-制約とリスク>10. 制約とリスク<a class=td-heading-self-link href=#10-%e5%88%b6%e7%b4%84%e3%81%a8%e3%83%aa%e3%82%b9%e3%82%af aria-label="Heading self-link"></a></h2><p>システムにおける技術的・ビジネス的な制約とリスクを詳述します。</p><ul><li><strong>技術的制約</strong>: 使用する技術やシステムアーキテクチャに関連する制約を記載します
+。</li><li><strong>リスクと対応策</strong>: システム導入や運用におけるリスクと、その緩和策を具体的に説
+明します。</li></ul><hr><p>このドキュメントは、システムの詳細な設計を関係者に共有し、プロジェクトの成功に向
+けた技術的ガイドラインとして機能します。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-b2266619de2b603009341d5c97eb6450>2.1 - サービスデスク</h1><div class=lead>Jira Service Managementを使用する前提で設計されたLow-Level Design (LLD)です。システムの詳細な設計、構成、および運用について記述します。</div><div class="pageinfo pageinfo-primary"><p>このドキュメントでは、サービスデスクに Jira Service Management
+を使用する Low-Level Design (LLD) について説明します。</p></div><h2 id=1-サポートチャネルの設定>1. サポートチャネルの設定<a class=td-heading-self-link href=#1-%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88%e3%83%81%e3%83%a3%e3%83%8d%e3%83%ab%e3%81%ae%e8%a8%ad%e5%ae%9a aria-label="Heading self-link"></a></h2><h3 id=11-サポートチャネルの種類>1.1 サポートチャネルの種類<a class=td-heading-self-link href=#11-%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88%e3%83%81%e3%83%a3%e3%83%8d%e3%83%ab%e3%81%ae%e7%a8%ae%e9%a1%9e aria-label="Heading self-link"></a></h3><ul><li><strong>メールサポート</strong>: <a href=mailto:support@company.com>support@company.com</a> でのリクエスト受信。</li><li><strong>電話サポート</strong>: 平日 9:00 - 18:00 に専用サポート回線で対応。</li><li><strong>チャットサポート</strong>: 社内のチャットツールを使用したリアルタイムサポート。</li><li><strong>ポータルサポート</strong>: Web ポータルを通じてリクエストを受け付け、トラッキングが
+可能。</li><li><strong>オンコールサポート</strong>: 重要なインシデントや SLA に基づき、24 時間対応のオンコ
+ールサポートチーム。</li></ul><h3 id=12-サポートチャネルの利用状況>1.2 サポートチャネルの利用状況<a class=td-heading-self-link href=#12-%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88%e3%83%81%e3%83%a3%e3%83%8d%e3%83%ab%e3%81%ae%e5%88%a9%e7%94%a8%e7%8a%b6%e6%b3%81 aria-label="Heading self-link"></a></h3><ul><li><strong>標準対応時間</strong>: 平日 9:00 - 18:00</li><li><strong>緊急対応</strong>: 重大インシデントやシステム停止時のみ 24 時間対応。</li></ul><hr><h2 id=2-エスカレーションポリシー>2. エスカレーションポリシー<a class=td-heading-self-link href=#2-%e3%82%a8%e3%82%b9%e3%82%ab%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%9d%e3%83%aa%e3%82%b7%e3%83%bc aria-label="Heading self-link"></a></h2><h3 id=21-エスカレーションレベル>2.1 エスカレーションレベル<a class=td-heading-self-link href=#21-%e3%82%a8%e3%82%b9%e3%82%ab%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%ac%e3%83%99%e3%83%ab aria-label="Heading self-link"></a></h3><ul><li><p><strong>Level 1 (L1)</strong>: 初期サポート。最初の問い合わせを受け、簡単なトラブルシューテ
+ィングを行い解決可能な場合はその場で対応。解決できない場合は L2 にエスカレーシ
+ョン。</p><ul><li><strong>担当者</strong>: サポートスタッフ</li><li><strong>対応時間</strong>: 1 時間以内に初回応答</li></ul></li><li><p><strong>Level 2 (L2)</strong>: 複雑な問題やテクニカルな課題に対応するサポート。L1 で対応で
+きない問題を受け取り、技術的な調査や再現テストを実施。必要に応じて L3 にエスカ
+レーション。</p><ul><li><strong>担当者</strong>: テクニカルサポートエンジニア</li><li><strong>対応時間</strong>: 4 時間以内に初回応答</li></ul></li><li><p><strong>Level 3 (L3)</strong>: L2 で解決できなかった深刻なインシデントや複雑なシステム障害
+に対応。製品開発チームや外部ベンダーとの連携が必要な場合もある。</p><ul><li><strong>担当者</strong>: 専門エンジニア、開発チーム</li><li><strong>対応時間</strong>: 8 時間以内に対応開始</li></ul></li></ul><h3 id=22-エスカレーションフロー>2.2 エスカレーションフロー<a class=td-heading-self-link href=#22-%e3%82%a8%e3%82%b9%e3%82%ab%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%95%e3%83%ad%e3%83%bc aria-label="Heading self-link"></a></h3><ol><li>L1 がリクエストを受信し、問題を解決できない場合は L2 にエスカレーション。</li><li>L2 が対応し、問題の原因を特定できない場合、L3 にエスカレーション。</li><li>エスカレーション時には、L1 から L2、L2 から L3 への情報共有が完了していること
+を確認。</li><li>SLA 違反が発生しそうな場合、上級管理者にエスカレーションし、即時対応を求める
+。</li></ol><p><img alt=エスカレーションシーケンス図 src=/docsy-base/technology/platform/lld/servicedesk/escalation_sequence_diagram.svg></p><hr><h2 id=3-サービスレベル目標-slo>3. サービスレベル目標 (SLO)<a class=td-heading-self-link href=#3-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e7%9b%ae%e6%a8%99-slo aria-label="Heading self-link"></a></h2><h3 id=31-slo-の設定>3.1 SLO の設定<a class=td-heading-self-link href=#31-slo-%e3%81%ae%e8%a8%ad%e5%ae%9a aria-label="Heading self-link"></a></h3><ul><li><strong>応答時間</strong>: リクエスト受信から 1 時間以内に初回応答を行うことを目標とする。</li><li><strong>解決時間 (標準)</strong>: 一般的な問題は 4 営業日以内に解決することを目標とする。</li><li><strong>解決時間 (緊急)</strong>: 緊急のインシデントや重要システム障害は、12 時間以内に解決
+または暫定対応を行うことを目標とする。</li></ul><h3 id=32-sla-違反時の対策>3.2 SLA 違反時の対策<a class=td-heading-self-link href=#32-sla-%e9%81%95%e5%8f%8d%e6%99%82%e3%81%ae%e5%af%be%e7%ad%96 aria-label="Heading self-link"></a></h3><ul><li><strong>アラートシステム</strong>: SLA 違反が予想される場合、システムが自動的に管理者に通知
+を送り、エスカレーションが実行される。</li><li><strong>定期レビュー</strong>: SLA が守られているか定期的にレビューし、改善が必要な場合は対
+策を実施。</li></ul><hr><h2 id=4-機能実装と運用ルール>4. 機能実装と運用ルール<a class=td-heading-self-link href=#4-%e6%a9%9f%e8%83%bd%e5%ae%9f%e8%a3%85%e3%81%a8%e9%81%8b%e7%94%a8%e3%83%ab%e3%83%bc%e3%83%ab aria-label="Heading self-link"></a></h2><h3 id=41-サポートチャネルの機能実装>4.1 サポートチャネルの機能実装<a class=td-heading-self-link href=#41-%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88%e3%83%81%e3%83%a3%e3%83%8d%e3%83%ab%e3%81%ae%e6%a9%9f%e8%83%bd%e5%ae%9f%e8%a3%85 aria-label="Heading self-link"></a></h3><ul><li><strong>メールサポート</strong>: メールサーバーとチケット管理システムの統合により、サポート
+メールが自動でトラッキングされる。受信後、1 時間以内に自動返信が送信される。</li><li><strong>チャットサポート</strong>: チャットボットを導入し、よくある質問を自動で解決。チャッ
+ト履歴はすべてチケットシステムに保存され、エスカレーションが必要な場合は人間の
+サポート担当者が引き継ぐ。</li><li><strong>オンコールサポート</strong>: オンコール担当者がサポートポータルにログインし、インシ
+デント発生時に迅速に対応できるように設定されている。</li></ul><h3 id=42-エスカレーション管理>4.2 エスカレーション管理<a class=td-heading-self-link href=#42-%e3%82%a8%e3%82%b9%e3%82%ab%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h3><ul><li><strong>エスカレーション自動化</strong>: チケットシステムにエスカレーションルールを設定し
+、L1 対応時間が 1 時間を超えると自動で L2 にエスカレーションされる仕組みを実装
+。</li><li><strong>通知機能</strong>: 各エスカレーションの段階で、担当者およびマネージャーに通知が送信
+され、迅速な対応が促される。</li><li><strong>エスカレーションポリシーの遵守</strong>: 毎週エスカレーションの状況をレビューし、問
+題の早期解決を図るための改善を行う。</li></ul><h3 id=43-サービスレベル目標-slo-の監視>4.3 サービスレベル目標 (SLO) の監視<a class=td-heading-self-link href=#43-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e7%9b%ae%e6%a8%99-slo-%e3%81%ae%e7%9b%a3%e8%a6%96 aria-label="Heading self-link"></a></h3><ul><li><strong>モニタリングシステム</strong>: リクエストの応答時間や解決時間をリアルタイムでモニタ
+リングし、SLA 違反を未然に防ぐためのアラートを設定。</li><li><strong>ダッシュボード</strong>: サービスレベルの達成状況を可視化するダッシュボードを構築し
+、管理者が常に状況を把握できるようにする。</li></ul><hr><h2 id=5-定期的な運用レビュー>5. 定期的な運用レビュー<a class=td-heading-self-link href=#5-%e5%ae%9a%e6%9c%9f%e7%9a%84%e3%81%aa%e9%81%8b%e7%94%a8%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bc aria-label="Heading self-link"></a></h2><ul><li><strong>週次レビュー</strong>: サポートチームが週次で対応状況や SLA の達成状況をレビューし
+、エスカレーションやリソースの改善を行う。</li><li><strong>月次 SLA レポート</strong>: 月ごとに SLA の達成率や違反が発生した場合の要因分析を行
+い、改善策を策定。</li><li><strong>フィードバックループ</strong>: サポートチャネルやエスカレーションポリシーの運用状況
+について、定期的にエンドユーザーからフィードバックを収集し、サービスの改善に活
+かす。</li></ul><hr></div><div class=td-content style=page-break-before:always><h1 id=pg-9e298305287449c59519417db19256d2>2.2 - インシデント管理</h1><div class=lead>ITシステム運用基盤におけるインシデント管理の高レベル設計</div><h2 id=インシデント発生時の対応フロー>インシデント発生時の対応フロー<a class=td-heading-self-link href=#%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%99%ba%e7%94%9f%e6%99%82%e3%81%ae%e5%af%be%e5%bf%9c%e3%83%95%e3%83%ad%e3%83%bc aria-label="Heading self-link"></a></h2><p>インシデントが発生すると、まずその発生ルートが特定されます。インシデントは大きく
+分けて以下の 2 つのルートで発生します：</p><ol><li><strong>システムイベント契機</strong>: 監視ツールやシステムが異常を検出した場合に自動的に
+インシデントが作成されます。</li><li><strong>ユーザーからの申告契機</strong>: ユーザーが問題を発見し、サービスデスクに申告する
+ことによりインシデントが発生します。</li></ol><p>どちらのルートでも、インシデントが発生次第、担当者が問題を特定し、影響範囲や優先
+度を評価します。その後、適切な対応策が実行され、問題が解決されるまで状況をモニタ
+リングします。ユーザーや関係者への定期的な報告も含め、インシデントの進捗状況が透
+明に管理されます。</p><h2 id=インシデント分類と優先度設定>インシデント分類と優先度設定<a class=td-heading-self-link href=#%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e5%88%86%e9%a1%9e%e3%81%a8%e5%84%aa%e5%85%88%e5%ba%a6%e8%a8%ad%e5%ae%9a aria-label="Heading self-link"></a></h2><p>インシデントは、その深刻度と影響範囲に基づいて分類され、優先度が設定されます。分
+類の基準としては、以下の要素が含まれます：</p><ul><li><strong>影響範囲</strong>: システム全体への影響か、一部のユーザーへの限定的な影響か。</li><li><strong>ビジネスへの影響</strong>: インシデントがビジネス運用にどの程度の影響を及ぼすか。</li><li><strong>システム依存度</strong>: インシデントが発生したシステムの重要度に基づき、優先度が決
+定されます。</li></ul><p>高優先度のインシデントは即時対応が必要であり、緊急チームが対応にあたります。低優
+先度のインシデントは、通常の対応プロセスで処理されます。</p><h2 id=自動インシデント作成>自動インシデント作成<a class=td-heading-self-link href=#%e8%87%aa%e5%8b%95%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e4%bd%9c%e6%88%90 aria-label="Heading self-link"></a></h2><p>インシデントの多くは、監視ツールがシステムの異常を検知した際に自動的に作成されま
+す。自動インシデント作成機能により、システムダウンやパフォーマンス低下などが早期
+に発見され、対応チームに迅速に通知されます。これにより、手動でのインシデント報告
+を待つことなく、即時対応が可能となり、サービスダウンタイムを最小限に抑えます。</p><h2 id=エスカレーションと対応チームの役割>エスカレーションと対応チームの役割<a class=td-heading-self-link href=#%e3%82%a8%e3%82%b9%e3%82%ab%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a8%e5%af%be%e5%bf%9c%e3%83%81%e3%83%bc%e3%83%a0%e3%81%ae%e5%bd%b9%e5%89%b2 aria-label="Heading self-link"></a></h2><p>インシデントが特定の時間内に解決されない場合、エスカレーションポリシーに従って次
+のレベルの対応チームに問題が引き継がれます。たとえば、初期対応チームが問題を解決
+できない場合、専門技術チームや管理層にエスカレーションされます。このプロセスによ
+り、複雑な問題や重大なインシデントが迅速に処理され、問題の長期化が防止されます。</p><h2 id=サービスレベル目標sla-対応>サービスレベル目標（SLA 対応）<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e7%9b%ae%e6%a8%99sla-%e5%af%be%e5%bf%9c aria-label="Heading self-link"></a></h2><p>インシデント対応においては、サービスレベル契約（SLA）が重要な役割を果たします
+。SLA では、以下の目標が定義されています：</p><ul><li><strong>初期対応時間</strong>: インシデントが報告されてから、対応チームが初期対応を開始する
+までの時間。</li><li><strong>解決時間</strong>: インシデントの影響範囲や優先度に応じた解決までの時間。</li></ul><p>これにより、ユーザーはインシデント対応がどの程度の時間内で行われるかを予測でき、
+サービス品質の維持が保証されます。SLA 違反が発生した場合は、管理チームにエスカレ
+ーションされ、対策が講じられます。</p><h2 id=レポートおよび分析>レポートおよび分析<a class=td-heading-self-link href=#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%8a%e3%82%88%e3%81%b3%e5%88%86%e6%9e%90 aria-label="Heading self-link"></a></h2><p>すべてのインシデントは詳細に記録され、定期的にレポートが作成されます。インシデン
+トの種類、発生頻度、解決時間などのデータを基に分析を行い、システムの脆弱性や改善
+点を特定します。これにより、将来的なインシデントの発生を防ぎ、IT サービスの品質
+を向上させることができます。レポートは、月次や四半期ごとに定期的に提出され、経営
+層へのフィードバックも含めた改善活動が実施されます。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-babf91d20fa2c3a38889f39f19c382d0>2.3 - 問題管理</h1><div class=lead>ITシステム運用基盤における問題管理の高レベル設計</div><h2 id=問題の特定と登録フロー>問題の特定と登録フロー<a class=td-heading-self-link href=#%e5%95%8f%e9%a1%8c%e3%81%ae%e7%89%b9%e5%ae%9a%e3%81%a8%e7%99%bb%e9%8c%b2%e3%83%95%e3%83%ad%e3%83%bc aria-label="Heading self-link"></a></h2><p>問題管理の最初のステップは、発生した問題を特定し、正確に登録することです。問題は
+、以下のようなルートから特定されます：</p><ul><li><strong>インシデントの再発</strong>: 同じインシデントが繰り返し発生する場合、それが問題とし
+て登録されます。</li><li><strong>インシデントの根本原因分析</strong>: 単一のインシデントでも、重大な影響がある場合は
+問題として登録されます。</li></ul><p>問題が特定されたら、問題管理システムに記録され、対応チームに割り当てられます。</p><h2 id=根本原因分析rcaプロセス>根本原因分析（RCA）プロセス<a class=td-heading-self-link href=#%e6%a0%b9%e6%9c%ac%e5%8e%9f%e5%9b%a0%e5%88%86%e6%9e%90rca%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9 aria-label="Heading self-link"></a></h2><p>問題が発生した際、根本原因分析（RCA: Root Cause Analysis）が行われます。このプロ
+セスでは、問題の発生要因や背景を調査し、再発を防ぐための恒久的な解決策を見つけ出
+します。RCA には、以下のステップが含まれます：</p><ol><li><strong>問題の原因調査</strong>: 問題がどのようにして発生したかを分析します。</li><li><strong>影響範囲の特定</strong>: 問題がどのシステムやユーザーに影響を与えたかを確認します
+。</li><li><strong>再発防止策の提案</strong>: 問題が再発しないような修正や改善を提案します。</li></ol><h2 id=永続的な解決策の管理>永続的な解決策の管理<a class=td-heading-self-link href=#%e6%b0%b8%e7%b6%9a%e7%9a%84%e3%81%aa%e8%a7%a3%e6%b1%ba%e7%ad%96%e3%81%ae%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h2><p>RCA の結果として提案された解決策は、恒久的な解決策として記録され、管理されます。
+この解決策が適用されることで、問題の再発が防止されます。解決策の実施後、システム
+やプロセスのモニタリングが行われ、効果が確認されます。また、他のシステムや関連プ
+ロセスに対する影響も評価され、必要に応じて改善が行われます。</p><h2 id=サービスレベル目標sla-対応>サービスレベル目標（SLA 対応）<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e7%9b%ae%e6%a8%99sla-%e5%af%be%e5%bf%9c aria-label="Heading self-link"></a></h2><p>問題管理プロセスにおいても、SLA が適用されます。以下の SLA が定義されています：</p><ul><li><strong>問題の特定時間</strong>: 問題が発生してから、特定されるまでの時間。</li><li><strong>根本原因分析完了時間</strong>: 問題が特定された後、RCA が完了するまでの時間。</li><li><strong>解決策の実施時間</strong>: 永続的な解決策が実施されるまでの時間。</li></ul><p>これらの目標を遵守することで、問題が迅速に解決され、システムの信頼性が向上します
+。</p><h2 id=レポートおよび分析>レポートおよび分析<a class=td-heading-self-link href=#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%8a%e3%82%88%e3%81%b3%e5%88%86%e6%9e%90 aria-label="Heading self-link"></a></h2><p>すべての問題は記録され、定期的にレポートが作成されます。このレポートでは、問題の
+発生原因、影響範囲、解決に要した時間などが分析されます。これにより、システムの脆
+弱性や改善点が特定され、プロセスの最適化が行われます。問題管理レポートは、定期的
+に関係者に共有され、サービス全体の品質向上に役立てられます。</p><h2 id=継続的な改善プロセスとの連携>継続的な改善プロセスとの連携<a class=td-heading-self-link href=#%e7%b6%99%e7%b6%9a%e7%9a%84%e3%81%aa%e6%94%b9%e5%96%84%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9%e3%81%a8%e3%81%ae%e9%80%a3%e6%90%ba aria-label="Heading self-link"></a></h2><p>問題管理は、継続的な改善プロセス（CIP: Continual Improvement Process）とも密接に
+関連しています。問題の発生からその解決までの過程で得られた知見や教訓は、CIP に反
+映され、さらなる改善活動が行われます。これにより、問題が根本的に解決され、IT シ
+ステム全体の品質が継続的に向上します。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-96c8ecd380500e6b059313620f0fc656>2.4 - 変更管理</h1><div class=lead>ITシステム運用基盤における変更管理の高レベル設計</div><h2 id=変更要求rfcのプロセス>変更要求（RFC）のプロセス<a class=td-heading-self-link href=#%e5%a4%89%e6%9b%b4%e8%a6%81%e6%b1%82rfc%e3%81%ae%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9 aria-label="Heading self-link"></a></h2><p>変更管理は、システムに対する変更を安全かつ効率的に実施するためのプロセスです。変
+更が必要になった際には、まず変更要求（RFC: Request for Change）が提出されます
+。RFC は、次の情報を含む必要があります：</p><ul><li><strong>変更内容の概要</strong>: 何が変更されるのか。</li><li><strong>変更の理由</strong>: なぜ変更が必要か。</li><li><strong>変更による影響</strong>: システム全体やビジネスへの影響。</li><li><strong>リスク評価</strong>: 変更によるリスクとその対策。このプロセスを通じて、変更の必要性
+やリスクが適切に評価され、無駄な変更やリスクの高い変更が防止されます。</li></ul><h2 id=変更承認フロー>変更承認フロー<a class=td-heading-self-link href=#%e5%a4%89%e6%9b%b4%e6%89%bf%e8%aa%8d%e3%83%95%e3%83%ad%e3%83%bc aria-label="Heading self-link"></a></h2><p>変更が提出されると、CAB（Change Advisory Board）による承認フローが開始されます
+。CAB は、変更に関連する技術チームやビジネスリーダーで構成されており、変更のリス
+ク、影響、コストなどを評価します。承認フローでは、次のステップが行われます：</p><ol><li><strong>変更内容のレビュー</strong>: 提出された RFC を詳細にレビュー。</li><li><strong>リスク評価</strong>: 変更がシステムやビジネスに与えるリスクを評価。</li><li><strong>承認または却下</strong>: 変更を承認するか、追加情報が必要か、または却下するかを決
+定。この承認フローを通じて、システムの安定性とサービスの継続性を維持しながら
+、必要な変更が適切に管理されます。</li></ol><h2 id=変更の実装手順>変更の実装手順<a class=td-heading-self-link href=#%e5%a4%89%e6%9b%b4%e3%81%ae%e5%ae%9f%e8%a3%85%e6%89%8b%e9%a0%86 aria-label="Heading self-link"></a></h2><p>変更が承認された場合、次に具体的な実装手順が策定されます。これには、変更を実施す
+るためのステップバイステップの指示が含まれ、リスクを最小限に抑えながら変更が行わ
+れます。実装手順は次の内容を含みます：</p><ul><li><strong>変更の準備</strong>: 必要なリソース、ツール、担当者の手配。</li><li><strong>変更の実施</strong>: スケジュールに従って変更を実行。</li><li><strong>変更の検証</strong>: 変更後のシステムの正常性を確認。</li><li><strong>ロールバック計画</strong>: 変更に問題が発生した場合のロールバック手順を定義。</li></ul><h2 id=変更後のレビューと報告>変更後のレビューと報告<a class=td-heading-self-link href=#%e5%a4%89%e6%9b%b4%e5%be%8c%e3%81%ae%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bc%e3%81%a8%e5%a0%b1%e5%91%8a aria-label="Heading self-link"></a></h2><p>変更が実施された後、変更の影響や成功を評価するためにレビューが行われます。レビュ
+ーでは、次の事項が確認されます：</p><ul><li><strong>変更が計画通りに実行されたか</strong>: すべてのステップが予定通りに実施されたか。</li><li><strong>予期せぬ影響が発生したか</strong>: 変更による予期しないシステムやビジネスへの影響が
+なかったか。</li><li><strong>ロールバックが必要だったか</strong>: 変更中に問題が発生し、ロールバックが必要だった
+か。これらの結果をもとに、変更に関するレポートが作成され、関係者に報告されます
+。また、必要に応じて将来的な改善点も提案されます。</li></ul><h2 id=サービスレベル目標sla-対応>サービスレベル目標（SLA 対応）<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e7%9b%ae%e6%a8%99sla-%e5%af%be%e5%bf%9c aria-label="Heading self-link"></a></h2><p>変更管理プロセスにおいても、SLA が適用されます。SLA では、変更がどのくらいの期間
+で承認され、実施されるべきかが定義されています。また、変更によるシステムダウンタ
+イムも SLA に従って管理され、サービスレベルが維持されます。SLA 違反が発生した場
+合は、CAB や管理チームにエスカレーションされ、適切な対策が講じられます。</p><h2 id=リスク評価と緩和策>リスク評価と緩和策<a class=td-heading-self-link href=#%e3%83%aa%e3%82%b9%e3%82%af%e8%a9%95%e4%be%a1%e3%81%a8%e7%b7%a9%e5%92%8c%e7%ad%96 aria-label="Heading self-link"></a></h2><p>変更管理では、すべての変更に対してリスク評価が行われます。リスク評価では、システ
+ムやビジネスに対する影響を分析し、リスクを最小限に抑えるための緩和策が策定されま
+す。具体的な緩和策には、冗長性の確保、バックアップの実施、ロールバック手順の準備
+などが含まれます。これにより、変更が失敗しても迅速に復旧できる体制が整えられます
+。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-245ea13230087ec8f872aa4c655f728e>2.5 - リリース管理</h1><div class=lead>ITシステム運用基盤におけるリリース管理の高レベル設計</div><h2 id=リリースのスケジュールと計画>リリースのスケジュールと計画<a class=td-heading-self-link href=#%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%81%ae%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab%e3%81%a8%e8%a8%88%e7%94%bb aria-label="Heading self-link"></a></h2><p>リリース管理は、IT サービスやシステムの新機能や修正を安全かつ効率的に展開するた
+めのプロセスです。リリースを実施する際には、事前に詳細な計画が策定されます。この
+計画には、以下の要素が含まれます：</p><ul><li><strong>リリース日程</strong>: リリースの実施日時を決定し、影響範囲を考慮したスケジュールを
+組みます。</li><li><strong>リソース割り当て</strong>: リリースに必要なリソース（人員、ツール、設備）を確保し、
+リソースが準備されていることを確認します。</li><li><strong>影響範囲の評価</strong>: リリースがシステムやビジネスに与える影響を評価し、適切なリ
+スク軽減策を講じます。</li></ul><p>計画フェーズでは、関係者への通知や、必要な承認を得るためのプロセスも含まれます。</p><h2 id=リリースの展開方法>リリースの展開方法<a class=td-heading-self-link href=#%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%81%ae%e5%b1%95%e9%96%8b%e6%96%b9%e6%b3%95 aria-label="Heading self-link"></a></h2><p>リリースの展開方法には複数の選択肢があり、システムの規模やリスクに応じて最適な方
+法が選ばれます。一般的な展開方法としては以下があります：</p><ul><li><strong>手動リリース</strong>: 小規模なリリースや低リスクな変更に対して、手動でリリースを実
+施。</li><li><strong>自動リリース</strong>: 継続的インテグレーション（CI）/継続的デリバリー（CD）のパイ
+プラインを利用し、自動的にリリースを展開。</li><li><strong>段階的リリース</strong>: リスクを最小限に抑えるため、特定のユーザーグループやシステ
+ムでリリースを段階的に展開。</li><li><strong>カナリアリリース</strong>: 小規模なグループに対して新しいリリースを適用し、問題がな
+いことを確認してから全体に展開。</li></ul><p>それぞれの展開方法は、リリースの規模や影響度に基づいて選定されます。</p><h2 id=リリース後の確認とロールバック手順>リリース後の確認とロールバック手順<a class=td-heading-self-link href=#%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e5%be%8c%e3%81%ae%e7%a2%ba%e8%aa%8d%e3%81%a8%e3%83%ad%e3%83%bc%e3%83%ab%e3%83%90%e3%83%83%e3%82%af%e6%89%8b%e9%a0%86 aria-label="Heading self-link"></a></h2><p>リリースが完了した後、システムが正常に稼働しているかを確認するための検証プロセス
+が実施されます。この検証には以下のステップが含まれます：</p><ul><li><strong>システムテスト</strong>: リリース後にシステム全体が正常に動作していることを確認。</li><li><strong>パフォーマンステスト</strong>: リリースによってシステムのパフォーマンスが低下してい
+ないことを確認。</li></ul><p>万が一、問題が発生した場合には、事前に計画されたロールバック手順を使用して、変更
+を元に戻します。ロールバック手順には、以下のような要素が含まれます：</p><ul><li><strong>ロールバック条件</strong>: どのような場合にリリースをロールバックするかを定義。</li><li><strong>ロールバック手順</strong>: ロールバックの実施方法を詳細に記載。</li><li><strong>影響範囲の確認</strong>: ロールバックによるシステムやユーザーへの影響を最小限に抑え
+るための手順。</li></ul><h2 id=リリースの品質保証とテスト>リリースの品質保証とテスト<a class=td-heading-self-link href=#%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%81%ae%e5%93%81%e8%b3%aa%e4%bf%9d%e8%a8%bc%e3%81%a8%e3%83%86%e3%82%b9%e3%83%88 aria-label="Heading self-link"></a></h2><p>リリースの成功を保証するためには、事前に十分なテストが行われることが不可欠です。
+リリースの品質保証プロセスには、以下のテストが含まれます：</p><ul><li><strong>ユニットテスト</strong>: 個々の機能やモジュールのテストを行い、正確に動作するかを確
+認します。</li><li><strong>統合テスト</strong>: 異なるシステムやモジュール間の連携が正しく動作するかを確認しま
+す。</li><li><strong>UAT（ユーザー受け入れテスト）</strong>: エンドユーザーによるテストを実施し、リリー
+スが期待通りの結果をもたらすかを確認します。</li></ul><p>すべてのテストは、リリース前に完了し、問題がないことを確認したうえで展開が行われ
+ます。リリース後も、適切なテスト結果が確認され次第、リリースが最終的に承認されま
+す。</p><h2 id=サービスレベル目標sla-対応>サービスレベル目標（SLA 対応）<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e7%9b%ae%e6%a8%99sla-%e5%af%be%e5%bf%9c aria-label="Heading self-link"></a></h2><p>リリース管理プロセスにおいても、SLA（サービスレベル契約）に基づいた目標が設定さ
+れています。これには以下の目標が含まれます：</p><ul><li><strong>リリース期間</strong>: リリースが計画されたスケジュール内に完了すること。</li><li><strong>ダウンタイムの最小化</strong>: リリースの影響で発生するシステムの停止時間を最小限に
+抑えること。</li><li><strong>ユーザー影響の最小化</strong>: リリースがユーザーに与える影響を最小限に抑え、迅速に
+正常なサービスを再開すること。</li></ul><p>SLA 違反が発生した場合には、関係者に報告され、必要な対策が講じられます。</p><h2 id=リリース後のレポートと分析>リリース後のレポートと分析<a class=td-heading-self-link href=#%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e5%be%8c%e3%81%ae%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%a8%e5%88%86%e6%9e%90 aria-label="Heading self-link"></a></h2><p>リリースが完了した後は、すべてのリリース活動について詳細なレポートが作成されます
+。レポートには、以下の項目が含まれます：</p><ul><li><strong>リリースの成功度</strong>: リリースが成功したかどうか、またはロールバックが必要だっ
+たか。</li><li><strong>リリースによる影響</strong>: システムやユーザーに対する影響の範囲。</li><li><strong>リリースの改善点</strong>: 今後のリリースで改善すべき点や、リリースプロセスの効率化
+案。</li></ul><p>これにより、リリースの全体的な品質を評価し、将来のリリースに向けた改善が行われま
+す。定期的なレビューを通じて、リリースプロセスの最適化が図られます。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-de2a58bc9a0fdc4ce7c928fef911159d>2.6 - 構成管理</h1><div class=lead>ITシステム運用基盤における構成管理の高レベル設計</div><h2 id=構成アイテムciの定義と分類>構成アイテム（CI）の定義と分類<a class=td-heading-self-link href=#%e6%a7%8b%e6%88%90%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0ci%e3%81%ae%e5%ae%9a%e7%be%a9%e3%81%a8%e5%88%86%e9%a1%9e aria-label="Heading self-link"></a></h2><p>構成管理では、システム内のすべての構成アイテム（CI: Configuration Item）が特定さ
+れ、分類されます。構成アイテムには以下のような要素が含まれます：</p><ul><li><strong>ハードウェア</strong>: サーバー、ネットワークデバイス、ストレージ。</li><li><strong>ソフトウェア</strong>: オペレーティングシステム、アプリケーション、ライセンス。</li><li><strong>ネットワーク構成</strong>: ルーター、スイッチ、ファイアウォールなどの設定情報。</li><li><strong>ドキュメント</strong>: システム構成に関連する技術文書や操作マニュアル。</li></ul><p>これらの CI は、IT サービスの運用や管理において重要な要素であり、構成管理データ
+ベース（CMDB）に記録されます。CI は分類され、依存関係や影響範囲を理解するために
+整理されます。</p><h2 id=ci-のライフサイクル管理>CI のライフサイクル管理<a class=td-heading-self-link href=#ci-%e3%81%ae%e3%83%a9%e3%82%a4%e3%83%95%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h2><p>構成アイテムは、そのライフサイクル全体にわたって管理されます。CI のライフサイク
+ルは以下のフェーズに分けられます：</p><ol><li><strong>導入</strong>: 新しい CI がシステムに導入され、CMDB に登録されます。</li><li><strong>運用</strong>: CI が日常的な運用で使用され、定期的なメンテナンスや更新が行われます
+。</li><li><strong>廃棄</strong>: 使用されなくなった CI がシステムから削除され、CMDB からも廃棄記録が
+管理されます。</li></ol><p>各フェーズにおいて、CI の状態や変更履歴が追跡され、システム全体の透明性が確保さ
+れます。</p><h2 id=構成管理ツールの概要>構成管理ツールの概要<a class=td-heading-self-link href=#%e6%a7%8b%e6%88%90%e7%ae%a1%e7%90%86%e3%83%84%e3%83%bc%e3%83%ab%e3%81%ae%e6%a6%82%e8%a6%81 aria-label="Heading self-link"></a></h2><p>構成管理には、構成管理データベース（CMDB）を中心としたツールが利用されます。CMDB
+は、すべての構成アイテムとその属性、状態、依存関係を一元管理します。主な機能とし
+ては以下が含まれます：</p><ul><li><strong>CI の登録と更新</strong>: 新しい CI の登録や、既存 CI の属性更新を行います。</li><li><strong>変更履歴の管理</strong>: CI に対して行われた変更の履歴を記録し、追跡可能な状態にし
+ます。</li><li><strong>依存関係の可視化</strong>: CI 同士の依存関係をグラフィカルに表示し、変更の影響範囲
+を確認します。</li><li><strong>インシデントや変更管理との統合</strong>: インシデント管理や変更管理と連携し、CI に
+関連する問題や変更を一元管理します。</li></ul><h2 id=ci-間の依存関係と影響分析>CI 間の依存関係と影響分析<a class=td-heading-self-link href=#ci-%e9%96%93%e3%81%ae%e4%be%9d%e5%ad%98%e9%96%a2%e4%bf%82%e3%81%a8%e5%bd%b1%e9%9f%bf%e5%88%86%e6%9e%90 aria-label="Heading self-link"></a></h2><p>構成管理では、各 CI の間に存在する依存関係を正確に把握することが重要です。CI 間
+の依存関係を理解することで、以下のような利点が得られます：</p><ul><li><strong>影響範囲の特定</strong>: 変更やインシデントが発生した際に、その影響を受ける他の CI
+やシステムを特定できます。</li><li><strong>リスク管理</strong>: システム全体の依存関係を把握することで、変更や障害の際のリスク
+を予測し、適切な緩和策を講じることが可能です。</li></ul><p>依存関係の分析には、CMDB のデータを基に自動化されたツールが活用され、変更や障害
+がシステムに与える影響を迅速に判断します。</p><h2 id=構成管理の-sla-対応>構成管理の SLA 対応<a class=td-heading-self-link href=#%e6%a7%8b%e6%88%90%e7%ae%a1%e7%90%86%e3%81%ae-sla-%e5%af%be%e5%bf%9c aria-label="Heading self-link"></a></h2><p>構成管理においても、SLA が適用されます。SLA では、構成管理データが常に最新で正確
+であることが求められます。具体的には以下の目標が含まれます：</p><ul><li><strong>CI の更新時間</strong>: CI に変更があった場合、一定時間内に CMDB が更新されること。</li><li><strong>CI の正確性</strong>: CMDB 内の CI 情報が常に正確で、誤りがないことを保証。</li><li><strong>定期的な監査</strong>: 定期的に CMDB を監査し、CI 情報が最新であることを確認します
+。</li></ul><p>これらの SLA を遵守することで、システムの安定性と運用の効率化が維持されます。</p><h2 id=レポートおよび分析>レポートおよび分析<a class=td-heading-self-link href=#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%8a%e3%82%88%e3%81%b3%e5%88%86%e6%9e%90 aria-label="Heading self-link"></a></h2><p>構成管理の重要な要素として、定期的なレポート作成と分析が含まれます。CMDB 内のデ
+ータを基に、以下のようなレポートが作成されます：</p><ul><li><strong>CI の変更履歴レポート</strong>: CI に対する変更の履歴をまとめ、システムの変更状況を
+把握。</li><li><strong>依存関係レポート</strong>: CI 間の依存関係を可視化し、影響範囲を確認。</li><li><strong>監査レポート</strong>: 定期的に CI 情報の監査を行い、SLA に基づいた管理が行われてい
+るか確認します。</li></ul><p>これにより、構成管理の品質を維持し、必要な改善が実施されます。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-6cc13813a959229c60fe97d4d682044f>2.7 - サービスレベル管理</h1><div class=lead>ITシステム運用基盤におけるサービスレベル管理の高レベル設計</div><h2 id=サービスレベル契約slaと目標設定>サービスレベル契約（SLA）と目標設定<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e5%a5%91%e7%b4%84sla%e3%81%a8%e7%9b%ae%e6%a8%99%e8%a8%ad%e5%ae%9a aria-label="Heading self-link"></a></h2><p>サービスレベル管理（SLM）は、サービスの品質を確保し、顧客との期待値を明確にする
+ために行われるプロセスです。まず、サービスレベル契約（SLA）を定義し、サービスの
+具体的な目標を設定します。SLA には以下の項目が含まれます：</p><ul><li><strong>可用性</strong>: システムやサービスが利用可能な時間。</li><li><strong>パフォーマンス</strong>: サービスの応答時間や処理速度。</li><li><strong>復旧時間</strong>: システム障害が発生した場合、復旧までに要する時間。</li><li><strong>サポート時間</strong>: サポートが提供される時間帯（例：24 時間 365 日）。</li></ul><p>これらの目標値を設定することで、サービスの質を測定し、顧客の要求に応じたサービス
+が提供されます。</p><h2 id=sla-モニタリングと報告>SLA モニタリングと報告<a class=td-heading-self-link href=#sla-%e3%83%a2%e3%83%8b%e3%82%bf%e3%83%aa%e3%83%b3%e3%82%b0%e3%81%a8%e5%a0%b1%e5%91%8a aria-label="Heading self-link"></a></h2><p>SLA の達成状況をモニタリングするための仕組みが整備されます。定期的にサービスのパ
+フォーマンスを測定し、SLA の目標に達しているかを確認します。モニタリングには、以
+下の手法が含まれます：</p><ul><li><strong>自動モニタリングツール</strong>: サービスの可用性や応答時間をリアルタイムで監視し
+、SLA 違反がないか確認します。</li><li><strong>定期的なレビュー</strong>: SLA に基づき、サービスのパフォーマンスを定期的に評価し、
+報告書を作成します。</li></ul><p>モニタリング結果は、月次、四半期ごとに報告され、経営層や顧客に対してサービスのパ
+フォーマンスが説明されます。</p><h2 id=sla-違反時のエスカレーション>SLA 違反時のエスカレーション<a class=td-heading-self-link href=#sla-%e9%81%95%e5%8f%8d%e6%99%82%e3%81%ae%e3%82%a8%e3%82%b9%e3%82%ab%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3 aria-label="Heading self-link"></a></h2><p>SLA が遵守されない場合、適切なエスカレーションプロセスが実行されます。エスカレー
+ションの手順は以下の通りです：</p><ol><li><strong>初期対応</strong>: SLA 違反が検出された時点で、技術チームにアラートが送信され、迅
+速に対応が開始されます。</li><li><strong>マネジメントへの通知</strong>: 一定時間内に問題が解決されない場合、管理層にエスカ
+レーションされ、対応が強化されます。</li><li><strong>顧客への報告</strong>: 顧客に対しても、SLA 違反が発生した旨を速やかに報告し、修正
+計画を提示します。</li></ol><p>このエスカレーションプロセスにより、SLA 違反が速やかに是正され、サービスの信頼性
+が確保されます。</p><h2 id=sla-レビューと改善>SLA レビューと改善<a class=td-heading-self-link href=#sla-%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bc%e3%81%a8%e6%94%b9%e5%96%84 aria-label="Heading self-link"></a></h2><p>サービスレベル管理プロセスの一環として、定期的な SLA レビューが実施されます。こ
+のレビューでは、過去のパフォーマンスデータや顧客からのフィードバックをもとに
+、SLA の見直しが行われます。主なレビュー項目は以下の通りです：</p><ul><li><strong>パフォーマンス目標の達成状況</strong>: 達成できた目標と、達成できなかった目標の評価
+。</li><li><strong>顧客フィードバック</strong>: 顧客からの意見や要求に基づき、SLA の調整を検討。</li><li><strong>技術的な改善</strong>: システムやプロセスの改善により、より高いサービスレベルを提供
+できるかの検討。</li></ul><p>SLA レビューを通じて、サービスレベルの継続的な改善が行われ、顧客満足度の向上が図
+られます。</p><h2 id=サービスレベルレポート>サービスレベルレポート<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88 aria-label="Heading self-link"></a></h2><p>サービスレベルレポートは、SLA の達成状況を明確に示す重要なドキュメントです。レポ
+ートには以下の内容が含まれます：</p><ul><li><strong>パフォーマンス測定</strong>: サービスの可用性や応答時間など、SLA で定義された項目に
+対する実績値。</li><li><strong>SLA 違反の記録</strong>: 過去の SLA 違反とその原因、対応策。</li><li><strong>改善提案</strong>: サービスのパフォーマンスを向上させるための具体的な改善提案。</li></ul><p>レポートは定期的に顧客や関係者に提出され、今後のサービス改善に向けた基礎資料とな
+ります。</p><h2 id=顧客とのコミュニケーション>顧客とのコミュニケーション<a class=td-heading-self-link href=#%e9%a1%a7%e5%ae%a2%e3%81%a8%e3%81%ae%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3 aria-label="Heading self-link"></a></h2><p>サービスレベル管理においては、顧客との定期的なコミュニケーションが非常に重要です
+。SLA の内容や目標、報告書の内容について、顧客との合意を得るために定期的なミーテ
+ィングが行われます。これにより、顧客がサービスのパフォーマンスを理解し、期待に応
+じたサービスが提供されることが保証されます。顧客からのフィードバックを反映し、サ
+ービスレベルを継続的に見直す体制が確立されています。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-73a8388405967c10d98f07cd8d0b9c01>2.8 - 継続的改善プロセス</h1><div class=lead>ITシステム運用基盤における継続的改善プロセスの高レベル設計</div><h2 id=継続的改善プロセスの目的>継続的改善プロセスの目的<a class=td-heading-self-link href=#%e7%b6%99%e7%b6%9a%e7%9a%84%e6%94%b9%e5%96%84%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9%e3%81%ae%e7%9b%ae%e7%9a%84 aria-label="Heading self-link"></a></h2><p>継続的改善プロセス（CIP: Continual Improvement Process）は、IT サービスや運用プ
+ロセスを絶え間なく向上させ、ビジネス価値を最大化することを目的としています。これ
+により、サービスの質を向上させ、顧客満足度を維持し、運用コストを削減することが可
+能になります。継続的改善プロセスは、問題発生後の対応だけでなく、事前の予防的改善
+も対象としています。</p><h2 id=改善提案のプロセス>改善提案のプロセス<a class=td-heading-self-link href=#%e6%94%b9%e5%96%84%e6%8f%90%e6%a1%88%e3%81%ae%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9 aria-label="Heading self-link"></a></h2><p>改善提案は、IT サービスや運用プロセスに関する課題や機会を識別し、それを解決また
+は最適化するためのアクションプランを策定するステップです。改善提案は以下のルート
+から発生します：</p><ul><li><strong>インシデントや問題管理からのフィードバック</strong>: 過去のインシデントや問題を分析
+し、その根本原因を特定して改善策を提案。</li><li><strong>パフォーマンスデータの分析</strong>: サービスレベル指標や KPI を分析し、現状のパフ
+ォーマンスを向上させるための提案。</li><li><strong>顧客フィードバック</strong>: 顧客からの意見や苦情を収集し、それを基に改善策を検討。</li></ul><p>これらの提案は、評価され、実行計画に組み込まれます。</p><h2 id=kpi-のモニタリング>KPI のモニタリング<a class=td-heading-self-link href=#kpi-%e3%81%ae%e3%83%a2%e3%83%8b%e3%82%bf%e3%83%aa%e3%83%b3%e3%82%b0 aria-label="Heading self-link"></a></h2><p>継続的改善プロセスでは、重要業績評価指標（KPI: Key Performance Indicators）が定
+期的にモニタリングされます。KPI のモニタリングにより、IT サービスの現状を把握し
+、どの部分が改善の対象となるべきかを判断します。代表的な KPI には以下があります
+：</p><ul><li><strong>システムの可用性</strong>: サービスやシステムが稼働している時間。</li><li><strong>インシデント対応時間</strong>: インシデントが報告されてから解決されるまでの時間。</li><li><strong>ユーザー満足度</strong>: 顧客やエンドユーザーからのフィードバックを基にした満足度の
+測定。</li></ul><p>これらの指標は定期的に評価され、サービス改善の指標として使用されます。</p><h2 id=改善計画の立案と実行>改善計画の立案と実行<a class=td-heading-self-link href=#%e6%94%b9%e5%96%84%e8%a8%88%e7%94%bb%e3%81%ae%e7%ab%8b%e6%a1%88%e3%81%a8%e5%ae%9f%e8%a1%8c aria-label="Heading self-link"></a></h2><p>KPI や顧客フィードバックを基に、具体的な改善計画が立案されます。改善計画には以下
+の要素が含まれます：</p><ol><li><strong>目標設定</strong>: 改善の対象となるサービスやプロセスの目標値を明確にします。</li><li><strong>リソースの割り当て</strong>: 改善を実施するために必要なリソース（人材、ツール、予
+算）を割り当てます。</li><li><strong>タイムラインの設定</strong>: 改善活動を完了するための具体的なスケジュールを策定し
+ます。</li></ol><p>改善計画が立案された後、実行段階に移ります。実行中には進捗がモニタリングされ、計
+画通りに進行しているかが確認されます。</p><h2 id=改善の成果測定>改善の成果測定<a class=td-heading-self-link href=#%e6%94%b9%e5%96%84%e3%81%ae%e6%88%90%e6%9e%9c%e6%b8%ac%e5%ae%9a aria-label="Heading self-link"></a></h2><p>改善活動が完了した後、その成果を測定します。成果の測定は、事前に設定した KPI や
+目標値に基づいて行われ、改善活動が期待通りの結果をもたらしたかを評価します。具体
+的には以下の点を確認します：</p><ul><li><strong>パフォーマンス向上</strong>: 改善後のパフォーマンスが、以前の状態と比較してどの程度
+向上したか。</li><li><strong>顧客満足度の向上</strong>: 改善が顧客満足度にどのように影響したかを測定します。</li><li><strong>運用コストの削減</strong>: 改善活動により、コストがどれだけ削減できたかを評価します
+。</li></ul><p>成果が期待通りであれば、プロセ</p></div><div class=td-content style=page-break-before:always><h1 id=pg-6576239c96cd3860719ae5d00de93de3>2.9 - キャパシティ管理</h1><div class=lead>ITシステム運用基盤におけるキャパシティ管理の高レベル設計</div><h2 id=キャパシティ管理の目的>キャパシティ管理の目的<a class=td-heading-self-link href=#%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e7%ae%a1%e7%90%86%e3%81%ae%e7%9b%ae%e7%9a%84 aria-label="Heading self-link"></a></h2><p>キャパシティ管理は、システムのパフォーマンスとリソースの最適化を目的とし、現在お
+よび将来のビジネスニーズに対応できるようにします。システムが必要とするリソース
+（CPU、メモリ、ストレージ、ネットワーク帯域など）を適切に予測し、サービスの提供
+に支障をきたさないように調整します。これにより、コスト削減とパフォーマンス向上の
+両方を実現します。</p><h2 id=キャパシティのモニタリング>キャパシティのモニタリング<a class=td-heading-self-link href=#%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e3%81%ae%e3%83%a2%e3%83%8b%e3%82%bf%e3%83%aa%e3%83%b3%e3%82%b0 aria-label="Heading self-link"></a></h2><p>キャパシティ管理の最初のステップは、システムのリソース使用状況をリアルタイムでモ
+ニタリングすることです。これにより、現在のリソース使用率を把握し、どの部分が不足
+または過剰かを判断します。モニタリングでは、以下の要素が追跡されます：</p><ul><li><strong>CPU 使用率</strong>: プロセッサの負荷を追跡し、リソース不足が発生していないかを確認
+。</li><li><strong>メモリ使用率</strong>: メモリの使用状況を監視し、スワップやメモリ不足を防ぎます。</li><li><strong>ストレージ使用率</strong>: ディスクスペースの利用状況を確認し、容量不足を予防。</li><li><strong>ネットワーク帯域</strong>: ネットワークの使用量を監視し、ボトルネックが発生していな
+いか確認。</li></ul><p>これらのデータは定期的に収集され、分析されます。</p><h2 id=キャパシティ計画>キャパシティ計画<a class=td-heading-self-link href=#%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e8%a8%88%e7%94%bb aria-label="Heading self-link"></a></h2><p>キャパシティ計画は、将来的なビジネスニーズを予測し、リソースが不足しないように調
+整を行うプロセスです。以下のステップでキャパシティ計画が実行されます：</p><ol><li><strong>現在のリソース使用状況の評価</strong>: モニタリングデータを基に、現状のリソース使
+用量を把握。</li><li><strong>将来の需要予測</strong>: ビジネスの成長や新しいプロジェクトによる負荷を予測し、将
+来必要となるリソースを計算。</li><li><strong>リソース追加の計画</strong>: 必要に応じてリソースを追加するためのタイムラインを策
+定し、予算に基づいた計画を立てます。</li></ol><p>キャパシティ計画では、リソースの過剰供給や不足を防ぎ、最適なリソース配分が確保さ
+れます。</p><h2 id=キャパシティ不足時のリスク対策>キャパシティ不足時のリスク対策<a class=td-heading-self-link href=#%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e4%b8%8d%e8%b6%b3%e6%99%82%e3%81%ae%e3%83%aa%e3%82%b9%e3%82%af%e5%af%be%e7%ad%96 aria-label="Heading self-link"></a></h2><p>リソースが不足した場合に備え、事前にリスク対策が策定されます。キャパシティ不足は
+システムのパフォーマンス低下やダウンタイムを引き起こす可能性があるため、以下の対
+策が講じられます：</p><ul><li><strong>リソースの動的割り当て</strong>: クラウドベースのインフラストラクチャでは、需要に応
+じて自動的にリソースをスケールアップまたはスケールダウンします。</li><li><strong>優先度の設定</strong>: 重要な業務アプリケーションに優先してリソースを割り当て、リソ
+ース不足が発生した際の影響を最小限に抑えます。</li><li><strong>フェールオーバー対策</strong>: リソースが限界に達した場合、別のシステムに自動的に切
+り替わるフェールオーバー体制を確立します。</li></ul><p>これにより、キャパシティ不足時にもサービスの継続性が確保されます。</p><h2 id=サービスレベル目標sla-対応>サービスレベル目標（SLA 対応）<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e7%9b%ae%e6%a8%99sla-%e5%af%be%e5%bf%9c aria-label="Heading self-link"></a></h2><p>キャパシティ管理では、SLA（サービスレベル契約）に基づいた目標を設定します。キャ
+パシティが不足することによって SLA 違反が発生しないように、次のような目標が設定
+されます：</p><ul><li><strong>パフォーマンスの維持</strong>: システムのパフォーマンスが常に SLA で定められた基準
+を満たしていること。</li><li><strong>リソース追加のタイムライン</strong>: 需要の増加に対応して、SLA を満たすためにリソー
+スの追加がどのタイミングで行われるか。</li></ul><p>SLA 違反が発生した場合、エスカレーションプロセスにより管理者に報告され、迅速に対
+応が行われます。</p><h2 id=レポートおよび分析>レポートおよび分析<a class=td-heading-self-link href=#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%8a%e3%82%88%e3%81%b3%e5%88%86%e6%9e%90 aria-label="Heading self-link"></a></h2><p>キャパシティ管理では、定期的なレポートが作成され、システムのリソース使用状況や将
+来的な予測が関係者に共有されます。レポートには以下の内容が含まれます：</p><ul><li><strong>リソース使用率の履歴</strong>: 過去のリソース使用状況を示すデータ。</li><li><strong>将来の需要予測</strong>: 予測に基づいた将来のリソース需要。</li><li><strong>パフォーマンスに関する指標</strong>: リソースの使用状況が SLA に準拠しているかどう
+かの確認。</li></ul><p>これにより、関係者はキャパシティの現状を理解し、必要な改善や調整を行うための情報
+を得ることができます。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-fa1bdd0c7b5e538e828dca0ddc3dd277>2.10 - アベイラビリティ管理</h1><div class=lead>ITシステム運用基盤におけるアベイラビリティ管理の高レベル設計</div><h2 id=アベイラビリティ管理の目的>アベイラビリティ管理の目的<a class=td-heading-self-link href=#%e3%82%a2%e3%83%99%e3%82%a4%e3%83%a9%e3%83%93%e3%83%aa%e3%83%86%e3%82%a3%e7%ae%a1%e7%90%86%e3%81%ae%e7%9b%ae%e7%9a%84 aria-label="Heading self-link"></a></h2><p>アベイラビリティ管理は、IT サービスやシステムの可用性を最大限に高めることを目的
+としています。可用性は、システムやサービスが必要なときに利用可能であることを指し
+、ビジネスの継続性を確保するために非常に重要です。アベイラビリティ管理では、予期
+せぬダウンタイムを最小限に抑え、ユーザーに対して安定したサービスを提供します。</p><h2 id=可用性目標と計画>可用性目標と計画<a class=td-heading-self-link href=#%e5%8f%af%e7%94%a8%e6%80%a7%e7%9b%ae%e6%a8%99%e3%81%a8%e8%a8%88%e7%94%bb aria-label="Heading self-link"></a></h2><p>アベイラビリティ管理では、各サービスやシステムに対して可用性目標が設定されます。
+この目標は、サービスレベル契約（SLA）に基づいて策定され、通常は以下の項目を含み
+ます：</p><ul><li><strong>稼働時間</strong>: サービスが利用可能であるべき時間の割合（例：99.9%の稼働率）。</li><li><strong>計画的なメンテナンス</strong>: 定期的なメンテナンス期間中のダウンタイムを除外し、事
+前に計画されたスケジュールに従って実施されます。</li><li><strong>復旧時間目標（RTO）</strong>: システム障害が発生した場合に、復旧が完了するまでの時
+間目標。</li></ul><p>これらの目標を達成するために、具体的なアクションプランが策定され、定期的に見直さ
+れます。</p><h2 id=冗長性とフェールオーバー設計>冗長性とフェールオーバー設計<a class=td-heading-self-link href=#%e5%86%97%e9%95%b7%e6%80%a7%e3%81%a8%e3%83%95%e3%82%a7%e3%83%bc%e3%83%ab%e3%82%aa%e3%83%bc%e3%83%90%e3%83%bc%e8%a8%ad%e8%a8%88 aria-label="Heading self-link"></a></h2><p>アベイラビリティを確保するためには、システムの冗長性が重要な役割を果たします。冗
+長性は、障害が発生してもサービスが継続されるように、予備のリソースやバックアップ
+を配置することを指します。主な設計要素としては以下があります：</p><ul><li><strong>デュアルデータセンター</strong>: 複数のデータセンターに分散してシステムを配置し、1
+つのデータセンターに障害が発生してもサービスが継続できるようにします。</li><li><strong>自動フェールオーバー</strong>: システムに障害が発生した場合、別のサーバーやネットワ
+ークに自動的に切り替わる仕組みを導入します。</li><li><strong>クラウド冗長性</strong>: クラウドベースのインフラストラクチャを利用し、動的にスケー
+ルアップ/スケールダウンすることで、高可用性を確保します。</li></ul><p>冗長性とフェールオーバーを設計することで、システム障害の影響を最小限に抑え、サー
+ビスの継続性を保証します。</p><h2 id=サービス停止時のインパクト分析>サービス停止時のインパクト分析<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e5%81%9c%e6%ad%a2%e6%99%82%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%91%e3%82%af%e3%83%88%e5%88%86%e6%9e%90 aria-label="Heading self-link"></a></h2><p>システムやサービスが停止した場合、その影響を評価し、ビジネスに与えるリスクを最小
+限に抑えるための対策を講じます。インパクト分析では以下の要素が考慮されます：</p><ul><li><strong>ビジネスへの影響</strong>: システム停止がビジネスプロセスにどの程度の影響を与えるか
+を分析します。これには、収益、顧客満足度、法的な影響が含まれます。</li><li><strong>サービス依存性</strong>: 停止したシステムが他のサービスやシステムに与える影響を特定
+します。</li><li><strong>ダウンタイムのコスト</strong>: サービス停止による直接的および間接的なコスト（収益の
+損失、復旧にかかる費用など）を評価します。</li></ul><p>インパクト分析に基づき、リスク軽減策や復旧計画が策定されます。</p><h2 id=可用性モニタリングとレポート>可用性モニタリングとレポート<a class=td-heading-self-link href=#%e5%8f%af%e7%94%a8%e6%80%a7%e3%83%a2%e3%83%8b%e3%82%bf%e3%83%aa%e3%83%b3%e3%82%b0%e3%81%a8%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88 aria-label="Heading self-link"></a></h2><p>アベイラビリティ管理の一環として、システムやサービスの可用性が常時モニタリングさ
+れます。モニタリングツールは、リアルタイムでサービスの状態を監視し、問題が発生し
+た場合に即座にアラートを発信します。可用性のモニタリングでは以下が行われます：</p><ul><li><strong>システムの稼働状況の追跡</strong>: システムの稼働率や応答時間を監視。</li><li><strong>SLA との照合</strong>: 可用性が SLA の目標値に達しているかを確認。</li><li><strong>アラート管理</strong>: 障害やパフォーマンスの低下が検出された場合、自動で対応チーム
+に通知。</li></ul><p>モニタリング結果は定期的にレポートとしてまとめられ、関係者に提供されます。これに
+より、サービスの可用性状況を把握し、将来的な改善策が検討されます。</p><h2 id=可用性の-sla-対応>可用性の SLA 対応<a class=td-heading-self-link href=#%e5%8f%af%e7%94%a8%e6%80%a7%e3%81%ae-sla-%e5%af%be%e5%bf%9c aria-label="Heading self-link"></a></h2><p>アベイラビリティ管理では、SLA に基づいた可用性目標を達成するための対策が取られま
+す。主な SLA 対応項目としては以下が含まれます：</p><ul><li><strong>稼働率目標</strong>: システムやサービスの年間稼働率が S</li></ul></div><div class=td-content style=page-break-before:always><h1 id=pg-914d520a09b42d981da301e4b8fb116a>2.11 - 維持管理および運用監視</h1><div class=lead>ITシステム運用基盤における維持管理および運用監視の高レベル設計</div><h2 id=維持管理の目的>維持管理の目的<a class=td-heading-self-link href=#%e7%b6%ad%e6%8c%81%e7%ae%a1%e7%90%86%e3%81%ae%e7%9b%ae%e7%9a%84 aria-label="Heading self-link"></a></h2><p>維持管理は、システムのパフォーマンス、安定性、およびセキュリティを継続的に確保し
+、ビジネスニーズを満たし続けることを目的としています。これには、システムの定期的
+なメンテナンス、更新、および修正が含まれます。維持管理プロセスを効果的に運用する
+ことで、システムの障害やセキュリティリスクを最小限に抑え、安定した運用を保証しま
+す。</p><h2 id=定期的なメンテナンスと更新>定期的なメンテナンスと更新<a class=td-heading-self-link href=#%e5%ae%9a%e6%9c%9f%e7%9a%84%e3%81%aa%e3%83%a1%e3%83%b3%e3%83%86%e3%83%8a%e3%83%b3%e3%82%b9%e3%81%a8%e6%9b%b4%e6%96%b0 aria-label="Heading self-link"></a></h2><p>維持管理では、システムが常に最適な状態で動作するよう、定期的なメンテナンスと更新
+が行われます。以下がその主な活動です：</p><ul><li><strong>セキュリティパッチの適用</strong>: 新しい脆弱性が発見された際、システムに最新のセキ
+ュリティパッチを適用します。</li><li><strong>ソフトウェアのアップデート</strong>: ソフトウェアや OS が最新のバージョンであること
+を確認し、機能やセキュリティ向上を図ります。</li><li><strong>ハードウェアの点検</strong>: サーバーやネットワーク機器の状態を定期的にチェックし、
+故障リスクを回避します。</li><li><strong>バックアップの管理</strong>: 定期的なデータバックアップが行われ、データ復旧の準備が
+常に整っていることを確認します。</li></ul><p>これらの活動をスケジュールに基づいて実行することで、システムの稼働を継続的に維持
+します。</p><h2 id=運用監視の目的>運用監視の目的<a class=td-heading-self-link href=#%e9%81%8b%e7%94%a8%e7%9b%a3%e8%a6%96%e3%81%ae%e7%9b%ae%e7%9a%84 aria-label="Heading self-link"></a></h2><p>運用監視は、システムの状態をリアルタイムで把握し、異常や障害が発生した場合に迅速
+に対応することを目的としています。システムの監視により、サービスの安定性を保ち、
+重大な問題が発生する前に予防的な対応を行うことが可能です。</p><h2 id=運用監視の仕組み>運用監視の仕組み<a class=td-heading-self-link href=#%e9%81%8b%e7%94%a8%e7%9b%a3%e8%a6%96%e3%81%ae%e4%bb%95%e7%b5%84%e3%81%bf aria-label="Heading self-link"></a></h2><p>運用監視は、システム全体の稼働状況やパフォーマンスを監視し、リアルタイムで異常を
+検知する仕組みを提供します。以下の監視項目が含まれます：</p><ul><li><strong>システム稼働率の監視</strong>: サーバーやネットワーク機器の稼働状況を常時監視し、停
+止や異常が発生した場合にアラートを発信します。</li><li><strong>パフォーマンス監視</strong>: CPU、メモリ、ディスク、ネットワークなどのリソース使用
+状況を監視し、ボトルネックが発生しないように調整します。</li><li><strong>セキュリティ監視</strong>: 不審なアクセスや攻撃の兆候を監視し、即時に対処します。</li><li><strong>アプリケーション監視</strong>: 各種アプリケーションの状態や応答時間を監視し、サービ
+スレベルに影響を与える問題を早期に検出します。</li></ul><p>運用監視は、監視ツールを用いて自動化されており、リアルタイムでデータを取得・分析
+します。</p><h2 id=アラートおよびエスカレーションプロセス>アラートおよびエスカレーションプロセス<a class=td-heading-self-link href=#%e3%82%a2%e3%83%a9%e3%83%bc%e3%83%88%e3%81%8a%e3%82%88%e3%81%b3%e3%82%a8%e3%82%b9%e3%82%ab%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9 aria-label="Heading self-link"></a></h2><p>運用監視により異常が検知された場合、アラートが即座に発信され、対応チームが迅速に
+対処を開始します。アラートとエスカレーションプロセスの流れは以下の通りです：</p><ol><li><strong>アラート発信</strong>: 監視システムが異常を検知すると、対応チームに自動的にアラー
+トが送信されます。</li><li><strong>初期対応</strong>: 初期対応チームがアラートに基づいて問題を診断し、必要に応じて問
+題を解決します。</li><li><strong>エスカレーション</strong>: 初期対応で解決できない場合、次のレベルの技術チームや管
+理層にエスカレーションされます。</li><li><strong>解決と報告</strong>: 問題が解決された後、原因と対応策が報告され、将来の改善に向け
+たフィードバックが行われます。</li></ol><p>これにより、障害や異常が最小限の影響で迅速に解決されます。</p><h2 id=sla-と運用監視>SLA と運用監視<a class=td-heading-self-link href=#sla-%e3%81%a8%e9%81%8b%e7%94%a8%e7%9b%a3%e8%a6%96 aria-label="Heading self-link"></a></h2><p>運用監視は、サービスレベル契約（SLA）を遵守するために重要な役割を果たします。SLA
+に基づいた以下の目標を達成するために、監視プロセスが導入されています：</p><ul><li><strong>稼働時間目標</strong>: システムが SLA で定められた稼働率（例：99.9%）を維持できるよ
+うに監視が行われます。</li><li><strong>応答時間の目標</strong>: 監視ツールが異常を検知してから、対応チームが問題に対処する
+までの応答時間を管理します。</li><li><strong>ダウンタイムの最小化</strong>: 障害が発生した場合のダウンタイムを最小限に抑えるため
+、即座に対応が行われます。</li></ul><p>これにより、SLA に準拠したサービスの提供が可能になります。</p><h2 id=レポートおよび改善>レポートおよび改善<a class=td-heading-self-link href=#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%8a%e3%82%88%e3%81%b3%e6%94%b9%e5%96%84 aria-label="Heading self-link"></a></h2><p>運用監視により収集されたデータは、定期的にレポートとしてまとめられます。レポート
+には以下の内容が含まれます：</p><ul><li><strong>システムパフォーマンスの概要</strong>: 各リソースの使用率やパフォーマンスの変動。</li><li><strong>アラート履歴</strong>: 過去のアラートや異常検出の履歴、およびその対応状況。</li><li><strong>監視項目の改善提案</strong>: 監視結果に基づき、システムの改善点や運用プロセスの最適
+化提案。</li></ul><p>これにより、システムの安定性を向上させるための改善が継続的に実施されます。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-cb26b7371af88fa7b8aadd41c48f80d8>2.12 - サプライヤー管理</h1><div class=lead>ITシステム運用基盤におけるサプライヤー管理の高レベル設計</div><h2 id=サプライヤー管理の目的>サプライヤー管理の目的<a class=td-heading-self-link href=#%e3%82%b5%e3%83%97%e3%83%a9%e3%82%a4%e3%83%a4%e3%83%bc%e7%ae%a1%e7%90%86%e3%81%ae%e7%9b%ae%e7%9a%84 aria-label="Heading self-link"></a></h2><p>サプライヤー管理の目的は、IT サービス提供に必要な外部ベンダーやサプライヤーとの
+関係を管理し、コスト、品質、納期、サービスレベルの最適化を図ることです。適切なサ
+プライヤー管理により、リスクを低減し、ビジネス価値を高めることが可能となります。</p><h2 id=サプライヤー選定と契約管理>サプライヤー選定と契約管理<a class=td-heading-self-link href=#%e3%82%b5%e3%83%97%e3%83%a9%e3%82%a4%e3%83%a4%e3%83%bc%e9%81%b8%e5%ae%9a%e3%81%a8%e5%a5%91%e7%b4%84%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h2><p>サプライヤー管理の第一歩は、適切なサプライヤーを選定し、契約を管理することです。
+このプロセスには以下が含まれます：</p><ul><li><strong>サプライヤー評価</strong>: サプライヤーの能力、信頼性、実績を評価し、IT サービスの
+要件を満たすサプライヤーを選定します。</li><li><strong>契約の策定と締結</strong>: サプライヤーと明確な契約を結び、サービス提供範囲、コスト
+、納期、品質保証などの項目を契約書に明記します。</li><li><strong>契約の見直し</strong>: 定期的に契約内容を見直し、ビジネスニーズや技術的要件に応じて
+調整します。</li></ul><p>適切な契約管理により、サプライヤーのパフォーマンスが維持され、コスト管理が容易に
+なります。</p><h2 id=サプライヤーとの関係管理>サプライヤーとの関係管理<a class=td-heading-self-link href=#%e3%82%b5%e3%83%97%e3%83%a9%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%a8%e3%81%ae%e9%96%a2%e4%bf%82%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h2><p>サプライヤー管理では、サプライヤーとの関係を強化し、長期的なパートナーシップを構
+築することが重要です。関係管理には以下の要素が含まれます：</p><ul><li><strong>定期的なコミュニケーション</strong>: 定期的なミーティングやレビューを通じて、サプラ
+イヤーとのコミュニケーションを強化し、現状の課題や改善点を共有します。</li><li><strong>問題解決プロセス</strong>: サプライヤーとの間で発生した問題や課題に対して、迅速に解
+決策を見つけるためのプロセスを定義します。</li><li><strong>パフォーマンス評価</strong>: サプライヤーのパフォーマンスを定期的に評価し、必要に応
+じて改善を求めるアクションを実行します。</li></ul><p>これにより、サプライヤーとの健全な関係を保ち、サービス品質が向上します。</p><h2 id=サービスレベル管理slmとの連携>サービスレベル管理（SLM）との連携<a class=td-heading-self-link href=#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e7%ae%a1%e7%90%86slm%e3%81%a8%e3%81%ae%e9%80%a3%e6%90%ba aria-label="Heading self-link"></a></h2><p>サプライヤー管理は、サービスレベル管理（SLM）と連携して行われます。サプライヤー
+が提供するサービスが SLA に準拠しているかを定期的に評価し、SLA 違反が発生した場
+合は、適切な対応を実施します。サプライヤーに対する SLA 管理の流れは以下の通りで
+す：</p><ul><li><strong>SLA の設定</strong>: サプライヤーと合意した SLA を策定し、サービスの稼働率、応答時
+間、解決時間などの具体的な目標を設定します。</li><li><strong>SLA モニタリング</strong>: サプライヤーが提供するサービスが SLA の目標に達している
+か、定期的にモニタリングします。</li><li><strong>SLA 違反時の対応</strong>: サプライヤーが SLA に違反した場合、迅速にエスカレーショ
+ンし、問題解決と再発防止策を講じます。</li></ul><p>これにより、サプライヤーから提供されるサービスが常に高水準を維持することが保証さ
+れます。</p><h2 id=サプライヤーリスク管理>サプライヤーリスク管理<a class=td-heading-self-link href=#%e3%82%b5%e3%83%97%e3%83%a9%e3%82%a4%e3%83%a4%e3%83%bc%e3%83%aa%e3%82%b9%e3%82%af%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h2><p>サプライヤーとの関係には、リスク管理も含まれます。サプライヤーがサービスを提供で
+きなくなるリスクや、品質が低下するリスクに備え、事前に対策を講じておくことが重要
+です。リスク管理には以下の活動が含まれます：</p><ul><li><strong>リスク評価</strong>: 各サプライヤーのリスクを評価し、影響度や発生確率に基づいて分類
+します。</li><li><strong>代替サプライヤーの確保</strong>: 主要なサプライヤーに問題が発生した場合に備え、代替
+サプライヤーを事前に確保します。</li><li><strong>事業継続計画（BCP）との連携</strong>: サプライヤーのサービス停止が発生した際、事業
+継続計画に基づいて迅速に対応し、ビジネスへの影響を最小限に抑えます。</li></ul><p>これにより、サプライヤーのリスクを最小限に抑え、ビジネスの安定性を維持します。</p><h2 id=コスト管理と最適化>コスト管理と最適化<a class=td-heading-self-link href=#%e3%82%b3%e3%82%b9%e3%83%88%e7%ae%a1%e7%90%86%e3%81%a8%e6%9c%80%e9%81%a9%e5%8c%96 aria-label="Heading self-link"></a></h2><p>サプライヤー管理には、コストの最適化も重要な要素です。サプライヤーとの契約に基づ
+くコストを定期的に見直し、効率的なコスト削減を図ります。主な活動としては以下があ
+ります：</p><ul><li><strong>コスト評価</strong>: サプライヤーから提供されるサービスのコストを定期的に評価し、コ
+ストに見合ったサービスが提供されているかを確認します。</li><li><strong>コスト削減の提案</strong>: サプライヤーと協力してコスト削減の方法を検討し、運用コス
+トの最適化を実現します。</li><li><strong>ベンチマーク</strong>: 同業他社や市場全体と比較して、サプライヤーのコストとサービス
+レベルをベンチマークし、競争力を維持します。</li></ul><p>これにより、コストの効率性を高め、予算管理を容易にします。</p><h2 id=レポートと改善活動>レポートと改善活動<a class=td-heading-self-link href=#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%a8%e6%94%b9%e5%96%84%e6%b4%bb%e5%8b%95 aria-label="Heading self-link"></a></h2><p>サプライヤー管理において、定期的なレポート作成が不可欠です。サプライヤーのパフォ
+ーマンス、SLA 遵守状況、コスト評価などを定期的にまとめ、関係者に報告します。レポ
+ートには以下の内容が含まれます：</p><ul><li><strong>サプライヤーパフォーマンスの評価</strong>: 契約に基づくサービスレベルの達成状況を評
+価。</li><li><strong>改善提案</strong>: サプライヤーのパフォーマンス向上に向けた改善策の提案。</li><li><strong>リスクとコストの分析</strong>: サプライヤーのリスクやコストの状況を分析し、将来的な
+対策を検討。</li></ul><p>これにより、継続的にサプライヤーの管理が改善され、サービス品質とコスト効率が向上
+します。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-6216921614ed69874ff01c0932297520>3 - Autonomous IT Services</h1><div class=lead>本ドキュメントは、ITサービスの自律運用を実現するための戦略と技術を説明します。セルフヒーリング、AI主導のリソース管理、自動意思決定を活用して、運用効率を最大化します。</div><div class="pageinfo pageinfo-primary"><p>本ドキュメントは、IT サービスの自律運用に焦点を当てた戦略と技術
+的なアプローチを説明し、運用の手動介入を最小限に抑えた効率的なシステム管理を実現
+します。</p></div><h2 id=概要>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81 aria-label="Heading self-link"></a></h2><p><strong>Autonomous IT Services</strong>は、システムが自己修復し、リソース管理を自動化し、AI
+が意思決定をサポートする運用モデルです。この運用モデルでは、手動の介入を最小限に
+抑え、AI と自動化技術を活用して IT サービスのパフォーマンスと可用性を最大化しま
+す。</p><p>自律運用の実現には次の 3 つの主要な技術的領域が含まれます：</p><ol><li><strong>セルフヒーリング (Self-Healing)</strong></li><li><strong>AI 主導のリソース管理 (AI-Driven Resource Management)</strong></li><li><strong>自動意思決定 (Automated Decision-Making)</strong></li></ol><h2 id=1-セルフヒーリング-self-healing>1. セルフヒーリング (Self-Healing)<a class=td-heading-self-link href=#1-%e3%82%bb%e3%83%ab%e3%83%95%e3%83%92%e3%83%bc%e3%83%aa%e3%83%b3%e3%82%b0-self-healing aria-label="Heading self-link"></a></h2><h3 id=概要-1>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81-1 aria-label="Heading self-link"></a></h3><p>セルフヒーリングは、システム障害が発生した場合に、自動的に問題を検出し、修復を行
+う技術です。これにより、システムのダウンタイムを最小限に抑え、サービスの中断を防
+ぎます。</p><h3 id=技術的アプローチ>技術的アプローチ<a class=td-heading-self-link href=#%e6%8a%80%e8%a1%93%e7%9a%84%e3%82%a2%e3%83%97%e3%83%ad%e3%83%bc%e3%83%81 aria-label="Heading self-link"></a></h3><ul><li><strong>監視と障害検出</strong>: Azure Monitor や Application Insights を使用して、リアルタ
+イムでシステムの状態を監視し、異常が検出された場合に自動的に修復プロセスをトリ
+ガーします。</li><li><strong>修復スクリプトの自動実行</strong>: 自動化された修復スクリプト（例: 再起動、キャッシ
+ュクリア、構成変更）が事前に定義され、問題発生時に即座に実行されます。</li><li><strong>ロールバック機能</strong>: システム変更後に問題が発生した場合、Azure DevOps や他の
+CI/CD ツールを使用して、自動的に以前の安定バージョンにロールバックします。</li></ul><h3 id=kpi>KPI<a class=td-heading-self-link href=#kpi aria-label="Heading self-link"></a></h3><ul><li><strong>障害復旧時間の短縮</strong>: 平均障害復旧時間（MTTR）を X%短縮します。</li><li><strong>システム可用性の向上</strong>: セルフヒーリングによって、システム可用性を Y%向上さ
+せます。</li></ul><h2 id=2-ai-主導のリソース管理-ai-driven-resource-management>2. AI 主導のリソース管理 (AI-Driven Resource Management)<a class=td-heading-self-link href=#2-ai-%e4%b8%bb%e5%b0%8e%e3%81%ae%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9%e7%ae%a1%e7%90%86-ai-driven-resource-management aria-label="Heading self-link"></a></h2><h3 id=概要-2>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81-2 aria-label="Heading self-link"></a></h3><p>AI 主導のリソース管理は、AI と機械学習を活用してリソースの使用状況を最適化し、需
+要に応じて動的にリソースを調整する手法です。これにより、過剰なリソース配分を削減
+し、効率的なリソース使用を実現します。</p><h3 id=技術的アプローチ-1>技術的アプローチ<a class=td-heading-self-link href=#%e6%8a%80%e8%a1%93%e7%9a%84%e3%82%a2%e3%83%97%e3%83%ad%e3%83%bc%e3%83%81-1 aria-label="Heading self-link"></a></h3><ul><li><strong>機械学習によるパフォーマンス予測</strong>: Azure Machine Learning を使用して、過去
+の使用パターンを分析し、将来のリソース需要を予測します。</li><li><strong>動的スケーリング</strong>: Azure Auto-Scaling を使用し、予測された需要に基づき、自
+動的にリソースを拡大または縮小します。</li><li><strong>AI による異常検知</strong>: リソース使用の異常を検知し、過剰な使用や不足の兆候を事
+前に通知します。</li></ul><h3 id=kpi-1>KPI<a class=td-heading-self-link href=#kpi-1 aria-label="Heading self-link"></a></h3><ul><li><strong>リソース使用効率の向上</strong>: 過剰なリソース配分を削減し、リソース使用効率を X%
+向上させます。</li><li><strong>コスト削減</strong>: 動的リソース管理により、クラウドコストを Y%削減します。</li></ul><h2 id=3-自動意思決定-automated-decision-making>3. 自動意思決定 (Automated Decision-Making)<a class=td-heading-self-link href=#3-%e8%87%aa%e5%8b%95%e6%84%8f%e6%80%9d%e6%b1%ba%e5%ae%9a-automated-decision-making aria-label="Heading self-link"></a></h2><h3 id=概要-3>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81-3 aria-label="Heading self-link"></a></h3><p>自動意思決定は、AI が運用上の意思決定をサポートし、リアルタイムのデータに基づい
+て最適な対応を自動で実行するプロセスです。これにより、インシデント対応や変更管理
+のスピードと精度が向上します。</p><h3 id=技術的アプローチ-2>技術的アプローチ<a class=td-heading-self-link href=#%e6%8a%80%e8%a1%93%e7%9a%84%e3%82%a2%e3%83%97%e3%83%ad%e3%83%bc%e3%83%81-2 aria-label="Heading self-link"></a></h3><ul><li><strong>AI によるインシデント対応</strong>: AI がインシデントデータを分析し、最適な対応策を
+提案、もしくは自動で実行します。例えば、一般的な問題に対する既知のエラーや回避
+策を AI が提示します。</li><li><strong>自動変更管理</strong>: Azure Policy や Azure DevOps を活用し、提案された変更を自動
+的に評価し、リスクの低い変更は自動的に適用します。</li><li><strong>リスク評価の自動化</strong>: 変更や新しいリソース導入時に、AI がリスクを評価し、影
+響を予測します。</li></ul><h3 id=kpi-2>KPI<a class=td-heading-self-link href=#kpi-2 aria-label="Heading self-link"></a></h3><ul><li><strong>意思決定速度の向上</strong>: 自動意思決定により、インシデント対応や変更管理の意思決
+定速度を X%向上させます。</li><li><strong>リスク低減</strong>: AI によるリスク評価により、運用リスクを Y%削減します。</li></ul><h2 id=まとめ>まとめ<a class=td-heading-self-link href=#%e3%81%be%e3%81%a8%e3%82%81 aria-label="Heading self-link"></a></h2><p><strong>Autonomous IT Services</strong>は、セルフヒーリング、AI 主導のリソース管理、自動意思
+決定を通じて、運用の手動介入を最小化し、システムの可用性と効率を最大化することを
+目指しています。これにより、運用コストの削減とサービス品質の向上が実現します。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-c78538371b911e5a252c44660f55e9e2>4 - Operations Platform Architecture</h1><div class=lead>本ドキュメントは、Azure Landing Zoneモデルに基づいたオペレーションプラットフォームのアーキテクチャを説明します。サービスデスク、問題管理、継続的改善などのITILに準拠した機能が含まれています。</div><div class="pageinfo pageinfo-primary"><p>本ドキュメントは、Azure Landing Zone におけるオペレーションプラ
+ットフォームのアーキテクチャを説明し、サービスデスク、問題管理、変更管理、レポー
+トなどの ITIL 準拠機能に焦点を当てています。</p></div><h2 id=概要>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81 aria-label="Heading self-link"></a></h2><p>Azure Landing Zone モデル内のオペレーションプラットフォームアーキテクチャは、サ
+ービスデスク、問題管理、継続的改善、変更管理などの ITIL プラクティスを統合してい
+ます。これらの機能は、サービス管理のベストプラクティスに従い、運用効率とガバナン
+スを向上させます。</p><h2 id=オペレーションプラットフォームの主なコンポーネント>オペレーションプラットフォームの主なコンポーネント<a class=td-heading-self-link href=#%e3%82%aa%e3%83%9a%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%97%e3%83%a9%e3%83%83%e3%83%88%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0%e3%81%ae%e4%b8%bb%e3%81%aa%e3%82%b3%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%8d%e3%83%b3%e3%83%88 aria-label="Heading self-link"></a></h2><h3 id=1-監視とアラート>1. <strong>監視とアラート</strong><a class=td-heading-self-link href=#1-%e7%9b%a3%e8%a6%96%e3%81%a8%e3%82%a2%e3%83%a9%e3%83%bc%e3%83%88 aria-label="Heading self-link"></a></h3><p>監視はオペレーションプラットフォームの重要な側面です。Azure Monitor および Log
+Analytics を使用してパフォーマンスデータを収集・分析し、システムの健全性に関する
+リアルタイムの洞察を提供します。</p><ul><li><strong>Azure Monitor</strong>: すべての Azure リソースのリアルタイムのメトリクスとログを提
+供します。</li><li><strong>Log Analytics</strong>: 様々なソースからデータを収集・分析し、トレンドや潜在的な問
+題を特定します。</li><li><strong>自動アラート</strong>: 特定の閾値に達した際にアラートが自動的にトリガーされ、重要な
+問題への迅速な対応を可能にします。</li></ul><h3 id=2-自動化>2. <strong>自動化</strong><a class=td-heading-self-link href=#2-%e8%87%aa%e5%8b%95%e5%8c%96 aria-label="Heading self-link"></a></h3><p>自動化レイヤーは、リソース管理、パッチ適用、構成管理を効率化し、手動による介入の
+必要性を減少させます。</p><ul><li><strong>Azure Automation</strong>: パッチ管理、構成更新、プロセスワークフローなどのタスクを
+自動化します。</li><li><strong>アップデート管理</strong>: システム全体が最新の状態に保たれ、手動の努力を必要としま
+せん。</li><li><strong>リソースプロビジョニングの自動化</strong>: ARM テンプレートや Terraform スクリプト
+を使用して Azure リソースのプロビジョニングを自動化します。</li></ul><h3 id=3-ログおよび監査>3. <strong>ログおよび監査</strong><a class=td-heading-self-link href=#3-%e3%83%ad%e3%82%b0%e3%81%8a%e3%82%88%e3%81%b3%e7%9b%a3%e6%9f%bb aria-label="Heading self-link"></a></h3><p>ログおよび監査は、運用の透明性を維持し、組織や規制の基準に準拠するために不可欠で
+す。</p><ul><li><strong>Azure Log Analytics</strong>: すべてのリソースからログを集約し、高度なクエリやレポ
+ート作成が可能です。</li><li><strong>Azure Policy</strong>: すべてのリソースが事前定義されたガバナンスルールに従うことを
+保証し、ポリシーを自動的に適用・強制します。</li><li><strong>監査ログ</strong>: Azure 環境内で実行されたすべてのアクションを記録し、コンプライア
+ンス目的で明確な監査証跡を提供します。</li></ul><h3 id=4-セキュリティおよびコンプライアンス>4. <strong>セキュリティおよびコンプライアンス</strong><a class=td-heading-self-link href=#4-%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e3%81%8a%e3%82%88%e3%81%b3%e3%82%b3%e3%83%b3%e3%83%97%e3%83%a9%e3%82%a4%e3%82%a2%e3%83%b3%e3%82%b9 aria-label="Heading self-link"></a></h3><p>プラットフォームには、セキュリティの監視と、組織のポリシーへの準拠を確保するため
+の機能が含まれています。</p><ul><li><strong>Azure Security Center</strong>: セキュリティ推奨事項を提供し、潜在的な脆弱性を特定
+し、修復プロセスを自動化します。</li><li><strong>Azure Sentinel</strong>: 高度な脅威検知および対応機能を提供し、外部攻撃から環境を保
+護します。</li><li><strong>役割ベースのアクセス制御 (RBAC)</strong>: 事前定義された役割に基づいてリソースへの
+アクセスを制限し、最小権限の原則を維持します。</li></ul><h2 id=オペレーションプラットフォームにおける-itil-準拠の機能>オペレーションプラットフォームにおける ITIL 準拠の機能<a class=td-heading-self-link href=#%e3%82%aa%e3%83%9a%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%97%e3%83%a9%e3%83%83%e3%83%88%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b-itil-%e6%ba%96%e6%8b%a0%e3%81%ae%e6%a9%9f%e8%83%bd aria-label="Heading self-link"></a></h2><h3 id=5-サービスデスク>5. <strong>サービスデスク</strong><a class=td-heading-self-link href=#5-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%87%e3%82%b9%e3%82%af aria-label="Heading self-link"></a></h3><p>集中型のサービスデスク機能により、インシデントおよびサービス要求が効率的に管理さ
+れます。</p><ul><li><strong>ServiceNow / Azure DevOps との統合</strong>: インシデント、リクエスト、およびタスク
+を管理します。</li><li><strong>インシデントのログ記録および追跡</strong>: すべてのインシデントはログに記録され、分
+類され、解決されるまで追跡されます。</li><li><strong>SLA 監視</strong>: サービスレベルアグリーメント (SLA) が遵守されることを確認し、SLA
+が危険にさらされている場合に自動通知を提供します。</li></ul><h3 id=6-問題管理>6. <strong>問題管理</strong><a class=td-heading-self-link href=#6-%e5%95%8f%e9%a1%8c%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h3><p>問題管理は、繰り返されるインシデントの根本原因を特定し、ビジネスへの影響を最小限
+に抑えることに焦点を当てています。</p><ul><li><strong>問題の特定と根本原因分析 (RCA)</strong>: 問題レコードをログに記録・監視し、重大な問
+題について RCA を実施します。</li><li><strong>既知のエラーデータベース (KEDB)</strong>: 繰り返される問題に対する既知のエラーおよ
+び回避策を文書化し、今後のインシデント解決を迅速化します。</li><li><strong>自動化された RCA レポート</strong>: 自動的に RCA レポートを生成し、繰り返されるイン
+シデントを追跡します。</li></ul><h3 id=7-変更管理>7. <strong>変更管理</strong><a class=td-heading-self-link href=#7-%e5%a4%89%e6%9b%b4%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h3><p>変更管理は、環境への変更が制御されたリスク最小化の方法で実施されることを保証しま
+す。</p><ul><li><strong>変更要求の自動化</strong>: サービスデスクと統合し、変更要求の提出および承認を自動化
+します。</li><li><strong>変更影響分析</strong>: Azure Policy およびリソース依存関係を使用して、提案された変
+更の潜在的な影響を自動的に評価します。</li><li><strong>変更スケジューリング</strong>: 変更をスケジューリングおよび追跡し、監視ツールとの統
+合を通じて、運用への影響を最小限に抑えます。</li></ul><h3 id=8-継続的改善>8. <strong>継続的改善</strong><a class=td-heading-self-link href=#8-%e7%b6%99%e7%b6%9a%e7%9a%84%e6%94%b9%e5%96%84 aria-label="Heading self-link"></a></h3><p>継続的改善は、プラットフォームのパフォーマンスおよび効率を向上させるための継続的
+な取り組みを追跡します。</p><ul><li><strong>KPI 監視およびレポート</strong>: Azure Monitor および Power BI を使用して主要なパフ
+ォーマンス指標 (KPI) を追跡し、改善レポートを生成します。</li><li><strong>改善バックログ</strong>: ビジネスへの影響と実装の容易さに基づいて優先順位付けされた
+改善イニシアティブのバックログを維持します。</li><li><strong>定期的な改善の自動化</strong>: Azure Automation を使用して、パフォーマンスチューニ
+ングやパッチ管理などの標準的な改善手順を実施します。</li></ul><h3 id=9-レポート>9. <strong>レポート</strong><a class=td-heading-self-link href=#9-%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88 aria-label="Heading self-link"></a></h3><p>プラットフォームは、パフォーマンス、コンプライアンス、運用の健全性に関する洞察を
+提供するために、レポートツールを統合しています。</p><ul><li><strong>Power BI / Azure Monitor ダッシュボード</strong>: システムの健全性、インシデントの
+トレンド、サービスパフォーマンスのリアルタイム可視化を提供します。</li><li><strong>自動化されたレポート作成</strong>: 月次および四半期レポートが自動的に生成され、稼働
+時間、インシデント解決時間、コンプライアンスなどの主要なメトリクスがカバーされ
+ます。</li><li><strong>カスタムレポート</strong>: セキュリティコンプライアンスや変更成功率など、特定の運用
+ニーズに合わせたカスタムレポートの作成を可能にします。</li></ul><h3 id=10-システム保守>10. <strong>システム保守</strong><a class=td-heading-self-link href=#10-%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e4%bf%9d%e5%ae%88 aria-label="Heading self-link"></a></h3><p>保守作業は自動化され、集中管理されているため、ダウンタイムを減らし、システムの可
+用性を確保します。</p><ul><li><strong>自動化されたパッチ管理</strong>: Azure Automation がすべてのリソースにパッチを展開
+します。</li><li><strong>スケジュールされたメンテナンスウィンドウ</strong>: メンテナンス活動はスケジュールさ
+れ、運用システムへの影響を最小限に抑えるために監視されます。</li><li><strong>バックアップおよびリカバリの自動化</strong>: Azure Backup を使用して定期的なバック
+アップと効率的なリカバリプロセスを保証します。</li></ul><h2 id=アーキテクチャ図>アーキテクチャ図<a class=td-heading-self-link href=#%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3%e5%9b%b3 aria-label="Heading self-link"></a></h2><p>以下の図は、Azure Landing Zone における ITIL 準拠機能を備えたオペレーションプラ
+ットフォームアーキテクチャのハイレベル概要を示しています。詳細については
+、<a href=https://learn.microsoft.com/en-us/azure/architecture/example/diagram>オペレーションプラットフォームアーキテクチャ図</a>を
+参照してください。</p><p><img alt=オペレーションプラットフォームアーキテクチャ図 src=https://learn.microsoft.com/en-us/azure/architecture/example/diagram></p><p>この図は、オペレーションプラットフォームのコアコンポーネント（自動化、監視、サー
+ビスデスク、ITIL プロセスなど）を強調しています。</p><h3 id=itil-準拠のオペレーションプラットフォームの利点>ITIL 準拠のオペレーションプラットフォームの利点<a class=td-heading-self-link href=#itil-%e6%ba%96%e6%8b%a0%e3%81%ae%e3%82%aa%e3%83%9a%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%97%e3%83%a9%e3%83%83%e3%83%88%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0%e3%81%ae%e5%88%a9%e7%82%b9 aria-label="Heading self-link"></a></h3><ul><li><strong>インシデント解決の改善</strong>: 集中型サービスデスクと問題管理を通じて、インシデン
+トは迅速かつ効率的に解決されます。</li><li><strong>制御された変更管理</strong>: システムへの変更はリスクを最小限に抑えて実施され、高可
+用性が維持されます。</li><li><strong>プロアクティブな改善</strong>: 継続的改善プラクティスにより、プラットフォームは成長
+するビジネスニーズに対応して進化します。</li></ul><h2 id=自動化および管理のベストプラクティス>自動化および管理のベストプラクティス<a class=td-heading-self-link href=#%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%8a%e3%82%88%e3%81%b3%e7%ae%a1%e7%90%86%e3%81%ae%e3%83%99%e3%82%b9%e3%83%88%e3%83%97%e3%83%a9%e3%82%af%e3%83%86%e3%82%a3%e3%82%b9 aria-label="Heading self-link"></a></h2><p>オペレーションプラットフォームは、運用効率を維持するための自動化および管理のベス
+トプラクティスに基づいています。</p><h3 id=1-定期的なタスクの自動化>1. <strong>定期的なタスクの自動化</strong><a class=td-heading-self-link href=#1-%e5%ae%9a%e6%9c%9f%e7%9a%84%e3%81%aa%e3%82%bf%e3%82%b9%e3%82%af%e3%81%ae%e8%87%aa%e5%8b%95%e5%8c%96 aria-label="Heading self-link"></a></h3><p>パッチ適用、バックアップ、リソースのスケーリングなどの定期的なタスクは、自動化さ
+れており、オペレーションチームへの負担を軽減します。</p><ul><li><strong>KPI</strong>: 定期的な運用の自動化により、手動タスク時間が X%削減されます。</li><li><strong>KGI</strong>: [年]までに、パッチ適用とリソーススケーリングの完全な自動化を達成しま
+す。</li></ul><h3 id=2-監視およびアラート閾値>2. <strong>監視およびアラート閾値</strong><a class=td-heading-self-link href=#2-%e7%9b%a3%e8%a6%96%e3%81%8a%e3%82%88%e3%81%b3%e3%82%a2%e3%83%a9%e3%83%bc%e3%83%88%e9%96%be%e5%80%a4 aria-label="Heading self-link"></a></h3><p>監視システムは、ユーザーに影響を与える前にパフォーマンス低下や潜在的な障害を検出
+するように構成されています。</p><ul><li><strong>KPI</strong>: プロアクティブなアラートおよび監視により、インシデント解決時間が X%短
+縮されます。</li><li><strong>KGI</strong>: [年]までに、すべての重要なシステムに対するリアルタイム監視カバレッジ
+を達成します。</li></ul><h2 id=結論>結論<a class=td-heading-self-link href=#%e7%b5%90%e8%ab%96 aria-label="Heading self-link"></a></h2><p>Azure Landing Zone 内のオペレーションプラットフォームアーキテクチャは、サービス
+デスク、問題管理、変更管理などの ITIL 準拠の機能を統合し、クラウド運用を管理する
+ための包括的なフレームワークを提供します。このアーキテクチャにより、運用は自動化
+され、効率的であり、サービス管理のベストプラクティスに準拠しています。</p><div class="pageinfo pageinfo-primary"><p>This document describes the architecture of an operations
+platform in Azure Landing Zone, with a focus on ITIL-aligned functions including
+Service Desk, Problem Management, Change Management, and Reporting.</p></div><h2 id=overview>Overview<a class=td-heading-self-link href=#overview aria-label="Heading self-link"></a></h2><p>The Operations Platform Architecture within the Azure Landing Zone model
+integrates ITIL practices such as Service Desk, Problem Management, Continual
+Improvement, and Change Management. These functions ensure that the platform
+adheres to best practices for service management, enhancing operational
+efficiency and governance.</p><h2 id=key-components-of-the-operations-platform>Key Components of the Operations Platform<a class=td-heading-self-link href=#key-components-of-the-operations-platform aria-label="Heading self-link"></a></h2><h3 id=1-monitoring-and-alerts>1. <strong>Monitoring and Alerts</strong><a class=td-heading-self-link href=#1-monitoring-and-alerts aria-label="Heading self-link"></a></h3><p>Monitoring is a critical aspect of the operations platform. Azure Monitor and
+Log Analytics are used to collect and analyze performance data, providing
+real-time insights into system health.</p><ul><li><strong>Azure Monitor</strong>: Provides real-time metrics and logs for all Azure
+resources.</li><li><strong>Log Analytics</strong>: Gathers and analyzes data from various sources to identify
+trends and potential issues.</li><li><strong>Automated Alerts</strong>: Alerts are configured to trigger when specific
+thresholds are met, ensuring prompt response to any critical issues.</li></ul><h3 id=2-automation>2. <strong>Automation</strong><a class=td-heading-self-link href=#2-automation aria-label="Heading self-link"></a></h3><p>The automation layer allows for efficient resource management, patching, and
+configuration management, reducing the need for manual intervention.</p><ul><li><strong>Azure Automation</strong>: Automates tasks such as patch management, configuration
+updates, and process workflows.</li><li><strong>Update Management</strong>: Ensures that all systems are patched and up-to-date
+without manual effort.</li><li><strong>Resource Provisioning Automation</strong>: ARM templates and Terraform scripts
+automate the provisioning of Azure resources.</li></ul><h3 id=3-logging-and-auditing>3. <strong>Logging and Auditing</strong><a class=td-heading-self-link href=#3-logging-and-auditing aria-label="Heading self-link"></a></h3><p>Logging and auditing are essential to maintaining operational transparency and
+ensuring compliance with organizational and regulatory standards.</p><ul><li><strong>Azure Log Analytics</strong>: Centralizes logs from all resources, enabling
+advanced queries and reporting.</li><li><strong>Azure Policy</strong>: Ensures that all resources comply with predefined governance
+rules, automatically applying and enforcing policies.</li><li><strong>Audit Logs</strong>: Records every action taken within the Azure environment,
+providing a clear audit trail for compliance purposes.</li></ul><h3 id=4-security-and-compliance>4. <strong>Security and Compliance</strong><a class=td-heading-self-link href=#4-security-and-compliance aria-label="Heading self-link"></a></h3><p>The platform includes features for monitoring security and ensuring compliance
+with organizational policies.</p><ul><li><strong>Azure Security Center</strong>: Provides security recommendations, identifies
+potential vulnerabilities, and automates remediation processes.</li><li><strong>Azure Sentinel</strong>: Offers advanced threat detection and response
+capabilities, helping protect the environment from external attacks.</li><li><strong>Role-Based Access Control (RBAC)</strong>: Ensures that access to resources is
+restricted based on predefined roles, maintaining a principle of least
+privilege.</li></ul><h2 id=itil-aligned-functions-in-the-operations-platform>ITIL-Aligned Functions in the Operations Platform<a class=td-heading-self-link href=#itil-aligned-functions-in-the-operations-platform aria-label="Heading self-link"></a></h2><h3 id=5-service-desk>5. <strong>Service Desk</strong><a class=td-heading-self-link href=#5-service-desk aria-label="Heading self-link"></a></h3><p>A centralized Service Desk function ensures that incidents and service requests
+are managed efficiently.</p><ul><li><strong>ServiceNow / Azure DevOps Integration</strong>: For managing incidents, requests,
+and tasks.</li><li><strong>Incident Logging and Tracking</strong>: All incidents are logged, categorized, and
+tracked until resolution.</li><li><strong>SLA Monitoring</strong>: Ensures that Service Level Agreements (SLAs) are adhered
+to, providing automated notifications when SLAs are at risk.</li></ul><h3 id=6-problem-management>6. <strong>Problem Management</strong><a class=td-heading-self-link href=#6-problem-management aria-label="Heading self-link"></a></h3><p>Problem Management focuses on identifying the root cause of recurring incidents
+and minimizing the impact on the business.</p><ul><li><strong>Problem Identification and Root Cause Analysis (RCA)</strong>: Logs and monitors
+problem records, performing RCA for significant issues.</li><li><strong>Known Error Database (KEDB)</strong>: Documents known errors and workarounds for
+recurring problems to speed up future incident resolution.</li><li><strong>Automated RCA Reporting</strong>: Automatically generates RCA reports and tracks
+recurring incidents.</li></ul><h3 id=7-change-management>7. <strong>Change Management</strong><a class=td-heading-self-link href=#7-change-management aria-label="Heading self-link"></a></h3><p>Change Management ensures that changes to the environment are implemented in a
+controlled and risk-minimized manner.</p><ul><li><strong>Change Request Automation</strong>: Integrates with Service Desk to automate the
+submission and approval of change requests.</li><li><strong>Change Impact Analysis</strong>: Uses Azure Policy and resource dependencies to
+automatically assess the potential impact of proposed changes.</li><li><strong>Change Scheduling</strong>: Schedules and tracks changes with integration to
+monitoring tools to ensure minimal disruption.</li></ul><h3 id=8-continual-improvement>8. <strong>Continual Improvement</strong><a class=td-heading-self-link href=#8-continual-improvement aria-label="Heading self-link"></a></h3><p>Continual Improvement tracks ongoing efforts to enhance the platform&rsquo;s
+performance and efficiency.</p><ul><li><strong>KPI Monitoring and Reporting</strong>: Uses Azure Monitor and Power BI to track key
+performance indicators (KPIs) and generate improvement reports.</li><li><strong>Improvement Backlog</strong>: Maintains a backlog of improvement initiatives,
+prioritized by business impact and ease of implementation.</li><li><strong>Automation of Routine Improvements</strong>: Uses Azure Automation to implement
+standard improvement procedures, such as performance tuning and patch
+management.</li></ul><h3 id=9-reporting>9. <strong>Reporting</strong><a class=td-heading-self-link href=#9-reporting aria-label="Heading self-link"></a></h3><p>The platform integrates reporting tools to provide insights into performance,
+compliance, and operational health.</p><ul><li><strong>Power BI / Azure Monitor Dashboards</strong>: Provides real-time visualizations of
+system health, incident trends, and service performance.</li><li><strong>Automated Reporting</strong>: Monthly and quarterly reports are generated
+automatically, covering key metrics such as uptime, incident resolution times,
+and compliance.</li><li><strong>Custom Reports</strong>: Allows the creation of custom reports for specific
+operational needs, such as security compliance or change success rates.</li></ul><h3 id=10-system-maintenance>10. <strong>System Maintenance</strong><a class=td-heading-self-link href=#10-system-maintenance aria-label="Heading self-link"></a></h3><p>Maintenance operations are automated and centrally managed to reduce downtime
+and ensure system availability.</p><ul><li><strong>Automated Patch Management</strong>: Azure Automation manages patch deployment
+across all resources.</li><li><strong>Scheduled Maintenance Windows</strong>: Maintenance activities are scheduled and
+monitored to ensure minimal impact on production systems.</li><li><strong>Backup and Recovery Automation</strong>: Ensures regular backups and streamlined
+recovery processes using Azure Backup.</li></ul><h2 id=architecture-diagram>Architecture Diagram<a class=td-heading-self-link href=#architecture-diagram aria-label="Heading self-link"></a></h2><p>The following diagram provides a high-level overview of the operations platform
+architecture with ITIL-aligned functions in Azure Landing Zone. For a detailed
+view, refer to the
+<a href=https://learn.microsoft.com/en-us/azure/architecture/example/diagram>Operations Platform Architecture Diagram</a>.</p><p><img alt="Operations Platform Architecture Diagram" src=https://learn.microsoft.com/en-us/azure/architecture/example/diagram></p><p>This diagram highlights the core components of the operations platform,
+including automation, monitoring, Service Desk, and ITIL processes.</p><h3 id=benefits-of-the-itil-aligned-operations-platform>Benefits of the ITIL-Aligned Operations Platform<a class=td-heading-self-link href=#benefits-of-the-itil-aligned-operations-platform aria-label="Heading self-link"></a></h3><ul><li><strong>Improved Incident Resolution</strong>: Through centralized Service Desk and Problem
+Management, incidents are resolved faster and more efficiently.</li><li><strong>Controlled Change Management</strong>: Changes to the system are implemented with
+minimal risk, ensuring high availability.</li><li><strong>Proactive Improvement</strong>: Continual Improvement practices ensure that the
+platform evolves to meet growing business needs.</li></ul><h2 id=automation-and-management-best-practices>Automation and Management Best Practices<a class=td-heading-self-link href=#automation-and-management-best-practices aria-label="Heading self-link"></a></h2><p>The operations platform relies on best practices for automation and management
+to maintain a high level of operational efficiency.</p><h3 id=1-automation-of-routine-tasks>1. <strong>Automation of Routine Tasks</strong><a class=td-heading-self-link href=#1-automation-of-routine-tasks aria-label="Heading self-link"></a></h3><p>Routine tasks such as patching, backup, and resource scaling are automated to
+reduce the load on the operations team.</p><ul><li><strong>KPI</strong>: Reduction in manual task time by X% through automation of routine
+operations.</li><li><strong>KGI</strong>: Full automation of patching and resource scaling by [Year].</li></ul><h3 id=2-monitoring-and-alerting-thresholds>2. <strong>Monitoring and Alerting Thresholds</strong><a class=td-heading-self-link href=#2-monitoring-and-alerting-thresholds aria-label="Heading self-link"></a></h3><p>Monitoring systems are configured to detect performance degradation and
+potential failures before they impact users.</p><ul><li><strong>KPI</strong>: Time to resolve incidents reduced by X% through proactive alerting
+and monitoring.</li><li><strong>KGI</strong>: Achieve full real-time monitoring coverage across all critical
+systems by [Year].</li></ul><h2 id=conclusion>Conclusion<a class=td-heading-self-link href=#conclusion aria-label="Heading self-link"></a></h2><p>The Operations Platform Architecture within the Azure Landing Zone, integrated
+with ITIL-aligned functions such as Service Desk, Problem Management, and Change
+Management, provides a comprehensive framework for managing cloud operations.
+This architecture ensures that operations are automated, efficient, and aligned
+with best practices for service management.</p></div><div class=td-content style=page-break-before:always><h1 id=pg-bea1feb4fa343d9772c39efdf03c57f1>5 - Optimization Techniques</h1><div class=lead>本ドキュメントは、ITサービス運用の効率を最大化するための最適化技術を説明します。リソース管理、パフォーマンス最適化、データ分析を活用して運用効率を向上させます。</div><div class="pageinfo pageinfo-primary"><p>本ドキュメントは、Azure Landing Zone を基にした運用の最適化技術
+に焦点を当て、パフォーマンス向上とコスト削減を目指します。</p></div><h2 id=概要>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81 aria-label="Heading self-link"></a></h2><p>IT サービス運用の最適化技術は、リソースの無駄を削減し、サービスのパフォーマンス
+を向上させるための重要な取り組みです。本ロードマップでは、リソース管理、パフォー
+マンスモニタリング、データ駆動型の意思決定を活用し、IT インフラの効率を最大化し
+ます。</p><p>最適化の焦点は次の 3 つの領域に分けられます：</p><ol><li><strong>リソース最適化 (Resource Optimization)</strong></li><li><strong>パフォーマンス最適化 (Performance Optimization)</strong></li><li><strong>データ駆動型の最適化 (Data-Driven Optimization)</strong></li></ol><h2 id=1-リソース最適化>1. リソース最適化<a class=td-heading-self-link href=#1-%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9%e6%9c%80%e9%81%a9%e5%8c%96 aria-label="Heading self-link"></a></h2><h3 id=概要-1>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81-1 aria-label="Heading self-link"></a></h3><p>リソースの最適化は、クラウドインフラの効率的な使用を確保し、リソースの無駄を最小
+限に抑えるために行われます。これには、リソースのオーバープロビジョニングや未使用
+リソースを自動的に特定し、削減する手法が含まれます。</p><h3 id=最適化手法>最適化手法<a class=td-heading-self-link href=#%e6%9c%80%e9%81%a9%e5%8c%96%e6%89%8b%e6%b3%95 aria-label="Heading self-link"></a></h3><ul><li><strong>リソーススケーリングの自動化</strong>: Azure の Auto-Scaling 機能を活用し、需要に応
+じてリソースを自動でスケーリングします。これにより、リソースが必要なときにのみ
+プロビジョニングされ、無駄なコストを削減できます。</li><li><strong>未使用リソースの削減</strong>: 定期的に使用状況を監視し、使用されていないリソース
+（VM、ストレージ、ネットワーク）を削除または停止します。</li><li><strong>コスト管理ツールの活用</strong>: Azure Cost Management + Billing を使用して、コスト
+を追跡し、無駄遣いを防ぎます。</li></ul><h3 id=kpi>KPI<a class=td-heading-self-link href=#kpi aria-label="Heading self-link"></a></h3><ul><li><strong>リソース使用率の向上</strong>: 使用率の低いリソースを最適化し、平均使用率を X%向上
+させます。</li><li><strong>コスト削減</strong>: 不要なリソースを削減することで、月次運用コストを Y%削減します
+。</li></ul><h2 id=2-パフォーマンス最適化>2. パフォーマンス最適化<a class=td-heading-self-link href=#2-%e3%83%91%e3%83%95%e3%82%a9%e3%83%bc%e3%83%9e%e3%83%b3%e3%82%b9%e6%9c%80%e9%81%a9%e5%8c%96 aria-label="Heading self-link"></a></h2><h3 id=概要-2>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81-2 aria-label="Heading self-link"></a></h3><p>パフォーマンス最適化は、システムのレスポンスと効率を最大化するためのプロセスです
+。最適化されたパフォーマンスにより、ユーザーエクスペリエンスの向上と、ダウンタイ
+ムの減少が期待できます。</p><h3 id=最適化手法-1>最適化手法<a class=td-heading-self-link href=#%e6%9c%80%e9%81%a9%e5%8c%96%e6%89%8b%e6%b3%95-1 aria-label="Heading self-link"></a></h3><ul><li><strong>パフォーマンスモニタリング</strong>: Azure Monitor や Application Insights を使用し
+て、システムパフォーマンスをリアルタイムで監視し、ボトルネックやリソース不足を
+迅速に特定します。</li><li><strong>負荷分散の最適化</strong>: Azure Load Balancer を利用して、トラフィックを最適に分散
+し、特定のリソースに過剰な負荷がかからないようにします。</li><li><strong>キャッシュの活用</strong>: Azure Redis Cache を用いてデータのキャッシュを行い、アプ
+リケーションのパフォーマンスを向上させます。</li></ul><h3 id=kpi-1>KPI<a class=td-heading-self-link href=#kpi-1 aria-label="Heading self-link"></a></h3><ul><li><strong>レスポンスタイムの短縮</strong>: システムの平均レスポンスタイムを X%短縮します。</li><li><strong>ダウンタイムの削減</strong>: サービスの月次ダウンタイムを Y%削減します。</li></ul><h2 id=3-データ駆動型の最適化>3. データ駆動型の最適化<a class=td-heading-self-link href=#3-%e3%83%87%e3%83%bc%e3%82%bf%e9%a7%86%e5%8b%95%e5%9e%8b%e3%81%ae%e6%9c%80%e9%81%a9%e5%8c%96 aria-label="Heading self-link"></a></h2><h3 id=概要-3>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81-3 aria-label="Heading self-link"></a></h3><p>データ駆動型の最適化では、システムやアプリケーションから収集されたデータを分析し
+、意思決定を行います。これにより、問題の早期発見や予測メンテナンスが可能になり、
+サービスの継続的な改善が実現します。</p><h3 id=最適化手法-2>最適化手法<a class=td-heading-self-link href=#%e6%9c%80%e9%81%a9%e5%8c%96%e6%89%8b%e6%b3%95-2 aria-label="Heading self-link"></a></h3><ul><li><strong>予測メンテナンス</strong>: Azure Machine Learning を使用して、システムのパフォーマ
+ンスデータを分析し、故障やパフォーマンス低下の兆候を予測します。</li><li><strong>AI によるリソース最適化</strong>: 機械学習を活用して、リソース使用パターンを分析し
+、最適なリソース配分を実現します。</li><li><strong>データ分析による意思決定</strong>: Azure Log Analytics や Power BI を使用して、リア
+ルタイムデータを分析し、リソース配分やプロセス改善に役立つ意思決定をサポートし
+ます。</li></ul><h3 id=kpi-2>KPI<a class=td-heading-self-link href=#kpi-2 aria-label="Heading self-link"></a></h3><ul><li><strong>予測精度の向上</strong>: 予測メンテナンスによるシステム障害の検知率を X%向上させま
+す。</li><li><strong>効率的なリソース使用</strong>: データ駆動型の意思決定により、リソース使用効率を Y%
+向上させます。</li></ul><h2 id=まとめ>まとめ<a class=td-heading-self-link href=#%e3%81%be%e3%81%a8%e3%82%81 aria-label="Heading self-link"></a></h2><p>最適化技術を活用することで、IT サービスのパフォーマンスを向上させ、コスト削減と
+運用効率の最大化を実現します。リソースの最適化、パフォーマンスの向上、そしてデー
+タ駆動型の意思決定により、IT インフラの運用はより効率的で柔軟なものとなります。</p></div><div class=td-content style=page-break-before:always><h1 id=pg-cf456202f12ac946b453c94118e844b5>6 - SAPシステム向け自動化・自律化</h1><div class=lead>このドキュメントは、Azure IaaS上に構築されたSAPシステムを対象に、自動化・自律化オペレーションを実現し、運用コストを最小限に抑えるアーキテクチャを説明します。ITILに準拠したサービスデスク、インシデント管理、サービス監視、ダッシュボードなどを活用します。</div><div class="pageinfo pageinfo-primary"><p>本ドキュメントは、Azure IaaS 上に構築された SAP システムを対象
+にした自動化・自律化オペレーションプラットフォームアーキテクチャを説明します
+。</p></div><h2 id=概要>概要<a class=td-heading-self-link href=#%e6%a6%82%e8%a6%81 aria-label="Heading self-link"></a></h2><p>本オペレーションプラットフォームは、Azure IaaS 上で稼働する SAP システムに特化し
+、効率的な自動化・自律化オペレーションを実現します。サービスデスク、インシデント
+管理、監視、自動化を連携させることで、運用コストを最小限に抑えつつ、SAP システム
+の高可用性と信頼性を維持します。</p><h2 id=オペレーションプラットフォームの主要コンポーネント>オペレーションプラットフォームの主要コンポーネント<a class=td-heading-self-link href=#%e3%82%aa%e3%83%9a%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%97%e3%83%a9%e3%83%83%e3%83%88%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0%e3%81%ae%e4%b8%bb%e8%a6%81%e3%82%b3%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%8d%e3%83%b3%e3%83%88 aria-label="Heading self-link"></a></h2><h3 id=1-サービスデスクとインシデント管理>1. <strong>サービスデスクとインシデント管理</strong><a class=td-heading-self-link href=#1-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%87%e3%82%b9%e3%82%af%e3%81%a8%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h3><p>SAP システムの運用では、インシデント管理が重要です。これには、ServiceNow や
+Azure DevOps を使用し、SLA に基づいた効率的な運用管理を実現します。</p><ul><li><strong>ServiceNow / Azure DevOps</strong>: インシデント、リクエスト、変更管理を一元化し
+、SAP システムに関連する問題を迅速に解決します。</li><li><strong>SAP 専用のインシデント管理フロー</strong>: SAP システム特有の問題を迅速にトリアージ
+し、関連するサポートチームへエスカレーションします。</li><li><strong>SLA モニタリング</strong>: SLA に基づいてインシデントを優先順位付けし、自動通知とエ
+スカレーション機能を利用します。</li></ul><h3 id=2-監視とアラート>2. <strong>監視とアラート</strong><a class=td-heading-self-link href=#2-%e7%9b%a3%e8%a6%96%e3%81%a8%e3%82%a2%e3%83%a9%e3%83%bc%e3%83%88 aria-label="Heading self-link"></a></h3><p>Azure IaaS 上の SAP システムの健全性を維持するため、Azure Monitor や専用の SAP
+監視ツールを組み合わせて運用します。</p><ul><li><strong>Azure Monitor</strong>: SAP システムを構成する IaaS リソース（VM、ディスク、ネット
+ワーク）のリアルタイム監視を行います。</li><li><strong>SAP Solution Manager</strong>: SAP 専用の監視ツールとして、SAP システム全体のパフォ
+ーマンス、トランザクション、データベースの監視を提供します。</li><li><strong>自動アラート</strong>: リソースのパフォーマンス低下やサービスの停止を検出した際、自
+動でアラートが発生し、事前設定された対応フローが実行されます。</li></ul><h3 id=3-自動化およびインフラ管理>3. <strong>自動化およびインフラ管理</strong><a class=td-heading-self-link href=#3-%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%8a%e3%82%88%e3%81%b3%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h3><p>Azure 上の SAP システムは、リソース管理と構成管理の自動化により効率的に運用され
+ます。</p><ul><li><strong>Azure Automation / SAP Landscape Management (LaMa)</strong>: SAP システムのインフラ
+ストラクチャとアプリケーションの運用タスク（パッチ管理、システムコピー、スター
+ト/ストップ）を自動化します。</li><li><strong>Terraform / ARM Templates</strong>: SAP システム用の IaaS リソース（VM、ストレージ
+、ネットワーク）のプロビジョニングを自動化し、環境構築の時間を短縮します。</li><li><strong>自動パッチ管理</strong>: Azure Automation を使用して、SAP システム上の OS および
+IaaS リソースに定期的なパッチ適用を行い、セキュリティリスクを低減します。</li></ul><h3 id=4-ログ管理および監査>4. <strong>ログ管理および監査</strong><a class=td-heading-self-link href=#4-%e3%83%ad%e3%82%b0%e7%ae%a1%e7%90%86%e3%81%8a%e3%82%88%e3%81%b3%e7%9b%a3%e6%9f%bb aria-label="Heading self-link"></a></h3><p>SAP システムの運用透明性とコンプライアンスを確保するため、ログ管理と監査を実施し
+ます。</p><ul><li><strong>Azure Log Analytics / SAP Solution Manager</strong>: すべてのログ（アプリケーション
+、データベース、システム）の集約と分析を行い、リアルタイムの監視とトラブルシュ
+ーティングをサポートします。</li><li><strong>監査ログ管理</strong>: Azure Monitor と Azure Policy を活用して、すべての操作履歴や
+変更履歴を追跡し、コンプライアンス遵守を実現します。</li><li><strong>Azure Sentinel</strong>: セキュリティインシデントの自動検出および対応を行い、SAP シ
+ステムのセキュリティ強化に寄与します。</li></ul><h3 id=5-セキュリティおよびコンプライアンス>5. <strong>セキュリティおよびコンプライアンス</strong><a class=td-heading-self-link href=#5-%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e3%81%8a%e3%82%88%e3%81%b3%e3%82%b3%e3%83%b3%e3%83%97%e3%83%a9%e3%82%a4%e3%82%a2%e3%83%b3%e3%82%b9 aria-label="Heading self-link"></a></h3><p>Azure 上の SAP システムのセキュリティとコンプライアンスは、複数のツールとサービ
+スを活用して確保されます。</p><ul><li><strong>Azure Security Center</strong>: セキュリティリスクを検出し、推奨される対策を提供す
+ることで、システム全体のセキュリティを強化します。</li><li><strong>Azure Active Directory (Azure AD)</strong>: シングルサインオンや多要素認証を利用し
+、ユーザーアクセスを厳格に管理します。</li><li><strong>RBAC (役割ベースのアクセス制御)</strong>: 最小権限の原則に基づき、SAP システムおよ
+び IaaS リソースへのアクセスを管理します。</li></ul><h2 id=itil-準拠の機能>ITIL 準拠の機能<a class=td-heading-self-link href=#itil-%e6%ba%96%e6%8b%a0%e3%81%ae%e6%a9%9f%e8%83%bd aria-label="Heading self-link"></a></h2><h3 id=6-問題管理>6. <strong>問題管理</strong><a class=td-heading-self-link href=#6-%e5%95%8f%e9%a1%8c%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h3><p>問題管理は、SAP システムの繰り返されるインシデントを分析し、根本原因を特定して影
+響を最小化します。</p><ul><li><strong>Root Cause Analysis (RCA)</strong>: 重要な SAP インシデントに対して、自動的に根本原
+因分析を実施し、再発防止策を策定します。</li><li><strong>Known Error Database (KEDB)</strong>: 繰り返される問題の回避策と解決策を記録し、イ
+ンシデント解決のスピードを向上させます。</li><li><strong>RCA 報告の自動生成</strong>: 重大な問題発生時、RCA レポートを自動生成し、関係者に通
+知します。</li></ul><h3 id=7-変更管理>7. <strong>変更管理</strong><a class=td-heading-self-link href=#7-%e5%a4%89%e6%9b%b4%e7%ae%a1%e7%90%86 aria-label="Heading self-link"></a></h3><p>SAP システムに対する変更は、リスクを最小化しながら管理されます。</p><ul><li><strong>Change Request Automation</strong>: ServiceNow または Azure DevOps を通じて、変更要
+求の提出、承認、および実施を自動化します。</li><li><strong>Impact Analysis</strong>: Azure Monitor および SAP LaMa を活用し、変更がシステム全
+体に与える影響を事前に分析します。</li><li><strong>変更スケジューリング</strong>: SAP システムへの変更は、監視システムと連携し、業務影
+響を最小限に抑えるタイミングでスケジュールします。</li></ul><h3 id=8-継続的改善>8. <strong>継続的改善</strong><a class=td-heading-self-link href=#8-%e7%b6%99%e7%b6%9a%e7%9a%84%e6%94%b9%e5%96%84 aria-label="Heading self-link"></a></h3><p>SAP システムのパフォーマンスおよび運用効率を向上させるため、継続的改善が重要です
+。</p><ul><li><strong>KPI モニタリング</strong>: Azure Monitor および Power BI を活用して、SAP システムの
+主要パフォーマンス指標をモニタリングし、改善計画を策定します。</li><li><strong>改善イニシアティブの優先順位付け</strong>: 問題管理データおよびパフォーマンスモニタ
+リング結果に基づいて、改善の優先順位を決定します。</li></ul><h3 id=9-レポーティング>9. <strong>レポーティング</strong><a class=td-heading-self-link href=#9-%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%86%e3%82%a3%e3%83%b3%e3%82%b0 aria-label="Heading self-link"></a></h3><p>運用データの可視化とレポーティングは、SAP システムの健全性を維持するための重要な
+要素です。</p><ul><li><strong>Power BI / Azure Monitor Dashboards</strong>: SAP システムのパフォーマンス、インシ
+デント、変更履歴をリアルタイムで可視化します。</li><li><strong>自動化されたレポート生成</strong>: 月次レポートや四半期レポートを自動で生成し、SLA
+遵守状況や改善状況を把握します。</li><li><strong>カスタムレポート</strong>: 企業固有の KPI やコンプライアンス要件に基づいたレポート
+を作</li></ul></div></main></div></div><footer class="td-footer row d-print-none"><div class=container-fluid><div class="row mx-md-2"><div class="td-footer__left col-6 col-sm-4 order-sm-1"><ul class=td-footer__links-list><li class=td-footer__links-item data-bs-toggle=tooltip title=X aria-label=X><a target=_blank rel=noopener href=https://x.com/bpinelab aria-label=X><i class="fab fa-x-twitter"></i></a></li></ul></div><div class="td-footer__right col-6 col-sm-4 order-sm-3"></div><div class="td-footer__center col-12 col-sm-4 py-2 order-sm-2"><span class=td-footer__copyright>&copy;
+2024
+<span class=td-footer__authors>BpineLab All Right Reserved</span></span><span class=td-footer__all_rights_reserved>All Rights Reserved</span></div></div></div></footer></div><script src=/docsy-base/js/main.min.69e2c1ae9320465ab10236d9ef752c6a4442c54b48b883b17c497b7c7d96a796.js integrity="sha256-aeLBrpMgRlqxAjbZ73UsakRCxUtIuIOxfEl7fH2Wp5Y=" crossorigin=anonymous></script><script src=/docsy-base/js/prism.js></script><script src=/docsy-base/js/tabpane-persist.js></script></body></html>

@@ -1,4 +1,154 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ITIL on The DocBase Handbook</title><link>https://bpinelab.github.io/docsy-base/tags/itil/</link><description>Recent content in ITIL on The DocBase Handbook</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 14 Oct 2024 16:00:18 +0900</lastBuildDate><atom:link href="https://bpinelab.github.io/docsy-base/tags/itil/index.xml" rel="self" type="application/rss+xml"/><item><title>サービスカタログ</title><link>https://bpinelab.github.io/docsy-base/specs/catalog/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/specs/catalog/</guid><description>&lt;h2 id="1-サービス概要">1. サービス概要&lt;a class="td-heading-self-link" href="#1-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ITIL on Docsy-base</title><link>https://bpinelab.github.io/docsy-base/tags/itil/</link><description>Recent content in ITIL on Docsy-base</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 14 Oct 2024 23:00:06 +0900</lastBuildDate><atom:link href="https://bpinelab.github.io/docsy-base/tags/itil/index.xml" rel="self" type="application/rss+xml"/><item><title>運用手順書</title><link>https://bpinelab.github.io/docsy-base/sop/manuals/catalog/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/sop/manuals/catalog/</guid><description>&lt;h2 id="1-目的">1. 目的&lt;a class="td-heading-self-link" href="#1-%e7%9b%ae%e7%9a%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>本 SOP は、日常の運用業務における標準的な手順を定め、サービスの品質を一貫して維
+持することを目的としています。システムの安定稼働、インシデント対応、定期的なメン
+テナンスなどの業務が適切に実行されるようにサポートします。&lt;/p>
+&lt;hr>
+&lt;h2 id="2-運用タスクのスケジュール">2. 運用タスクのスケジュール&lt;a class="td-heading-self-link" href="#2-%e9%81%8b%e7%94%a8%e3%82%bf%e3%82%b9%e3%82%af%e3%81%ae%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="21-日次運用タスク">2.1 日次運用タスク&lt;a class="td-heading-self-link" href="#21-%e6%97%a5%e6%ac%a1%e9%81%8b%e7%94%a8%e3%82%bf%e3%82%b9%e3%82%af" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>サーバー状態確認&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>タスク: サーバーの稼働状況とシステムログを確認し、異常がないかチェック&lt;/li>
+&lt;li>手順:
+&lt;ol>
+&lt;li>サーバーモニタリングツールを使用して、CPU、メモリ、ディスク使用率を確認&lt;/li>
+&lt;li>システムイベントログを確認し、エラーや警告が発生していないかチェック&lt;/li>
+&lt;li>異常が見つかった場合は、インシデントとして報告&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>時間: 毎日午前 9 時&lt;/li>
+&lt;li>担当者: 運用エンジニア&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>バックアップ確認&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>タスク: 前日のデータバックアップの状態を確認&lt;/li>
+&lt;li>手順:
+&lt;ol>
+&lt;li>バックアップツールのログを確認し、バックアップが正常に完了しているか確認&lt;/li>
+&lt;li>エラーが発生している場合、再実行と原因分析を実施&lt;/li>
+&lt;li>報告書に記載し、必要に応じてエスカレーション&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>時間: 毎日午前 10 時&lt;/li>
+&lt;li>担当者: バックアップ担当エンジニア&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="22-週次運用タスク">2.2 週次運用タスク&lt;a class="td-heading-self-link" href="#22-%e9%80%b1%e6%ac%a1%e9%81%8b%e7%94%a8%e3%82%bf%e3%82%b9%e3%82%af" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>パフォーマンスモニタリング&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>タスク: サーバーおよびアプリケーションのパフォーマンス指標を確認し、ボトルネ
+ックを分析&lt;/li>
+&lt;li>手順:
+&lt;ol>
+&lt;li>監視ツールのレポートを週次で確認&lt;/li>
+&lt;li>高負荷状態が継続しているリソースがある場合、原因を特定し改善策を提案&lt;/li>
+&lt;li>週次レポートを作成し、チームに共有&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>時間: 毎週月曜日午前 10 時&lt;/li>
+&lt;li>担当者: パフォーマンスエンジニア&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>セキュリティパッチ適用&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>タスク: サーバーおよびネットワークデバイスに最新のセキュリティパッチを適用&lt;/li>
+&lt;li>手順:
+&lt;ol>
+&lt;li>セキュリティチームから提供されたパッチ適用リストを確認&lt;/li>
+&lt;li>非業務時間にパッチ適用を計画し、適用後のシステム状態を確認&lt;/li>
+&lt;li>適用結果を記録し、問題があればエスカレーション&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>時間: 毎週金曜日午後 8 時（非業務時間）&lt;/li>
+&lt;li>担当者: セキュリティエンジニア&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="3-インシデント対応手順">3. インシデント対応手順&lt;a class="td-heading-self-link" href="#3-%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e5%af%be%e5%bf%9c%e6%89%8b%e9%a0%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="31-インシデント発生時の初期対応">3.1 インシデント発生時の初期対応&lt;a class="td-heading-self-link" href="#31-%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%99%ba%e7%94%9f%e6%99%82%e3%81%ae%e5%88%9d%e6%9c%9f%e5%af%be%e5%bf%9c" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Critical インシデント&lt;/strong>&lt;/p></description></item><item><title>料金</title><link>https://bpinelab.github.io/docsy-base/service/price/</link><pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/service/price/</guid><description>&lt;h2 id="1-料金概要">1. 料金概要&lt;a class="td-heading-self-link" href="#1-%e6%96%99%e9%87%91%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>当社のマネージドサービス料金は、クライアントのシステム規模、要求されるサポートレ
+ベル、利用頻度に応じて柔軟に設定されています。料金は、以下の要素に基づいて決定さ
+れます。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>システム規模&lt;/strong>: 管理するサーバー数、ネットワークデバイス数、アプリケーション
+数に基づく基本料金&lt;/li>
+&lt;li>&lt;strong>サポートレベル&lt;/strong>: SLA（サービスレベルアグリーメント）に基づく対応時間および
+サポート体制&lt;/li>
+&lt;li>&lt;strong>追加サービス&lt;/strong>: セキュリティ管理やコンサルティングサービスなどのオプション追
+加&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="2-基本料金">2. 基本料金&lt;a class="td-heading-self-link" href="#2-%e5%9f%ba%e6%9c%ac%e6%96%99%e9%87%91" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="21-システム規模に応じた料金">2.1 システム規模に応じた料金&lt;a class="td-heading-self-link" href="#21-%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e8%a6%8f%e6%a8%a1%e3%81%ab%e5%bf%9c%e3%81%98%e3%81%9f%e6%96%99%e9%87%91" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>小規模（サーバー 1-10 台、ネットワークデバイス 1-5 台）&lt;/strong>:
+&lt;ul>
+&lt;li>月額: ¥150,000 ～&lt;/li>
+&lt;li>対応内容: 24 時間 365 日監視、インシデント管理、月次レポート&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>中規模（サーバー 11-50 台、ネットワークデバイス 6-20 台）&lt;/strong>:
+&lt;ul>
+&lt;li>月額: ¥300,000 ～&lt;/li>
+&lt;li>対応内容: 24 時間 365 日監視、インシデント管理、変更管理、週次レポート&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>大規模（サーバー 50 台以上、ネットワークデバイス 20 台以上）&lt;/strong>:
+&lt;ul>
+&lt;li>月額: ¥600,000 ～&lt;/li>
+&lt;li>対応内容: 24 時間 365 日監視、インシデント管理、問題管理、変更管理、日次レポ
+ート&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="3-サポートレベル">3. サポートレベル&lt;a class="td-heading-self-link" href="#3-%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88%e3%83%ac%e3%83%99%e3%83%ab" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="31-slaサービスレベルアグリーメントに基づく料金">3.1 SLA（サービスレベルアグリーメント）に基づく料金&lt;a class="td-heading-self-link" href="#31-sla%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e3%82%a2%e3%82%b0%e3%83%aa%e3%83%bc%e3%83%a1%e3%83%b3%e3%83%88%e3%81%ab%e5%9f%ba%e3%81%a5%e3%81%8f%e6%96%99%e9%87%91" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>標準サポート&lt;/strong>:
+&lt;ul>
+&lt;li>月額料金に含まれる&lt;/li>
+&lt;li>応答時間: インシデント発生後 4 時間以内&lt;/li>
+&lt;li>復旧時間: 1 営業日以内&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>優先サポート&lt;/strong>:
+&lt;ul>
+&lt;li>月額: +¥100,000&lt;/li>
+&lt;li>応答時間: インシデント発生後 1 時間以内&lt;/li>
+&lt;li>復旧時間: 4 時間以内&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>プレミアムサポート&lt;/strong>:
+&lt;ul>
+&lt;li>月額: +¥200,000&lt;/li>
+&lt;li>応答時間: インシデント発生後 30 分以内&lt;/li>
+&lt;li>復旧時間: 2 時間以内&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="4-追加オプション">4. 追加オプション&lt;a class="td-heading-self-link" href="#4-%e8%bf%bd%e5%8a%a0%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="41-セキュリティ管理オプション">4.1 セキュリティ管理オプション&lt;a class="td-heading-self-link" href="#41-%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e7%ae%a1%e7%90%86%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>基本セキュリティパッケージ&lt;/strong>:
+&lt;ul>
+&lt;li>月額: ¥50,000&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>サービスカタログ</title><link>https://bpinelab.github.io/docsy-base/service/catalog/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/service/catalog/</guid><description>&lt;h2 id="1-サービス概要">1. サービス概要&lt;a class="td-heading-self-link" href="#1-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>当社のマネージドサービスは、以下の主要分野にわたって包括的なサポートを提供します
 。&lt;/p>
 &lt;ul>
@@ -83,7 +233,7 @@
 &lt;/ul>
 &lt;hr>
 &lt;h2 id="3-サービスリクエスト手順">3. サービスリクエスト手順&lt;a class="td-heading-self-link" href="#3-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%aa%e3%82%af%e3%82%a8%e3%82%b9%e3%83%88%e6%89%8b%e9%a0%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>クライアントは以下の方法でサービスをリクエストすることができます。&lt;/p></description></item><item><title>オンボーディング</title><link>https://bpinelab.github.io/docsy-base/specs/onboarding/</link><pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/specs/onboarding/</guid><description>&lt;h2 id="1-オンボーディング概要">1. オンボーディング概要&lt;a class="td-heading-self-link" href="#1-%e3%82%aa%e3%83%b3%e3%83%9c%e3%83%bc%e3%83%87%e3%82%a3%e3%83%b3%e3%82%b0%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>クライアントは以下の方法でサービスをリクエストすることができます。&lt;/p></description></item><item><title>オンボーディング</title><link>https://bpinelab.github.io/docsy-base/service/onboarding/</link><pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/service/onboarding/</guid><description>&lt;h2 id="1-オンボーディング概要">1. オンボーディング概要&lt;a class="td-heading-self-link" href="#1-%e3%82%aa%e3%83%b3%e3%83%9c%e3%83%bc%e3%83%87%e3%82%a3%e3%83%b3%e3%82%b0%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>当社のマネージドサービスを利用開始するにあたり、以下のオンボーディングプロセスを
 経て、シームレスなサービス導入をサポートします。各ステップでは、クライアントに準
 備していただくインプットと、当社が提供するアウトプットを明確に示します。&lt;/p>
@@ -191,85 +341,7 @@
 &lt;/ul>
 &lt;hr>
 &lt;p>このオンボーディングプロセスにより、クライアントはスムーズにサービスを導入でき、
-効率的かつ効果的に IT 運用をサポートいたします。&lt;/p></description></item><item><title>運用手順書</title><link>https://bpinelab.github.io/docsy-base/sops/catalog/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/sops/catalog/</guid><description>&lt;h2 id="1-目的">1. 目的&lt;a class="td-heading-self-link" href="#1-%e7%9b%ae%e7%9a%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>本 SOP は、日常の運用業務における標準的な手順を定め、サービスの品質を一貫して維
-持することを目的としています。システムの安定稼働、インシデント対応、定期的なメン
-テナンスなどの業務が適切に実行されるようにサポートします。&lt;/p>
-&lt;hr>
-&lt;h2 id="2-運用タスクのスケジュール">2. 運用タスクのスケジュール&lt;a class="td-heading-self-link" href="#2-%e9%81%8b%e7%94%a8%e3%82%bf%e3%82%b9%e3%82%af%e3%81%ae%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h3 id="21-日次運用タスク">2.1 日次運用タスク&lt;a class="td-heading-self-link" href="#21-%e6%97%a5%e6%ac%a1%e9%81%8b%e7%94%a8%e3%82%bf%e3%82%b9%e3%82%af" aria-label="Heading self-link">&lt;/a>&lt;/h3>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;strong>サーバー状態確認&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>タスク: サーバーの稼働状況とシステムログを確認し、異常がないかチェック&lt;/li>
-&lt;li>手順:
-&lt;ol>
-&lt;li>サーバーモニタリングツールを使用して、CPU、メモリ、ディスク使用率を確認&lt;/li>
-&lt;li>システムイベントログを確認し、エラーや警告が発生していないかチェック&lt;/li>
-&lt;li>異常が見つかった場合は、インシデントとして報告&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>時間: 毎日午前 9 時&lt;/li>
-&lt;li>担当者: 運用エンジニア&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>バックアップ確認&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>タスク: 前日のデータバックアップの状態を確認&lt;/li>
-&lt;li>手順:
-&lt;ol>
-&lt;li>バックアップツールのログを確認し、バックアップが正常に完了しているか確認&lt;/li>
-&lt;li>エラーが発生している場合、再実行と原因分析を実施&lt;/li>
-&lt;li>報告書に記載し、必要に応じてエスカレーション&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>時間: 毎日午前 10 時&lt;/li>
-&lt;li>担当者: バックアップ担当エンジニア&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="22-週次運用タスク">2.2 週次運用タスク&lt;a class="td-heading-self-link" href="#22-%e9%80%b1%e6%ac%a1%e9%81%8b%e7%94%a8%e3%82%bf%e3%82%b9%e3%82%af" aria-label="Heading self-link">&lt;/a>&lt;/h3>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;strong>パフォーマンスモニタリング&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>タスク: サーバーおよびアプリケーションのパフォーマンス指標を確認し、ボトルネ
-ックを分析&lt;/li>
-&lt;li>手順:
-&lt;ol>
-&lt;li>監視ツールのレポートを週次で確認&lt;/li>
-&lt;li>高負荷状態が継続しているリソースがある場合、原因を特定し改善策を提案&lt;/li>
-&lt;li>週次レポートを作成し、チームに共有&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>時間: 毎週月曜日午前 10 時&lt;/li>
-&lt;li>担当者: パフォーマンスエンジニア&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>セキュリティパッチ適用&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>タスク: サーバーおよびネットワークデバイスに最新のセキュリティパッチを適用&lt;/li>
-&lt;li>手順:
-&lt;ol>
-&lt;li>セキュリティチームから提供されたパッチ適用リストを確認&lt;/li>
-&lt;li>非業務時間にパッチ適用を計画し、適用後のシステム状態を確認&lt;/li>
-&lt;li>適用結果を記録し、問題があればエスカレーション&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>時間: 毎週金曜日午後 8 時（非業務時間）&lt;/li>
-&lt;li>担当者: セキュリティエンジニア&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="3-インシデント対応手順">3. インシデント対応手順&lt;a class="td-heading-self-link" href="#3-%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e5%af%be%e5%bf%9c%e6%89%8b%e9%a0%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h3 id="31-インシデント発生時の初期対応">3.1 インシデント発生時の初期対応&lt;a class="td-heading-self-link" href="#31-%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%99%ba%e7%94%9f%e6%99%82%e3%81%ae%e5%88%9d%e6%9c%9f%e5%af%be%e5%bf%9c" aria-label="Heading self-link">&lt;/a>&lt;/h3>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;strong>Critical インシデント&lt;/strong>&lt;/p></description></item><item><title>Operations Platform Architecture</title><link>https://bpinelab.github.io/docsy-base/docs/operations-platform/architecture/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-platform/architecture/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+効率的かつ効果的に IT 運用をサポートいたします。&lt;/p></description></item><item><title>Operations Platform Architecture</title><link>https://bpinelab.github.io/docsy-base/technology/platform/architecture/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/technology/platform/architecture/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>本ドキュメントは、Azure Landing Zone におけるオペレーションプラ
 ットフォームのアーキテクチャを説明し、サービスデスク、問題管理、変更管理、レポー
 トなどの ITIL 準拠機能に焦点を当てています。&lt;/p>
@@ -307,7 +379,7 @@ Analytics を使用してパフォーマンスデータを収集・分析し、�
 &lt;/ul>
 &lt;h3 id="3-ログおよび監査">3. &lt;strong>ログおよび監査&lt;/strong>&lt;a class="td-heading-self-link" href="#3-%e3%83%ad%e3%82%b0%e3%81%8a%e3%82%88%e3%81%b3%e7%9b%a3%e6%9f%bb" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>ログおよび監査は、運用の透明性を維持し、組織や規制の基準に準拠するために不可欠で
-す。&lt;/p></description></item><item><title>Optimization Techniques</title><link>https://bpinelab.github.io/docsy-base/docs/operations-platform/optimize/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-platform/optimize/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+す。&lt;/p></description></item><item><title>Optimization Techniques</title><link>https://bpinelab.github.io/docsy-base/technology/platform/optimize/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/technology/platform/optimize/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>本ドキュメントは、Azure Landing Zone を基にした運用の最適化技術
 に焦点を当て、パフォーマンス向上とコスト削減を目指します。&lt;/p>
 
@@ -350,7 +422,7 @@ Analytics を使用してパフォーマンスデータを収集・分析し、�
 &lt;h3 id="概要-2">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81-2" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>パフォーマンス最適化は、システムのレスポンスと効率を最大化するためのプロセスです
 。最適化されたパフォーマンスにより、ユーザーエクスペリエンスの向上と、ダウンタイ
-ムの減少が期待できます。&lt;/p></description></item><item><title>SAPシステム向け自動化・自律化</title><link>https://bpinelab.github.io/docsy-base/docs/operations-platform/sap-optimization/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/docs/operations-platform/sap-optimization/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+ムの減少が期待できます。&lt;/p></description></item><item><title>SAPシステム向け自動化・自律化</title><link>https://bpinelab.github.io/docsy-base/technology/platform/sap-optimization/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/docsy-base/technology/platform/sap-optimization/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>本ドキュメントは、Azure IaaS 上に構築された SAP システムを対象
 にした自動化・自律化オペレーションプラットフォームアーキテクチャを説明します
 。&lt;/p>
